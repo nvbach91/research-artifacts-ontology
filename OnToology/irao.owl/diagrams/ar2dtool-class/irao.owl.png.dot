@@ -1,7 +1,7 @@
 digraph ar2dtool_diagram { 
 rankdir=LR;
 size="1501"
-node [shape = rectangle, color="orange"]; "core:Protocol" "core:DevelopmentStatus" "core:Software" "core:Methodology" "core:Framework" "core:StudyDomain" "core:Accessibility" "core:ResearchArtifact" "core:Benchmark" "core:DesignQuality" "core:DataModel" "core:Dataset" "core:Publication" "core:StudyField" "core:System" "core:OpenStandard" "core:OnlineRepository" "foaf:Image" "foaf:Project" "foaf:Agent" "foaf:Document" "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing" "foaf:OnlineAccount" "foaf:Person" "foaf:Organization" "foaf:Group" "518743cf:171a64a0791:-7ff9" "skos:OrderedCollection" "skos:Collection" "skos:ConceptScheme" "skos:Concept" ; /*classes style*/
+node [shape = rectangle, color="orange"]; "core:Protocol" "core:DevelopmentStatus" "core:Software" "core:Methodology" "core:Framework" "core:StudyDomain" "core:Accessibility" "core:ResearchArtifact" "core:Benchmark" "core:DesignQuality" "core:DataModel" "core:Dataset" "core:Publication" "core:StudyField" "core:System" "core:OpenStandard" "core:OnlineRepository" "foaf:Image" "foaf:Project" "foaf:Agent" "foaf:Document" "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing" "foaf:OnlineAccount" "foaf:Person" "foaf:Organization" "foaf:Group" "452853fa:171a77d1c9f:-7ff9" "skos:OrderedCollection" "skos:Collection" "skos:ConceptScheme" "skos:Concept" ; /*classes style*/
 	"dcterms:instructionalMethod" -> "dcterms:MethodOfInstruction" [ label = "dcam:rangeIncludes" ];
 	"foaf:maker" -> "dcterms:creator" [ label = "owl:equivalentProperty" ];
 	"skos:closeMatch" -> "skos:mappingRelation" [ label = "rdfs:subPropertyOf" ];
@@ -94,13 +94,13 @@ node [shape = rectangle, color="orange"]; "core:Protocol" "core:DevelopmentStatu
 	"foaf:img" -> "foaf:depiction" [ label = "rdfs:subPropertyOf" ];
 	"foaf:skypeID" -> "foaf:nick" [ label = "rdfs:subPropertyOf" ];
 	"dcterms:RFC4646" -> "http://www.ietf.org/rfc/rfc4646.txt" [ label = "rdfs:seeAlso" ];
-	"NULL" -> "518743cf:171a64a0791:-7ff7" [ label = "rdf:rest" ];
-	"NULL" -> "skos:Concept" [ label = "rdf:first" ];
-	"NULL" -> "518743cf:171a64a0791:-7ffa" [ label = ":eta" ];
 	"NULL" -> "rdf:nil" [ label = "rdf:rest" ];
 	"NULL" -> "skos:Collection" [ label = "rdf:first" ];
-	"NULL" -> "518743cf:171a64a0791:-7ff8" [ label = "owl:unionOf" ];
-	"NULL" -> "518743cf:171a64a0791:-7ffb" [ label = ":ead" ];
+	"NULL" -> "452853fa:171a77d1c9f:-7ff8" [ label = "owl:unionOf" ];
+	"NULL" -> "452853fa:171a77d1c9f:-7ffb" [ label = ":ead" ];
+	"NULL" -> "452853fa:171a77d1c9f:-7ff7" [ label = "rdf:rest" ];
+	"NULL" -> "skos:Concept" [ label = "rdf:first" ];
+	"NULL" -> "452853fa:171a77d1c9f:-7ffa" [ label = ":eta" ];
 	"skos:topConceptOf" -> "skos:inScheme" [ label = "rdfs:subPropertyOf" ];
 	"dcterms:publisher" -> "dcterms:Agent" [ label = "dcam:rangeIncludes" ];
 	"dcterms:DCMIType" -> "http://purl.org/dc/dcmitype/" [ label = "rdfs:seeAlso" ];
@@ -190,7 +190,7 @@ node [shape = rectangle, color="orange"]; "core:Protocol" "core:DevelopmentStatu
 	"owl:Thing" -> "rdfs:Literal" [ label = "dcterms:identifier" ];
 	"owl:Thing" -> "owl:Thing" [ label = "foaf:theme" ];
 	"core:ResearchArtifact" -> "core:StudyDomain" [ label = "core:hasDomain" ];
-	"skos:Collection" -> "518743cf:171a64a0791:-7ff9" [ label = "skos:member" ];
+	"skos:Collection" -> "452853fa:171a77d1c9f:-7ff9" [ label = "skos:member" ];
 	"foaf:Person" -> "rdfs:Literal" [ label = "foaf:geekcode" ];
 	"foaf:Person" -> "rdfs:Literal" [ label = "foaf:plan" ];
 	"owl:Thing" -> "rdfs:Literal" [ label = "dcterms:alternative" ];
