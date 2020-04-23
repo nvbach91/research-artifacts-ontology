@@ -5,11 +5,11 @@
     "@value" : "Nguyen Viet Bach"
   } ],
   "http://purl.org/dc/terms/hasVersion" : [ {
-    "@value" : "1.0.0"
+    "@value" : "1.0.1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "Informatics Reserach Artifacts Ontology"
+    "@value" : "Informatics Research Artifacts Ontology"
   } ],
   "http://www.w3.org/2002/07/owl#imports" : [ {
     "@id" : "http://purl.org/dc/elements/1.1"
@@ -20,7 +20,7 @@
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@language" : "en",
-    "@value" : "Version 1.0"
+    "@value" : "Version 1.0.1"
   } ]
 }, {
   "@id" : "http://ontology.ethereal.cz/irao/API",
