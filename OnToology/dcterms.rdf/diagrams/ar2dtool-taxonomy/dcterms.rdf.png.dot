@@ -1,0 +1,15 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "dctermsns:PhysicalMedium" "dctermsns:Location" "dctermsns:PeriodOfTime" "dctermsns:FileFormat" "dctermsns:MediaType" "dctermsns:LicenseDocument" "dctermsns:RightsStatement" "rdfsns:Class" "dctermsns:AgentClass" "dctermsns:Jurisdiction" "dctermsns:MediaTypeOrExtent" "dctermsns:SizeOrDuration" "dctermsns:LocationPeriodOrJurisdiction" ; /*classes style*/
+	"dctermsns:PeriodOfTime" -> "dctermsns:LocationPeriodOrJurisdiction" [ label = "rdfsns:subClassOf" ];
+	"dctermsns:PhysicalMedium" -> "dctermsns:MediaType" [ label = "rdfsns:subClassOf" ];
+	"dctermsns:Jurisdiction" -> "dctermsns:LocationPeriodOrJurisdiction" [ label = "rdfsns:subClassOf" ];
+	"dctermsns:Location" -> "dctermsns:LocationPeriodOrJurisdiction" [ label = "rdfsns:subClassOf" ];
+	"dctermsns:MediaType" -> "dctermsns:MediaTypeOrExtent" [ label = "rdfsns:subClassOf" ];
+	"dctermsns:FileFormat" -> "dctermsns:MediaType" [ label = "rdfsns:subClassOf" ];
+	"dctermsns:AgentClass" -> "rdfsns:Class" [ label = "rdfsns:subClassOf" ];
+	"dctermsns:SizeOrDuration" -> "dctermsns:MediaTypeOrExtent" [ label = "rdfsns:subClassOf" ];
+	"dctermsns:LicenseDocument" -> "dctermsns:RightsStatement" [ label = "rdfsns:subClassOf" ];
+
+}
