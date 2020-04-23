@@ -3,9 +3,9 @@
 <http://ontology.ethereal.cz/irao> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/2004/02/skos/core> .
 <http://ontology.ethereal.cz/irao> <http://www.w3.org/2002/07/owl#imports> <http://xmlns.com/foaf/0.1/> .
 <http://ontology.ethereal.cz/irao> <http://purl.org/dc/elements/1.1/creator> "Nguyen Viet Bach" .
-<http://ontology.ethereal.cz/irao> <http://purl.org/dc/terms/hasVersion> "1.0.0" .
-<http://ontology.ethereal.cz/irao> <http://www.w3.org/2000/01/rdf-schema#label> "Informatics Reserach Artifacts Ontology"@en .
-<http://ontology.ethereal.cz/irao> <http://www.w3.org/2002/07/owl#versionInfo> "Version 1.0"@en .
+<http://ontology.ethereal.cz/irao> <http://purl.org/dc/terms/hasVersion> "1.0.1" .
+<http://ontology.ethereal.cz/irao> <http://www.w3.org/2000/01/rdf-schema#label> "Informatics Research Artifacts Ontology"@en .
+<http://ontology.ethereal.cz/irao> <http://www.w3.org/2002/07/owl#versionInfo> "Version 1.0.1"@en .
 # 
 # 
 # #################################################################
