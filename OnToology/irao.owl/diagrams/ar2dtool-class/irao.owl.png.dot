@@ -1,7 +1,7 @@
 digraph ar2dtool_diagram { 
 rankdir=LR;
 size="1501"
-node [shape = rectangle, color="orange"]; "irao:Protocol" "irao:DevelopmentStatus" "irao:Software" "irao:Methodology" "irao:Framework" "irao:StudyDomain" "irao:Accessibility" "irao:ResearchArtifact" "irao:Benchmark" "irao:DesignQuality" "irao:DataModel" "irao:Dataset" "irao:Publication" "irao:StudyField" "irao:System" "irao:OpenStandard" "irao:OnlineRepository" "foaf:Image" "foaf:Project" "foaf:Agent" "foaf:Document" "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing" "foaf:OnlineAccount" "foaf:Person" "foaf:Organization" "foaf:Group" "-3801d25c:171a7a6cc91:-7ff9" "skos:OrderedCollection" "skos:Collection" "skos:ConceptScheme" "skos:Concept" ; /*classes style*/
+node [shape = rectangle, color="orange"]; "irao:Protocol" "irao:DevelopmentStatus" "irao:Software" "irao:Methodology" "irao:Framework" "irao:StudyDomain" "irao:Accessibility" "irao:ResearchArtifact" "irao:Benchmark" "irao:DesignQuality" "irao:DataModel" "irao:Dataset" "irao:Publication" "irao:StudyField" "irao:System" "irao:OpenStandard" "irao:OnlineRepository" "foaf:Image" "foaf:Project" "foaf:Agent" "foaf:Document" "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing" "foaf:OnlineAccount" "foaf:Person" "foaf:Organization" "foaf:Group" "-58137524:171a7b25d1f:-7ff9" "skos:OrderedCollection" "skos:Collection" "skos:ConceptScheme" "skos:Concept" ; /*classes style*/
 	"dcterms:instructionalMethod" -> "dcterms:MethodOfInstruction" [ label = "dcam:rangeIncludes" ];
 	"foaf:maker" -> "dcterms:creator" [ label = "owl:equivalentProperty" ];
 	"skos:closeMatch" -> "skos:mappingRelation" [ label = "rdfs:subPropertyOf" ];
@@ -94,20 +94,20 @@ node [shape = rectangle, color="orange"]; "irao:Protocol" "irao:DevelopmentStatu
 	"foaf:img" -> "foaf:depiction" [ label = "rdfs:subPropertyOf" ];
 	"foaf:skypeID" -> "foaf:nick" [ label = "rdfs:subPropertyOf" ];
 	"dcterms:RFC4646" -> "http://www.ietf.org/rfc/rfc4646.txt" [ label = "rdfs:seeAlso" ];
-	"NULL" -> "-3801d25c:171a7a6cc91:-7ff7" [ label = "rdf:rest" ];
+	"NULL" -> "-58137524:171a7b25d1f:-7ffa" [ label = ":eta" ];
+	"NULL" -> "-58137524:171a7b25d1f:-7ff7" [ label = "rdf:rest" ];
 	"NULL" -> "skos:Concept" [ label = "rdf:first" ];
-	"NULL" -> "-3801d25c:171a7a6cc91:-7ffa" [ label = ":eta" ];
 	"NULL" -> "rdf:nil" [ label = "rdf:rest" ];
 	"NULL" -> "skos:Collection" [ label = "rdf:first" ];
-	"NULL" -> "-3801d25c:171a7a6cc91:-7ff8" [ label = "owl:unionOf" ];
-	"NULL" -> "-3801d25c:171a7a6cc91:-7ffb" [ label = ":ead" ];
+	"NULL" -> "-58137524:171a7b25d1f:-7ff8" [ label = "owl:unionOf" ];
+	"NULL" -> "-58137524:171a7b25d1f:-7ffb" [ label = ":ead" ];
 	"skos:topConceptOf" -> "skos:inScheme" [ label = "rdfs:subPropertyOf" ];
 	"dcterms:publisher" -> "dcterms:Agent" [ label = "dcam:rangeIncludes" ];
 	"dcterms:DCMIType" -> "http://purl.org/dc/dcmitype/" [ label = "rdfs:seeAlso" ];
 	"dcterms:extent" -> "dcterms:SizeOrDuration" [ label = "dcam:rangeIncludes" ];
-	"http://ontology.ethereal.cz/irao" -> "foaf:" [ label = "owl:imports" ];
-	"http://ontology.ethereal.cz/irao" -> "http://www.w3.org/2004/02/skos/core" [ label = "owl:imports" ];
 	"http://ontology.ethereal.cz/irao" -> "http://purl.org/dc/elements/1.1" [ label = "owl:imports" ];
+	"http://ontology.ethereal.cz/irao" -> "http://www.w3.org/2004/02/skos/core" [ label = "owl:imports" ];
+	"http://ontology.ethereal.cz/irao" -> "foaf:" [ label = "owl:imports" ];
 	"http://ontology.ethereal.cz/irao" -> "http://purl.org/dc/terms" [ label = "owl:imports" ];
 	"skos:relatedMatch" -> "skos:related" [ label = "rdfs:subPropertyOf" ];
 	"skos:relatedMatch" -> "skos:mappingRelation" [ label = "rdfs:subPropertyOf" ];
@@ -190,7 +190,7 @@ node [shape = rectangle, color="orange"]; "irao:Protocol" "irao:DevelopmentStatu
 	"owl:Thing" -> "rdfs:Literal" [ label = "dcterms:identifier" ];
 	"owl:Thing" -> "owl:Thing" [ label = "foaf:theme" ];
 	"irao:ResearchArtifact" -> "irao:StudyDomain" [ label = "irao:hasDomain" ];
-	"skos:Collection" -> "-3801d25c:171a7a6cc91:-7ff9" [ label = "skos:member" ];
+	"skos:Collection" -> "-58137524:171a7b25d1f:-7ff9" [ label = "skos:member" ];
 	"foaf:Person" -> "rdfs:Literal" [ label = "foaf:geekcode" ];
 	"foaf:Person" -> "rdfs:Literal" [ label = "foaf:plan" ];
 	"owl:Thing" -> "rdfs:Literal" [ label = "dcterms:alternative" ];

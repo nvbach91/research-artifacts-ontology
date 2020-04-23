@@ -11,9 +11,10 @@
                                                 <http://www.w3.org/2004/02/skos/core> ,
                                                 <http://xmlns.com/foaf/0.1/> ;
                                     <http://purl.org/dc/elements/1.1/creator> "Nguyen Viet Bach" ;
-                                    <http://purl.org/dc/terms/hasVersion> "1.0.1" ;
+                                    <http://purl.org/dc/elements/1.1/title> "Informatics Research Artifacts Ontology" ;
+                                    <http://purl.org/dc/terms/hasVersion> "1.0.3" ;
                                     rdfs:label "Informatics Research Artifacts Ontology"@en ;
-                                    owl:versionInfo "Version 1.0.1"@en .
+                                    owl:versionInfo "Version 1.0.3, Release 2020 Apr 23"@en .
 
 #################################################################
 #    Annotation properties

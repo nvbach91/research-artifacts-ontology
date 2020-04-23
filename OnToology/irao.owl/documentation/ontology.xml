@@ -18,9 +18,10 @@
         <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
         <owl:imports rdf:resource="http://xmlns.com/foaf/0.1/"/>
         <dc:creator>Nguyen Viet Bach</dc:creator>
-        <terms:hasVersion>1.0.1</terms:hasVersion>
+        <dc:title>Informatics Research Artifacts Ontology</dc:title>
+        <terms:hasVersion>1.0.3</terms:hasVersion>
         <rdfs:label xml:lang="en">Informatics Research Artifacts Ontology</rdfs:label>
-        <owl:versionInfo xml:lang="en">Version 1.0.1</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Version 1.0.3, Release 2020 Apr 23</owl:versionInfo>
     </owl:Ontology>
     
 

@@ -4,8 +4,11 @@
   "http://purl.org/dc/elements/1.1/creator" : [ {
     "@value" : "Nguyen Viet Bach"
   } ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@value" : "Informatics Research Artifacts Ontology"
+  } ],
   "http://purl.org/dc/terms/hasVersion" : [ {
-    "@value" : "1.0.1"
+    "@value" : "1.0.3"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -20,7 +23,7 @@
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@language" : "en",
-    "@value" : "Version 1.0.1"
+    "@value" : "Version 1.0.3, Release 2020 Apr 23"
   } ]
 }, {
   "@id" : "http://ontology.ethereal.cz/irao/API",
