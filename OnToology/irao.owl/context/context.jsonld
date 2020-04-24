@@ -1,0 +1,210 @@
+{
+  "@context" : {
+    "Design" : {
+      "@id" : "http://ontology.ethereal.cz/irao/Design"
+    },
+    "abstract" : {
+      "@id" : "http://purl.org/dc/elements/1.1/abstract"
+    },
+    "isMaintainedBy" : {
+      "@id" : "http://ontology.ethereal.cz/irao/isMaintainedBy",
+      "@type" : "@id"
+    },
+    "OnlineRepository" : {
+      "@id" : "http://ontology.ethereal.cz/irao/OnlineRepository"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "Software" : {
+      "@id" : "http://ontology.ethereal.cz/irao/Software"
+    },
+    "created" : {
+      "@id" : "http://purl.org/dc/terms/created"
+    },
+    "Dataset" : {
+      "@id" : "http://ontology.ethereal.cz/irao/Dataset"
+    },
+    "hasOpenStandard" : {
+      "@id" : "http://ontology.ethereal.cz/irao/hasOpenStandard",
+      "@type" : "@id"
+    },
+    "Publication" : {
+      "@id" : "http://ontology.ethereal.cz/irao/Publication"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
+    "InformaticsResearchArtifact" : {
+      "@id" : "http://ontology.ethereal.cz/irao/InformaticsResearchArtifact"
+    },
+    "DesignQuality" : {
+      "@id" : "http://ontology.ethereal.cz/irao/DesignQuality"
+    },
+    "hasPublication" : {
+      "@id" : "http://ontology.ethereal.cz/irao/hasPublication",
+      "@type" : "@id"
+    },
+    "hasAccessibility" : {
+      "@id" : "http://ontology.ethereal.cz/irao/hasAccessibility",
+      "@type" : "@id"
+    },
+    "hasVersion" : {
+      "@id" : "http://purl.org/dc/terms/hasVersion"
+    },
+    "StudyDomain" : {
+      "@id" : "http://ontology.ethereal.cz/irao/StudyDomain"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image"
+    },
+    "ResearchArtifact" : {
+      "@id" : "http://ontology.ethereal.cz/irao/ResearchArtifact"
+    },
+    "AnnotatedDataset" : {
+      "@id" : "http://ontology.ethereal.cz/irao/AnnotatedDataset"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "API" : {
+      "@id" : "http://ontology.ethereal.cz/irao/API"
+    },
+    "hasDesignQuality" : {
+      "@id" : "http://ontology.ethereal.cz/irao/hasDesignQuality",
+      "@type" : "@id"
+    },
+    "DevelopmentStatus" : {
+      "@id" : "http://ontology.ethereal.cz/irao/DevelopmentStatus"
+    },
+    "Status" : {
+      "@id" : "http://ontology.ethereal.cz/irao/Status"
+    },
+    "SoftwareFramework" : {
+      "@id" : "http://ontology.ethereal.cz/irao/SoftwareFramework"
+    },
+    "Person" : {
+      "@id" : "http://xmlns.com/foaf/0.1/Person"
+    },
+    "Benchmark" : {
+      "@id" : "http://ontology.ethereal.cz/irao/Benchmark"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "StudyField" : {
+      "@id" : "http://ontology.ethereal.cz/irao/StudyField"
+    },
+    "Model" : {
+      "@id" : "http://ontology.ethereal.cz/irao/Model"
+    },
+    "measuresSystem" : {
+      "@id" : "http://ontology.ethereal.cz/irao/measuresSystem",
+      "@type" : "@id"
+    },
+    "hasStatus" : {
+      "@id" : "http://ontology.ethereal.cz/irao/hasStatus",
+      "@type" : "@id"
+    },
+    "hasAuthor" : {
+      "@id" : "http://ontology.ethereal.cz/irao/hasAuthor",
+      "@type" : "@id"
+    },
+    "hasField" : {
+      "@id" : "http://ontology.ethereal.cz/irao/hasField",
+      "@type" : "@id"
+    },
+    "Protocol" : {
+      "@id" : "http://ontology.ethereal.cz/irao/Protocol"
+    },
+    "subject" : {
+      "@id" : "http://purl.org/dc/elements/1.1/subject"
+    },
+    "preferredNamespacePrefix" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
+    },
+    "Framework" : {
+      "@id" : "http://ontology.ethereal.cz/irao/Framework"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "Workflow" : {
+      "@id" : "http://ontology.ethereal.cz/irao/Workflow"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "Accessibility" : {
+      "@id" : "http://ontology.ethereal.cz/irao/Accessibility"
+    },
+    "Vocabulary" : {
+      "@id" : "http://ontology.ethereal.cz/irao/Vocabulary"
+    },
+    "DataModel" : {
+      "@id" : "http://ontology.ethereal.cz/irao/DataModel"
+    },
+    "isPartOfSystem" : {
+      "@id" : "http://ontology.ethereal.cz/irao/isPartOfSystem",
+      "@type" : "@id"
+    },
+    "hasDomain" : {
+      "@id" : "http://ontology.ethereal.cz/irao/hasDomain",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "Service" : {
+      "@id" : "http://ontology.ethereal.cz/irao/Service"
+    },
+    "contributor" : {
+      "@id" : "http://purl.org/dc/elements/1.1/contributor"
+    },
+    "System" : {
+      "@id" : "http://ontology.ethereal.cz/irao/System"
+    },
+    "hasMethodology" : {
+      "@id" : "http://ontology.ethereal.cz/irao/hasMethodology",
+      "@type" : "@id"
+    },
+    "isPublishedAt" : {
+      "@id" : "http://ontology.ethereal.cz/irao/isPublishedAt",
+      "@type" : "@id"
+    },
+    "OpenStandard" : {
+      "@id" : "http://ontology.ethereal.cz/irao/OpenStandard"
+    },
+    "hasProtocol" : {
+      "@id" : "http://ontology.ethereal.cz/irao/hasProtocol",
+      "@type" : "@id"
+    },
+    "producesDataset" : {
+      "@id" : "http://ontology.ethereal.cz/irao/producesDataset",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/terms/description"
+    },
+    "preferredNamespaceUri" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri"
+    },
+    "isDescribedBy" : {
+      "@id" : "http://ontology.ethereal.cz/irao/isDescribedBy",
+      "@type" : "@id"
+    },
+    "hasFramework" : {
+      "@id" : "http://ontology.ethereal.cz/irao/hasFramework",
+      "@type" : "@id"
+    },
+    "Ontology" : {
+      "@id" : "http://ontology.ethereal.cz/irao/Ontology"
+    },
+    "Methodology" : {
+      "@id" : "http://ontology.ethereal.cz/irao/Methodology"
+    },
+    "SyntheticDataset" : {
+      "@id" : "http://ontology.ethereal.cz/irao/SyntheticDataset"
+    }
+  }
+}
