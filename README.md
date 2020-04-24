@@ -2,4 +2,5 @@
 Ontology for informatics research artifacts
 
 ### Documentation
-https://w3id.org/def/InformaticsResearchArtifactsOntology
+- https://w3id.org/def/InformaticsResearchArtifactsOntology
+- http://ontology.ethereal.cz/irao-doc/index-en.html
