@@ -1,24 +1,23 @@
 digraph ar2dtool_diagram { 
 rankdir=LR;
 size="1000"
-node [shape = rectangle, color="black"]; "irao:DevelopmentStatus" "irao:Model" "irao:Software" "irao:Methodology" "irao:API" "irao:SoftwareFramework" "irao:Framework" "irao:Workflow" "irao:ResearchArtifact" "irao:SyntheticDataset" "irao:Ontology" "irao:Design" "irao:Benchmark" "irao:AnnotatedDataset" "irao:DataModel" "irao:Dataset" "irao:Service" "irao:Vocabulary" "irao:Status" "irao:InformaticsResearchArtifact" ; /*classes style*/
-	"irao:Workflow" -> "irao:InformaticsResearchArtifact" [ label = "rdfs:subClassOf" ];
-	"irao:API" -> "irao:Service" [ label = "rdfs:subClassOf" ];
-	"irao:Methodology" -> "irao:InformaticsResearchArtifact" [ label = "rdfs:subClassOf" ];
-	"irao:Benchmark" -> "irao:InformaticsResearchArtifact" [ label = "rdfs:subClassOf" ];
-	"irao:Design" -> "irao:InformaticsResearchArtifact" [ label = "rdfs:subClassOf" ];
-	"irao:Ontology" -> "irao:DataModel" [ label = "rdfs:subClassOf" ];
-	"irao:Dataset" -> "irao:InformaticsResearchArtifact" [ label = "rdfs:subClassOf" ];
+node [shape = rectangle, color="black"]; "irao:Model" "irao:Software" "irao:Methodology" "irao:API" "irao:SoftwareFramework" "irao:Framework" "irao:Workflow" "irao:ResearchArtifact" "irao:SyntheticDataset" "irao:Ontology" "irao:Design" "irao:Benchmark" "irao:AnnotatedDataset" "irao:DataModel" "irao:Dataset" "irao:Service" "irao:Vocabulary" "irao:InformaticsResearchArtifact" ; /*classes style*/
 	"irao:SoftwareFramework" -> "irao:Framework" [ label = "rdfs:subClassOf" ];
-	"irao:DataModel" -> "irao:Model" [ label = "rdfs:subClassOf" ];
-	"irao:AnnotatedDataset" -> "irao:Dataset" [ label = "rdfs:subClassOf" ];
-	"irao:Vocabulary" -> "irao:InformaticsResearchArtifact" [ label = "rdfs:subClassOf" ];
-	"irao:Framework" -> "irao:InformaticsResearchArtifact" [ label = "rdfs:subClassOf" ];
-	"irao:InformaticsResearchArtifact" -> "irao:ResearchArtifact" [ label = "rdfs:subClassOf" ];
-	"irao:SyntheticDataset" -> "irao:Dataset" [ label = "rdfs:subClassOf" ];
-	"irao:DevelopmentStatus" -> "irao:Status" [ label = "rdfs:subClassOf" ];
+	"irao:Benchmark" -> "irao:InformaticsResearchArtifact" [ label = "rdfs:subClassOf" ];
 	"irao:Model" -> "irao:InformaticsResearchArtifact" [ label = "rdfs:subClassOf" ];
+	"irao:Vocabulary" -> "irao:InformaticsResearchArtifact" [ label = "rdfs:subClassOf" ];
+	"irao:Ontology" -> "irao:DataModel" [ label = "rdfs:subClassOf" ];
+	"irao:SyntheticDataset" -> "irao:Dataset" [ label = "rdfs:subClassOf" ];
+	"irao:API" -> "irao:Service" [ label = "rdfs:subClassOf" ];
+	"irao:InformaticsResearchArtifact" -> "irao:ResearchArtifact" [ label = "rdfs:subClassOf" ];
+	"irao:Workflow" -> "irao:InformaticsResearchArtifact" [ label = "rdfs:subClassOf" ];
+	"irao:AnnotatedDataset" -> "irao:Dataset" [ label = "rdfs:subClassOf" ];
+	"irao:DataModel" -> "irao:Model" [ label = "rdfs:subClassOf" ];
+	"irao:Methodology" -> "irao:InformaticsResearchArtifact" [ label = "rdfs:subClassOf" ];
+	"irao:Framework" -> "irao:InformaticsResearchArtifact" [ label = "rdfs:subClassOf" ];
 	"irao:Service" -> "irao:Software" [ label = "rdfs:subClassOf" ];
+	"irao:Dataset" -> "irao:InformaticsResearchArtifact" [ label = "rdfs:subClassOf" ];
+	"irao:Design" -> "irao:InformaticsResearchArtifact" [ label = "rdfs:subClassOf" ];
 	"irao:Software" -> "irao:InformaticsResearchArtifact" [ label = "rdfs:subClassOf" ];
 
 }

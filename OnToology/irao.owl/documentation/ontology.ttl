@@ -13,7 +13,7 @@
                                     <http://purl.org/dc/elements/1.1/description> "Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL."@en ;
                                     <http://purl.org/dc/elements/1.1/subject> "Informatics, Research Artifacts, Ontology, Semantic SEO, RDFa, Linked Data, RDF, Semantic Web"@en ;
                                     <http://purl.org/dc/elements/1.1/title> "Informatics Research Artifacts Ontology"@en ;
-                                    <http://purl.org/dc/terms/created> "2020-04-24"^^xsd:date ;
+                                    <http://purl.org/dc/terms/created> "2020-04-30"^^xsd:date ;
                                     <http://purl.org/dc/terms/description> "Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL."@en ;
                                     <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/3.0/" ;
                                     <http://purl.org/dc/terms/publisher> "University of Economics, Prague, Czech Republic. Faculty of Informatics and Statistics. Department of Knowledge and Information Engineering" ;
@@ -22,7 +22,7 @@
                                     <http://schema.org/image> <http://ontology.ethereal.cz/src/irao-ontology.png> ;
                                     rdfs:comment "Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL."@en ;
                                     rdfs:label "Informatics Research Artifacts Ontology"@en ;
-                                    owl:versionInfo "Version 1.0.5, Release 2020 Apr 24"@en .
+                                    owl:versionInfo "Version 1.0.6, Release 2020 Apr 30"@en .
 
 #################################################################
 #    Annotation properties
@@ -138,9 +138,12 @@
 
 ###  http://ontology.ethereal.cz/irao/hasMethodology
 <http://ontology.ethereal.cz/irao/hasMethodology> rdf:type owl:ObjectProperty ;
-                                                  rdfs:domain <http://ontology.ethereal.cz/irao/Dataset> ,
-                                                              <http://ontology.ethereal.cz/irao/Framework> ,
-                                                              <http://ontology.ethereal.cz/irao/Protocol> ;
+                                                  rdfs:domain [ rdf:type owl:Class ;
+                                                                owl:unionOf ( <http://ontology.ethereal.cz/irao/Dataset>
+                                                                              <http://ontology.ethereal.cz/irao/Framework>
+                                                                              <http://ontology.ethereal.cz/irao/Protocol>
+                                                                            )
+                                                              ] ;
                                                   rdfs:range <http://ontology.ethereal.cz/irao/Methodology> ;
                                                   rdfs:isDefinedBy <http://ontology.ethereal.cz/irao> ;
                                                   rdfs:label "has methodology"@en .
@@ -196,8 +199,7 @@
 
 ###  http://ontology.ethereal.cz/irao/isPartOfSystem
 <http://ontology.ethereal.cz/irao/isPartOfSystem> rdf:type owl:ObjectProperty ;
-                                                  rdfs:domain <http://ontology.ethereal.cz/irao/Framework> ,
-                                                              <http://ontology.ethereal.cz/irao/Software> ;
+                                                  rdfs:domain <http://ontology.ethereal.cz/irao/Software> ;
                                                   rdfs:range <http://ontology.ethereal.cz/irao/System> ;
                                                   rdfs:isDefinedBy <http://ontology.ethereal.cz/irao> ;
                                                   rdfs:label "is part of system"@en .
@@ -287,7 +289,6 @@
 
 ###  http://ontology.ethereal.cz/irao/DevelopmentStatus
 <http://ontology.ethereal.cz/irao/DevelopmentStatus> rdf:type owl:Class ;
-                                                     rdfs:subClassOf <http://ontology.ethereal.cz/irao/Status> ;
                                                      rdfs:isDefinedBy <http://ontology.ethereal.cz/irao> ;
                                                      rdfs:label "Development status"@en .
 
@@ -378,12 +379,6 @@
                                                      rdfs:label "Software Framework"@en .
 
 
-###  http://ontology.ethereal.cz/irao/Status
-<http://ontology.ethereal.cz/irao/Status> rdf:type owl:Class ;
-                                          rdfs:isDefinedBy <http://ontology.ethereal.cz/irao> ;
-                                          rdfs:label "Status"@en .
-
-
 ###  http://ontology.ethereal.cz/irao/StudyDomain
 <http://ontology.ethereal.cz/irao/StudyDomain> rdf:type owl:Class ;
                                                rdfs:isDefinedBy <http://ontology.ethereal.cz/irao> ;
@@ -452,4 +447,4 @@
                                                              rdfs:label "Release"@en .
 
 
-###  Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/
+###  Generated by the OWL API (version 5.1.11) https://github.com/owlcs/owlapi/
