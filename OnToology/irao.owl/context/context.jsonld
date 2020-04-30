@@ -49,9 +49,6 @@
       "@id" : "http://ontology.ethereal.cz/irao/hasAccessibility",
       "@type" : "@id"
     },
-    "hasVersion" : {
-      "@id" : "http://purl.org/dc/terms/hasVersion"
-    },
     "StudyDomain" : {
       "@id" : "http://ontology.ethereal.cz/irao/StudyDomain"
     },
@@ -76,9 +73,6 @@
     },
     "DevelopmentStatus" : {
       "@id" : "http://ontology.ethereal.cz/irao/DevelopmentStatus"
-    },
-    "Status" : {
-      "@id" : "http://ontology.ethereal.cz/irao/Status"
     },
     "SoftwareFramework" : {
       "@id" : "http://ontology.ethereal.cz/irao/SoftwareFramework"

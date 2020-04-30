@@ -1,0 +1,1290 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://ontology.ethereal.cz/irao", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://xmlns.com/foaf/0.1" ],
+    "title" : {
+      "en" : "Informatics Research Artifacts Ontology"
+    },
+    "iri" : "http://ontology.ethereal.cz/irao",
+    "version" : "Version 1.0.6, Release 2020 Apr 30",
+    "author" : [ "Nguyen Viet Bach" ],
+    "description" : {
+      "en" : "Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL."
+    },
+    "labels" : {
+      "en" : "Informatics Research Artifacts Ontology"
+    },
+    "comments" : {
+      "en" : "Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL."
+    },
+    "other" : {
+      "image" : [ {
+        "identifier" : "image",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/src/irao-ontology.png",
+        "type" : "iri"
+      } ],
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "https://creativecommons.org/licenses/by/3.0/",
+        "type" : "label"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Nguyen Viet Bach",
+        "type" : "label"
+      } ],
+      "contributor" : [ {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "Vojtěch Svátek",
+        "type" : "label"
+      } ],
+      "subject" : [ {
+        "identifier" : "subject",
+        "language" : "en",
+        "value" : "Informatics, Research Artifacts, Ontology, Semantic SEO, RDFa, Linked Data, RDF, Semantic Web",
+        "type" : "label"
+      } ],
+      "created" : [ {
+        "identifier" : "created",
+        "language" : "undefined",
+        "value" : "2020-04-30",
+        "type" : "label"
+      } ],
+      "preferredNamespacePrefix" : [ {
+        "identifier" : "preferredNamespacePrefix",
+        "language" : "undefined",
+        "value" : "irao",
+        "type" : "label"
+      } ],
+      "publisher" : [ {
+        "identifier" : "publisher",
+        "language" : "undefined",
+        "value" : "University of Economics, Prague, Czech Republic. Faculty of Informatics and Statistics. Department of Knowledge and Information Engineering",
+        "type" : "label"
+      } ],
+      "abstract" : [ {
+        "identifier" : "abstract",
+        "language" : "en",
+        "value" : "Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL.",
+        "type" : "label"
+      } ],
+      "preferredNamespaceUri" : [ {
+        "identifier" : "preferredNamespaceUri",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao/",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "en",
+        "value" : "Version 1.0.6, Release 2020 Apr 30",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "Informatics Research Artifacts Ontology",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://ontology.ethereal.cz/irao/SyntheticDataset",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SyntheticDataset",
+      "en" : "Synthetic Dataset"
+    },
+    "attributes" : [ "external" ],
+    "id" : "3",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/System",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "System",
+      "en" : "System"
+    },
+    "attributes" : [ "external" ],
+    "id" : "2"
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/AnnotatedDataset",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "AnnotatedDataset",
+      "en" : "Annotated Dataset"
+    },
+    "attributes" : [ "external" ],
+    "id" : "8",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/Ontology",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Ontology",
+      "en" : "Ontology"
+    },
+    "attributes" : [ "external" ],
+    "id" : "9",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/Accessibility",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Accessibility",
+      "en" : "Accessibility"
+    },
+    "attributes" : [ "external" ],
+    "id" : "11"
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/Workflow",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Workflow",
+      "en" : "Workflow"
+    },
+    "attributes" : [ "external" ],
+    "id" : "12",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/OnlineRepository",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "OnlineRepository",
+      "en" : "Repository"
+    },
+    "attributes" : [ "external" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/OpenStandard",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "OpenStandard",
+      "en" : "Open Standard"
+    },
+    "attributes" : [ "external" ],
+    "id" : "14"
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/Framework",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Framework",
+      "en" : "Framework"
+    },
+    "subClasses" : [ "18" ],
+    "attributes" : [ "external" ],
+    "id" : "17",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/Protocol",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Protocol",
+      "en" : "Protocol"
+    },
+    "attributes" : [ "external" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/Vocabulary",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Vocabulary",
+      "en" : "Vocabulary"
+    },
+    "attributes" : [ "external" ],
+    "id" : "22",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/StudyField",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "StudyField",
+      "en" : "Study Field"
+    },
+    "attributes" : [ "external" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/Model",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Model",
+      "en" : "Model"
+    },
+    "subClasses" : [ "10" ],
+    "attributes" : [ "external" ],
+    "id" : "29",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/API",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "API",
+      "en" : "API"
+    },
+    "attributes" : [ "external" ],
+    "id" : "37",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/Person",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Person"
+    },
+    "attributes" : [ "external" ],
+    "id" : "38"
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/ResearchArtifact",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ResearchArtifact",
+      "en" : "Research Artifact"
+    },
+    "subClasses" : [ "13" ],
+    "attributes" : [ "external" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/Benchmark",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Benchmark",
+      "en" : "Benchmark"
+    },
+    "attributes" : [ "external" ],
+    "id" : "16",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/Dataset",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Dataset",
+      "en" : "Dataset"
+    },
+    "subClasses" : [ "3", "8" ],
+    "attributes" : [ "external" ],
+    "id" : "4",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/Service",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Service",
+      "en" : "Service"
+    },
+    "subClasses" : [ "37" ],
+    "attributes" : [ "external" ],
+    "id" : "26",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/Design",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Design",
+      "en" : "Design"
+    },
+    "attributes" : [ "external" ],
+    "id" : "34",
+    "superClasses" : [ "13" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "4", "17", "19" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "42"
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/StudyDomain",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "StudyDomain",
+      "en" : "Study Domain"
+    },
+    "attributes" : [ "external" ],
+    "id" : "45"
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/DataModel",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "DataModel",
+      "en" : "Data model"
+    },
+    "subClasses" : [ "9" ],
+    "attributes" : [ "external" ],
+    "id" : "10",
+    "superClasses" : [ "29" ]
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/DevelopmentStatus",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "DevelopmentStatus",
+      "en" : "Development status"
+    },
+    "individuals" : [ {
+      "iri" : "http://ontology.ethereal.cz/irao/developmentstatus#beta",
+      "baseIri" : "http://ontology.ethereal.cz/irao/developmentstatus",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://ontology.ethereal.cz/irao",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "beta",
+        "en" : "Beta"
+      }
+    }, {
+      "iri" : "http://ontology.ethereal.cz/irao/developmentstatus#alpha",
+      "baseIri" : "http://ontology.ethereal.cz/irao/developmentstatus",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://ontology.ethereal.cz/irao",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "alpha",
+        "en" : "Alpha"
+      }
+    }, {
+      "iri" : "http://ontology.ethereal.cz/irao/developmentstatus#release",
+      "baseIri" : "http://ontology.ethereal.cz/irao/developmentstatus",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://ontology.ethereal.cz/irao",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "release",
+        "en" : "Release"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "21"
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/DesignQuality",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "DesignQuality",
+      "en" : "Design quality"
+    },
+    "attributes" : [ "external" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/Methodology",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Methodology",
+      "en" : "Methodology"
+    },
+    "attributes" : [ "external" ],
+    "id" : "40",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/Publication",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Publication",
+      "en" : "Publication"
+    },
+    "attributes" : [ "external" ],
+    "id" : "57"
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/InformaticsResearchArtifact",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "InformaticsResearchArtifact",
+      "en" : "Informatics Research Artifact"
+    },
+    "subClasses" : [ "16", "4", "1", "12", "40", "29", "17", "34", "22" ],
+    "attributes" : [ "external" ],
+    "id" : "13",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/Software",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Software",
+      "en" : "Software"
+    },
+    "subClasses" : [ "26" ],
+    "attributes" : [ "external" ],
+    "id" : "1",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/SoftwareFramework",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SoftwareFramework",
+      "en" : "Software Framework"
+    },
+    "attributes" : [ "external" ],
+    "id" : "18",
+    "superClasses" : [ "17" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "5",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "20",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "23",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "25",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "31",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "35",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "41",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "44",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "47",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "49",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "52",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "53",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "54",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "56",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "58",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "60",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "61",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "62",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "63",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://ontology.ethereal.cz/irao/isPartOfSystem",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "range" : "2",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "isPartOfSystem",
+      "en" : "is part of system"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "object" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/isPublishedAt",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "range" : "7",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "isPublishedAt",
+      "en" : "is published at"
+    },
+    "domain" : "6",
+    "attributes" : [ "external", "object" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/measuresSystem",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "range" : "2",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "measuresSystem",
+      "en" : "measures system"
+    },
+    "domain" : "16",
+    "attributes" : [ "external", "object" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/hasStatus",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "range" : "21",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasStatus",
+      "en" : "has status"
+    },
+    "domain" : "6",
+    "attributes" : [ "external", "object" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/isDescribedBy",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "range" : "10",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "isDescribedBy",
+      "en" : "is described by"
+    },
+    "domain" : "4",
+    "attributes" : [ "external", "object" ],
+    "id" : "23"
+  }, {
+    "range" : "1",
+    "domain" : "26",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "25"
+  }, {
+    "range" : "13",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "27"
+  }, {
+    "range" : "13",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "28"
+  }, {
+    "range" : "13",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/hasDesignQuality",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "range" : "32",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasDesignQuality",
+      "en" : "has design quality"
+    },
+    "domain" : "6",
+    "attributes" : [ "external", "object" ],
+    "id" : "31"
+  }, {
+    "range" : "13",
+    "domain" : "34",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "33"
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/hasField",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "range" : "24",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasField",
+      "en" : "has field"
+    },
+    "domain" : "6",
+    "attributes" : [ "external", "object" ],
+    "id" : "35"
+  }, {
+    "range" : "13",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "36"
+  }, {
+    "range" : "13",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "39"
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/hasMethodology",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "range" : "40",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasMethodology",
+      "en" : "has methodology"
+    },
+    "domain" : "42",
+    "attributes" : [ "external", "object" ],
+    "id" : "41"
+  }, {
+    "range" : "13",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "43"
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/hasDomain",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "range" : "45",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasDomain",
+      "en" : "has domain"
+    },
+    "domain" : "6",
+    "attributes" : [ "external", "object" ],
+    "id" : "44"
+  }, {
+    "range" : "29",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "46"
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/isMaintainedBy",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "range" : "38",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "isMaintainedBy",
+      "en" : "is maintained by"
+    },
+    "domain" : "6",
+    "attributes" : [ "external", "object" ],
+    "id" : "47"
+  }, {
+    "range" : "6",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "48"
+  }, {
+    "range" : "4",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "49"
+  }, {
+    "range" : "4",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "50"
+  }, {
+    "range" : "26",
+    "domain" : "37",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "51"
+  }, {
+    "range" : "10",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "52"
+  }, {
+    "range" : "13",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "53"
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/producesDataset",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "range" : "4",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "producesDataset",
+      "en" : "produces dataset"
+    },
+    "domain" : "16",
+    "attributes" : [ "external", "object" ],
+    "id" : "54"
+  }, {
+    "range" : "13",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "55"
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/hasPublication",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "range" : "57",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasPublication",
+      "en" : "has publication or is mentioned in publication"
+    },
+    "domain" : "6",
+    "attributes" : [ "external", "object" ],
+    "id" : "56"
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/hasAuthor",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "range" : "38",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasAuthor",
+      "en" : "has author"
+    },
+    "domain" : "6",
+    "attributes" : [ "external", "object" ],
+    "id" : "58"
+  }, {
+    "range" : "17",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "59"
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/hasProtocol",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "range" : "19",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasProtocol",
+      "en" : "has protocol"
+    },
+    "domain" : "16",
+    "attributes" : [ "external", "object" ],
+    "id" : "60"
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/hasFramework",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "range" : "17",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasFramework",
+      "en" : "has framework"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "object" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/hasOpenStandard",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "range" : "14",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasOpenStandard",
+      "en" : "has open standard"
+    },
+    "domain" : "6",
+    "attributes" : [ "external", "object" ],
+    "id" : "62"
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/hasAccessibility",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "range" : "11",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasAccessibility",
+      "en" : "has accessibility"
+    },
+    "domain" : "6",
+    "attributes" : [ "external", "object" ],
+    "id" : "63"
+  } ]
+}
