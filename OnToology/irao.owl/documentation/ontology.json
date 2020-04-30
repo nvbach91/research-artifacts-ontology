@@ -1,4 +1,16 @@
 [ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://ontology.ethereal.cz/irao/Dataset"
+    }, {
+      "@id" : "http://ontology.ethereal.cz/irao/Framework"
+    }, {
+      "@id" : "http://ontology.ethereal.cz/irao/Protocol"
+    } ]
+  } ]
+}, {
   "@id" : "http://ontology.ethereal.cz/irao",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/elements/1.1/abstract" : [ {
@@ -165,9 +177,6 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Development status"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://ontology.ethereal.cz/irao/Status"
   } ]
 }, {
   "@id" : "http://ontology.ethereal.cz/irao/Framework",
@@ -322,16 +331,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://ontology.ethereal.cz/irao/Framework"
-  } ]
-}, {
-  "@id" : "http://ontology.ethereal.cz/irao/Status",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://ontology.ethereal.cz/irao"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Status"
   } ]
 }, {
   "@id" : "http://ontology.ethereal.cz/irao/StudyDomain",
@@ -532,11 +531,7 @@
   "@id" : "http://ontology.ethereal.cz/irao/hasMethodology",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://ontology.ethereal.cz/irao/Dataset"
-  }, {
-    "@id" : "http://ontology.ethereal.cz/irao/Framework"
-  }, {
-    "@id" : "http://ontology.ethereal.cz/irao/Protocol"
+    "@id" : "_:genid1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "http://ontology.ethereal.cz/irao"
@@ -648,8 +643,6 @@
   "@id" : "http://ontology.ethereal.cz/irao/isPartOfSystem",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://ontology.ethereal.cz/irao/Framework"
-  }, {
     "@id" : "http://ontology.ethereal.cz/irao/Software"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {

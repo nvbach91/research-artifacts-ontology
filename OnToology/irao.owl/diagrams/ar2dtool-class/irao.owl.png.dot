@@ -1,12 +1,19 @@
 digraph ar2dtool_diagram { 
 rankdir=LR;
 size="1501"
-node [shape = rectangle, color="orange"]; "irao:Protocol" "irao:DevelopmentStatus" "irao:Software" "irao:Methodology" "irao:Framework" "irao:StudyDomain" "irao:Accessibility" "irao:ResearchArtifact" "irao:Benchmark" "irao:DesignQuality" "irao:DataModel" "irao:Dataset" "irao:Publication" "irao:StudyField" "foaf:Person" "irao:System" "irao:OpenStandard" "irao:OnlineRepository" ; /*classes style*/
+node [shape = rectangle, color="orange"]; "irao:Protocol" "irao:DevelopmentStatus" "irao:Software" "irao:Methodology" "1318eb43:171c880990f:-7ffc" "irao:Framework" "irao:StudyDomain" "irao:Accessibility" "irao:ResearchArtifact" "irao:Benchmark" "irao:DesignQuality" "irao:DataModel" "irao:Dataset" "irao:Publication" "irao:StudyField" "foaf:Person" "irao:System" "irao:OpenStandard" "irao:OnlineRepository" ; /*classes style*/
+	"NULL" -> "1318eb43:171c880990f:-7ffb" [ label = "owl:unionOf" ];
+	"NULL" -> "rdf:nil" [ label = "rdf:rest" ];
+	"NULL" -> "irao:Protocol" [ label = "rdf:first" ];
+	"NULL" -> "1318eb43:171c880990f:-7ff9" [ label = "rdf:rest" ];
+	"NULL" -> "irao:Framework" [ label = "rdf:first" ];
+	"NULL" -> "1318eb43:171c880990f:-7ffa" [ label = "rdf:rest" ];
+	"NULL" -> "irao:Dataset" [ label = "rdf:first" ];
 	"http://ontology.ethereal.cz/irao" -> "http://ontology.ethereal.cz/src/irao-ontology.png" [ label = "schema:image" ];
 	"irao:ResearchArtifact" -> "irao:OnlineRepository" [ label = "irao:isPublishedAt" ];
 	"irao:ResearchArtifact" -> "irao:DesignQuality" [ label = "irao:hasDesignQuality" ];
 	"irao:ResearchArtifact" -> "irao:StudyDomain" [ label = "irao:hasDomain" ];
-	"irao:Dataset" -> "irao:Methodology" [ label = "irao:hasMethodology" ];
+	"1318eb43:171c880990f:-7ffc" -> "irao:Methodology" [ label = "irao:hasMethodology" ];
 	"irao:Dataset" -> "irao:DataModel" [ label = "irao:isDescribedBy" ];
 	"irao:Benchmark" -> "irao:System" [ label = "irao:measuresSystem" ];
 	"irao:ResearchArtifact" -> "irao:StudyField" [ label = "irao:hasField" ];
@@ -19,6 +26,6 @@ node [shape = rectangle, color="orange"]; "irao:Protocol" "irao:DevelopmentStatu
 	"irao:Benchmark" -> "irao:Dataset" [ label = "irao:producesDataset" ];
 	"irao:ResearchArtifact" -> "irao:Accessibility" [ label = "irao:hasAccessibility" ];
 	"irao:ResearchArtifact" -> "irao:OpenStandard" [ label = "irao:hasOpenStandard" ];
-	"irao:Framework" -> "irao:System" [ label = "irao:isPartOfSystem" ];
+	"irao:Software" -> "irao:System" [ label = "irao:isPartOfSystem" ];
 
 }

@@ -77,9 +77,6 @@
     "DevelopmentStatus" : {
       "@id" : "http://ontology.ethereal.cz/irao/DevelopmentStatus"
     },
-    "Status" : {
-      "@id" : "http://ontology.ethereal.cz/irao/Status"
-    },
     "SoftwareFramework" : {
       "@id" : "http://ontology.ethereal.cz/irao/SoftwareFramework"
     },
