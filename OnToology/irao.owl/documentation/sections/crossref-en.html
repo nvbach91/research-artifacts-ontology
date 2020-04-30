@@ -1,4 +1,4 @@
-<html><h2 id="crossreference" class="list">Cross reference for Informatics Research Artifacts Ontology classes, properties and dataproperties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<h2 id="crossreference" class="list">Cross reference for Informatics Research Artifacts Ontology classes, properties and dataproperties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 This section provides details for each class and property defined by Informatics Research Artifacts Ontology.
 <div id="classes">
    <h3 id="classes-headline" class="list">Classes</h3>
@@ -74,9 +74,6 @@ This section provides details for each class and property defined by Informatics
       <li>
          <a href="#/SoftwareFramework"
             title="http://ontology.ethereal.cz/irao/SoftwareFramework">Software Framework</a>
-      </li>
-      <li>
-         <a href="#/Status" title="http://ontology.ethereal.cz/irao/Status">Status</a>
       </li>
       <li>
          <a href="#/StudyDomain" title="http://ontology.ethereal.cz/irao/StudyDomain">Study Domain</a>
@@ -252,8 +249,7 @@ This section provides details for each class and property defined by Informatics
          </dd>
          <dt>is in domain of</dt>
          <dd>
-            <a href="#/hasMethodology" title="http://ontology.ethereal.cz/irao/hasMethodology">has methodology</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#/isDescribedBy" title="http://ontology.ethereal.cz/irao/isDescribedBy">is described by</a>
+            <a href="#/isDescribedBy" title="http://ontology.ethereal.cz/irao/isDescribedBy">is described by</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
          <dt>is in range of</dt>
@@ -321,11 +317,6 @@ This section provides details for each class and property defined by Informatics
          </dd>
       </dl>
       <dl class="description">
-         <dt>has super-classes</dt>
-         <dd>
-            <a href="#/Status" title="http://ontology.ethereal.cz/irao/Status">Status</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
          <dt>is in range of</dt>
          <dd>
             <a href="#/hasStatus" title="http://ontology.ethereal.cz/irao/hasStatus">has status</a>
@@ -368,12 +359,6 @@ This section provides details for each class and property defined by Informatics
             <a href="#/SoftwareFramework"
                title="http://ontology.ethereal.cz/irao/SoftwareFramework">Software Framework</a>
             <sup class="type-c" title="class">c</sup>
-         </dd>
-         <dt>is in domain of</dt>
-         <dd>
-            <a href="#/hasMethodology" title="http://ontology.ethereal.cz/irao/hasMethodology">has methodology</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#/isPartOfSystem" title="http://ontology.ethereal.cz/irao/isPartOfSystem">is part of system</a>
-            <sup class="type-op" title="object property">op</sup>
          </dd>
          <dt>is in range of</dt>
          <dd>
@@ -527,11 +512,6 @@ This section provides details for each class and property defined by Informatics
          </dd>
       </dl>
       <dl class="description">
-         <dt>is in domain of</dt>
-         <dd>
-            <a href="#/hasMethodology" title="http://ontology.ethereal.cz/irao/hasMethodology">has methodology</a>
-            <sup class="type-op" title="object property">op</sup>
-         </dd>
          <dt>is in range of</dt>
          <dd>
             <a href="#/hasProtocol" title="http://ontology.ethereal.cz/irao/hasProtocol">has protocol</a>
@@ -695,28 +675,6 @@ This section provides details for each class and property defined by Informatics
          <dt>has super-classes</dt>
          <dd>
             <a href="#/Framework" title="http://ontology.ethereal.cz/irao/Framework">Framework</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-      </dl>
-   </div>
-   <div class="entity" id="/Status">
-      <h3>Status<sup class="type-c" title="class">c</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://ontology.ethereal.cz/irao/Status</p>
-      <dl class="definedBy">
-         <dt>Is defined by</dt>
-         <dd>
-            <a href="http://ontology.ethereal.cz/irao">http://ontology.ethereal.cz/irao</a>
-         </dd>
-      </dl>
-      <dl class="description">
-         <dt>has sub-classes</dt>
-         <dd>
-            <a href="#/DevelopmentStatus"
-               title="http://ontology.ethereal.cz/irao/DevelopmentStatus">Development status</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
@@ -1098,13 +1056,11 @@ This section provides details for each class and property defined by Informatics
             <dt>has domain</dt>
             <dd>
                <a href="#/Dataset" title="http://ontology.ethereal.cz/irao/Dataset">Dataset</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dd>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
                <a href="#/Framework" title="http://ontology.ethereal.cz/irao/Framework">Framework</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dd>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
                <a href="#/Protocol" title="http://ontology.ethereal.cz/irao/Protocol">Protocol</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
@@ -1306,10 +1262,6 @@ This section provides details for each class and property defined by Informatics
          <dl>
             <dt>has domain</dt>
             <dd>
-               <a href="#/Framework" title="http://ontology.ethereal.cz/irao/Framework">Framework</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dd>
                <a href="#/Software" title="http://ontology.ethereal.cz/irao/Software">Software</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
@@ -1498,4 +1450,3 @@ This section provides details for each class and property defined by Informatics
 <sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals
 </div>
 </div>
-</html>
