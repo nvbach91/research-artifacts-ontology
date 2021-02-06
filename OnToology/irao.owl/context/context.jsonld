@@ -4,7 +4,7 @@
       "@id" : "http://ontology.ethereal.cz/irao/Design"
     },
     "abstract" : {
-      "@id" : "http://purl.org/dc/elements/1.1/abstract"
+      "@id" : "http://purl.org/dc/terms/abstract"
     },
     "isMaintainedBy" : {
       "@id" : "http://ontology.ethereal.cz/irao/isMaintainedBy",
@@ -51,9 +51,6 @@
     },
     "StudyDomain" : {
       "@id" : "http://ontology.ethereal.cz/irao/StudyDomain"
-    },
-    "image" : {
-      "@id" : "http://schema.org/image"
     },
     "ResearchArtifact" : {
       "@id" : "http://ontology.ethereal.cz/irao/ResearchArtifact"
