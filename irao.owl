@@ -17,7 +17,7 @@
      xmlns:schema="http://schema.org/"
      xmlns:dcterms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="http://ontology.ethereal.cz/irao">
-        <dc:abstract xml:lang="en">Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL.</dc:abstract>
+        <dcterms:abstract xml:lang="en">Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL.</dcterms:abstract>
         <dc:contributor>Vojtěch Svátek</dc:contributor>
         <dc:creator>Nguyen Viet Bach</dc:creator>
         <dc:description xml:lang="en">Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL.</dc:description>
@@ -25,11 +25,10 @@
         <dc:title xml:lang="en">Informatics Research Artifacts Ontology</dc:title>
         <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-04-30</dcterms:created>
         <dcterms:description xml:lang="en">Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL.</dcterms:description>
-        <dcterms:license>https://creativecommons.org/licenses/by/3.0/</dcterms:license>
+        <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/3.0/"/>
         <dcterms:publisher>University of Economics, Prague, Czech Republic. Faculty of Informatics and Statistics. Department of Knowledge and Information Engineering</dcterms:publisher>
         <vann:preferredNamespacePrefix>irao</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri>http://ontology.ethereal.cz/irao/</vann:preferredNamespaceUri>
-        <schema:image rdf:resource="http://ontology.ethereal.cz/src/irao-ontology.png"/>
         <rdfs:comment xml:lang="en">Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL.</rdfs:comment>
         <rdfs:label xml:lang="en">Informatics Research Artifacts Ontology</rdfs:label>
         <owl:versionInfo xml:lang="en">Version 1.0.6, Release 2020 Apr 30</owl:versionInfo>
@@ -414,6 +413,7 @@
     <owl:Class rdf:about="http://ontology.ethereal.cz/irao/Protocol">
         <rdfs:isDefinedBy rdf:resource="http://ontology.ethereal.cz/irao"/>
         <rdfs:label xml:lang="en">Protocol</rdfs:label>
+        <rdfs:comment xml:lang="en">Protocol</rdfs:comment>
     </owl:Class>
     
 
