@@ -1,16 +1,15 @@
 # IRAO - Informatics Research Artifacts Ontology
 Ontology for informatics research artifacts
 
-### Documentation
+## Documentation
 - https://w3id.org/def/InformaticsResearchArtifactsOntology
-- http://ontology.ethereal.cz/irao-doc/index-en.html
-- ORSD https://docs.google.com/document/d/1S3lEMjWqrp2Ypwzi97yViKw0TunlN3pRTAD0er1PvR8
+- ORSD<sup>1</sup> https://docs.google.com/document/d/1S3lEMjWqrp2Ypwzi97yViKw0TunlN3pRTAD0er1PvR8
 
 ## Diagrams
 - http://ontology.ethereal.cz/irao-main.svg 
 - http://ontology.ethereal.cz/irao-relationship.svg 
 
-### Usage
+## Usage
 ```sparql
 #get all institutions related to a research artifact through the authors
 PREFIX irao: <http://ontology.ethereal.cz/irao/>
@@ -26,7 +25,7 @@ SELECT * WHERE {
 }
 
 ```
-### Competency quesions
+## Competency quesions
 - CQ01. What is the artifact's name?
 - CQ02. Who is the artifact's creator?
 - CQ03. What is the artifact's purpose?
@@ -44,7 +43,7 @@ SELECT * WHERE {
 - CQ15. What other artifacts does this artifact make use of?
 - CQ16. What is the relationship between specific artifacts?
 
-### Research output definitions
+## Research output definitions
 - https://www.massey.ac.nz/massey/fms/Research_Management_Services/PBRF/PBRF Information - What Are Research Outputs.pdf
 - https://www.auckland.ac.nz/en/about/the-university/how-university-works/policy-and-administration/research/output-system-and-reports/ research-outputs--definition-and-categories.html
 - https://www.imperial.ac.uk/materials/postgraduate/phdlist/phd/doing-research/research-outputs-definitions/
@@ -53,3 +52,6 @@ SELECT * WHERE {
 - https://policy.usq.edu.au/documents/152329PL
 - https://www.csg.org/programs/knowledgeeconomy/1_2_research_output.aspx
 - https://www.nottingham.ac.uk/sociology/research/projects/making-science-public/research-output.aspx
+
+## References
+1. Suárez-Figueroa, M.C., Gómez-Pérez, A.: **Ontology Requirements Specification**. In: Suárez-Figueroa, M.C., Gómez-Pérez, A., Motta, E., Gangemi, A. (eds.) Ontology Engineering in a Networked World, pp. 93–106. Springer (2012).https://doi.org/10.1007/978-3-642-24794-1_5
