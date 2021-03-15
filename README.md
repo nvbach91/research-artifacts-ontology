@@ -44,8 +44,8 @@ SELECT * WHERE {
 - CQ16. What is the relationship between specific artifacts?
 
 ## Research output definitions
-- [https://www.massey.ac.nz/massey/fms/Research_Management_Services/PBRF/PBRF Information - What Are Research Outputs.pdf](https://www.massey.ac.nz/massey/fms/Research_Management_Services/PBRF/PBRF Information - What Are Research Outputs.pdf)
-- [https://www.auckland.ac.nz/en/about/the-university/how-university-works/policy-and-administration/research/output-system-and-reports/ research-outputs--definition-and-categories.html](https://www.auckland.ac.nz/en/about/the-university/how-university-works/policy-and-administration/research/output-system-and-reports/ research-outputs--definition-and-categories.html)
+- [https://www.massey.ac.nz/massey/fms/Research_Management_Services/PBRF/PBRF%20Information%20-%20What%20Are%20Research%20Outputs.pdf](https://www.massey.ac.nz/massey/fms/Research_Management_Services/PBRF/PBRF%20Information%20-%20What%20Are%20Research%20Outputs.pdf)
+- [https://www.auckland.ac.nz/en/about/the-university/how-university-works/policy-and-administration/research/output-system-and-reports/research-outputs--definition-and-categories.html]https://www.auckland.ac.nz/en/about/the-university/how-university-works/policy-and-administration/research/output-system-and-reports/research-outputs--definition-and-categories.html)
 - [https://www.imperial.ac.uk/materials/postgraduate/phdlist/phd/doing-research/research-outputs-definitions/](https://www.imperial.ac.uk/materials/postgraduate/phdlist/phd/doing-research/research-outputs-definitions/)
 - [https://libguides.colorado.edu/products](https://libguides.colorado.edu/products)
 - [https://www.ucd.ie/research/t4media/Classification-of-Research-Outputs_0.1.pdf](https://www.ucd.ie/research/t4media/Classification-of-Research-Outputs_0.1.pdf)
