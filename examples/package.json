@@ -1,0 +1,16 @@
+{
+  "name": "examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "parse.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ontologies/core": "^2.0.2",
+    "@ontologies/schema": "^1.0.0",
+    "rdflib": "^2.2.0"
+  }
+}

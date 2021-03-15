@@ -1,0 +1,122 @@
+@prefix : </#>.
+@prefix ir: </irao#>.
+@prefix i: </irao/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix n0: <http://xmlns.com/foaf/0.1/>.
+@prefix rd: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+@prefix top: <https://cso.kmi.open.ac.uk/topics/>.
+@prefix dev: </irao/developmentstatus#>.
+@prefix rep: </irao/repositorytype#>.
+
+ir:0962aa92
+    a i:Researcher, owl:NamedIndividual;
+    i:hasAffiliation ir:ca0d6d57;
+    n0:name "Valentina Anita Carriero"@en.
+ir:1bc6c06f
+    a i:Publication, i:Thesis, owl:NamedIndividual;
+    i:hasTopic "ontology visualization";
+    rd:label "Supporting ontology development with visual modeling tools"@en;
+    rd:seeAlso
+        "https://vskp.vse.cz/74478_podpora-vyvoje-ontologii-pomoci-grafickych-modelovacich-nastroju"^^XML:anyURI.
+ir:3230c840
+    a i:Software, owl:NamedIndividual;
+    i:hasAuthor ir:ea848e30;
+    i:hasPublication ir:1bc6c06f;
+    i:hasResearchArea top:ontology_engineering, top:semantic_web;
+    i:hasStatus dev:release;
+    i:isPublishedAt ir:f35c0633;
+    rd:label "PURO Modeler"@en.
+ir:33bca0a2
+    a i:Affiliation, owl:NamedIndividual;
+    n0:name "University of Ecomics, Prague"@en.
+ir:38947a2e
+    a i:Repository, owl:NamedIndividual;
+    i:hasRepositoryType rep:GitHub;
+    rd:seeAlso
+    "https://github.com/ICCD-MiBACT/ArCo/tree/master/ArCo-release"^^XML:anyURI.
+ir:4c2877ee
+    a i:Repository, owl:NamedIndividual;
+    i:hasRepositoryType rep:GitHub;
+    rd:seeAlso
+    "https://github.com/ICCD-MiBACT/ArCo/tree/master/ArCo-release"^^XML:anyURI.
+ir:52b761ad
+    a i:Affiliation, owl:NamedIndividual;
+    n0:name "J\u00f6nk\u00f6ping University"@en.
+ir:695a74d6
+    a i:Publication, i:Thesis, owl:NamedIndividual;
+    i:hasTopic "real estate";
+    rd:label "The RealEstateCore Ontology"@en;
+    rd:seeAlso
+        "https://link.springer.com/chapter/10.1007%2F978-3-030-30796-7_9"^^XML:anyURI.
+ir:6f33415e
+    a i:Repository, owl:NamedIndividual;
+    i:hasRepositoryType rep:GitHub;
+    rd:seeAlso "https://github.com/RealEstateCore/rec"^^XML:anyURI.
+ir:76a99da9
+    a i:Software, owl:NamedIndividual;
+    i:hasAuthor ir:b2a0c5eb;
+    i:hasPublication ir:d28f9810;
+    i:hasResearchArea top:linked_data, top:semantic_web;
+    i:hasStatus dev:release;
+    i:isPublishedAt ir:92b55a1a;
+    rd:label "VVZ to RDF"@en.
+ir:787367eb
+    a i:Researcher, owl:NamedIndividual;
+    i:hasAffiliation ir:52b761ad;
+    n0:name "Karl Hammar"@en.
+ir:8d91adad
+    a i:Dataset, owl:NamedIndividual;
+    i:hasAuthor ir:0962aa92;
+    i:hasPublication ir:9a94279c;
+    i:hasResearchArea top:linked_data, top:semantic_web;
+    i:hasStatus dev:release;
+    i:isPublishedAt ir:4c2877ee;
+    rd:label "ArCo Dataset"@en.
+ir:90ba34ff
+    a i:Ontology, owl:NamedIndividual;
+    i:hasAuthor ir:787367eb;
+    i:hasPublication ir:695a74d6;
+    i:hasResearchArea top:ontology_engineering, top:semantic_web;
+    i:hasStatus dev:release;
+    i:isPublishedAt ir:6f33415e;
+    rd:label "RealEstateCore Ontology"@en.
+ir:92b55a1a
+    a i:Repository, owl:NamedIndividual;
+    i:hasRepositoryType rep:GitHub;
+    rd:seeAlso "https://github.com/jindrichmynarz/vvz-to-rdf"^^XML:anyURI.
+ir:9a94279c
+    a i:ConferencePaper, i:Publication, owl:NamedIndividual;
+    i:hasTopic "cultural heritage";
+    rd:label "ArCo: the Italian Cultural Heritage Knowledge Graph"@en;
+    rd:seeAlso
+        "https://link.springer.com/chapter/10.1007%2F978-3-030-30796-7_3"^^XML:anyURI.
+ir:b2a0c5eb
+    a i:Researcher, owl:NamedIndividual;
+    i:hasAffiliation ir:33bca0a2;
+    n0:name "Jindrich Mynarz"@en.
+ir:ca0d6d57
+a i:Affiliation, owl:NamedIndividual; n0:name "University of Bologna"@en.
+ir:d28f9810
+    a i:Publication, i:Thesis, owl:NamedIndividual;
+    i:hasTopic "public procurement";
+    rd:label
+    "Matchmaking of bidders and public contracts using linked open data"@en;
+    rd:seeAlso
+        "https://vskp.vse.cz/71568_parovani-uchazecu-a-verejnych-zakazek-pomoci-propojenych-otevrenych-dat"^^XML:anyURI.
+ir:ea848e30
+    a i:Researcher, owl:NamedIndividual;
+    i:hasAffiliation ir:33bca0a2;
+    n0:name "Marek Dudas"@en.
+ir:f35c0633
+    a i:Repository, owl:NamedIndividual;
+    i:hasRepositoryType rep:GitHub;
+    rd:seeAlso "https://github.com/marek-dudas/PURO-Modeler"^^XML:anyURI.
+ir:f46e52f4
+    a i:Ontology, owl:NamedIndividual;
+    i:hasAuthor ir:0962aa92;
+    i:hasPublication ir:9a94279c;
+    i:hasResearchArea top:linked_data, top:semantic_web;
+    i:hasStatus dev:release;
+    i:isPublishedAt ir:38947a2e;
+    rd:label "ArCo Ontology"@en.
