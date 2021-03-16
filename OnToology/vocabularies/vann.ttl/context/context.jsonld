@@ -1,0 +1,100 @@
+{
+  "@context" : {
+    "isVersionOf" : {
+      "@id" : "http://purl.org/dc/terms/isVersionOf"
+    },
+    "example" : {
+      "@id" : "http://purl.org/vocab/vann/example"
+    },
+    "primaryTopic" : {
+      "@id" : "http://xmlns.com/foaf/0.1/primaryTopic"
+    },
+    "license" : {
+      "@id" : "http://web.resource.org/cc/license"
+    },
+    "usageNote" : {
+      "@id" : "http://purl.org/vocab/vann/usageNote"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Person" : {
+      "@id" : "http://xmlns.com/foaf/0.1/Person"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator"
+    },
+    "name" : {
+      "@id" : "http://xmlns.com/foaf/0.1/name"
+    },
+    "rights" : {
+      "@id" : "http://purl.org/dc/terms/rights"
+    },
+    "Work" : {
+      "@id" : "http://web.resource.org/cc/Work"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/terms/identifier"
+    },
+    "changes" : {
+      "@id" : "http://purl.org/vocab/vann/changes"
+    },
+    "permits" : {
+      "@id" : "http://web.resource.org/cc/permits"
+    },
+    "preferredNamespacePrefix" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "termGroup" : {
+      "@id" : "http://purl.org/vocab/vann/termGroup"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "type" : {
+      "@id" : "http://purl.org/dc/terms/type"
+    },
+    "date" : {
+      "@id" : "http://purl.org/dc/terms/date"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "Text" : {
+      "@id" : "http://purl.org/dc/dcmitype/Text"
+    },
+    "replaces" : {
+      "@id" : "http://purl.org/dc/terms/replaces"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "Document" : {
+      "@id" : "http://xmlns.com/foaf/0.1/Document"
+    },
+    "License" : {
+      "@id" : "http://web.resource.org/cc/License"
+    },
+    "requires" : {
+      "@id" : "http://web.resource.org/cc/requires"
+    },
+    "hasFormat" : {
+      "@id" : "http://purl.org/dc/terms/hasFormat"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/terms/description"
+    },
+    "preferredNamespaceUri" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri"
+    },
+    "format" : {
+      "@id" : "http://purl.org/dc/elements/1.1/format"
+    },
+    "topic" : {
+      "@id" : "http://xmlns.com/foaf/0.1/topic"
+    }
+  }
+}

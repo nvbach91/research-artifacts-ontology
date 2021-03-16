@@ -1,0 +1,232 @@
+@prefix : <http://purl.org/vocab/vann/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://purl.org/vocab/vann/> .
+
+<http://purl.org/vocab/vann/> rdf:type owl:Ontology ;
+                               <http://purl.org/dc/terms/creator> <http://iandavis.com/id/me> ;
+                               <http://purl.org/dc/terms/date> "2010-06-07" ;
+                               <http://purl.org/dc/terms/description> "This document describes a vocabulary for annotating descriptions of vocabularies with examples and usage notes."@en ;
+                               <http://purl.org/dc/terms/identifier> "http://purl.org/vocab/vann/vann-vocab-20050401" ;
+                               <http://purl.org/dc/terms/isVersionOf> <http://purl.org/vocab/vann/> ;
+                               <http://purl.org/dc/terms/replaces> :vann-vocab-20040305 ;
+                               <http://purl.org/dc/terms/rights> "Copyright © 2005 Ian Davis" ;
+                               <http://purl.org/dc/terms/title> "VANN: A vocabulary for annotating vocabulary descriptions"@en ;
+                               :preferredNamespacePrefix "vann" ;
+                               :preferredNamespaceUri "http://purl.org/vocab/vann/" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/format
+<http://purl.org/dc/elements/1.1/format> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/date
+<http://purl.org/dc/terms/date> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/hasFormat
+<http://purl.org/dc/terms/hasFormat> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/identifier
+<http://purl.org/dc/terms/identifier> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/isVersionOf
+<http://purl.org/dc/terms/isVersionOf> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/replaces
+<http://purl.org/dc/terms/replaces> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/rights
+<http://purl.org/dc/terms/rights> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/type
+<http://purl.org/dc/terms/type> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/changes
+:changes rdf:type owl:AnnotationProperty ;
+         rdfs:comment "A reference to a resource that describes changes between this version of a vocabulary and the previous."@en ;
+         rdfs:isDefinedBy <http://purl.org/vocab/vann/> ;
+         rdfs:label "Changes"@en ;
+         rdfs:subPropertyOf rdfs:seeAlso .
+
+
+###  http://purl.org/vocab/vann/example
+:example rdf:type owl:AnnotationProperty ;
+         rdfs:comment "A reference to a resource that provides an example of how this resource can be used."@en ;
+         rdfs:isDefinedBy <http://purl.org/vocab/vann/> ;
+         rdfs:label "Example"@en ;
+         rdfs:subPropertyOf rdfs:seeAlso .
+
+
+###  http://purl.org/vocab/vann/preferredNamespacePrefix
+:preferredNamespacePrefix rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespaceUri
+:preferredNamespaceUri rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/termGroup
+:termGroup rdf:type owl:AnnotationProperty ;
+           rdfs:comment "A group of related terms in a vocabulary."@en ;
+           rdfs:isDefinedBy <http://purl.org/vocab/vann/> ;
+           rdfs:label "Term Group"@en .
+
+
+###  http://purl.org/vocab/vann/usageNote
+:usageNote rdf:type owl:AnnotationProperty ;
+           rdfs:comment "A reference to a resource that provides information on how this resource is to be used."@en ;
+           rdfs:isDefinedBy <http://purl.org/vocab/vann/> ;
+           rdfs:label "Usage Note"@en ;
+           rdfs:subPropertyOf rdfs:seeAlso .
+
+
+###  http://web.resource.org/cc/license
+<http://web.resource.org/cc/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://web.resource.org/cc/permits
+<http://web.resource.org/cc/permits> rdf:type owl:AnnotationProperty .
+
+
+###  http://web.resource.org/cc/requires
+<http://web.resource.org/cc/requires> rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/name
+<http://xmlns.com/foaf/0.1/name> rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/primaryTopic
+<http://xmlns.com/foaf/0.1/primaryTopic> rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/topic
+<http://xmlns.com/foaf/0.1/topic> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://purl.org/dc/dcmitype/Text
+<http://purl.org/dc/dcmitype/Text> rdf:type owl:Class .
+
+
+###  http://web.resource.org/cc/License
+<http://web.resource.org/cc/License> rdf:type owl:Class .
+
+
+###  http://web.resource.org/cc/Work
+<http://web.resource.org/cc/Work> rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/Document
+<http://xmlns.com/foaf/0.1/Document> rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/Person
+<http://xmlns.com/foaf/0.1/Person> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  file:///var/www/vocab.org/www/htdocs/vann/
+<file:///var/www/vocab.org/www/htdocs/vann/> rdf:type owl:NamedIndividual ,
+                                                      <http://web.resource.org/cc/Work> ;
+                                             <http://purl.org/dc/terms/type> <http://purl.org/dc/dcmitype/Text> ;
+                                             <http://web.resource.org/cc/license> <http://creativecommons.org/licenses/by/1.0/> .
+
+
+###  http://creativecommons.org/licenses/by/1.0/
+<http://creativecommons.org/licenses/by/1.0/> rdf:type owl:NamedIndividual ,
+                                                       <http://web.resource.org/cc/License> ;
+                                              <http://web.resource.org/cc/permits> <http://web.resource.org/cc/DerivativeWorks> ,
+                                                                                   <http://web.resource.org/cc/Distribution> ,
+                                                                                   <http://web.resource.org/cc/Reproduction> ;
+                                              <http://web.resource.org/cc/requires> <http://web.resource.org/cc/Attribution> ,
+                                                                                    <http://web.resource.org/cc/Notice> .
+
+
+###  http://iandavis.com/id/me
+<http://iandavis.com/id/me> rdf:type owl:NamedIndividual ,
+                                     <http://xmlns.com/foaf/0.1/Person> ;
+                            <http://xmlns.com/foaf/0.1/name> "Ian Davis" .
+
+
+###  http://vocab.org/vann/.html
+<http://vocab.org/vann/.html> rdf:type owl:NamedIndividual ,
+                                       <http://purl.org/dc/dcmitype/Text> ,
+                                       <http://xmlns.com/foaf/0.1/Document> ;
+                              <http://purl.org/dc/elements/1.1/format> "text/html" ;
+                              rdfs:label "HTML" .
+
+
+###  http://vocab.org/vann/.json
+<http://vocab.org/vann/.json> rdf:type owl:NamedIndividual ,
+                                       <http://purl.org/dc/dcmitype/Text> ,
+                                       <http://xmlns.com/foaf/0.1/Document> ;
+                              <http://purl.org/dc/elements/1.1/format> "application/json" ;
+                              rdfs:label "JSON" .
+
+
+###  http://vocab.org/vann/.rdf
+<http://vocab.org/vann/.rdf> rdf:type owl:NamedIndividual ,
+                                      <http://purl.org/dc/dcmitype/Text> ,
+                                      <http://xmlns.com/foaf/0.1/Document> ;
+                             <http://purl.org/dc/elements/1.1/format> "application/rdf+xml" ;
+                             rdfs:label "RDF/XML" .
+
+
+###  http://vocab.org/vann/.turtle
+<http://vocab.org/vann/.turtle> rdf:type owl:NamedIndividual ,
+                                         <http://purl.org/dc/dcmitype/Text> ,
+                                         <http://xmlns.com/foaf/0.1/Document> ;
+                                <http://purl.org/dc/terms/hasFormat> <http://vocab.org/vann/.html> ,
+                                                                     <http://vocab.org/vann/.json> ,
+                                                                     <http://vocab.org/vann/.rdf> ;
+                                <http://xmlns.com/foaf/0.1/primaryTopic> <http://purl.org/vocab/vann/> ;
+                                <http://xmlns.com/foaf/0.1/topic> <http://purl.org/vocab/vann/> .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+:preferredNamespacePrefix rdfs:comment "The preferred namespace prefix to use when using terms from this vocabulary in an XML document."@en ;
+                          rdfs:isDefinedBy <http://purl.org/vocab/vann/> ;
+                          rdfs:label "Preferred Namespace Prefix"@en .
+
+
+:preferredNamespaceUri rdfs:comment "The preferred namespace URI to use when using terms from this vocabulary in an XML document."@en ;
+                       rdfs:isDefinedBy <http://purl.org/vocab/vann/> ;
+                       rdfs:label "Preferred Namespace Uri"@en .
+
+
+###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/
