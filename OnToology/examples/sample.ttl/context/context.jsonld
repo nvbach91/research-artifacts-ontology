@@ -1,0 +1,64 @@
+{
+  "@context" : {
+    "Software" : {
+      "@id" : "file:///home/ahmad/repos/nvbach91@outlook.com/examples//irao/Software"
+    },
+    "Dataset" : {
+      "@id" : "file:///home/ahmad/repos/nvbach91@outlook.com/examples//irao/Dataset"
+    },
+    "Publication" : {
+      "@id" : "file:///home/ahmad/repos/nvbach91@outlook.com/examples//irao/Publication"
+    },
+    "hasPublication" : {
+      "@id" : "file:///home/ahmad/repos/nvbach91@outlook.com/examples//irao/hasPublication"
+    },
+    "ConferencePaper" : {
+      "@id" : "file:///home/ahmad/repos/nvbach91@outlook.com/examples//irao/ConferencePaper"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Repository" : {
+      "@id" : "file:///home/ahmad/repos/nvbach91@outlook.com/examples//irao/Repository"
+    },
+    "name" : {
+      "@id" : "http://xmlns.com/foaf/0.1/name"
+    },
+    "hasStatus" : {
+      "@id" : "file:///home/ahmad/repos/nvbach91@outlook.com/examples//irao/hasStatus"
+    },
+    "hasAuthor" : {
+      "@id" : "file:///home/ahmad/repos/nvbach91@outlook.com/examples//irao/hasAuthor"
+    },
+    "hasTopic" : {
+      "@id" : "file:///home/ahmad/repos/nvbach91@outlook.com/examples//irao/hasTopic"
+    },
+    "hasRepositoryType" : {
+      "@id" : "file:///home/ahmad/repos/nvbach91@outlook.com/examples//irao/hasRepositoryType"
+    },
+    "Thesis" : {
+      "@id" : "file:///home/ahmad/repos/nvbach91@outlook.com/examples//irao/Thesis"
+    },
+    "hasResearchArea" : {
+      "@id" : "file:///home/ahmad/repos/nvbach91@outlook.com/examples//irao/hasResearchArea"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "Researcher" : {
+      "@id" : "file:///home/ahmad/repos/nvbach91@outlook.com/examples//irao/Researcher"
+    },
+    "hasAffiliation" : {
+      "@id" : "file:///home/ahmad/repos/nvbach91@outlook.com/examples//irao/hasAffiliation"
+    },
+    "isPublishedAt" : {
+      "@id" : "file:///home/ahmad/repos/nvbach91@outlook.com/examples//irao/isPublishedAt"
+    },
+    "Ontology" : {
+      "@id" : "file:///home/ahmad/repos/nvbach91@outlook.com/examples//irao/Ontology"
+    },
+    "Affiliation" : {
+      "@id" : "file:///home/ahmad/repos/nvbach91@outlook.com/examples//irao/Affiliation"
+    }
+  }
+}

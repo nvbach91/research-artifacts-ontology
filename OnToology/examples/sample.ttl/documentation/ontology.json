@@ -1,0 +1,345 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "file:/irao#0962aa92",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "file:/irao/Researcher" ],
+  "file:/irao/hasAffiliation" : [ {
+    "@id" : "file:/irao#ca0d6d57"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@language" : "en",
+    "@value" : "Valentina Anita Carriero"
+  } ]
+}, {
+  "@id" : "file:/irao#1bc6c06f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "file:/irao/Publication", "file:/irao/Thesis" ],
+  "file:/irao/hasTopic" : [ {
+    "@value" : "ontology visualization"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Supporting ontology development with visual modeling tools"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://vskp.vse.cz/74478_podpora-vyvoje-ontologii-pomoci-grafickych-modelovacich-nastroju"
+  } ]
+}, {
+  "@id" : "file:/irao#3230c840",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "file:/irao/Software" ],
+  "file:/irao/hasAuthor" : [ {
+    "@id" : "file:/irao#ea848e30"
+  } ],
+  "file:/irao/hasPublication" : [ {
+    "@id" : "file:/irao#1bc6c06f"
+  } ],
+  "file:/irao/hasResearchArea" : [ {
+    "@id" : "https://cso.kmi.open.ac.uk/topics/ontology_engineering"
+  }, {
+    "@id" : "https://cso.kmi.open.ac.uk/topics/semantic_web"
+  } ],
+  "file:/irao/hasStatus" : [ {
+    "@id" : "file:/irao/developmentstatus#release"
+  } ],
+  "file:/irao/isPublishedAt" : [ {
+    "@id" : "file:/irao#f35c0633"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PURO Modeler"
+  } ]
+}, {
+  "@id" : "file:/irao#33bca0a2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "file:/irao/Affiliation" ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@language" : "en",
+    "@value" : "University of Ecomics, Prague"
+  } ]
+}, {
+  "@id" : "file:/irao#38947a2e",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "file:/irao/Repository" ],
+  "file:/irao/hasRepositoryType" : [ {
+    "@id" : "file:/irao/repositorytype#GitHub"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://github.com/ICCD-MiBACT/ArCo/tree/master/ArCo-release"
+  } ]
+}, {
+  "@id" : "file:/irao#4c2877ee",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "file:/irao/Repository" ],
+  "file:/irao/hasRepositoryType" : [ {
+    "@id" : "file:/irao/repositorytype#GitHub"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://github.com/ICCD-MiBACT/ArCo/tree/master/ArCo-release"
+  } ]
+}, {
+  "@id" : "file:/irao#52b761ad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "file:/irao/Affiliation" ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@language" : "en",
+    "@value" : "Jönköping University"
+  } ]
+}, {
+  "@id" : "file:/irao#695a74d6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "file:/irao/Publication", "file:/irao/Thesis" ],
+  "file:/irao/hasTopic" : [ {
+    "@value" : "real estate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "The RealEstateCore Ontology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://link.springer.com/chapter/10.1007%2F978-3-030-30796-7_9"
+  } ]
+}, {
+  "@id" : "file:/irao#6f33415e",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "file:/irao/Repository" ],
+  "file:/irao/hasRepositoryType" : [ {
+    "@id" : "file:/irao/repositorytype#GitHub"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://github.com/RealEstateCore/rec"
+  } ]
+}, {
+  "@id" : "file:/irao#76a99da9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "file:/irao/Software" ],
+  "file:/irao/hasAuthor" : [ {
+    "@id" : "file:/irao#b2a0c5eb"
+  } ],
+  "file:/irao/hasPublication" : [ {
+    "@id" : "file:/irao#d28f9810"
+  } ],
+  "file:/irao/hasResearchArea" : [ {
+    "@id" : "https://cso.kmi.open.ac.uk/topics/linked_data"
+  }, {
+    "@id" : "https://cso.kmi.open.ac.uk/topics/semantic_web"
+  } ],
+  "file:/irao/hasStatus" : [ {
+    "@id" : "file:/irao/developmentstatus#release"
+  } ],
+  "file:/irao/isPublishedAt" : [ {
+    "@id" : "file:/irao#92b55a1a"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "VVZ to RDF"
+  } ]
+}, {
+  "@id" : "file:/irao#787367eb",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "file:/irao/Researcher" ],
+  "file:/irao/hasAffiliation" : [ {
+    "@id" : "file:/irao#52b761ad"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@language" : "en",
+    "@value" : "Karl Hammar"
+  } ]
+}, {
+  "@id" : "file:/irao#8d91adad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "file:/irao/Dataset" ],
+  "file:/irao/hasAuthor" : [ {
+    "@id" : "file:/irao#0962aa92"
+  } ],
+  "file:/irao/hasPublication" : [ {
+    "@id" : "file:/irao#9a94279c"
+  } ],
+  "file:/irao/hasResearchArea" : [ {
+    "@id" : "https://cso.kmi.open.ac.uk/topics/linked_data"
+  }, {
+    "@id" : "https://cso.kmi.open.ac.uk/topics/semantic_web"
+  } ],
+  "file:/irao/hasStatus" : [ {
+    "@id" : "file:/irao/developmentstatus#release"
+  } ],
+  "file:/irao/isPublishedAt" : [ {
+    "@id" : "file:/irao#4c2877ee"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ArCo Dataset"
+  } ]
+}, {
+  "@id" : "file:/irao#90ba34ff",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "file:/irao/Ontology" ],
+  "file:/irao/hasAuthor" : [ {
+    "@id" : "file:/irao#787367eb"
+  } ],
+  "file:/irao/hasPublication" : [ {
+    "@id" : "file:/irao#695a74d6"
+  } ],
+  "file:/irao/hasResearchArea" : [ {
+    "@id" : "https://cso.kmi.open.ac.uk/topics/ontology_engineering"
+  }, {
+    "@id" : "https://cso.kmi.open.ac.uk/topics/semantic_web"
+  } ],
+  "file:/irao/hasStatus" : [ {
+    "@id" : "file:/irao/developmentstatus#release"
+  } ],
+  "file:/irao/isPublishedAt" : [ {
+    "@id" : "file:/irao#6f33415e"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "RealEstateCore Ontology"
+  } ]
+}, {
+  "@id" : "file:/irao#92b55a1a",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "file:/irao/Repository" ],
+  "file:/irao/hasRepositoryType" : [ {
+    "@id" : "file:/irao/repositorytype#GitHub"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://github.com/jindrichmynarz/vvz-to-rdf"
+  } ]
+}, {
+  "@id" : "file:/irao#9a94279c",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "file:/irao/ConferencePaper", "file:/irao/Publication" ],
+  "file:/irao/hasTopic" : [ {
+    "@value" : "cultural heritage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ArCo: the Italian Cultural Heritage Knowledge Graph"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://link.springer.com/chapter/10.1007%2F978-3-030-30796-7_3"
+  } ]
+}, {
+  "@id" : "file:/irao#b2a0c5eb",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "file:/irao/Researcher" ],
+  "file:/irao/hasAffiliation" : [ {
+    "@id" : "file:/irao#33bca0a2"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@language" : "en",
+    "@value" : "Jindrich Mynarz"
+  } ]
+}, {
+  "@id" : "file:/irao#ca0d6d57",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "file:/irao/Affiliation" ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@language" : "en",
+    "@value" : "University of Bologna"
+  } ]
+}, {
+  "@id" : "file:/irao#d28f9810",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "file:/irao/Publication", "file:/irao/Thesis" ],
+  "file:/irao/hasTopic" : [ {
+    "@value" : "public procurement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Matchmaking of bidders and public contracts using linked open data"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://vskp.vse.cz/71568_parovani-uchazecu-a-verejnych-zakazek-pomoci-propojenych-otevrenych-dat"
+  } ]
+}, {
+  "@id" : "file:/irao#ea848e30",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "file:/irao/Researcher" ],
+  "file:/irao/hasAffiliation" : [ {
+    "@id" : "file:/irao#33bca0a2"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@language" : "en",
+    "@value" : "Marek Dudas"
+  } ]
+}, {
+  "@id" : "file:/irao#f35c0633",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "file:/irao/Repository" ],
+  "file:/irao/hasRepositoryType" : [ {
+    "@id" : "file:/irao/repositorytype#GitHub"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://github.com/marek-dudas/PURO-Modeler"
+  } ]
+}, {
+  "@id" : "file:/irao#f46e52f4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "file:/irao/Ontology" ],
+  "file:/irao/hasAuthor" : [ {
+    "@id" : "file:/irao#0962aa92"
+  } ],
+  "file:/irao/hasPublication" : [ {
+    "@id" : "file:/irao#9a94279c"
+  } ],
+  "file:/irao/hasResearchArea" : [ {
+    "@id" : "https://cso.kmi.open.ac.uk/topics/linked_data"
+  }, {
+    "@id" : "https://cso.kmi.open.ac.uk/topics/semantic_web"
+  } ],
+  "file:/irao/hasStatus" : [ {
+    "@id" : "file:/irao/developmentstatus#release"
+  } ],
+  "file:/irao/isPublishedAt" : [ {
+    "@id" : "file:/irao#38947a2e"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ArCo Ontology"
+  } ]
+}, {
+  "@id" : "file:/irao/Affiliation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "file:/irao/ConferencePaper",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "file:/irao/Dataset",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "file:/irao/Ontology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "file:/irao/Publication",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "file:/irao/Repository",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "file:/irao/Researcher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "file:/irao/Software",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "file:/irao/Thesis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "file:/irao/hasAffiliation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "file:/irao/hasAuthor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "file:/irao/hasPublication",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "file:/irao/hasRepositoryType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "file:/irao/hasResearchArea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "file:/irao/hasStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "file:/irao/hasTopic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "file:/irao/isPublishedAt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]

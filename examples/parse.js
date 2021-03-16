@@ -49,7 +49,7 @@ fileContent.split(/[\r\n]+/).slice(1).filter((line) => !!line.trim()).forEach((l
                     ]
                 },
                 {
-                    predicate: IRAO('hasStatus'),
+                    predicate: IRAO('hasDevelopmentStatus'),
                     objects: [
                         IRAO_DEV_STATUS(developmentStatus),
                     ]
@@ -85,7 +85,7 @@ fileContent.split(/[\r\n]+/).slice(1).filter((line) => !!line.trim()).forEach((l
                     ]
                 },
                 {
-                    predicate: RDFS('seeAlso'),
+                    predicate: IRAO('hasURL'),
                     objects: [
                         literal(artifactRepositoryUrl, XSD('anyURI')),
                     ]
@@ -118,7 +118,7 @@ fileContent.split(/[\r\n]+/).slice(1).filter((line) => !!line.trim()).forEach((l
                     ]
                 },
                 {
-                    predicate: RDFS('seeAlso'),
+                    predicate: IRAO('hasURL'),
                     objects: [
                         literal(publicationUrl, XSD('anyURI')),
                     ]
@@ -202,7 +202,7 @@ const lines = quads.map((quad) => {
             if (term.language) {
                 res += `@${term.language}`;
             } else if (term.datatype) {
-                res += `^^${term.datatype.value}`;
+                res += `^^<${term.datatype.value}>`;
             }
             return res;
         }

@@ -9,23 +9,6 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@ontologies/core@^2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@ontologies/core/-/core-2.0.2.tgz#b19094ee722f0e46d338af76dbf36c2fdc0a58d7"
-  integrity sha512-bFlN791V5QwlBQ1fT/i2Ybc4Wjkc9TUeqJJPzWWx3aex89nJ5nAyEsNtpUATCdeIhDO+NsVWzFPblSmY3IlUIg==
-  dependencies:
-    "@ungap/global-this" "^0.3.1"
-
-"@ontologies/schema@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@ontologies/schema/-/schema-1.0.0.tgz#4d7259dd74442ed59ecc4b981a089d0f8b4fe712"
-  integrity sha512-s/wqWAPMHctzbOObe65HImvm/JyySRB4H3t4978H8hROJ1HlBHxZLoxW92u0AqQWmQCcAuG/JNrmB/COLQGYlw==
-
-"@ungap/global-this@^0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@ungap/global-this/-/global-this-0.3.1.tgz#e37e005301c64484a61eed90305210bf078a4bc5"
-  integrity sha512-6gxLxSsXmt3XcC2p0mRjeHOtZemfs/IswAyWJZU0b8UvCQAegRpjSrQK0Y+u3OQQ3V0ZYQkHVCV9V3dxnlJ5Zw==
-
 ajv@^6.12.3:
   version "6.12.6"
   resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.12.6.tgz#baf5a62e802b07d977034586f8c3baf5adf26df4"

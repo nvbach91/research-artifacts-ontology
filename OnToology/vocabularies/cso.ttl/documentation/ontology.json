@@ -1,0 +1,110 @@
+[ {
+  "@id" : "http://cso.kmi.open.ac.uk/schema/cso#",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "https://www.w3.org/2009/08/skos-reference/skos.rdf"
+  } ]
+}, {
+  "@id" : "http://cso.kmi.open.ac.uk/schema/cso#Topic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ]
+}, {
+  "@id" : "http://cso.kmi.open.ac.uk/schema/cso#contributesTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "We use this relation to indicate that the research output of one topic contributes to another."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://cso.kmi.open.ac.uk/schema/cso#Topic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "contributes to"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://cso.kmi.open.ac.uk/schema/cso#Topic"
+  } ]
+}, {
+  "@id" : "http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "We use this relationship to declare that the subject topic need to use the label of the object topic for presentation purposes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://cso.kmi.open.ac.uk/schema/cso#Topic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "preferential equivalent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://cso.kmi.open.ac.uk/schema/cso#Topic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://cso.kmi.open.ac.uk/schema/cso#relatedEquivalent"
+  }, {
+    "@id" : "http://www.w3.org/2004/02/skos/core#related"
+  } ]
+}, {
+  "@id" : "http://cso.kmi.open.ac.uk/schema/cso#relatedEquivalent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "We use this relationship to identify that two potentially distinct research concepts are treated as equivalent in the context of the CSO."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://cso.kmi.open.ac.uk/schema/cso#Topic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "related equivalent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://cso.kmi.open.ac.uk/schema/cso#Topic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#related"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#note" : [ {
+    "@value" : "Different from skos:exactMatch"
+  } ]
+}, {
+  "@id" : "http://cso.kmi.open.ac.uk/schema/cso#subTopicOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "We use this relation to indicate that a :Topic is a sub-area of another one. This is the inverse of :superTopicOf"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://cso.kmi.open.ac.uk/schema/cso#Topic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "sub-topic of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://cso.kmi.open.ac.uk/schema/cso#Topic"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://cso.kmi.open.ac.uk/schema/cso#superTopicOf"
+  } ]
+}, {
+  "@id" : "http://cso.kmi.open.ac.uk/schema/cso#superTopicOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "We use this relation to indicate that a :Topic is a super-area of another one."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://cso.kmi.open.ac.uk/schema/cso#Topic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "super-topic of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://cso.kmi.open.ac.uk/schema/cso#Topic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#narrower"
+  } ]
+} ]

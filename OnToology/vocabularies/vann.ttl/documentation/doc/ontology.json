@@ -1,0 +1,268 @@
+[ {
+  "@id" : "file:///var/www/vocab.org/www/htdocs/vann/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://web.resource.org/cc/Work" ],
+  "http://purl.org/dc/terms/type" : [ {
+    "@id" : "http://purl.org/dc/dcmitype/Text"
+  } ],
+  "http://web.resource.org/cc/license" : [ {
+    "@id" : "http://creativecommons.org/licenses/by/1.0/"
+  } ]
+}, {
+  "@id" : "http://creativecommons.org/licenses/by/1.0/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://web.resource.org/cc/License" ],
+  "http://web.resource.org/cc/permits" : [ {
+    "@id" : "http://web.resource.org/cc/DerivativeWorks"
+  }, {
+    "@id" : "http://web.resource.org/cc/Distribution"
+  }, {
+    "@id" : "http://web.resource.org/cc/Reproduction"
+  } ],
+  "http://web.resource.org/cc/requires" : [ {
+    "@id" : "http://web.resource.org/cc/Attribution"
+  }, {
+    "@id" : "http://web.resource.org/cc/Notice"
+  } ]
+}, {
+  "@id" : "http://iandavis.com/id/me",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://xmlns.com/foaf/0.1/Person" ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "Ian Davis"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/dcmitype/Text",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/format",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/hasFormat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/identifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/isVersionOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/replaces",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/rights",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@id" : "http://iandavis.com/id/me"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@value" : "2010-06-07"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "This document describes a vocabulary for annotating descriptions of vocabularies with examples and usage notes."
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "http://purl.org/vocab/vann/vann-vocab-20050401"
+  } ],
+  "http://purl.org/dc/terms/isVersionOf" : [ {
+    "@id" : "http://purl.org/vocab/vann/"
+  } ],
+  "http://purl.org/dc/terms/replaces" : [ {
+    "@id" : "http://purl.org/vocab/vann/vann-vocab-20040305"
+  } ],
+  "http://purl.org/dc/terms/rights" : [ {
+    "@value" : "Copyright © 2005 Ian Davis"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "VANN: A vocabulary for annotating vocabulary descriptions"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
+    "@value" : "vann"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
+    "@value" : "http://purl.org/vocab/vann/"
+  } ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/changes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A reference to a resource that describes changes between this version of a vocabulary and the previous."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://purl.org/vocab/vann/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Changes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+  } ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/example",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A reference to a resource that provides an example of how this resource can be used."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://purl.org/vocab/vann/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Example"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+  } ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The preferred namespace prefix to use when using terms from this vocabulary in an XML document."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://purl.org/vocab/vann/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Preferred Namespace Prefix"
+  } ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The preferred namespace URI to use when using terms from this vocabulary in an XML document."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://purl.org/vocab/vann/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Preferred Namespace Uri"
+  } ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/termGroup",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A group of related terms in a vocabulary."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://purl.org/vocab/vann/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Term Group"
+  } ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/usageNote",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A reference to a resource that provides information on how this resource is to be used."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://purl.org/vocab/vann/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Usage Note"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+  } ]
+}, {
+  "@id" : "http://vocab.org/vann/.html",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/dc/dcmitype/Text", "http://xmlns.com/foaf/0.1/Document" ],
+  "http://purl.org/dc/elements/1.1/format" : [ {
+    "@value" : "text/html"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "HTML"
+  } ]
+}, {
+  "@id" : "http://vocab.org/vann/.json",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/dc/dcmitype/Text", "http://xmlns.com/foaf/0.1/Document" ],
+  "http://purl.org/dc/elements/1.1/format" : [ {
+    "@value" : "application/json"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "JSON"
+  } ]
+}, {
+  "@id" : "http://vocab.org/vann/.rdf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/dc/dcmitype/Text", "http://xmlns.com/foaf/0.1/Document" ],
+  "http://purl.org/dc/elements/1.1/format" : [ {
+    "@value" : "application/rdf+xml"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "RDF/XML"
+  } ]
+}, {
+  "@id" : "http://vocab.org/vann/.turtle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/dc/dcmitype/Text", "http://xmlns.com/foaf/0.1/Document" ],
+  "http://purl.org/dc/terms/hasFormat" : [ {
+    "@id" : "http://vocab.org/vann/.html"
+  }, {
+    "@id" : "http://vocab.org/vann/.json"
+  }, {
+    "@id" : "http://vocab.org/vann/.rdf"
+  } ],
+  "http://xmlns.com/foaf/0.1/primaryTopic" : [ {
+    "@id" : "http://purl.org/vocab/vann/"
+  } ],
+  "http://xmlns.com/foaf/0.1/topic" : [ {
+    "@id" : "http://purl.org/vocab/vann/"
+  } ]
+}, {
+  "@id" : "http://web.resource.org/cc/License",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://web.resource.org/cc/Work",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://web.resource.org/cc/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://web.resource.org/cc/permits",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://web.resource.org/cc/requires",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Document",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/primaryTopic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/topic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]

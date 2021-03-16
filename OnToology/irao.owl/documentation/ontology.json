@@ -63,6 +63,15 @@
     "@language" : "en",
     "@value" : "Informatics Research Artifacts Ontology"
   } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://cso.kmi.open.ac.uk/schema/cso#"
+  }, {
+    "@id" : "http://purl.org/dc/terms"
+  }, {
+    "@id" : "http://purl.org/dc/elements/1.1"
+  }, {
+    "@id" : "http://purl.org/vocab/vann/"
+  } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
     "@id" : "https://w3id.org/def/InformaticsResearchArtifactsOntology"
   } ],
@@ -92,6 +101,16 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Accessibility"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/irao/Affiliation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://ontology.ethereal.cz/irao"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Affiliation"
   } ]
 }, {
   "@id" : "http://ontology.ethereal.cz/irao/AnnotatedDataset",
@@ -231,16 +250,6 @@
     "@id" : "http://ontology.ethereal.cz/irao/InformaticsResearchArtifact"
   } ]
 }, {
-  "@id" : "http://ontology.ethereal.cz/irao/OnlineRepository",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://ontology.ethereal.cz/irao"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Repository"
-  } ]
-}, {
   "@id" : "http://ontology.ethereal.cz/irao/Ontology",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
@@ -288,6 +297,26 @@
     "@value" : "Publication"
   } ]
 }, {
+  "@id" : "http://ontology.ethereal.cz/irao/Repository",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://ontology.ethereal.cz/irao"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Repository"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/irao/RepositoryType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://ontology.ethereal.cz/irao"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Repository Type"
+  } ]
+}, {
   "@id" : "http://ontology.ethereal.cz/irao/ResearchArtifact",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
@@ -296,6 +325,19 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Research Artifact"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/irao/Researcher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://ontology.ethereal.cz/irao"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Researcher"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
   } ]
 }, {
   "@id" : "http://ontology.ethereal.cz/irao/Service",
@@ -335,26 +377,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://ontology.ethereal.cz/irao/Framework"
-  } ]
-}, {
-  "@id" : "http://ontology.ethereal.cz/irao/StudyDomain",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://ontology.ethereal.cz/irao"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Study Domain"
-  } ]
-}, {
-  "@id" : "http://ontology.ethereal.cz/irao/StudyField",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://ontology.ethereal.cz/irao"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Study Field"
   } ]
 }, {
   "@id" : "http://ontology.ethereal.cz/irao/SyntheticDataset",
@@ -452,6 +474,22 @@
     "@id" : "http://ontology.ethereal.cz/irao/Accessibility"
   } ]
 }, {
+  "@id" : "http://ontology.ethereal.cz/irao/hasAffiliation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/irao/Researcher"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://ontology.ethereal.cz/irao"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has affiliation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ontology.ethereal.cz/irao/Affiliation"
+  } ]
+}, {
   "@id" : "http://ontology.ethereal.cz/irao/hasAuthor",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -482,38 +520,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://ontology.ethereal.cz/irao/DesignQuality"
-  } ]
-}, {
-  "@id" : "http://ontology.ethereal.cz/irao/hasDomain",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://ontology.ethereal.cz/irao/ResearchArtifact"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://ontology.ethereal.cz/irao"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "has domain"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://ontology.ethereal.cz/irao/StudyDomain"
-  } ]
-}, {
-  "@id" : "http://ontology.ethereal.cz/irao/hasField",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://ontology.ethereal.cz/irao/ResearchArtifact"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://ontology.ethereal.cz/irao"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "has field"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://ontology.ethereal.cz/irao/StudyField"
   } ]
 }, {
   "@id" : "http://ontology.ethereal.cz/irao/hasFramework",
@@ -596,6 +602,38 @@
     "@id" : "http://ontology.ethereal.cz/irao/Publication"
   } ]
 }, {
+  "@id" : "http://ontology.ethereal.cz/irao/hasRepositoryType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/irao/Repository"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://ontology.ethereal.cz/irao"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has repository type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ontology.ethereal.cz/irao/RepositoryType"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/irao/hasResearchArea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/irao/ResearchArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://ontology.ethereal.cz/irao"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has research area"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://cso.kmi.open.ac.uk/schema/cso#Topic"
+  } ]
+}, {
   "@id" : "http://ontology.ethereal.cz/irao/hasStatus",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -610,6 +648,22 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://ontology.ethereal.cz/irao/DevelopmentStatus"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/irao/hasTopic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/irao/Publication"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://ontology.ethereal.cz/irao"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has topic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
   "@id" : "http://ontology.ethereal.cz/irao/isDescribedBy",
@@ -673,7 +727,7 @@
     "@value" : "is published at"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://ontology.ethereal.cz/irao/OnlineRepository"
+    "@id" : "http://ontology.ethereal.cz/irao/Repository"
   } ]
 }, {
   "@id" : "http://ontology.ethereal.cz/irao/measuresSystem",
@@ -708,6 +762,26 @@
     "@id" : "http://ontology.ethereal.cz/irao/Dataset"
   } ]
 }, {
+  "@id" : "http://ontology.ethereal.cz/irao/repositorytype#GitHub",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/irao/RepositoryType" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://ontology.ethereal.cz/irao"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "GitHub"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/irao/repositorytype#Zenodo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/irao/RepositoryType" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://ontology.ethereal.cz/irao"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Zenodo"
+  } ]
+}, {
   "@id" : "http://purl.org/dc/elements/1.1/contributor",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -727,9 +801,6 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/dc/terms/created",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
-}, {
-  "@id" : "http://purl.org/dc/terms/description",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/dc/terms/license",

@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://cso.kmi.open.ac.uk/schema/cso#"
+     xml:base="http://cso.kmi.open.ac.uk/schema/cso"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="http://cso.kmi.open.ac.uk/schema/cso#">
+        <owl:imports rdf:resource="https://www.w3.org/2009/08/skos-reference/skos.rdf"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://cso.kmi.open.ac.uk/schema/cso#contributesTo -->
+
+
+    <owl:ObjectProperty rdf:about="http://cso.kmi.open.ac.uk/schema/cso#contributesTo">
+        <rdfs:domain rdf:resource="http://cso.kmi.open.ac.uk/schema/cso#Topic"/>
+        <rdfs:range rdf:resource="http://cso.kmi.open.ac.uk/schema/cso#Topic"/>
+        <rdfs:comment>We use this relation to indicate that the research output of one topic contributes to another.</rdfs:comment>
+        <rdfs:label xml:lang="en">contributes to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent -->
+
+
+    <owl:ObjectProperty rdf:about="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent">
+        <rdfs:subPropertyOf rdf:resource="http://cso.kmi.open.ac.uk/schema/cso#relatedEquivalent"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#related"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://cso.kmi.open.ac.uk/schema/cso#Topic"/>
+        <rdfs:range rdf:resource="http://cso.kmi.open.ac.uk/schema/cso#Topic"/>
+        <rdfs:comment>We use this relationship to declare that the subject topic need to use the label of the object topic for presentation purposes.</rdfs:comment>
+        <rdfs:label xml:lang="en">preferential equivalent</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cso.kmi.open.ac.uk/schema/cso#relatedEquivalent -->
+
+
+    <owl:ObjectProperty rdf:about="http://cso.kmi.open.ac.uk/schema/cso#relatedEquivalent">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#related"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://cso.kmi.open.ac.uk/schema/cso#Topic"/>
+        <rdfs:range rdf:resource="http://cso.kmi.open.ac.uk/schema/cso#Topic"/>
+        <rdfs:comment>We use this relationship to identify that two potentially distinct research concepts are treated as equivalent in the context of the CSO.</rdfs:comment>
+        <rdfs:label xml:lang="en">related equivalent</rdfs:label>
+        <skos:note>Different from skos:exactMatch</skos:note>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cso.kmi.open.ac.uk/schema/cso#subTopicOf -->
+
+
+    <owl:ObjectProperty rdf:about="http://cso.kmi.open.ac.uk/schema/cso#subTopicOf">
+        <owl:inverseOf rdf:resource="http://cso.kmi.open.ac.uk/schema/cso#superTopicOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://cso.kmi.open.ac.uk/schema/cso#Topic"/>
+        <rdfs:range rdf:resource="http://cso.kmi.open.ac.uk/schema/cso#Topic"/>
+        <rdfs:comment>We use this relation to indicate that a :Topic is a sub-area of another one. This is the inverse of :superTopicOf</rdfs:comment>
+        <rdfs:label xml:lang="en">sub-topic of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cso.kmi.open.ac.uk/schema/cso#superTopicOf -->
+
+
+    <owl:ObjectProperty rdf:about="http://cso.kmi.open.ac.uk/schema/cso#superTopicOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#narrower"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://cso.kmi.open.ac.uk/schema/cso#Topic"/>
+        <rdfs:range rdf:resource="http://cso.kmi.open.ac.uk/schema/cso#Topic"/>
+        <rdfs:comment>We use this relation to indicate that a :Topic is a super-area of another one.</rdfs:comment>
+        <rdfs:label xml:lang="en">super-topic of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://cso.kmi.open.ac.uk/schema/cso#Topic -->
+
+
+    <owl:Class rdf:about="http://cso.kmi.open.ac.uk/schema/cso#Topic">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/ -->
+
+

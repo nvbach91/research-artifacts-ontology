@@ -1,9 +1,13 @@
 # IRAO - Informatics Research Artifacts Ontology
-Ontology for informatics research artifacts
+- Ontology for informatics research artifacts
+- http://ontology.ethereal.cz/irao/
 
 ## Documentation
 - https://w3id.org/def/InformaticsResearchArtifactsOntology
-- ORSD<sup>1</sup> https://docs.google.com/document/d/1S3lEMjWqrp2Ypwzi97yViKw0TunlN3pRTAD0er1PvR8
+- ORSD<sup>1</sup> 
+  - https://docs.google.com/document/d/1S3lEMjWqrp2Ypwzi97yViKw0TunlN3pRTAD0er1PvR8
+- Resource track data 
+  - https://docs.google.com/document/d/1iqOxAAU91GaGGoKG4gk2jaBj5oCB3eTdym3E6BLHRmM
 
 ## Diagrams
 - http://ontology.ethereal.cz/irao-main.svg 
@@ -11,20 +15,28 @@ Ontology for informatics research artifacts
 
 ## Usage
 ```sparql
-#get all institutions related to a research artifact through the authors
+#get several information related to a research artifact
 PREFIX irao: <http://ontology.ethereal.cz/irao/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT * WHERE {
-    ?ira a irao:ResearchArtifact .
-    ?ira irao:hasAuthor ?author .
-    ?author irao:hasAffiliation ?institution .
+    ?artifact a irao:ResearchArtifact .
+    ?artifact rdfs:label ?artifactName .
+    ?artifact irao:hasAuthor ?author .
     OPTIONAL {
-        ?ira irao:hasMaintainer ?maintainer .
-        ?maintainer irao:hasAffiliation ?institution .
+        ?author irao:hasAffiliation ?affiliation .
+    }
+    OPTIONAL {
+        ?artifact irao:isPublishedAt ?repository .
+    }
+    OPTIONAL {
+        ?artifact irao:hasPublication ?publication .
     }
 }
-
 ```
+## Sample dataset
+- https://github.com/nvbach91/informatics-research-artifacts-ontology/tree/master/examples
+
 ## Competency quesions
 - CQ01. What is the artifact's name?
 - CQ02. Who is the artifact's creator?

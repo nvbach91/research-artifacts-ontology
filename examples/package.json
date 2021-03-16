@@ -9,8 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@ontologies/core": "^2.0.2",
-    "@ontologies/schema": "^1.0.0",
     "rdflib": "^2.2.0"
   }
 }

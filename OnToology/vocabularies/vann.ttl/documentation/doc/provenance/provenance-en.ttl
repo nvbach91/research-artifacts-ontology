@@ -1,0 +1,11 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <> .
+<..\index-en.html> a prov:Entity;
+	 dc:title "VANN: A vocabulary for annotating vocabulary descriptions";
+	 prov:wasAttributedTo <http://iandavis.com/id/me>;
+	 dc:creator <http://iandavis.com/id/me>;
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+	 prov:wasRevisionOf <http://purl.org/vocab/vann/vann-vocab-20040305>;
+.

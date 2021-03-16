@@ -10,17 +10,17 @@
     </ir:Researcher>
     <ir:Publication rdf:about="/irao#1bc6c06f">
         <ir:hasTopic>ontology visualization</ir:hasTopic>
+        <ir:hasURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://vskp.vse.cz/74478_podpora-vyvoje-ontologii-pomoci-grafickych-modelovacich-nastroju</ir:hasURL>
         <rdf:type rdf:resource="/irao/Thesis"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
         <rd:label rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" xml:lang="en">Supporting ontology development with visual modeling tools</rd:label>
-        <rd:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://vskp.vse.cz/74478_podpora-vyvoje-ontologii-pomoci-grafickych-modelovacich-nastroju</rd:seeAlso>
     </ir:Publication>
     <ir:Software rdf:about="/irao#3230c840">
         <ir:hasAuthor rdf:resource="/irao#ea848e30"/>
+        <ir:hasDevelopmentStatus rdf:resource="/irao/developmentstatus#release"/>
         <ir:hasPublication rdf:resource="/irao#1bc6c06f"/>
         <ir:hasResearchArea rdf:resource="https://cso.kmi.open.ac.uk/topics/ontology_engineering"/>
         <ir:hasResearchArea rdf:resource="https://cso.kmi.open.ac.uk/topics/semantic_web"/>
-        <ir:hasStatus rdf:resource="/irao/developmentstatus#release"/>
         <ir:isPublishedAt rdf:resource="/irao#f35c0633"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
         <rd:label rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" xml:lang="en">PURO Modeler</rd:label>
@@ -31,13 +31,13 @@
     </ir:Affiliation>
     <ir:Repository rdf:about="/irao#38947a2e">
         <ir:hasRepositoryType rdf:resource="/irao/repositorytype#GitHub"/>
+        <ir:hasURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/ICCD-MiBACT/ArCo/tree/master/ArCo-release</ir:hasURL>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <rd:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/ICCD-MiBACT/ArCo/tree/master/ArCo-release</rd:seeAlso>
     </ir:Repository>
     <ir:Repository rdf:about="/irao#4c2877ee">
         <ir:hasRepositoryType rdf:resource="/irao/repositorytype#GitHub"/>
+        <ir:hasURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/ICCD-MiBACT/ArCo/tree/master/ArCo-release</ir:hasURL>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <rd:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/ICCD-MiBACT/ArCo/tree/master/ArCo-release</rd:seeAlso>
     </ir:Repository>
     <ir:Affiliation rdf:about="/irao#52b761ad">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -45,22 +45,22 @@
     </ir:Affiliation>
     <ir:Publication rdf:about="/irao#695a74d6">
         <ir:hasTopic>real estate</ir:hasTopic>
+        <ir:hasURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://link.springer.com/chapter/10.1007%2F978-3-030-30796-7_9</ir:hasURL>
         <rdf:type rdf:resource="/irao/Thesis"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
         <rd:label rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" xml:lang="en">The RealEstateCore Ontology</rd:label>
-        <rd:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://link.springer.com/chapter/10.1007%2F978-3-030-30796-7_9</rd:seeAlso>
     </ir:Publication>
     <ir:Repository rdf:about="/irao#6f33415e">
         <ir:hasRepositoryType rdf:resource="/irao/repositorytype#GitHub"/>
+        <ir:hasURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/RealEstateCore/rec</ir:hasURL>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <rd:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/RealEstateCore/rec</rd:seeAlso>
     </ir:Repository>
     <ir:Software rdf:about="/irao#76a99da9">
         <ir:hasAuthor rdf:resource="/irao#b2a0c5eb"/>
+        <ir:hasDevelopmentStatus rdf:resource="/irao/developmentstatus#release"/>
         <ir:hasPublication rdf:resource="/irao#d28f9810"/>
         <ir:hasResearchArea rdf:resource="https://cso.kmi.open.ac.uk/topics/linked_data"/>
         <ir:hasResearchArea rdf:resource="https://cso.kmi.open.ac.uk/topics/semantic_web"/>
-        <ir:hasStatus rdf:resource="/irao/developmentstatus#release"/>
         <ir:isPublishedAt rdf:resource="/irao#92b55a1a"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
         <rd:label rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" xml:lang="en">VVZ to RDF</rd:label>
@@ -72,35 +72,35 @@
     </ir:Researcher>
     <ir:Dataset rdf:about="/irao#8d91adad">
         <ir:hasAuthor rdf:resource="/irao#0962aa92"/>
+        <ir:hasDevelopmentStatus rdf:resource="/irao/developmentstatus#release"/>
         <ir:hasPublication rdf:resource="/irao#9a94279c"/>
         <ir:hasResearchArea rdf:resource="https://cso.kmi.open.ac.uk/topics/linked_data"/>
         <ir:hasResearchArea rdf:resource="https://cso.kmi.open.ac.uk/topics/semantic_web"/>
-        <ir:hasStatus rdf:resource="/irao/developmentstatus#release"/>
         <ir:isPublishedAt rdf:resource="/irao#4c2877ee"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
         <rd:label rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" xml:lang="en">ArCo Dataset</rd:label>
     </ir:Dataset>
     <ir:Ontology rdf:about="/irao#90ba34ff">
         <ir:hasAuthor rdf:resource="/irao#787367eb"/>
+        <ir:hasDevelopmentStatus rdf:resource="/irao/developmentstatus#release"/>
         <ir:hasPublication rdf:resource="/irao#695a74d6"/>
         <ir:hasResearchArea rdf:resource="https://cso.kmi.open.ac.uk/topics/ontology_engineering"/>
         <ir:hasResearchArea rdf:resource="https://cso.kmi.open.ac.uk/topics/semantic_web"/>
-        <ir:hasStatus rdf:resource="/irao/developmentstatus#release"/>
         <ir:isPublishedAt rdf:resource="/irao#6f33415e"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
         <rd:label rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" xml:lang="en">RealEstateCore Ontology</rd:label>
     </ir:Ontology>
     <ir:Repository rdf:about="/irao#92b55a1a">
         <ir:hasRepositoryType rdf:resource="/irao/repositorytype#GitHub"/>
+        <ir:hasURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/jindrichmynarz/vvz-to-rdf</ir:hasURL>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <rd:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/jindrichmynarz/vvz-to-rdf</rd:seeAlso>
     </ir:Repository>
     <ir:ConferencePaper rdf:about="/irao#9a94279c">
         <ir:hasTopic>cultural heritage</ir:hasTopic>
+        <ir:hasURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://link.springer.com/chapter/10.1007%2F978-3-030-30796-7_3</ir:hasURL>
         <rdf:type rdf:resource="/irao/Publication"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
         <rd:label rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" xml:lang="en">ArCo: the Italian Cultural Heritage Knowledge Graph</rd:label>
-        <rd:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://link.springer.com/chapter/10.1007%2F978-3-030-30796-7_3</rd:seeAlso>
     </ir:ConferencePaper>
     <ir:Researcher rdf:about="/irao#b2a0c5eb">
         <ir:hasAffiliation rdf:resource="/irao#33bca0a2"/>
@@ -113,10 +113,10 @@
     </ir:Affiliation>
     <ir:Publication rdf:about="/irao#d28f9810">
         <ir:hasTopic>public procurement</ir:hasTopic>
+        <ir:hasURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://vskp.vse.cz/71568_parovani-uchazecu-a-verejnych-zakazek-pomoci-propojenych-otevrenych-dat</ir:hasURL>
         <rdf:type rdf:resource="/irao/Thesis"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
         <rd:label rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" xml:lang="en">Matchmaking of bidders and public contracts using linked open data</rd:label>
-        <rd:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://vskp.vse.cz/71568_parovani-uchazecu-a-verejnych-zakazek-pomoci-propojenych-otevrenych-dat</rd:seeAlso>
     </ir:Publication>
     <ir:Researcher rdf:about="/irao#ea848e30">
         <ir:hasAffiliation rdf:resource="/irao#33bca0a2"/>
@@ -125,15 +125,15 @@
     </ir:Researcher>
     <ir:Repository rdf:about="/irao#f35c0633">
         <ir:hasRepositoryType rdf:resource="/irao/repositorytype#GitHub"/>
+        <ir:hasURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/marek-dudas/PURO-Modeler</ir:hasURL>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <rd:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/marek-dudas/PURO-Modeler</rd:seeAlso>
     </ir:Repository>
     <ir:Ontology rdf:about="/irao#f46e52f4">
         <ir:hasAuthor rdf:resource="/irao#0962aa92"/>
+        <ir:hasDevelopmentStatus rdf:resource="/irao/developmentstatus#release"/>
         <ir:hasPublication rdf:resource="/irao#9a94279c"/>
         <ir:hasResearchArea rdf:resource="https://cso.kmi.open.ac.uk/topics/linked_data"/>
         <ir:hasResearchArea rdf:resource="https://cso.kmi.open.ac.uk/topics/semantic_web"/>
-        <ir:hasStatus rdf:resource="/irao/developmentstatus#release"/>
         <ir:isPublishedAt rdf:resource="/irao#38947a2e"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
         <rd:label rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" xml:lang="en">ArCo Ontology</rd:label>

@@ -1,0 +1,47 @@
+{
+  "@context" : {
+    "subTopicOf" : {
+      "@id" : "http://cso.kmi.open.ac.uk/schema/cso#subTopicOf",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "narrower" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#narrower",
+      "@type" : "@id"
+    },
+    "Concept" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    "related" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#related",
+      "@type" : "@id"
+    },
+    "preferentialEquivalent" : {
+      "@id" : "http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent",
+      "@type" : "@id"
+    },
+    "superTopicOf" : {
+      "@id" : "http://cso.kmi.open.ac.uk/schema/cso#superTopicOf",
+      "@type" : "@id"
+    },
+    "note" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#note"
+    },
+    "Topic" : {
+      "@id" : "http://cso.kmi.open.ac.uk/schema/cso#Topic"
+    },
+    "contributesTo" : {
+      "@id" : "http://cso.kmi.open.ac.uk/schema/cso#contributesTo",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "relatedEquivalent" : {
+      "@id" : "http://cso.kmi.open.ac.uk/schema/cso#relatedEquivalent",
+      "@type" : "@id"
+    }
+  }
+}

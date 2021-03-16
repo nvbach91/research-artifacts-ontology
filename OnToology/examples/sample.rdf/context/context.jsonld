@@ -1,0 +1,64 @@
+{
+  "@context" : {
+    "Software" : {
+      "@id" : "http://ontology.ethereal.cz/irao/Software"
+    },
+    "Dataset" : {
+      "@id" : "http://ontology.ethereal.cz/irao/Dataset"
+    },
+    "Publication" : {
+      "@id" : "file:/irao/Publication"
+    },
+    "hasPublication" : {
+      "@id" : "http://ontology.ethereal.cz/irao/hasPublication"
+    },
+    "ConferencePaper" : {
+      "@id" : "http://ontology.ethereal.cz/irao/ConferencePaper"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Repository" : {
+      "@id" : "http://ontology.ethereal.cz/irao/Repository"
+    },
+    "name" : {
+      "@id" : "http://xmlns.com/foaf/0.1/name"
+    },
+    "hasStatus" : {
+      "@id" : "http://ontology.ethereal.cz/irao/hasStatus"
+    },
+    "hasAuthor" : {
+      "@id" : "http://ontology.ethereal.cz/irao/hasAuthor"
+    },
+    "hasTopic" : {
+      "@id" : "http://ontology.ethereal.cz/irao/hasTopic"
+    },
+    "hasRepositoryType" : {
+      "@id" : "http://ontology.ethereal.cz/irao/hasRepositoryType"
+    },
+    "Thesis" : {
+      "@id" : "file:/irao/Thesis"
+    },
+    "hasResearchArea" : {
+      "@id" : "http://ontology.ethereal.cz/irao/hasResearchArea"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "Researcher" : {
+      "@id" : "http://ontology.ethereal.cz/irao/Researcher"
+    },
+    "hasAffiliation" : {
+      "@id" : "http://ontology.ethereal.cz/irao/hasAffiliation"
+    },
+    "isPublishedAt" : {
+      "@id" : "http://ontology.ethereal.cz/irao/isPublishedAt"
+    },
+    "Ontology" : {
+      "@id" : "http://ontology.ethereal.cz/irao/Ontology"
+    },
+    "Affiliation" : {
+      "@id" : "http://ontology.ethereal.cz/irao/Affiliation"
+    }
+  }
+}

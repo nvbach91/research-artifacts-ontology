@@ -1,0 +1,71 @@
+<http://cso.kmi.open.ac.uk/schema/cso#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://cso.kmi.open.ac.uk/schema/cso#> <http://www.w3.org/2002/07/owl#imports> <https://www.w3.org/2009/08/skos-reference/skos.rdf> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://cso.kmi.open.ac.uk/schema/cso#contributesTo
+<http://cso.kmi.open.ac.uk/schema/cso#contributesTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://cso.kmi.open.ac.uk/schema/cso#contributesTo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://cso.kmi.open.ac.uk/schema/cso#Topic> .
+<http://cso.kmi.open.ac.uk/schema/cso#contributesTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://cso.kmi.open.ac.uk/schema/cso#Topic> .
+<http://cso.kmi.open.ac.uk/schema/cso#contributesTo> <http://www.w3.org/2000/01/rdf-schema#comment> "We use this relation to indicate that the research output of one topic contributes to another." .
+<http://cso.kmi.open.ac.uk/schema/cso#contributesTo> <http://www.w3.org/2000/01/rdf-schema#label> "contributes to"@en .
+# 
+# http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent
+<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://cso.kmi.open.ac.uk/schema/cso#relatedEquivalent> .
+<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#related> .
+<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://cso.kmi.open.ac.uk/schema/cso#Topic> .
+<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> <http://www.w3.org/2000/01/rdf-schema#range> <http://cso.kmi.open.ac.uk/schema/cso#Topic> .
+<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> <http://www.w3.org/2000/01/rdf-schema#comment> "We use this relationship to declare that the subject topic need to use the label of the object topic for presentation purposes." .
+<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> <http://www.w3.org/2000/01/rdf-schema#label> "preferential equivalent"@en .
+# 
+# http://cso.kmi.open.ac.uk/schema/cso#relatedEquivalent
+<http://cso.kmi.open.ac.uk/schema/cso#relatedEquivalent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://cso.kmi.open.ac.uk/schema/cso#relatedEquivalent> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#related> .
+<http://cso.kmi.open.ac.uk/schema/cso#relatedEquivalent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
+<http://cso.kmi.open.ac.uk/schema/cso#relatedEquivalent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<http://cso.kmi.open.ac.uk/schema/cso#relatedEquivalent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://cso.kmi.open.ac.uk/schema/cso#Topic> .
+<http://cso.kmi.open.ac.uk/schema/cso#relatedEquivalent> <http://www.w3.org/2000/01/rdf-schema#range> <http://cso.kmi.open.ac.uk/schema/cso#Topic> .
+<http://cso.kmi.open.ac.uk/schema/cso#relatedEquivalent> <http://www.w3.org/2000/01/rdf-schema#comment> "We use this relationship to identify that two potentially distinct research concepts are treated as equivalent in the context of the CSO." .
+<http://cso.kmi.open.ac.uk/schema/cso#relatedEquivalent> <http://www.w3.org/2000/01/rdf-schema#label> "related equivalent"@en .
+<http://cso.kmi.open.ac.uk/schema/cso#relatedEquivalent> <http://www.w3.org/2004/02/skos/core#note> "Different from skos:exactMatch" .
+# 
+# http://cso.kmi.open.ac.uk/schema/cso#subTopicOf
+<http://cso.kmi.open.ac.uk/schema/cso#subTopicOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://cso.kmi.open.ac.uk/schema/cso#subTopicOf> <http://www.w3.org/2002/07/owl#inverseOf> <http://cso.kmi.open.ac.uk/schema/cso#superTopicOf> .
+<http://cso.kmi.open.ac.uk/schema/cso#subTopicOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<http://cso.kmi.open.ac.uk/schema/cso#subTopicOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://cso.kmi.open.ac.uk/schema/cso#Topic> .
+<http://cso.kmi.open.ac.uk/schema/cso#subTopicOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://cso.kmi.open.ac.uk/schema/cso#Topic> .
+<http://cso.kmi.open.ac.uk/schema/cso#subTopicOf> <http://www.w3.org/2000/01/rdf-schema#comment> "We use this relation to indicate that a :Topic is a sub-area of another one. This is the inverse of :superTopicOf" .
+<http://cso.kmi.open.ac.uk/schema/cso#subTopicOf> <http://www.w3.org/2000/01/rdf-schema#label> "sub-topic of"@en .
+# 
+# http://cso.kmi.open.ac.uk/schema/cso#superTopicOf
+<http://cso.kmi.open.ac.uk/schema/cso#superTopicOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://cso.kmi.open.ac.uk/schema/cso#superTopicOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#narrower> .
+<http://cso.kmi.open.ac.uk/schema/cso#superTopicOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<http://cso.kmi.open.ac.uk/schema/cso#superTopicOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://cso.kmi.open.ac.uk/schema/cso#Topic> .
+<http://cso.kmi.open.ac.uk/schema/cso#superTopicOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://cso.kmi.open.ac.uk/schema/cso#Topic> .
+<http://cso.kmi.open.ac.uk/schema/cso#superTopicOf> <http://www.w3.org/2000/01/rdf-schema#comment> "We use this relation to indicate that a :Topic is a super-area of another one." .
+<http://cso.kmi.open.ac.uk/schema/cso#superTopicOf> <http://www.w3.org/2000/01/rdf-schema#label> "super-topic of"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://cso.kmi.open.ac.uk/schema/cso#Topic
+<http://cso.kmi.open.ac.uk/schema/cso#Topic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cso.kmi.open.ac.uk/schema/cso#Topic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/
