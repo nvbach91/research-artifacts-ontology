@@ -19,7 +19,7 @@
 <http://ontology.ethereal.cz/irao#3230c840> <http://www.w3.org/2000/01/rdf-schema#label> "PURO Modeler"@en .
 <http://ontology.ethereal.cz/irao#33bca0a2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.ethereal.cz/irao/Affiliation> .
 <http://ontology.ethereal.cz/irao#33bca0a2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://ontology.ethereal.cz/irao#33bca0a2> <http://xmlns.com/foaf/0.1/name> "University of Ecomics, Prague"@en .
+<http://ontology.ethereal.cz/irao#33bca0a2> <http://xmlns.com/foaf/0.1/name> "University of Economics, Prague"@en .
 <http://ontology.ethereal.cz/irao#38947a2e> <http://ontology.ethereal.cz/irao/hasRepositoryType> <http://ontology.ethereal.cz/irao/repositorytype#GitHub> .
 <http://ontology.ethereal.cz/irao#38947a2e> <http://ontology.ethereal.cz/irao/hasURL> "https://github.com/ICCD-MiBACT/ArCo/tree/master/ArCo-release"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 <http://ontology.ethereal.cz/irao#38947a2e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.ethereal.cz/irao/Repository> .

@@ -27,7 +27,7 @@
     </ir:Software>
     <ir:Affiliation rdf:about="/irao#33bca0a2">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <n0:name rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" xml:lang="en">University of Ecomics, Prague</n0:name>
+        <n0:name rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" xml:lang="en">University of Economics, Prague</n0:name>
     </ir:Affiliation>
     <ir:Repository rdf:about="/irao#38947a2e">
         <ir:hasRepositoryType rdf:resource="/irao/repositorytype#GitHub"/>

@@ -23,7 +23,7 @@
 <http://ontology.ethereal.cz/irao#b2a0c5eb> <http://ontology.ethereal.cz/irao/hasAffiliation> <http://ontology.ethereal.cz/irao#33bca0a2> <http://ontology.ethereal.cz/irao/sample> . 
 <http://ontology.ethereal.cz/irao#33bca0a2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> <http://ontology.ethereal.cz/irao/sample> . 
 <http://ontology.ethereal.cz/irao#33bca0a2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.ethereal.cz/irao/Affiliation> <http://ontology.ethereal.cz/irao/sample> . 
-<http://ontology.ethereal.cz/irao#33bca0a2> <http://xmlns.com/foaf/0.1/name> "University of Ecomics, Prague"@en <http://ontology.ethereal.cz/irao/sample> . 
+<http://ontology.ethereal.cz/irao#33bca0a2> <http://xmlns.com/foaf/0.1/name> "University of Economics, Prague"@en <http://ontology.ethereal.cz/irao/sample> . 
 <http://ontology.ethereal.cz/irao#3230c840> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> <http://ontology.ethereal.cz/irao/sample> . 
 <http://ontology.ethereal.cz/irao#3230c840> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.ethereal.cz/irao/Software> <http://ontology.ethereal.cz/irao/sample> . 
 <http://ontology.ethereal.cz/irao#3230c840> <http://www.w3.org/2000/01/rdf-schema#label> "PURO Modeler"@en <http://ontology.ethereal.cz/irao/sample> . 
