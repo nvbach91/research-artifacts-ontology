@@ -34,6 +34,18 @@ SELECT * WHERE {
     }
 }
 ```
+
+```sparql
+#get the type of a informatics research artifact
+PREFIX irao: <http://ontology.ethereal.cz/irao/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT * WHERE {
+    ?artifactType rdfs:subClassOf irao:InformaticsResearchArtifact .
+    ?artifact a ?artifactType .
+}
+```
+
 ## Sample dataset
 - https://github.com/nvbach91/informatics-research-artifacts-ontology/tree/master/examples
 
