@@ -7,7 +7,7 @@
       "@id" : "http://ontology.ethereal.cz/irao/Dataset"
     },
     "Publication" : {
-      "@id" : "file:/irao/Publication"
+      "@id" : "http://ontology.ethereal.cz/irao/Publication"
     },
     "hasDevelopmentStatus" : {
       "@id" : "http://ontology.ethereal.cz/irao/hasDevelopmentStatus"
@@ -40,7 +40,7 @@
       "@id" : "http://ontology.ethereal.cz/irao/hasRepositoryType"
     },
     "Thesis" : {
-      "@id" : "file:/irao/Thesis"
+      "@id" : "http://ontology.ethereal.cz/irao/Thesis"
     },
     "hasResearchArea" : {
       "@id" : "http://ontology.ethereal.cz/irao/hasResearchArea"
