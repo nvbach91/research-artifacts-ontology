@@ -181,31 +181,164 @@
     
 
 
-    <!-- http://ontology.ethereal.cz/irao#b2a0c5eb -->
+    <!-- http://ontology.ethereal.cz/irao/affiliation#ca0d6d57 -->
 
 
-    <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao#b2a0c5eb">
-        <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Researcher"/>
-        <irao:hasAffiliation rdf:resource="http://ontology.ethereal.cz/irao#33bca0a2"/>
-        <foaf:name xml:lang="en">Jindřich Mynarz</foaf:name>
-    </NamedIndividual>
-    
-
-
-    <!-- http://ontology.ethereal.cz/irao#ca0d6d57 -->
-
-
-    <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao#ca0d6d57">
+    <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao/affiliation#ca0d6d57">
         <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Affiliation"/>
         <foaf:name xml:lang="en">University of Bologna</foaf:name>
     </NamedIndividual>
     
 
 
-    <!-- http://ontology.ethereal.cz/irao#d28f9810 -->
+    <!-- http://ontology.ethereal.cz/irao/affiliation#33bca0a2 -->
 
 
-    <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao#d28f9810">
+    <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao/affiliation#33bca0a2">
+        <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Affiliation"/>
+        <foaf:name xml:lang="en">University of Economics, Prague</foaf:name>
+    </NamedIndividual>
+    
+
+
+    <!-- http://ontology.ethereal.cz/irao/affiliation#52b761ad -->
+
+
+    <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao/affiliation#52b761ad">
+        <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Affiliation"/>
+        <foaf:name xml:lang="en">Jönköping University</foaf:name>
+    </NamedIndividual>
+    
+
+
+    <!-- http://ontology.ethereal.cz/irao/artifact#f46e52f4 -->
+
+
+    <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao/artifact#f46e52f4">
+        <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Ontology"/>
+        <irao:hasAuthor rdf:resource="http://ontology.ethereal.cz/irao/author#0962aa92"/>
+        <irao:hasDevelopmentStatus rdf:resource="http://ontology.ethereal.cz/irao/developmentstatus#release"/>
+        <irao:hasPublication rdf:resource="http://ontology.ethereal.cz/irao/publication#9a94279c"/>
+        <irao:hasResearchArea rdf:resource="https://cso.kmi.open.ac.uk/topics/linked_data"/>
+        <irao:hasResearchArea rdf:resource="https://cso.kmi.open.ac.uk/topics/semantic_web"/>
+        <irao:isPublishedAt rdf:resource="http://ontology.ethereal.cz/irao/repository#38947a2e"/>
+        <rdfs:label xml:lang="en">ArCo Ontology</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://ontology.ethereal.cz/irao/artifact#3230c840 -->
+
+
+    <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao/artifact#3230c840">
+        <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Software"/>
+        <irao:hasAuthor rdf:resource="http://ontology.ethereal.cz/irao/author#ea848e30"/>
+        <irao:hasDevelopmentStatus rdf:resource="http://ontology.ethereal.cz/irao/developmentstatus#release"/>
+        <irao:hasPublication rdf:resource="http://ontology.ethereal.cz/irao/publication#1bc6c06f"/>
+        <irao:hasResearchArea rdf:resource="https://cso.kmi.open.ac.uk/topics/ontology_engineering"/>
+        <irao:hasResearchArea rdf:resource="https://cso.kmi.open.ac.uk/topics/semantic_web"/>
+        <irao:isPublishedAt rdf:resource="http://ontology.ethereal.cz/irao/repository#f35c0633"/>
+        <rdfs:label xml:lang="en">PURO Modeler</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://ontology.ethereal.cz/irao/artifact#76a99da9 -->
+
+
+    <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao/artifact#76a99da9">
+        <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Software"/>
+        <irao:hasAuthor rdf:resource="http://ontology.ethereal.cz/irao/author#b2a0c5eb"/>
+        <irao:hasDevelopmentStatus rdf:resource="http://ontology.ethereal.cz/irao/developmentstatus#release"/>
+        <irao:hasPublication rdf:resource="http://ontology.ethereal.cz/irao/publication#d28f9810"/>
+        <irao:hasResearchArea rdf:resource="https://cso.kmi.open.ac.uk/topics/linked_data"/>
+        <irao:hasResearchArea rdf:resource="https://cso.kmi.open.ac.uk/topics/semantic_web"/>
+        <irao:isPublishedAt rdf:resource="http://ontology.ethereal.cz/irao/repository#92b55a1a"/>
+        <rdfs:label xml:lang="en">VVZ to RDF</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://ontology.ethereal.cz/irao/artifact#8d91adad -->
+
+
+    <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao/artifact#8d91adad">
+        <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Dataset"/>
+        <irao:hasAuthor rdf:resource="http://ontology.ethereal.cz/irao/author#0962aa92"/>
+        <irao:hasDevelopmentStatus rdf:resource="http://ontology.ethereal.cz/irao/developmentstatus#release"/>
+        <irao:hasPublication rdf:resource="http://ontology.ethereal.cz/irao/publication#9a94279c"/>
+        <irao:hasResearchArea rdf:resource="https://cso.kmi.open.ac.uk/topics/linked_data"/>
+        <irao:hasResearchArea rdf:resource="https://cso.kmi.open.ac.uk/topics/semantic_web"/>
+        <irao:isPublishedAt rdf:resource="http://ontology.ethereal.cz/irao/repository#4c2877ee"/>
+        <rdfs:label xml:lang="en">ArCo Dataset</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://ontology.ethereal.cz/irao/artifact#90ba34ff -->
+
+
+    <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao/artifact#90ba34ff">
+        <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Ontology"/>
+        <irao:hasAuthor rdf:resource="http://ontology.ethereal.cz/irao/author#787367eb"/>
+        <irao:hasDevelopmentStatus rdf:resource="http://ontology.ethereal.cz/irao/developmentstatus#release"/>
+        <irao:hasPublication rdf:resource="http://ontology.ethereal.cz/irao/publication#695a74d6"/>
+        <irao:hasResearchArea rdf:resource="https://cso.kmi.open.ac.uk/topics/ontology_engineering"/>
+        <irao:hasResearchArea rdf:resource="https://cso.kmi.open.ac.uk/topics/semantic_web"/>
+        <irao:isPublishedAt rdf:resource="http://ontology.ethereal.cz/irao/repository#6f33415e"/>
+        <rdfs:label xml:lang="en">RealEstateCore Ontology</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://ontology.ethereal.cz/irao/author#b2a0c5eb -->
+
+
+    <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao/author#b2a0c5eb">
+        <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Researcher"/>
+        <irao:hasAffiliation rdf:resource="http://ontology.ethereal.cz/irao/affiliation#33bca0a2"/>
+        <foaf:name xml:lang="en">Jindřich Mynarz</foaf:name>
+    </NamedIndividual>
+    
+
+
+    <!-- http://ontology.ethereal.cz/irao/author#ea848e30 -->
+
+
+    <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao/author#ea848e30">
+        <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Researcher"/>
+        <irao:hasAffiliation rdf:resource="http://ontology.ethereal.cz/irao/affiliation#33bca0a2"/>
+        <foaf:name xml:lang="en">Marek Dudáš</foaf:name>
+    </NamedIndividual>
+    
+
+
+    <!-- http://ontology.ethereal.cz/irao/author#0962aa92 -->
+
+
+    <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao/author#0962aa92">
+        <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Researcher"/>
+        <irao:hasAffiliation rdf:resource="http://ontology.ethereal.cz/irao/affiliation#ca0d6d57"/>
+        <foaf:name xml:lang="en">Valentina Anita Carriero</foaf:name>
+    </NamedIndividual>
+    
+
+
+    <!-- http://ontology.ethereal.cz/irao/author#787367eb -->
+
+
+    <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao/author#787367eb">
+        <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Researcher"/>
+        <irao:hasAffiliation rdf:resource="http://ontology.ethereal.cz/irao/affiliation#52b761ad"/>
+        <foaf:name xml:lang="en">Karl Hammar</foaf:name>
+    </NamedIndividual>
+    
+
+
+    <!-- http://ontology.ethereal.cz/irao/publication#d28f9810 -->
+
+
+    <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao/publication#d28f9810">
         <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Publication"/>
         <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Thesis"/>
         <irao:hasTopic>public procurement</irao:hasTopic>
@@ -215,59 +348,10 @@
     
 
 
-    <!-- http://ontology.ethereal.cz/irao#ea848e30 -->
+    <!-- http://ontology.ethereal.cz/irao/publication#1bc6c06f -->
 
 
-    <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao#ea848e30">
-        <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Researcher"/>
-        <irao:hasAffiliation rdf:resource="http://ontology.ethereal.cz/irao#33bca0a2"/>
-        <foaf:name xml:lang="en">Marek Dudáš</foaf:name>
-    </NamedIndividual>
-    
-
-
-    <!-- http://ontology.ethereal.cz/irao#f35c0633 -->
-
-
-    <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao#f35c0633">
-        <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Repository"/>
-        <irao:hasRepositoryType rdf:resource="http://ontology.ethereal.cz/irao/repositorytype#GitHub"/>
-        <irao:hasURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/marek-dudas/PURO-Modeler</irao:hasURL>
-    </NamedIndividual>
-    
-
-
-    <!-- http://ontology.ethereal.cz/irao#f46e52f4 -->
-
-
-    <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao#f46e52f4">
-        <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Ontology"/>
-        <irao:hasAuthor rdf:resource="http://ontology.ethereal.cz/irao#0962aa92"/>
-        <irao:hasDevelopmentStatus rdf:resource="http://ontology.ethereal.cz/irao/developmentstatus#release"/>
-        <irao:hasPublication rdf:resource="http://ontology.ethereal.cz/irao#9a94279c"/>
-        <irao:hasResearchArea rdf:resource="https://cso.kmi.open.ac.uk/topics/linked_data"/>
-        <irao:hasResearchArea rdf:resource="https://cso.kmi.open.ac.uk/topics/semantic_web"/>
-        <irao:isPublishedAt rdf:resource="http://ontology.ethereal.cz/irao#38947a2e"/>
-        <rdfs:label xml:lang="en">ArCo Ontology</rdfs:label>
-    </NamedIndividual>
-    
-
-
-    <!-- http://ontology.ethereal.cz/irao#0962aa92 -->
-
-
-    <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao#0962aa92">
-        <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Researcher"/>
-        <irao:hasAffiliation rdf:resource="http://ontology.ethereal.cz/irao#ca0d6d57"/>
-        <foaf:name xml:lang="en">Valentina Anita Carriero</foaf:name>
-    </NamedIndividual>
-    
-
-
-    <!-- http://ontology.ethereal.cz/irao#1bc6c06f -->
-
-
-    <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao#1bc6c06f">
+    <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao/publication#1bc6c06f">
         <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Publication"/>
         <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Thesis"/>
         <irao:hasTopic>ontology visualization</irao:hasTopic>
@@ -277,79 +361,10 @@
     
 
 
-    <!-- http://ontology.ethereal.cz/irao#3230c840 -->
+    <!-- http://ontology.ethereal.cz/irao/publication#695a74d6 -->
 
 
-    <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao#3230c840">
-        <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Software"/>
-        <irao:hasAuthor rdf:resource="http://ontology.ethereal.cz/irao#ea848e30"/>
-        <irao:hasDevelopmentStatus rdf:resource="http://ontology.ethereal.cz/irao/developmentstatus#release"/>
-        <irao:hasPublication rdf:resource="http://ontology.ethereal.cz/irao#1bc6c06f"/>
-        <irao:hasResearchArea rdf:resource="https://cso.kmi.open.ac.uk/topics/ontology_engineering"/>
-        <irao:hasResearchArea rdf:resource="https://cso.kmi.open.ac.uk/topics/semantic_web"/>
-        <irao:isPublishedAt rdf:resource="http://ontology.ethereal.cz/irao#f35c0633"/>
-        <rdfs:label xml:lang="en">PURO Modeler</rdfs:label>
-    </NamedIndividual>
-    
-
-
-    <!-- http://ontology.ethereal.cz/irao#33bca0a2 -->
-
-
-    <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao#33bca0a2">
-        <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Affiliation"/>
-        <foaf:name xml:lang="en">University of Economics, Prague</foaf:name>
-    </NamedIndividual>
-    
-
-
-    <!-- http://ontology.ethereal.cz/irao#38947a2e -->
-
-
-    <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao#38947a2e">
-        <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Repository"/>
-        <irao:hasRepositoryType rdf:resource="http://ontology.ethereal.cz/irao/repositorytype#GitHub"/>
-        <irao:hasURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/ICCD-MiBACT/ArCo/tree/master/ArCo-release</irao:hasURL>
-    </NamedIndividual>
-    
-
-
-    <!-- http://ontology.ethereal.cz/irao#4c2877ee -->
-
-
-    <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao#4c2877ee">
-        <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Repository"/>
-        <irao:hasRepositoryType rdf:resource="http://ontology.ethereal.cz/irao/repositorytype#GitHub"/>
-        <irao:hasURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/ICCD-MiBACT/ArCo/tree/master/ArCo-release</irao:hasURL>
-    </NamedIndividual>
-    
-
-
-    <!-- http://ontology.ethereal.cz/irao#52b761ad -->
-
-
-    <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao#52b761ad">
-        <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Affiliation"/>
-        <foaf:name xml:lang="en">Jönköping University</foaf:name>
-    </NamedIndividual>
-    
-
-
-    <!-- http://ontology.ethereal.cz/irao#6f33415e -->
-
-
-    <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao#6f33415e">
-        <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Repository"/>
-        <irao:hasRepositoryType rdf:resource="http://ontology.ethereal.cz/irao/repositorytype#GitHub"/>
-        <irao:hasURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/RealEstateCore/rec</irao:hasURL>
-    </NamedIndividual>
-    
-
-
-    <!-- http://ontology.ethereal.cz/irao#695a74d6 -->
-
-
-    <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao#695a74d6">
+    <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao/publication#695a74d6">
         <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Publication"/>
         <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Thesis"/>
         <irao:hasTopic>real estate</irao:hasTopic>
@@ -359,53 +374,10 @@
     
 
 
-    <!-- http://ontology.ethereal.cz/irao#76a99da9 -->
+    <!-- http://ontology.ethereal.cz/irao/publication#9a94279c -->
 
 
-    <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao#76a99da9">
-        <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Software"/>
-        <irao:hasAuthor rdf:resource="http://ontology.ethereal.cz/irao#b2a0c5eb"/>
-        <irao:hasDevelopmentStatus rdf:resource="http://ontology.ethereal.cz/irao/developmentstatus#release"/>
-        <irao:hasPublication rdf:resource="http://ontology.ethereal.cz/irao#d28f9810"/>
-        <irao:hasResearchArea rdf:resource="https://cso.kmi.open.ac.uk/topics/linked_data"/>
-        <irao:hasResearchArea rdf:resource="https://cso.kmi.open.ac.uk/topics/semantic_web"/>
-        <irao:isPublishedAt rdf:resource="http://ontology.ethereal.cz/irao#92b55a1a"/>
-        <rdfs:label xml:lang="en">VVZ to RDF</rdfs:label>
-    </NamedIndividual>
-    
-
-
-    <!-- http://ontology.ethereal.cz/irao#787367eb -->
-
-
-    <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao#787367eb">
-        <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Researcher"/>
-        <irao:hasAffiliation rdf:resource="http://ontology.ethereal.cz/irao#52b761ad"/>
-        <foaf:name xml:lang="en">Karl Hammar</foaf:name>
-    </NamedIndividual>
-    
-
-
-    <!-- http://ontology.ethereal.cz/irao#8d91adad -->
-
-
-    <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao#8d91adad">
-        <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Dataset"/>
-        <irao:hasAuthor rdf:resource="http://ontology.ethereal.cz/irao#0962aa92"/>
-        <irao:hasDevelopmentStatus rdf:resource="http://ontology.ethereal.cz/irao/developmentstatus#release"/>
-        <irao:hasPublication rdf:resource="http://ontology.ethereal.cz/irao#9a94279c"/>
-        <irao:hasResearchArea rdf:resource="https://cso.kmi.open.ac.uk/topics/linked_data"/>
-        <irao:hasResearchArea rdf:resource="https://cso.kmi.open.ac.uk/topics/semantic_web"/>
-        <irao:isPublishedAt rdf:resource="http://ontology.ethereal.cz/irao#4c2877ee"/>
-        <rdfs:label xml:lang="en">ArCo Dataset</rdfs:label>
-    </NamedIndividual>
-    
-
-
-    <!-- http://ontology.ethereal.cz/irao#9a94279c -->
-
-
-    <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao#9a94279c">
+    <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao/publication#9a94279c">
         <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/ConferencePaper"/>
         <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Publication"/>
         <irao:hasTopic>cultural heritage</irao:hasTopic>
@@ -415,26 +387,54 @@
     
 
 
-    <!-- http://ontology.ethereal.cz/irao#90ba34ff -->
+    <!-- http://ontology.ethereal.cz/irao/repository#f35c0633 -->
 
 
-    <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao#90ba34ff">
-        <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Ontology"/>
-        <irao:hasAuthor rdf:resource="http://ontology.ethereal.cz/irao#787367eb"/>
-        <irao:hasDevelopmentStatus rdf:resource="http://ontology.ethereal.cz/irao/developmentstatus#release"/>
-        <irao:hasPublication rdf:resource="http://ontology.ethereal.cz/irao#695a74d6"/>
-        <irao:hasResearchArea rdf:resource="https://cso.kmi.open.ac.uk/topics/ontology_engineering"/>
-        <irao:hasResearchArea rdf:resource="https://cso.kmi.open.ac.uk/topics/semantic_web"/>
-        <irao:isPublishedAt rdf:resource="http://ontology.ethereal.cz/irao#6f33415e"/>
-        <rdfs:label xml:lang="en">RealEstateCore Ontology</rdfs:label>
+    <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao/repository#f35c0633">
+        <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Repository"/>
+        <irao:hasRepositoryType rdf:resource="http://ontology.ethereal.cz/irao/repositorytype#GitHub"/>
+        <irao:hasURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/marek-dudas/PURO-Modeler</irao:hasURL>
     </NamedIndividual>
     
 
 
-    <!-- http://ontology.ethereal.cz/irao#92b55a1a -->
+    <!-- http://ontology.ethereal.cz/irao/repository#38947a2e -->
 
 
-    <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao#92b55a1a">
+    <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao/repository#38947a2e">
+        <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Repository"/>
+        <irao:hasRepositoryType rdf:resource="http://ontology.ethereal.cz/irao/repositorytype#GitHub"/>
+        <irao:hasURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/ICCD-MiBACT/ArCo/tree/master/ArCo-release</irao:hasURL>
+    </NamedIndividual>
+    
+
+
+    <!-- http://ontology.ethereal.cz/irao/repository#4c2877ee -->
+
+
+    <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao/repository#4c2877ee">
+        <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Repository"/>
+        <irao:hasRepositoryType rdf:resource="http://ontology.ethereal.cz/irao/repositorytype#GitHub"/>
+        <irao:hasURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/ICCD-MiBACT/ArCo/tree/master/ArCo-release</irao:hasURL>
+    </NamedIndividual>
+    
+
+
+    <!-- http://ontology.ethereal.cz/irao/repository#6f33415e -->
+
+
+    <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao/repository#6f33415e">
+        <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Repository"/>
+        <irao:hasRepositoryType rdf:resource="http://ontology.ethereal.cz/irao/repositorytype#GitHub"/>
+        <irao:hasURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/RealEstateCore/rec</irao:hasURL>
+    </NamedIndividual>
+    
+
+
+    <!-- http://ontology.ethereal.cz/irao/repository#92b55a1a -->
+
+
+    <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao/repository#92b55a1a">
         <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Repository"/>
         <irao:hasRepositoryType rdf:resource="http://ontology.ethereal.cz/irao/repositorytype#GitHub"/>
         <irao:hasURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/jindrichmynarz/vvz-to-rdf</irao:hasURL>
