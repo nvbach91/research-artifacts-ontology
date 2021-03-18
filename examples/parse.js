@@ -34,43 +34,43 @@ fileContent.split(/[\r\n]+/).slice(1).filter((line) => !!line.trim()).forEach((l
                     objects: [
                         OWL('NamedIndividual'),
                         IRAO(artifactType),
-                    ]
+                    ],
                 },
                 {
                     predicate: RDFS('label'),
                     objects: [
                         literal(artifactName, 'en'),
-                    ]
+                    ],
                 },
                 {
                     predicate: IRAO('hasAuthor'),
                     objects: [
                         IRAO_INSTANCE(authorId),
-                    ]
+                    ],
                 },
                 {
                     predicate: IRAO('hasDevelopmentStatus'),
                     objects: [
                         IRAO_DEV_STATUS(developmentStatus),
-                    ]
+                    ],
                 },
                 {
                     predicate: IRAO('hasPublication'),
                     objects: [
                         IRAO_INSTANCE(publicationId),
-                    ]
+                    ],
                 },
                 {
                     predicate: IRAO('hasResearchArea'),
-                    objects: researchAreas.split(',').map((ra) => CSO_TOPIC(ra))
+                    objects: researchAreas.split(',').map((ra) => CSO_TOPIC(ra.trim()))
                 },
                 {
                     predicate: IRAO('isPublishedAt'),
                     objects: [
                         IRAO_INSTANCE(artifactRepositoryId),
-                    ]
+                    ],
                 },
-            ]
+            ],
         },
     ];
     const repositories = [
@@ -82,21 +82,21 @@ fileContent.split(/[\r\n]+/).slice(1).filter((line) => !!line.trim()).forEach((l
                     objects: [
                         OWL('NamedIndividual'),
                         IRAO('Repository'),
-                    ]
+                    ],
                 },
                 {
                     predicate: IRAO('hasURL'),
                     objects: [
                         literal(artifactRepositoryUrl, XSD('anyURI')),
-                    ]
+                    ],
                 },
                 {
                     predicate: IRAO('hasRepositoryType'),
                     objects: [
                         IRAO_REPOSITORY_TYPE(artifactRepositoryType),
-                    ]
+                    ],
                 },
-            ]
+            ],
         },
     ];
     const publications = [
@@ -109,27 +109,27 @@ fileContent.split(/[\r\n]+/).slice(1).filter((line) => !!line.trim()).forEach((l
                         OWL('NamedIndividual'),
                         IRAO('Publication'),
                         IRAO(publicationType),
-                    ]
+                    ],
                 },
                 {
                     predicate: RDFS('label'),
                     objects: [
                         literal(publicationName, 'en'),
-                    ]
+                    ],
                 },
                 {
                     predicate: IRAO('hasURL'),
                     objects: [
                         literal(publicationUrl, XSD('anyURI')),
-                    ]
+                    ],
                 },
                 {
                     predicate: IRAO('hasTopic'),
                     objects: [
                         literal(topic),
-                    ]
+                    ],
                 },
-            ]
+            ],
         },
     ];
     const authors = [
@@ -141,21 +141,21 @@ fileContent.split(/[\r\n]+/).slice(1).filter((line) => !!line.trim()).forEach((l
                     objects: [
                         OWL('NamedIndividual'),
                         IRAO('Researcher'),
-                    ]
+                    ],
                 },
                 {
                     predicate: FOAF('name'),
                     objects: [
                         literal(authorName, 'en'),
-                    ]
+                    ],
                 },
                 {
                     predicate: IRAO('hasAffiliation'),
                     objects: [
                         IRAO_INSTANCE(affiliationId),
-                    ]
+                    ],
                 },
-            ]
+            ],
         },
     ];
     const affiliations = [
@@ -167,15 +167,15 @@ fileContent.split(/[\r\n]+/).slice(1).filter((line) => !!line.trim()).forEach((l
                     objects: [
                         OWL('NamedIndividual'),
                         IRAO('Affiliation'),
-                    ]
+                    ],
                 },
                 {
                     predicate: FOAF('name'),
                     objects: [
                         literal(affiliationName, 'en'),
-                    ]
+                    ],
                 },
-            ]
+            ],
         },
     ];
 

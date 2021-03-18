@@ -2,6 +2,6 @@
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <uri id="User Entered Import Resolution 1" name="http://purl.org/vocab/vann/" uri="vocabularies/vann.ttl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1616064160640" name="http://ontology.ethereal.cz/irao" uri="irao.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1616069932031" name="http://ontology.ethereal.cz/irao" uri="irao.owl"/>
     </group>
 </catalog>

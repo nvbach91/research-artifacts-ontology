@@ -9,6 +9,7 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:irao="http://ontology.ethereal.cz/irao/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:dcterms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="http://ontology.ethereal.cz/irao">
@@ -374,6 +375,16 @@
     
 
 
+    <!-- http://ontology.ethereal.cz/irao/ConferencePaper -->
+
+    <owl:Class rdf:about="http://ontology.ethereal.cz/irao/ConferencePaper">
+        <rdfs:subClassOf rdf:resource="http://ontology.ethereal.cz/irao/Publication"/>
+        <rdfs:isDefinedBy rdf:resource="http://ontology.ethereal.cz/irao"/>
+        <rdfs:label xml:lang="en">Conference paper</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://ontology.ethereal.cz/irao/DataModel -->
 
     <owl:Class rdf:about="http://ontology.ethereal.cz/irao/DataModel">
@@ -582,6 +593,16 @@
     <owl:Class rdf:about="http://ontology.ethereal.cz/irao/System">
         <rdfs:isDefinedBy rdf:resource="http://ontology.ethereal.cz/irao"/>
         <rdfs:label xml:lang="en">System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.ethereal.cz/irao/Thesis -->
+
+    <owl:Class rdf:about="http://ontology.ethereal.cz/irao/Thesis">
+        <rdfs:subClassOf rdf:resource="http://ontology.ethereal.cz/irao/Publication"/>
+        <rdfs:isDefinedBy rdf:resource="http://ontology.ethereal.cz/irao"/>
+        <rdfs:label xml:lang="en">Thesis</rdfs:label>
     </owl:Class>
     
 
