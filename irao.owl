@@ -19,7 +19,7 @@
         <dc:contributor>Vojtěch Svátek</dc:contributor>
         <dc:creator>Nguyen Viet Bach</dc:creator>
         <dc:description xml:lang="en">Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL.</dc:description>
-        <dc:subject xml:lang="en">Informatics, Research Artifacts, Ontology, Semantic SEO, RDFa, Linked Data, RDF, Semantic Web</dc:subject>
+        <dc:subject xml:lang="en">Informatics, Research Artifacts, Ontology, Semantic SEO, Linked Data, RDF, Semantic Web</dc:subject>
         <dc:title xml:lang="en">Informatics Research Artifacts Ontology</dc:title>
         <dcterms:abstract xml:lang="en">Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL.</dcterms:abstract>
         <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-04-30</dcterms:created>
@@ -307,12 +307,6 @@
         <rdfs:isDefinedBy rdf:resource="http://ontology.ethereal.cz/irao"/>
         <rdfs:label xml:lang="en">has version</rdfs:label>
     </owl:DatatypeProperty>
-    
-
-
-    <!-- http://purl.org/dc/terms/hasVersion -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/hasVersion"/>
     
 
 
