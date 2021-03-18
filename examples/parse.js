@@ -3,20 +3,29 @@ const rdf = require('rdflib');
 const Namespace = rdf.Namespace;
 const literal = rdf.literal;
 const store = rdf.graph();
-const graph = store.sym('http://ontology.ethereal.cz/irao/sample')
-const RDF = Namespace('http://www.w3.org/1999/02/22-rdf-syntax-ns#');
-const RDFS = Namespace('http://www.w3.org/2000/01/rdf-schema#');
-const FOAF = Namespace('http://xmlns.com/foaf/0.1/');
-const XSD = Namespace('http://www.w3.org/2001/XMLSchema#');
-const OWL = Namespace('http://www.w3.org/2002/07/owl#');
-const IRAO = Namespace('http://ontology.ethereal.cz/irao/');
-const IRAO_INSTANCE = Namespace('http://ontology.ethereal.cz/irao#');
-const IRAO_DEV_STATUS = Namespace('http://ontology.ethereal.cz/irao/developmentstatus#');
-const IRAO_REPOSITORY_TYPE = Namespace('http://ontology.ethereal.cz/irao/repositorytype#');
-const BIBO = Namespace('http://purl.org/ontology/bibo/');
-const VIVO = Namespace('http://vivoweb.org/ontology/core#');
-const CSO = Namespace('http://cso.kmi.open.ac.uk/schema/cso#');
-const CSO_TOPIC = Namespace('https://cso.kmi.open.ac.uk/topics/');
+const graph = store.sym('http://ontology.ethereal.cz/irao/sample');
+const namespaces = {
+    rdf: 'http://www.w3.org/1999/02/22-rdf-syntax-ns#',
+    rdfs: 'http://www.w3.org/2000/01/rdf-schema#',
+    foaf: 'http://xmlns.com/foaf/0.1/',
+    xsd: 'http://www.w3.org/2001/XMLSchema#',
+    owl: 'http://www.w3.org/2002/07/owl#',
+    irao: 'http://ontology.ethereal.cz/irao/',
+    irao_instance: 'http://ontology.ethereal.cz/irao#',
+    irao_dev_status: 'http://ontology.ethereal.cz/irao/developmentstatus#',
+    irao_repository_type: 'http://ontology.ethereal.cz/irao/repositorytype#',
+    bibo: 'http://purl.org/ontology/bibo/',
+    vivo: 'http://vivoweb.org/ontology/core#',
+    cso: 'http://cso.kmi.open.ac.uk/schema/cso#',
+    cso_topic: 'https://cso.kmi.open.ac.uk/topics/',
+};
+Object.keys(namespaces).forEach((prefix) => {
+    store.namespaces[prefix] = namespaces[prefix];
+});
+const ns = {};
+Object.keys(namespaces).forEach((prefix) => {
+    ns[prefix.toUpperCase()] = Namespace(namespaces[prefix]);
+});
 
 const fileContent = fs.readFileSync('./irao-data.csv', 'utf-8');
 fileContent.split(/[\r\n]+/).slice(1).filter((line) => !!line.trim()).forEach((line) => {
@@ -27,47 +36,47 @@ fileContent.split(/[\r\n]+/).slice(1).filter((line) => !!line.trim()).forEach((l
     ] = line.split('\t');
     const artifacts = [
         {
-            subject: IRAO_INSTANCE(artifactId),
+            subject: ns.IRAO_INSTANCE(artifactId),
             properties: [
                 {
-                    predicate: RDF('type'),
+                    predicate: ns.RDF('type'),
                     objects: [
-                        OWL('NamedIndividual'),
-                        IRAO(artifactType),
+                        ns.OWL('NamedIndividual'),
+                        ns.IRAO(artifactType),
                     ],
                 },
                 {
-                    predicate: RDFS('label'),
+                    predicate: ns.RDFS('label'),
                     objects: [
                         literal(artifactName, 'en'),
                     ],
                 },
                 {
-                    predicate: IRAO('hasAuthor'),
+                    predicate: ns.IRAO('hasAuthor'),
                     objects: [
-                        IRAO_INSTANCE(authorId),
+                        ns.IRAO_INSTANCE(authorId),
                     ],
                 },
                 {
-                    predicate: IRAO('hasDevelopmentStatus'),
+                    predicate: ns.IRAO('hasDevelopmentStatus'),
                     objects: [
-                        IRAO_DEV_STATUS(developmentStatus),
+                        ns.IRAO_DEV_STATUS(developmentStatus),
                     ],
                 },
                 {
-                    predicate: IRAO('hasPublication'),
+                    predicate: ns.IRAO('hasPublication'),
                     objects: [
-                        IRAO_INSTANCE(publicationId),
+                        ns.IRAO_INSTANCE(publicationId),
                     ],
                 },
                 {
-                    predicate: IRAO('hasResearchArea'),
-                    objects: researchAreas.split(',').map((ra) => CSO_TOPIC(ra.trim()))
+                    predicate: ns.IRAO('hasResearchArea'),
+                    objects: researchAreas.split(',').map((ra) => ns.CSO_TOPIC(ra.trim()))
                 },
                 {
-                    predicate: IRAO('isPublishedAt'),
+                    predicate: ns.IRAO('isPublishedAt'),
                     objects: [
-                        IRAO_INSTANCE(artifactRepositoryId),
+                        ns.IRAO_INSTANCE(artifactRepositoryId),
                     ],
                 },
             ],
@@ -75,25 +84,25 @@ fileContent.split(/[\r\n]+/).slice(1).filter((line) => !!line.trim()).forEach((l
     ];
     const repositories = [
         {
-            subject: IRAO_INSTANCE(artifactRepositoryId),
+            subject: ns.IRAO_INSTANCE(artifactRepositoryId),
             properties: [
                 {
-                    predicate: RDF('type'),
+                    predicate: ns.RDF('type'),
                     objects: [
-                        OWL('NamedIndividual'),
-                        IRAO('Repository'),
+                        ns.OWL('NamedIndividual'),
+                        ns.IRAO('Repository'),
                     ],
                 },
                 {
-                    predicate: IRAO('hasURL'),
+                    predicate: ns.IRAO('hasURL'),
                     objects: [
-                        literal(artifactRepositoryUrl, XSD('anyURI')),
+                        literal(artifactRepositoryUrl, ns.XSD('anyURI')),
                     ],
                 },
                 {
-                    predicate: IRAO('hasRepositoryType'),
+                    predicate: ns.IRAO('hasRepositoryType'),
                     objects: [
-                        IRAO_REPOSITORY_TYPE(artifactRepositoryType),
+                        ns.IRAO_REPOSITORY_TYPE(artifactRepositoryType),
                     ],
                 },
             ],
@@ -101,30 +110,30 @@ fileContent.split(/[\r\n]+/).slice(1).filter((line) => !!line.trim()).forEach((l
     ];
     const publications = [
         {
-            subject: IRAO_INSTANCE(publicationId),
+            subject: ns.IRAO_INSTANCE(publicationId),
             properties: [
                 {
-                    predicate: RDF('type'),
+                    predicate: ns.RDF('type'),
                     objects: [
-                        OWL('NamedIndividual'),
-                        IRAO('Publication'),
-                        IRAO(publicationType),
+                        ns.OWL('NamedIndividual'),
+                        ns.IRAO('Publication'),
+                        ns.IRAO(publicationType),
                     ],
                 },
                 {
-                    predicate: RDFS('label'),
+                    predicate: ns.RDFS('label'),
                     objects: [
                         literal(publicationName, 'en'),
                     ],
                 },
                 {
-                    predicate: IRAO('hasURL'),
+                    predicate: ns.IRAO('hasURL'),
                     objects: [
-                        literal(publicationUrl, XSD('anyURI')),
+                        literal(publicationUrl, ns.XSD('anyURI')),
                     ],
                 },
                 {
-                    predicate: IRAO('hasTopic'),
+                    predicate: ns.IRAO('hasTopic'),
                     objects: [
                         literal(topic),
                     ],
@@ -134,25 +143,25 @@ fileContent.split(/[\r\n]+/).slice(1).filter((line) => !!line.trim()).forEach((l
     ];
     const authors = [
         {
-            subject: IRAO_INSTANCE(authorId),
+            subject: ns.IRAO_INSTANCE(authorId),
             properties: [
                 {
-                    predicate: RDF('type'),
+                    predicate: ns.RDF('type'),
                     objects: [
-                        OWL('NamedIndividual'),
-                        IRAO('Researcher'),
+                        ns.OWL('NamedIndividual'),
+                        ns.IRAO('Researcher'),
                     ],
                 },
                 {
-                    predicate: FOAF('name'),
+                    predicate: ns.FOAF('name'),
                     objects: [
                         literal(authorName, 'en'),
                     ],
                 },
                 {
-                    predicate: IRAO('hasAffiliation'),
+                    predicate: ns.IRAO('hasAffiliation'),
                     objects: [
-                        IRAO_INSTANCE(affiliationId),
+                        ns.IRAO_INSTANCE(affiliationId),
                     ],
                 },
             ],
@@ -160,17 +169,17 @@ fileContent.split(/[\r\n]+/).slice(1).filter((line) => !!line.trim()).forEach((l
     ];
     const affiliations = [
         {
-            subject: IRAO_INSTANCE(affiliationId),
+            subject: ns.IRAO_INSTANCE(affiliationId),
             properties: [
                 {
-                    predicate: RDF('type'),
+                    predicate: ns.RDF('type'),
                     objects: [
-                        OWL('NamedIndividual'),
-                        IRAO('Affiliation'),
+                        ns.OWL('NamedIndividual'),
+                        ns.IRAO('Affiliation'),
                     ],
                 },
                 {
-                    predicate: FOAF('name'),
+                    predicate: ns.FOAF('name'),
                     objects: [
                         literal(affiliationName, 'en'),
                     ],
@@ -217,7 +226,8 @@ const mediaTypes = {
     'application/rdf+xml': '.rdf',
     'application/n-triples': '.nt',
 };
+
 Object.keys(mediaTypes).forEach((mediaType) => {
-    const output = rdf.serialize(graph, store, 'http://ontology.ethereal.cz/', mediaType);
+    const output = rdf.serialize(graph, store, 'http://ontology.ethereal.cz', mediaType);
     fs.writeFileSync(`sample${mediaTypes[mediaType]}`, output);
 });
