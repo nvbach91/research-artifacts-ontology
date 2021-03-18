@@ -196,7 +196,7 @@
 
     <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao/affiliation#33bca0a2">
         <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Affiliation"/>
-        <foaf:name xml:lang="en">University of Economics, Prague</foaf:name>
+        <foaf:name xml:lang="en">University of Economics , Prague</foaf:name>
     </NamedIndividual>
     
 

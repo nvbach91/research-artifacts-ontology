@@ -33,7 +33,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/irao/Affiliation" ],
   "http://xmlns.com/foaf/0.1/name" : [ {
     "@language" : "en",
-    "@value" : "University of Economics, Prague"
+    "@value" : "University of Economics , Prague"
   } ]
 }, {
   "@id" : "http://ontology.ethereal.cz/irao/affiliation#52b761ad",

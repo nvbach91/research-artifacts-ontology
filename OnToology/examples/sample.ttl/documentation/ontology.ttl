@@ -105,7 +105,7 @@
 ###  http://ontology.ethereal.cz/irao/affiliation#33bca0a2
 <http://ontology.ethereal.cz/irao/affiliation#33bca0a2> rdf:type owl:NamedIndividual ,
                                                                  <http://ontology.ethereal.cz/irao/Affiliation> ;
-                                                        <http://xmlns.com/foaf/0.1/name> "University of Economics, Prague"@en .
+                                                        <http://xmlns.com/foaf/0.1/name> "University of Economics , Prague"@en .
 
 
 ###  http://ontology.ethereal.cz/irao/affiliation#52b761ad

@@ -91,7 +91,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # http://ontology.ethereal.cz/irao/affiliation#33bca0a2
 <http://ontology.ethereal.cz/irao/affiliation#33bca0a2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ontology.ethereal.cz/irao/affiliation#33bca0a2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.ethereal.cz/irao/Affiliation> .
-<http://ontology.ethereal.cz/irao/affiliation#33bca0a2> <http://xmlns.com/foaf/0.1/name> "University of Economics, Prague"@en .
+<http://ontology.ethereal.cz/irao/affiliation#33bca0a2> <http://xmlns.com/foaf/0.1/name> "University of Economics , Prague"@en .
 # 
 # http://ontology.ethereal.cz/irao/affiliation#52b761ad
 <http://ontology.ethereal.cz/irao/affiliation#52b761ad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
