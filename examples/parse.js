@@ -10,10 +10,17 @@ const namespaces = {
     foaf: 'http://xmlns.com/foaf/0.1/',
     xsd: 'http://www.w3.org/2001/XMLSchema#',
     owl: 'http://www.w3.org/2002/07/owl#',
+    
     irao: 'http://ontology.ethereal.cz/irao/',
-    irao_instance: 'http://ontology.ethereal.cz/irao#',
+    irao_publication: 'http://ontology.ethereal.cz/irao/publication#',
+    irao_repository: 'http://ontology.ethereal.cz/irao/repository#',
+    irao_author: 'http://ontology.ethereal.cz/irao/author#',
+    irao_artifact: 'http://ontology.ethereal.cz/irao/artifact#',
+    irao_affiliation: 'http://ontology.ethereal.cz/irao/affiliation#',
+
     irao_dev_status: 'http://ontology.ethereal.cz/irao/developmentstatus#',
     irao_repository_type: 'http://ontology.ethereal.cz/irao/repositorytype#',
+    
     bibo: 'http://purl.org/ontology/bibo/',
     vivo: 'http://vivoweb.org/ontology/core#',
     cso: 'http://cso.kmi.open.ac.uk/schema/cso#',
@@ -36,7 +43,7 @@ fileContent.split(/[\r\n]+/).slice(1).filter((line) => !!line.trim()).forEach((l
     ] = line.split('\t');
     const artifacts = [
         {
-            subject: ns.IRAO_INSTANCE(artifactId),
+            subject: ns.IRAO_ARTIFACT(artifactId),
             properties: [
                 {
                     predicate: ns.RDF('type'),
@@ -54,7 +61,7 @@ fileContent.split(/[\r\n]+/).slice(1).filter((line) => !!line.trim()).forEach((l
                 {
                     predicate: ns.IRAO('hasAuthor'),
                     objects: [
-                        ns.IRAO_INSTANCE(authorId),
+                        ns.IRAO_AUTHOR(authorId),
                     ],
                 },
                 {
@@ -66,7 +73,7 @@ fileContent.split(/[\r\n]+/).slice(1).filter((line) => !!line.trim()).forEach((l
                 {
                     predicate: ns.IRAO('hasPublication'),
                     objects: [
-                        ns.IRAO_INSTANCE(publicationId),
+                        ns.IRAO_PUBLICATION(publicationId),
                     ],
                 },
                 {
@@ -76,7 +83,7 @@ fileContent.split(/[\r\n]+/).slice(1).filter((line) => !!line.trim()).forEach((l
                 {
                     predicate: ns.IRAO('isPublishedAt'),
                     objects: [
-                        ns.IRAO_INSTANCE(artifactRepositoryId),
+                        ns.IRAO_REPOSITORY(artifactRepositoryId),
                     ],
                 },
             ],
@@ -84,7 +91,7 @@ fileContent.split(/[\r\n]+/).slice(1).filter((line) => !!line.trim()).forEach((l
     ];
     const repositories = [
         {
-            subject: ns.IRAO_INSTANCE(artifactRepositoryId),
+            subject: ns.IRAO_REPOSITORY(artifactRepositoryId),
             properties: [
                 {
                     predicate: ns.RDF('type'),
@@ -110,7 +117,7 @@ fileContent.split(/[\r\n]+/).slice(1).filter((line) => !!line.trim()).forEach((l
     ];
     const publications = [
         {
-            subject: ns.IRAO_INSTANCE(publicationId),
+            subject: ns.IRAO_PUBLICATION(publicationId),
             properties: [
                 {
                     predicate: ns.RDF('type'),
@@ -143,7 +150,7 @@ fileContent.split(/[\r\n]+/).slice(1).filter((line) => !!line.trim()).forEach((l
     ];
     const authors = [
         {
-            subject: ns.IRAO_INSTANCE(authorId),
+            subject: ns.IRAO_AUTHOR(authorId),
             properties: [
                 {
                     predicate: ns.RDF('type'),
@@ -161,7 +168,7 @@ fileContent.split(/[\r\n]+/).slice(1).filter((line) => !!line.trim()).forEach((l
                 {
                     predicate: ns.IRAO('hasAffiliation'),
                     objects: [
-                        ns.IRAO_INSTANCE(affiliationId),
+                        ns.IRAO_AFFILIATION(affiliationId),
                     ],
                 },
             ],
@@ -169,7 +176,7 @@ fileContent.split(/[\r\n]+/).slice(1).filter((line) => !!line.trim()).forEach((l
     ];
     const affiliations = [
         {
-            subject: ns.IRAO_INSTANCE(affiliationId),
+            subject: ns.IRAO_AFFILIATION(affiliationId),
             properties: [
                 {
                     predicate: ns.RDF('type'),
