@@ -6,7 +6,7 @@
 	 prov:wasAttributedTo :agent0;
 	 prov:wasAttributedTo :agent1;
 	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
-	 prov:wasGeneratedAt "2020-04-24";
+	 prov:wasGeneratedAt "2021-03-18";
 .
 :agent0 a prov:Agent; foaf:name "Nguyen Viet Bach".
 :agent1 a prov:Agent; foaf:name "Vojtěch Svátek".
