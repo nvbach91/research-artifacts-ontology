@@ -9,6 +9,9 @@
     "Publication" : {
       "@id" : "file:///home/ahmad/repos/nvbach91@outlook.com/examples//irao/Publication"
     },
+    "hasDevelopmentStatus" : {
+      "@id" : "file:///home/ahmad/repos/nvbach91@outlook.com/examples//irao/hasDevelopmentStatus"
+    },
     "hasPublication" : {
       "@id" : "file:///home/ahmad/repos/nvbach91@outlook.com/examples//irao/hasPublication"
     },
@@ -21,11 +24,11 @@
     "Repository" : {
       "@id" : "file:///home/ahmad/repos/nvbach91@outlook.com/examples//irao/Repository"
     },
+    "hasURL" : {
+      "@id" : "file:///home/ahmad/repos/nvbach91@outlook.com/examples//irao/hasURL"
+    },
     "name" : {
       "@id" : "http://xmlns.com/foaf/0.1/name"
-    },
-    "hasStatus" : {
-      "@id" : "file:///home/ahmad/repos/nvbach91@outlook.com/examples//irao/hasStatus"
     },
     "hasAuthor" : {
       "@id" : "file:///home/ahmad/repos/nvbach91@outlook.com/examples//irao/hasAuthor"
@@ -41,9 +44,6 @@
     },
     "hasResearchArea" : {
       "@id" : "file:///home/ahmad/repos/nvbach91@outlook.com/examples//irao/hasResearchArea"
-    },
-    "seeAlso" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
     "Researcher" : {
       "@id" : "file:///home/ahmad/repos/nvbach91@outlook.com/examples//irao/Researcher"

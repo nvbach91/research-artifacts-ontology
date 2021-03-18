@@ -110,7 +110,7 @@
                                                         rdfs:domain <http://ontology.ethereal.cz/irao/ResearchArtifact> ;
                                                         rdfs:range <http://ontology.ethereal.cz/irao/DevelopmentStatus> ;
                                                         rdfs:isDefinedBy <http://ontology.ethereal.cz/irao> ;
-                                                        rdfs:label "has status"@en .
+                                                        rdfs:label "has development status"@en .
 
 
 ###  http://ontology.ethereal.cz/irao/hasFramework

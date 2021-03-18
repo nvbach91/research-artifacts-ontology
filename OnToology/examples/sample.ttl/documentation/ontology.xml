@@ -38,6 +38,13 @@
     
 
 
+    <!-- file:/irao/hasDevelopmentStatus -->
+
+
+    <AnnotationProperty rdf:about="file:/irao/hasDevelopmentStatus"/>
+    
+
+
     <!-- file:/irao/hasPublication -->
 
 
@@ -59,17 +66,17 @@
     
 
 
-    <!-- file:/irao/hasStatus -->
-
-
-    <AnnotationProperty rdf:about="file:/irao/hasStatus"/>
-    
-
-
     <!-- file:/irao/hasTopic -->
 
 
     <AnnotationProperty rdf:about="file:/irao/hasTopic"/>
+    
+
+
+    <!-- file:/irao/hasURL -->
+
+
+    <AnnotationProperty rdf:about="file:/irao/hasURL"/>
     
 
 
@@ -180,7 +187,7 @@
     <NamedIndividual rdf:about="file:/irao#b2a0c5eb">
         <rdf:type rdf:resource="file:/irao/Researcher"/>
         <irao:hasAffiliation rdf:resource="file:/irao#33bca0a2"/>
-        <foaf:name xml:lang="en">Jindrich Mynarz</foaf:name>
+        <foaf:name xml:lang="en">Jindřich Mynarz</foaf:name>
     </NamedIndividual>
     
 
@@ -202,8 +209,8 @@
         <rdf:type rdf:resource="file:/irao/Publication"/>
         <rdf:type rdf:resource="file:/irao/Thesis"/>
         <irao:hasTopic>public procurement</irao:hasTopic>
+        <irao:hasURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://vskp.vse.cz/71568_parovani-uchazecu-a-verejnych-zakazek-pomoci-propojenych-otevrenych-dat</irao:hasURL>
         <rdfs:label xml:lang="en">Matchmaking of bidders and public contracts using linked open data</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://vskp.vse.cz/71568_parovani-uchazecu-a-verejnych-zakazek-pomoci-propojenych-otevrenych-dat</rdfs:seeAlso>
     </NamedIndividual>
     
 
@@ -214,7 +221,7 @@
     <NamedIndividual rdf:about="file:/irao#ea848e30">
         <rdf:type rdf:resource="file:/irao/Researcher"/>
         <irao:hasAffiliation rdf:resource="file:/irao#33bca0a2"/>
-        <foaf:name xml:lang="en">Marek Dudas</foaf:name>
+        <foaf:name xml:lang="en">Marek Dudáš</foaf:name>
     </NamedIndividual>
     
 
@@ -225,7 +232,7 @@
     <NamedIndividual rdf:about="file:/irao#f35c0633">
         <rdf:type rdf:resource="file:/irao/Repository"/>
         <irao:hasRepositoryType rdf:resource="file:/irao/repositorytype#GitHub"/>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/marek-dudas/PURO-Modeler</rdfs:seeAlso>
+        <irao:hasURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/marek-dudas/PURO-Modeler</irao:hasURL>
     </NamedIndividual>
     
 
@@ -236,10 +243,10 @@
     <NamedIndividual rdf:about="file:/irao#f46e52f4">
         <rdf:type rdf:resource="file:/irao/Ontology"/>
         <irao:hasAuthor rdf:resource="file:/irao#0962aa92"/>
+        <irao:hasDevelopmentStatus rdf:resource="file:/irao/developmentstatus#release"/>
         <irao:hasPublication rdf:resource="file:/irao#9a94279c"/>
         <irao:hasResearchArea rdf:resource="https://cso.kmi.open.ac.uk/topics/linked_data"/>
         <irao:hasResearchArea rdf:resource="https://cso.kmi.open.ac.uk/topics/semantic_web"/>
-        <irao:hasStatus rdf:resource="file:/irao/developmentstatus#release"/>
         <irao:isPublishedAt rdf:resource="file:/irao#38947a2e"/>
         <rdfs:label xml:lang="en">ArCo Ontology</rdfs:label>
     </NamedIndividual>
@@ -264,8 +271,8 @@
         <rdf:type rdf:resource="file:/irao/Publication"/>
         <rdf:type rdf:resource="file:/irao/Thesis"/>
         <irao:hasTopic>ontology visualization</irao:hasTopic>
+        <irao:hasURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://vskp.vse.cz/74478_podpora-vyvoje-ontologii-pomoci-grafickych-modelovacich-nastroju</irao:hasURL>
         <rdfs:label xml:lang="en">Supporting ontology development with visual modeling tools</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://vskp.vse.cz/74478_podpora-vyvoje-ontologii-pomoci-grafickych-modelovacich-nastroju</rdfs:seeAlso>
     </NamedIndividual>
     
 
@@ -276,10 +283,10 @@
     <NamedIndividual rdf:about="file:/irao#3230c840">
         <rdf:type rdf:resource="file:/irao/Software"/>
         <irao:hasAuthor rdf:resource="file:/irao#ea848e30"/>
+        <irao:hasDevelopmentStatus rdf:resource="file:/irao/developmentstatus#release"/>
         <irao:hasPublication rdf:resource="file:/irao#1bc6c06f"/>
         <irao:hasResearchArea rdf:resource="https://cso.kmi.open.ac.uk/topics/ontology_engineering"/>
         <irao:hasResearchArea rdf:resource="https://cso.kmi.open.ac.uk/topics/semantic_web"/>
-        <irao:hasStatus rdf:resource="file:/irao/developmentstatus#release"/>
         <irao:isPublishedAt rdf:resource="file:/irao#f35c0633"/>
         <rdfs:label xml:lang="en">PURO Modeler</rdfs:label>
     </NamedIndividual>
@@ -302,7 +309,7 @@
     <NamedIndividual rdf:about="file:/irao#38947a2e">
         <rdf:type rdf:resource="file:/irao/Repository"/>
         <irao:hasRepositoryType rdf:resource="file:/irao/repositorytype#GitHub"/>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/ICCD-MiBACT/ArCo/tree/master/ArCo-release</rdfs:seeAlso>
+        <irao:hasURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/ICCD-MiBACT/ArCo/tree/master/ArCo-release</irao:hasURL>
     </NamedIndividual>
     
 
@@ -313,7 +320,7 @@
     <NamedIndividual rdf:about="file:/irao#4c2877ee">
         <rdf:type rdf:resource="file:/irao/Repository"/>
         <irao:hasRepositoryType rdf:resource="file:/irao/repositorytype#GitHub"/>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/ICCD-MiBACT/ArCo/tree/master/ArCo-release</rdfs:seeAlso>
+        <irao:hasURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/ICCD-MiBACT/ArCo/tree/master/ArCo-release</irao:hasURL>
     </NamedIndividual>
     
 
@@ -334,7 +341,7 @@
     <NamedIndividual rdf:about="file:/irao#6f33415e">
         <rdf:type rdf:resource="file:/irao/Repository"/>
         <irao:hasRepositoryType rdf:resource="file:/irao/repositorytype#GitHub"/>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/RealEstateCore/rec</rdfs:seeAlso>
+        <irao:hasURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/RealEstateCore/rec</irao:hasURL>
     </NamedIndividual>
     
 
@@ -346,8 +353,8 @@
         <rdf:type rdf:resource="file:/irao/Publication"/>
         <rdf:type rdf:resource="file:/irao/Thesis"/>
         <irao:hasTopic>real estate</irao:hasTopic>
+        <irao:hasURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://link.springer.com/chapter/10.1007%2F978-3-030-30796-7_9</irao:hasURL>
         <rdfs:label xml:lang="en">The RealEstateCore Ontology</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://link.springer.com/chapter/10.1007%2F978-3-030-30796-7_9</rdfs:seeAlso>
     </NamedIndividual>
     
 
@@ -358,10 +365,10 @@
     <NamedIndividual rdf:about="file:/irao#76a99da9">
         <rdf:type rdf:resource="file:/irao/Software"/>
         <irao:hasAuthor rdf:resource="file:/irao#b2a0c5eb"/>
+        <irao:hasDevelopmentStatus rdf:resource="file:/irao/developmentstatus#release"/>
         <irao:hasPublication rdf:resource="file:/irao#d28f9810"/>
         <irao:hasResearchArea rdf:resource="https://cso.kmi.open.ac.uk/topics/linked_data"/>
         <irao:hasResearchArea rdf:resource="https://cso.kmi.open.ac.uk/topics/semantic_web"/>
-        <irao:hasStatus rdf:resource="file:/irao/developmentstatus#release"/>
         <irao:isPublishedAt rdf:resource="file:/irao#92b55a1a"/>
         <rdfs:label xml:lang="en">VVZ to RDF</rdfs:label>
     </NamedIndividual>
@@ -385,10 +392,10 @@
     <NamedIndividual rdf:about="file:/irao#8d91adad">
         <rdf:type rdf:resource="file:/irao/Dataset"/>
         <irao:hasAuthor rdf:resource="file:/irao#0962aa92"/>
+        <irao:hasDevelopmentStatus rdf:resource="file:/irao/developmentstatus#release"/>
         <irao:hasPublication rdf:resource="file:/irao#9a94279c"/>
         <irao:hasResearchArea rdf:resource="https://cso.kmi.open.ac.uk/topics/linked_data"/>
         <irao:hasResearchArea rdf:resource="https://cso.kmi.open.ac.uk/topics/semantic_web"/>
-        <irao:hasStatus rdf:resource="file:/irao/developmentstatus#release"/>
         <irao:isPublishedAt rdf:resource="file:/irao#4c2877ee"/>
         <rdfs:label xml:lang="en">ArCo Dataset</rdfs:label>
     </NamedIndividual>
@@ -402,8 +409,8 @@
         <rdf:type rdf:resource="file:/irao/ConferencePaper"/>
         <rdf:type rdf:resource="file:/irao/Publication"/>
         <irao:hasTopic>cultural heritage</irao:hasTopic>
+        <irao:hasURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://link.springer.com/chapter/10.1007%2F978-3-030-30796-7_3</irao:hasURL>
         <rdfs:label xml:lang="en">ArCo: the Italian Cultural Heritage Knowledge Graph</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://link.springer.com/chapter/10.1007%2F978-3-030-30796-7_3</rdfs:seeAlso>
     </NamedIndividual>
     
 
@@ -414,10 +421,10 @@
     <NamedIndividual rdf:about="file:/irao#90ba34ff">
         <rdf:type rdf:resource="file:/irao/Ontology"/>
         <irao:hasAuthor rdf:resource="file:/irao#787367eb"/>
+        <irao:hasDevelopmentStatus rdf:resource="file:/irao/developmentstatus#release"/>
         <irao:hasPublication rdf:resource="file:/irao#695a74d6"/>
         <irao:hasResearchArea rdf:resource="https://cso.kmi.open.ac.uk/topics/ontology_engineering"/>
         <irao:hasResearchArea rdf:resource="https://cso.kmi.open.ac.uk/topics/semantic_web"/>
-        <irao:hasStatus rdf:resource="file:/irao/developmentstatus#release"/>
         <irao:isPublishedAt rdf:resource="file:/irao#6f33415e"/>
         <rdfs:label xml:lang="en">RealEstateCore Ontology</rdfs:label>
     </NamedIndividual>
@@ -430,7 +437,7 @@
     <NamedIndividual rdf:about="file:/irao#92b55a1a">
         <rdf:type rdf:resource="file:/irao/Repository"/>
         <irao:hasRepositoryType rdf:resource="file:/irao/repositorytype#GitHub"/>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/jindrichmynarz/vvz-to-rdf</rdfs:seeAlso>
+        <irao:hasURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/jindrichmynarz/vvz-to-rdf</irao:hasURL>
     </NamedIndividual>
 </rdf:RDF>
 

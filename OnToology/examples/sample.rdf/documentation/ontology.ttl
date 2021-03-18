@@ -20,6 +20,10 @@
 <http://ontology.ethereal.cz/irao/hasAuthor> rdf:type owl:AnnotationProperty .
 
 
+###  http://ontology.ethereal.cz/irao/hasDevelopmentStatus
+<http://ontology.ethereal.cz/irao/hasDevelopmentStatus> rdf:type owl:AnnotationProperty .
+
+
 ###  http://ontology.ethereal.cz/irao/hasPublication
 <http://ontology.ethereal.cz/irao/hasPublication> rdf:type owl:AnnotationProperty .
 
@@ -32,12 +36,12 @@
 <http://ontology.ethereal.cz/irao/hasResearchArea> rdf:type owl:AnnotationProperty .
 
 
-###  http://ontology.ethereal.cz/irao/hasStatus
-<http://ontology.ethereal.cz/irao/hasStatus> rdf:type owl:AnnotationProperty .
-
-
 ###  http://ontology.ethereal.cz/irao/hasTopic
 <http://ontology.ethereal.cz/irao/hasTopic> rdf:type owl:AnnotationProperty .
+
+
+###  http://ontology.ethereal.cz/irao/hasURL
+<http://ontology.ethereal.cz/irao/hasURL> rdf:type owl:AnnotationProperty .
 
 
 ###  http://ontology.ethereal.cz/irao/isPublishedAt
@@ -100,7 +104,7 @@
 <file:/irao#b2a0c5eb> rdf:type owl:NamedIndividual ,
                                <http://ontology.ethereal.cz/irao/Researcher> ;
                       <http://ontology.ethereal.cz/irao/hasAffiliation> <file:/irao#33bca0a2> ;
-                      <http://xmlns.com/foaf/0.1/name> "Jindrich Mynarz"@en .
+                      <http://xmlns.com/foaf/0.1/name> "Jindřich Mynarz"@en .
 
 
 ###  file:/irao#ca0d6d57
@@ -114,32 +118,32 @@
                                <file:/irao/Thesis> ,
                                <http://ontology.ethereal.cz/irao/Publication> ;
                       <http://ontology.ethereal.cz/irao/hasTopic> "public procurement" ;
-                      rdfs:label "Matchmaking of bidders and public contracts using linked open data"@en ;
-                      rdfs:seeAlso "https://vskp.vse.cz/71568_parovani-uchazecu-a-verejnych-zakazek-pomoci-propojenych-otevrenych-dat"^^xsd:anyURI .
+                      <http://ontology.ethereal.cz/irao/hasURL> "https://vskp.vse.cz/71568_parovani-uchazecu-a-verejnych-zakazek-pomoci-propojenych-otevrenych-dat"^^xsd:anyURI ;
+                      rdfs:label "Matchmaking of bidders and public contracts using linked open data"@en .
 
 
 ###  file:/irao#ea848e30
 <file:/irao#ea848e30> rdf:type owl:NamedIndividual ,
                                <http://ontology.ethereal.cz/irao/Researcher> ;
                       <http://ontology.ethereal.cz/irao/hasAffiliation> <file:/irao#33bca0a2> ;
-                      <http://xmlns.com/foaf/0.1/name> "Marek Dudas"@en .
+                      <http://xmlns.com/foaf/0.1/name> "Marek Dudáš"@en .
 
 
 ###  file:/irao#f35c0633
 <file:/irao#f35c0633> rdf:type owl:NamedIndividual ,
                                <http://ontology.ethereal.cz/irao/Repository> ;
                       <http://ontology.ethereal.cz/irao/hasRepositoryType> <file:/irao/repositorytype#GitHub> ;
-                      rdfs:seeAlso "https://github.com/marek-dudas/PURO-Modeler"^^xsd:anyURI .
+                      <http://ontology.ethereal.cz/irao/hasURL> "https://github.com/marek-dudas/PURO-Modeler"^^xsd:anyURI .
 
 
 ###  file:/irao#f46e52f4
 <file:/irao#f46e52f4> rdf:type owl:NamedIndividual ,
                                <http://ontology.ethereal.cz/irao/Ontology> ;
                       <http://ontology.ethereal.cz/irao/hasAuthor> <file:/irao#0962aa92> ;
+                      <http://ontology.ethereal.cz/irao/hasDevelopmentStatus> <file:/irao/developmentstatus#release> ;
                       <http://ontology.ethereal.cz/irao/hasPublication> <file:/irao#9a94279c> ;
                       <http://ontology.ethereal.cz/irao/hasResearchArea> <https://cso.kmi.open.ac.uk/topics/linked_data> ,
                                                                          <https://cso.kmi.open.ac.uk/topics/semantic_web> ;
-                      <http://ontology.ethereal.cz/irao/hasStatus> <file:/irao/developmentstatus#release> ;
                       <http://ontology.ethereal.cz/irao/isPublishedAt> <file:/irao#38947a2e> ;
                       rdfs:label "ArCo Ontology"@en .
 
@@ -156,18 +160,18 @@
                                <file:/irao/Thesis> ,
                                <http://ontology.ethereal.cz/irao/Publication> ;
                       <http://ontology.ethereal.cz/irao/hasTopic> "ontology visualization" ;
-                      rdfs:label "Supporting ontology development with visual modeling tools"@en ;
-                      rdfs:seeAlso "https://vskp.vse.cz/74478_podpora-vyvoje-ontologii-pomoci-grafickych-modelovacich-nastroju"^^xsd:anyURI .
+                      <http://ontology.ethereal.cz/irao/hasURL> "https://vskp.vse.cz/74478_podpora-vyvoje-ontologii-pomoci-grafickych-modelovacich-nastroju"^^xsd:anyURI ;
+                      rdfs:label "Supporting ontology development with visual modeling tools"@en .
 
 
 ###  file:/irao#3230c840
 <file:/irao#3230c840> rdf:type owl:NamedIndividual ,
                                <http://ontology.ethereal.cz/irao/Software> ;
                       <http://ontology.ethereal.cz/irao/hasAuthor> <file:/irao#ea848e30> ;
+                      <http://ontology.ethereal.cz/irao/hasDevelopmentStatus> <file:/irao/developmentstatus#release> ;
                       <http://ontology.ethereal.cz/irao/hasPublication> <file:/irao#1bc6c06f> ;
                       <http://ontology.ethereal.cz/irao/hasResearchArea> <https://cso.kmi.open.ac.uk/topics/ontology_engineering> ,
                                                                          <https://cso.kmi.open.ac.uk/topics/semantic_web> ;
-                      <http://ontology.ethereal.cz/irao/hasStatus> <file:/irao/developmentstatus#release> ;
                       <http://ontology.ethereal.cz/irao/isPublishedAt> <file:/irao#f35c0633> ;
                       rdfs:label "PURO Modeler"@en .
 
@@ -182,14 +186,14 @@
 <file:/irao#38947a2e> rdf:type owl:NamedIndividual ,
                                <http://ontology.ethereal.cz/irao/Repository> ;
                       <http://ontology.ethereal.cz/irao/hasRepositoryType> <file:/irao/repositorytype#GitHub> ;
-                      rdfs:seeAlso "https://github.com/ICCD-MiBACT/ArCo/tree/master/ArCo-release"^^xsd:anyURI .
+                      <http://ontology.ethereal.cz/irao/hasURL> "https://github.com/ICCD-MiBACT/ArCo/tree/master/ArCo-release"^^xsd:anyURI .
 
 
 ###  file:/irao#4c2877ee
 <file:/irao#4c2877ee> rdf:type owl:NamedIndividual ,
                                <http://ontology.ethereal.cz/irao/Repository> ;
                       <http://ontology.ethereal.cz/irao/hasRepositoryType> <file:/irao/repositorytype#GitHub> ;
-                      rdfs:seeAlso "https://github.com/ICCD-MiBACT/ArCo/tree/master/ArCo-release"^^xsd:anyURI .
+                      <http://ontology.ethereal.cz/irao/hasURL> "https://github.com/ICCD-MiBACT/ArCo/tree/master/ArCo-release"^^xsd:anyURI .
 
 
 ###  file:/irao#52b761ad
@@ -202,7 +206,7 @@
 <file:/irao#6f33415e> rdf:type owl:NamedIndividual ,
                                <http://ontology.ethereal.cz/irao/Repository> ;
                       <http://ontology.ethereal.cz/irao/hasRepositoryType> <file:/irao/repositorytype#GitHub> ;
-                      rdfs:seeAlso "https://github.com/RealEstateCore/rec"^^xsd:anyURI .
+                      <http://ontology.ethereal.cz/irao/hasURL> "https://github.com/RealEstateCore/rec"^^xsd:anyURI .
 
 
 ###  file:/irao#695a74d6
@@ -210,18 +214,18 @@
                                <file:/irao/Thesis> ,
                                <http://ontology.ethereal.cz/irao/Publication> ;
                       <http://ontology.ethereal.cz/irao/hasTopic> "real estate" ;
-                      rdfs:label "The RealEstateCore Ontology"@en ;
-                      rdfs:seeAlso "https://link.springer.com/chapter/10.1007%2F978-3-030-30796-7_9"^^xsd:anyURI .
+                      <http://ontology.ethereal.cz/irao/hasURL> "https://link.springer.com/chapter/10.1007%2F978-3-030-30796-7_9"^^xsd:anyURI ;
+                      rdfs:label "The RealEstateCore Ontology"@en .
 
 
 ###  file:/irao#76a99da9
 <file:/irao#76a99da9> rdf:type owl:NamedIndividual ,
                                <http://ontology.ethereal.cz/irao/Software> ;
                       <http://ontology.ethereal.cz/irao/hasAuthor> <file:/irao#b2a0c5eb> ;
+                      <http://ontology.ethereal.cz/irao/hasDevelopmentStatus> <file:/irao/developmentstatus#release> ;
                       <http://ontology.ethereal.cz/irao/hasPublication> <file:/irao#d28f9810> ;
                       <http://ontology.ethereal.cz/irao/hasResearchArea> <https://cso.kmi.open.ac.uk/topics/linked_data> ,
                                                                          <https://cso.kmi.open.ac.uk/topics/semantic_web> ;
-                      <http://ontology.ethereal.cz/irao/hasStatus> <file:/irao/developmentstatus#release> ;
                       <http://ontology.ethereal.cz/irao/isPublishedAt> <file:/irao#92b55a1a> ;
                       rdfs:label "VVZ to RDF"@en .
 
@@ -237,10 +241,10 @@
 <file:/irao#8d91adad> rdf:type owl:NamedIndividual ,
                                <http://ontology.ethereal.cz/irao/Dataset> ;
                       <http://ontology.ethereal.cz/irao/hasAuthor> <file:/irao#0962aa92> ;
+                      <http://ontology.ethereal.cz/irao/hasDevelopmentStatus> <file:/irao/developmentstatus#release> ;
                       <http://ontology.ethereal.cz/irao/hasPublication> <file:/irao#9a94279c> ;
                       <http://ontology.ethereal.cz/irao/hasResearchArea> <https://cso.kmi.open.ac.uk/topics/linked_data> ,
                                                                          <https://cso.kmi.open.ac.uk/topics/semantic_web> ;
-                      <http://ontology.ethereal.cz/irao/hasStatus> <file:/irao/developmentstatus#release> ;
                       <http://ontology.ethereal.cz/irao/isPublishedAt> <file:/irao#4c2877ee> ;
                       rdfs:label "ArCo Dataset"@en .
 
@@ -250,18 +254,18 @@
                                <file:/irao/Publication> ,
                                <http://ontology.ethereal.cz/irao/ConferencePaper> ;
                       <http://ontology.ethereal.cz/irao/hasTopic> "cultural heritage" ;
-                      rdfs:label "ArCo: the Italian Cultural Heritage Knowledge Graph"@en ;
-                      rdfs:seeAlso "https://link.springer.com/chapter/10.1007%2F978-3-030-30796-7_3"^^xsd:anyURI .
+                      <http://ontology.ethereal.cz/irao/hasURL> "https://link.springer.com/chapter/10.1007%2F978-3-030-30796-7_3"^^xsd:anyURI ;
+                      rdfs:label "ArCo: the Italian Cultural Heritage Knowledge Graph"@en .
 
 
 ###  file:/irao#90ba34ff
 <file:/irao#90ba34ff> rdf:type owl:NamedIndividual ,
                                <http://ontology.ethereal.cz/irao/Ontology> ;
                       <http://ontology.ethereal.cz/irao/hasAuthor> <file:/irao#787367eb> ;
+                      <http://ontology.ethereal.cz/irao/hasDevelopmentStatus> <file:/irao/developmentstatus#release> ;
                       <http://ontology.ethereal.cz/irao/hasPublication> <file:/irao#695a74d6> ;
                       <http://ontology.ethereal.cz/irao/hasResearchArea> <https://cso.kmi.open.ac.uk/topics/ontology_engineering> ,
                                                                          <https://cso.kmi.open.ac.uk/topics/semantic_web> ;
-                      <http://ontology.ethereal.cz/irao/hasStatus> <file:/irao/developmentstatus#release> ;
                       <http://ontology.ethereal.cz/irao/isPublishedAt> <file:/irao#6f33415e> ;
                       rdfs:label "RealEstateCore Ontology"@en .
 
@@ -270,7 +274,7 @@
 <file:/irao#92b55a1a> rdf:type owl:NamedIndividual ,
                                <http://ontology.ethereal.cz/irao/Repository> ;
                       <http://ontology.ethereal.cz/irao/hasRepositoryType> <file:/irao/repositorytype#GitHub> ;
-                      rdfs:seeAlso "https://github.com/jindrichmynarz/vvz-to-rdf"^^xsd:anyURI .
+                      <http://ontology.ethereal.cz/irao/hasURL> "https://github.com/jindrichmynarz/vvz-to-rdf"^^xsd:anyURI .
 
 
 ###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/
