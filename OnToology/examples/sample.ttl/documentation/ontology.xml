@@ -298,7 +298,7 @@
 
     <NamedIndividual rdf:about="file:/irao#33bca0a2">
         <rdf:type rdf:resource="file:/irao/Affiliation"/>
-        <foaf:name xml:lang="en">University of Ecomics, Prague</foaf:name>
+        <foaf:name xml:lang="en">University of Economics , Prague</foaf:name>
     </NamedIndividual>
     
 
