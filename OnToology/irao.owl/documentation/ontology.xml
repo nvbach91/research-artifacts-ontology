@@ -13,8 +13,6 @@
     <owl:Ontology rdf:about="http://ontology.ethereal.cz/irao">
         <owl:versionIRI rdf:resource="https://w3id.org/def/InformaticsResearchArtifactsOntology"/>
         <owl:imports rdf:resource="http://cso.kmi.open.ac.uk/schema/cso#"/>
-        <owl:imports rdf:resource="http://purl.org/dc/terms"/>
-        <owl:imports rdf:resource="http://purl.org/dc/elements/1.1"/>
         <owl:imports rdf:resource="http://purl.org/vocab/vann/"/>
         <dc:contributor>Vojtěch Svátek</dc:contributor>
         <dc:creator>Nguyen Viet Bach</dc:creator>
@@ -24,13 +22,12 @@
         <terms:abstract xml:lang="en">Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL.</terms:abstract>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-04-30</terms:created>
         <terms:description xml:lang="en">Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL.</terms:description>
-        <terms:license rdf:resource="https://creativecommons.org/licenses/by/3.0/"/>
         <terms:publisher>Prague University of Business and Economics, Czech Republic. Faculty of Informatics and Statistics. Department of Knowledge and Information Engineering</terms:publisher>
         <vann:preferredNamespacePrefix>irao</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri>http://ontology.ethereal.cz/irao/</vann:preferredNamespaceUri>
         <rdfs:comment xml:lang="en">Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL.</rdfs:comment>
         <rdfs:label xml:lang="en">Informatics Research Artifacts Ontology</rdfs:label>
-        <owl:versionInfo xml:lang="en">Version 1.0.6, Release 2020 Apr 30</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Version 1.1.1, Release 2021 March 18</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -93,13 +90,6 @@
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
-    
-
-
-    <!-- http://purl.org/dc/terms/license -->
-
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
     
 
 
@@ -184,6 +174,18 @@
     
 
 
+    <!-- http://ontology.ethereal.cz/irao/hasDevelopmentStatus -->
+
+
+    <owl:ObjectProperty rdf:about="http://ontology.ethereal.cz/irao/hasDevelopmentStatus">
+        <rdfs:domain rdf:resource="http://ontology.ethereal.cz/irao/ResearchArtifact"/>
+        <rdfs:range rdf:resource="http://ontology.ethereal.cz/irao/DevelopmentStatus"/>
+        <rdfs:isDefinedBy rdf:resource="http://ontology.ethereal.cz/irao"/>
+        <rdfs:label xml:lang="en">has status</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://ontology.ethereal.cz/irao/hasFramework -->
 
 
@@ -192,6 +194,18 @@
         <rdfs:range rdf:resource="http://ontology.ethereal.cz/irao/Framework"/>
         <rdfs:isDefinedBy rdf:resource="http://ontology.ethereal.cz/irao"/>
         <rdfs:label xml:lang="en">has framework</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontology.ethereal.cz/irao/hasLicense -->
+
+
+    <owl:ObjectProperty rdf:about="http://ontology.ethereal.cz/irao/hasLicense">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/license"/>
+        <rdfs:domain rdf:resource="http://ontology.ethereal.cz/irao/ResearchArtifact"/>
+        <rdfs:isDefinedBy rdf:resource="http://ontology.ethereal.cz/irao"/>
+        <rdfs:label xml:lang="en">has license</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -276,18 +290,6 @@
     
 
 
-    <!-- http://ontology.ethereal.cz/irao/hasStatus -->
-
-
-    <owl:ObjectProperty rdf:about="http://ontology.ethereal.cz/irao/hasStatus">
-        <rdfs:domain rdf:resource="http://ontology.ethereal.cz/irao/ResearchArtifact"/>
-        <rdfs:range rdf:resource="http://ontology.ethereal.cz/irao/DevelopmentStatus"/>
-        <rdfs:isDefinedBy rdf:resource="http://ontology.ethereal.cz/irao"/>
-        <rdfs:label xml:lang="en">has status</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://ontology.ethereal.cz/irao/isDescribedBy -->
 
 
@@ -360,6 +362,13 @@
     
 
 
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -381,6 +390,40 @@
         <rdfs:isDefinedBy rdf:resource="http://ontology.ethereal.cz/irao"/>
         <rdfs:label xml:lang="en">has topic</rdfs:label>
     </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontology.ethereal.cz/irao/hasURL -->
+
+
+    <owl:DatatypeProperty rdf:about="http://ontology.ethereal.cz/irao/hasURL">
+        <rdfs:domain rdf:resource="http://ontology.ethereal.cz/irao/Publication"/>
+        <rdfs:domain rdf:resource="http://ontology.ethereal.cz/irao/Repository"/>
+        <rdfs:domain rdf:resource="http://ontology.ethereal.cz/irao/ResearchArtifact"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <rdfs:isDefinedBy rdf:resource="http://ontology.ethereal.cz/irao"/>
+        <rdfs:label xml:lang="en">has URL</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontology.ethereal.cz/irao/hasVersion -->
+
+
+    <owl:DatatypeProperty rdf:about="http://ontology.ethereal.cz/irao/hasVersion">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/hasVersion"/>
+        <rdfs:domain rdf:resource="http://ontology.ethereal.cz/irao/ResearchArtifact"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:isDefinedBy rdf:resource="http://ontology.ethereal.cz/irao"/>
+        <rdfs:label xml:lang="en">has version</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/hasVersion -->
+
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/hasVersion"/>
     
 
 
@@ -724,6 +767,15 @@
     
 
 
+    <!-- http://ontology.ethereal.cz/irao -->
+
+
+    <owl:NamedIndividual rdf:about="http://ontology.ethereal.cz/irao">
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by/3.0/"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://ontology.ethereal.cz/irao/developmentstatus#alpha -->
 
 
@@ -776,6 +828,13 @@
         <rdfs:isDefinedBy rdf:resource="http://ontology.ethereal.cz/irao"/>
         <rdfs:label xml:lang="en">Zenodo</rdfs:label>
     </owl:NamedIndividual>
+    
+
+
+    <!-- https://creativecommons.org/licenses/by/3.0/ -->
+
+
+    <owl:NamedIndividual rdf:about="https://creativecommons.org/licenses/by/3.0/"/>
 </rdf:RDF>
 
 
