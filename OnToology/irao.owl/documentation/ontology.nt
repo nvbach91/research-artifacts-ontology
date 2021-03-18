@@ -15,7 +15,7 @@
 <http://ontology.ethereal.cz/irao> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://ontology.ethereal.cz/irao/" .
 <http://ontology.ethereal.cz/irao> <http://www.w3.org/2000/01/rdf-schema#comment> "Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL."@en .
 <http://ontology.ethereal.cz/irao> <http://www.w3.org/2000/01/rdf-schema#label> "Informatics Research Artifacts Ontology"@en .
-<http://ontology.ethereal.cz/irao> <http://www.w3.org/2002/07/owl#versionInfo> "Version 1.1.1, Release 2021 March 18"@en .
+<http://ontology.ethereal.cz/irao> <http://www.w3.org/2002/07/owl#versionInfo> "Version 1.1.1, Release 2021 Mar 18"@en .
 # 
 # 
 # #################################################################

@@ -23,7 +23,7 @@
                                     <http://purl.org/vocab/vann/preferredNamespaceUri> "http://ontology.ethereal.cz/irao/" ;
                                     rdfs:comment "Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL."@en ;
                                     rdfs:label "Informatics Research Artifacts Ontology"@en ;
-                                    owl:versionInfo "Version 1.1.1, Release 2021 March 18"@en .
+                                    owl:versionInfo "Version 1.1.1, Release 2021 Mar 18"@en .
 
 #################################################################
 #    Annotation properties
