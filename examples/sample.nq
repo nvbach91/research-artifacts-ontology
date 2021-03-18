@@ -19,7 +19,7 @@
 <http://ontology.ethereal.cz/irao#d28f9810> <http://ontology.ethereal.cz/irao/hasTopic> "public procurement"^^<http://www.w3.org/2001/XMLSchema#string> <http://ontology.ethereal.cz/irao/sample> . 
 <http://ontology.ethereal.cz/irao#b2a0c5eb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> <http://ontology.ethereal.cz/irao/sample> . 
 <http://ontology.ethereal.cz/irao#b2a0c5eb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.ethereal.cz/irao/Researcher> <http://ontology.ethereal.cz/irao/sample> . 
-<http://ontology.ethereal.cz/irao#b2a0c5eb> <http://xmlns.com/foaf/0.1/name> "Jindrich Mynarz"@en <http://ontology.ethereal.cz/irao/sample> . 
+<http://ontology.ethereal.cz/irao#b2a0c5eb> <http://xmlns.com/foaf/0.1/name> "Jindřich Mynarz"@en <http://ontology.ethereal.cz/irao/sample> . 
 <http://ontology.ethereal.cz/irao#b2a0c5eb> <http://ontology.ethereal.cz/irao/hasAffiliation> <http://ontology.ethereal.cz/irao#33bca0a2> <http://ontology.ethereal.cz/irao/sample> . 
 <http://ontology.ethereal.cz/irao#33bca0a2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> <http://ontology.ethereal.cz/irao/sample> . 
 <http://ontology.ethereal.cz/irao#33bca0a2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.ethereal.cz/irao/Affiliation> <http://ontology.ethereal.cz/irao/sample> . 
@@ -45,7 +45,7 @@
 <http://ontology.ethereal.cz/irao#1bc6c06f> <http://ontology.ethereal.cz/irao/hasTopic> "ontology visualization"^^<http://www.w3.org/2001/XMLSchema#string> <http://ontology.ethereal.cz/irao/sample> . 
 <http://ontology.ethereal.cz/irao#ea848e30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> <http://ontology.ethereal.cz/irao/sample> . 
 <http://ontology.ethereal.cz/irao#ea848e30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.ethereal.cz/irao/Researcher> <http://ontology.ethereal.cz/irao/sample> . 
-<http://ontology.ethereal.cz/irao#ea848e30> <http://xmlns.com/foaf/0.1/name> "Marek Dudas"@en <http://ontology.ethereal.cz/irao/sample> . 
+<http://ontology.ethereal.cz/irao#ea848e30> <http://xmlns.com/foaf/0.1/name> "Marek Dudáš"@en <http://ontology.ethereal.cz/irao/sample> . 
 <http://ontology.ethereal.cz/irao#ea848e30> <http://ontology.ethereal.cz/irao/hasAffiliation> <http://ontology.ethereal.cz/irao#33bca0a2> <http://ontology.ethereal.cz/irao/sample> . 
 <http://ontology.ethereal.cz/irao#90ba34ff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> <http://ontology.ethereal.cz/irao/sample> . 
 <http://ontology.ethereal.cz/irao#90ba34ff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.ethereal.cz/irao/Ontology> <http://ontology.ethereal.cz/irao/sample> . 

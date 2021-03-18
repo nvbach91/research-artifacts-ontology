@@ -85,7 +85,7 @@
 <http://ontology.ethereal.cz/irao#b2a0c5eb> <http://ontology.ethereal.cz/irao/hasAffiliation> <http://ontology.ethereal.cz/irao#33bca0a2> .
 <http://ontology.ethereal.cz/irao#b2a0c5eb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.ethereal.cz/irao/Researcher> .
 <http://ontology.ethereal.cz/irao#b2a0c5eb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://ontology.ethereal.cz/irao#b2a0c5eb> <http://xmlns.com/foaf/0.1/name> "Jindrich Mynarz"@en .
+<http://ontology.ethereal.cz/irao#b2a0c5eb> <http://xmlns.com/foaf/0.1/name> "Jind\u0159ich Mynarz"@en .
 <http://ontology.ethereal.cz/irao#ca0d6d57> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.ethereal.cz/irao/Affiliation> .
 <http://ontology.ethereal.cz/irao#ca0d6d57> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ontology.ethereal.cz/irao#ca0d6d57> <http://xmlns.com/foaf/0.1/name> "University of Bologna"@en .
@@ -98,7 +98,7 @@
 <http://ontology.ethereal.cz/irao#ea848e30> <http://ontology.ethereal.cz/irao/hasAffiliation> <http://ontology.ethereal.cz/irao#33bca0a2> .
 <http://ontology.ethereal.cz/irao#ea848e30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.ethereal.cz/irao/Researcher> .
 <http://ontology.ethereal.cz/irao#ea848e30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://ontology.ethereal.cz/irao#ea848e30> <http://xmlns.com/foaf/0.1/name> "Marek Dudas"@en .
+<http://ontology.ethereal.cz/irao#ea848e30> <http://xmlns.com/foaf/0.1/name> "Marek Dud\u00e1\u0161"@en .
 <http://ontology.ethereal.cz/irao#f35c0633> <http://ontology.ethereal.cz/irao/hasRepositoryType> <http://ontology.ethereal.cz/irao/repositorytype#GitHub> .
 <http://ontology.ethereal.cz/irao#f35c0633> <http://ontology.ethereal.cz/irao/hasURL> "https://github.com/marek-dudas/PURO-Modeler"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 <http://ontology.ethereal.cz/irao#f35c0633> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.ethereal.cz/irao/Repository> .

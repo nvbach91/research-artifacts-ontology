@@ -105,7 +105,7 @@
     <ir:Researcher rdf:about="/irao#b2a0c5eb">
         <ir:hasAffiliation rdf:resource="/irao#33bca0a2"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <n0:name rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" xml:lang="en">Jindrich Mynarz</n0:name>
+        <n0:name rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" xml:lang="en">Jindřich Mynarz</n0:name>
     </ir:Researcher>
     <ir:Affiliation rdf:about="/irao#ca0d6d57">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -121,7 +121,7 @@
     <ir:Researcher rdf:about="/irao#ea848e30">
         <ir:hasAffiliation rdf:resource="/irao#33bca0a2"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <n0:name rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" xml:lang="en">Marek Dudas</n0:name>
+        <n0:name rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" xml:lang="en">Marek Dudáš</n0:name>
     </ir:Researcher>
     <ir:Repository rdf:about="/irao#f35c0633">
         <ir:hasRepositoryType rdf:resource="/irao/repositorytype#GitHub"/>

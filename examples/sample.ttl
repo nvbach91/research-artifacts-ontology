@@ -94,7 +94,7 @@ ir:9a94279c
 ir:b2a0c5eb
     a i:Researcher, owl:NamedIndividual;
     i:hasAffiliation ir:33bca0a2;
-    n0:name "Jindrich Mynarz"@en.
+    n0:name "Jind\u0159ich Mynarz"@en.
 ir:ca0d6d57
 a i:Affiliation, owl:NamedIndividual; n0:name "University of Bologna"@en.
 ir:d28f9810
@@ -107,7 +107,7 @@ ir:d28f9810
 ir:ea848e30
     a i:Researcher, owl:NamedIndividual;
     i:hasAffiliation ir:33bca0a2;
-    n0:name "Marek Dudas"@en.
+    n0:name "Marek Dud\u00e1\u0161"@en.
 ir:f35c0633
     a i:Repository, owl:NamedIndividual;
     i:hasRepositoryType rep:GitHub;
