@@ -8,7 +8,7 @@
 <http://ontology.ethereal.cz/irao> <http://purl.org/dc/elements/1.1/subject> "Informatics, Research Artifacts, Ontology, Semantic SEO, Linked Data, RDF, Semantic Web"@en .
 <http://ontology.ethereal.cz/irao> <http://purl.org/dc/elements/1.1/title> "Informatics Research Artifacts Ontology"@en .
 <http://ontology.ethereal.cz/irao> <http://purl.org/dc/terms/abstract> "Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL."@en .
-<http://ontology.ethereal.cz/irao> <http://purl.org/dc/terms/created> "2020-04-30"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://ontology.ethereal.cz/irao> <http://purl.org/dc/terms/created> "2021-03-18"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://ontology.ethereal.cz/irao> <http://purl.org/dc/terms/description> "Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL."@en .
 <http://ontology.ethereal.cz/irao> <http://purl.org/dc/terms/publisher> "Prague University of Business and Economics, Czech Republic. Faculty of Informatics and Statistics. Department of Knowledge and Information Engineering" .
 <http://ontology.ethereal.cz/irao> <http://purl.org/vocab/vann/preferredNamespacePrefix> "irao" .
