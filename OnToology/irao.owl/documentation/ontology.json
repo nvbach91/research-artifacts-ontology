@@ -25,7 +25,7 @@
   } ],
   "http://purl.org/dc/elements/1.1/subject" : [ {
     "@language" : "en",
-    "@value" : "Informatics, Research Artifacts, Ontology, Semantic SEO, RDFa, Linked Data, RDF, Semantic Web"
+    "@value" : "Informatics, Research Artifacts, Ontology, Semantic SEO, Linked Data, RDF, Semantic Web"
   } ],
   "http://purl.org/dc/elements/1.1/title" : [ {
     "@language" : "en",
@@ -133,6 +133,19 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://ontology.ethereal.cz/irao/InformaticsResearchArtifact"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/irao/ConferencePaper",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://ontology.ethereal.cz/irao"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Conference paper"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ontology.ethereal.cz/irao/Publication"
   } ]
 }, {
   "@id" : "http://ontology.ethereal.cz/irao/DataModel",
@@ -396,6 +409,19 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "System"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/irao/Thesis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://ontology.ethereal.cz/irao"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Thesis"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ontology.ethereal.cz/irao/Publication"
   } ]
 }, {
   "@id" : "http://ontology.ethereal.cz/irao/Vocabulary",

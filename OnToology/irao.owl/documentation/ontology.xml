@@ -17,7 +17,7 @@
         <dc:contributor>Vojtěch Svátek</dc:contributor>
         <dc:creator>Nguyen Viet Bach</dc:creator>
         <dc:description xml:lang="en">Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL.</dc:description>
-        <dc:subject xml:lang="en">Informatics, Research Artifacts, Ontology, Semantic SEO, RDFa, Linked Data, RDF, Semantic Web</dc:subject>
+        <dc:subject xml:lang="en">Informatics, Research Artifacts, Ontology, Semantic SEO, Linked Data, RDF, Semantic Web</dc:subject>
         <dc:title xml:lang="en">Informatics Research Artifacts Ontology</dc:title>
         <terms:abstract xml:lang="en">Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL.</terms:abstract>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-04-30</terms:created>
@@ -492,6 +492,17 @@
     
 
 
+    <!-- http://ontology.ethereal.cz/irao/ConferencePaper -->
+
+
+    <owl:Class rdf:about="http://ontology.ethereal.cz/irao/ConferencePaper">
+        <rdfs:subClassOf rdf:resource="http://ontology.ethereal.cz/irao/Publication"/>
+        <rdfs:isDefinedBy rdf:resource="http://ontology.ethereal.cz/irao"/>
+        <rdfs:label xml:lang="en">Conference paper</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://ontology.ethereal.cz/irao/DataModel -->
 
 
@@ -722,6 +733,17 @@
     <owl:Class rdf:about="http://ontology.ethereal.cz/irao/System">
         <rdfs:isDefinedBy rdf:resource="http://ontology.ethereal.cz/irao"/>
         <rdfs:label xml:lang="en">System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.ethereal.cz/irao/Thesis -->
+
+
+    <owl:Class rdf:about="http://ontology.ethereal.cz/irao/Thesis">
+        <rdfs:subClassOf rdf:resource="http://ontology.ethereal.cz/irao/Publication"/>
+        <rdfs:isDefinedBy rdf:resource="http://ontology.ethereal.cz/irao"/>
+        <rdfs:label xml:lang="en">Thesis</rdfs:label>
     </owl:Class>
     
 
