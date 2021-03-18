@@ -73,7 +73,7 @@
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@language" : "en",
-    "@value" : "Version 1.1.1, Release 2021 March 18"
+    "@value" : "Version 1.1.1, Release 2021 Mar 18"
   } ]
 }, {
   "@id" : "http://ontology.ethereal.cz/irao/API",
