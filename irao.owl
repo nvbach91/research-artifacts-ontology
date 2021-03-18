@@ -30,7 +30,7 @@
         <vann:preferredNamespaceUri>http://ontology.ethereal.cz/irao/</vann:preferredNamespaceUri>
         <rdfs:comment xml:lang="en">Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL.</rdfs:comment>
         <rdfs:label xml:lang="en">Informatics Research Artifacts Ontology</rdfs:label>
-        <owl:versionInfo xml:lang="en">Version 1.1.1, Release 2021 March 18</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Version 1.1.1, Release 2021 Mar 18</owl:versionInfo>
     </owl:Ontology>
     
 
