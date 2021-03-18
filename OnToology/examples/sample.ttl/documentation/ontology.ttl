@@ -175,7 +175,7 @@
 ###  file:/irao#33bca0a2
 <file:/irao#33bca0a2> rdf:type owl:NamedIndividual ,
                                <file:/irao/Affiliation> ;
-                      <http://xmlns.com/foaf/0.1/name> "University of Ecomics, Prague"@en .
+                      <http://xmlns.com/foaf/0.1/name> "University of Economics , Prague"@en .
 
 
 ###  file:/irao#38947a2e
