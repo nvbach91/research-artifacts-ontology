@@ -17,19 +17,22 @@
   "http://ontology.ethereal.cz/irao/hasTopic" : [ {
     "@value" : "ontology visualization"
   } ],
+  "http://ontology.ethereal.cz/irao/hasURL" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://vskp.vse.cz/74478_podpora-vyvoje-ontologii-pomoci-grafickych-modelovacich-nastroju"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Supporting ontology development with visual modeling tools"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
-    "@value" : "https://vskp.vse.cz/74478_podpora-vyvoje-ontologii-pomoci-grafickych-modelovacich-nastroju"
   } ]
 }, {
   "@id" : "file:/irao#3230c840",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/irao/Software" ],
   "http://ontology.ethereal.cz/irao/hasAuthor" : [ {
     "@id" : "file:/irao#ea848e30"
+  } ],
+  "http://ontology.ethereal.cz/irao/hasDevelopmentStatus" : [ {
+    "@id" : "file:/irao/developmentstatus#release"
   } ],
   "http://ontology.ethereal.cz/irao/hasPublication" : [ {
     "@id" : "file:/irao#1bc6c06f"
@@ -38,9 +41,6 @@
     "@id" : "https://cso.kmi.open.ac.uk/topics/ontology_engineering"
   }, {
     "@id" : "https://cso.kmi.open.ac.uk/topics/semantic_web"
-  } ],
-  "http://ontology.ethereal.cz/irao/hasStatus" : [ {
-    "@id" : "file:/irao/developmentstatus#release"
   } ],
   "http://ontology.ethereal.cz/irao/isPublishedAt" : [ {
     "@id" : "file:/irao#f35c0633"
@@ -62,7 +62,7 @@
   "http://ontology.ethereal.cz/irao/hasRepositoryType" : [ {
     "@id" : "file:/irao/repositorytype#GitHub"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+  "http://ontology.ethereal.cz/irao/hasURL" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
     "@value" : "https://github.com/ICCD-MiBACT/ArCo/tree/master/ArCo-release"
   } ]
@@ -72,7 +72,7 @@
   "http://ontology.ethereal.cz/irao/hasRepositoryType" : [ {
     "@id" : "file:/irao/repositorytype#GitHub"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+  "http://ontology.ethereal.cz/irao/hasURL" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
     "@value" : "https://github.com/ICCD-MiBACT/ArCo/tree/master/ArCo-release"
   } ]
@@ -89,13 +89,13 @@
   "http://ontology.ethereal.cz/irao/hasTopic" : [ {
     "@value" : "real estate"
   } ],
+  "http://ontology.ethereal.cz/irao/hasURL" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://link.springer.com/chapter/10.1007%2F978-3-030-30796-7_9"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "The RealEstateCore Ontology"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
-    "@value" : "https://link.springer.com/chapter/10.1007%2F978-3-030-30796-7_9"
   } ]
 }, {
   "@id" : "file:/irao#6f33415e",
@@ -103,7 +103,7 @@
   "http://ontology.ethereal.cz/irao/hasRepositoryType" : [ {
     "@id" : "file:/irao/repositorytype#GitHub"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+  "http://ontology.ethereal.cz/irao/hasURL" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
     "@value" : "https://github.com/RealEstateCore/rec"
   } ]
@@ -113,6 +113,9 @@
   "http://ontology.ethereal.cz/irao/hasAuthor" : [ {
     "@id" : "file:/irao#b2a0c5eb"
   } ],
+  "http://ontology.ethereal.cz/irao/hasDevelopmentStatus" : [ {
+    "@id" : "file:/irao/developmentstatus#release"
+  } ],
   "http://ontology.ethereal.cz/irao/hasPublication" : [ {
     "@id" : "file:/irao#d28f9810"
   } ],
@@ -120,9 +123,6 @@
     "@id" : "https://cso.kmi.open.ac.uk/topics/linked_data"
   }, {
     "@id" : "https://cso.kmi.open.ac.uk/topics/semantic_web"
-  } ],
-  "http://ontology.ethereal.cz/irao/hasStatus" : [ {
-    "@id" : "file:/irao/developmentstatus#release"
   } ],
   "http://ontology.ethereal.cz/irao/isPublishedAt" : [ {
     "@id" : "file:/irao#92b55a1a"
@@ -147,6 +147,9 @@
   "http://ontology.ethereal.cz/irao/hasAuthor" : [ {
     "@id" : "file:/irao#0962aa92"
   } ],
+  "http://ontology.ethereal.cz/irao/hasDevelopmentStatus" : [ {
+    "@id" : "file:/irao/developmentstatus#release"
+  } ],
   "http://ontology.ethereal.cz/irao/hasPublication" : [ {
     "@id" : "file:/irao#9a94279c"
   } ],
@@ -154,9 +157,6 @@
     "@id" : "https://cso.kmi.open.ac.uk/topics/linked_data"
   }, {
     "@id" : "https://cso.kmi.open.ac.uk/topics/semantic_web"
-  } ],
-  "http://ontology.ethereal.cz/irao/hasStatus" : [ {
-    "@id" : "file:/irao/developmentstatus#release"
   } ],
   "http://ontology.ethereal.cz/irao/isPublishedAt" : [ {
     "@id" : "file:/irao#4c2877ee"
@@ -171,6 +171,9 @@
   "http://ontology.ethereal.cz/irao/hasAuthor" : [ {
     "@id" : "file:/irao#787367eb"
   } ],
+  "http://ontology.ethereal.cz/irao/hasDevelopmentStatus" : [ {
+    "@id" : "file:/irao/developmentstatus#release"
+  } ],
   "http://ontology.ethereal.cz/irao/hasPublication" : [ {
     "@id" : "file:/irao#695a74d6"
   } ],
@@ -178,9 +181,6 @@
     "@id" : "https://cso.kmi.open.ac.uk/topics/ontology_engineering"
   }, {
     "@id" : "https://cso.kmi.open.ac.uk/topics/semantic_web"
-  } ],
-  "http://ontology.ethereal.cz/irao/hasStatus" : [ {
-    "@id" : "file:/irao/developmentstatus#release"
   } ],
   "http://ontology.ethereal.cz/irao/isPublishedAt" : [ {
     "@id" : "file:/irao#6f33415e"
@@ -195,7 +195,7 @@
   "http://ontology.ethereal.cz/irao/hasRepositoryType" : [ {
     "@id" : "file:/irao/repositorytype#GitHub"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+  "http://ontology.ethereal.cz/irao/hasURL" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
     "@value" : "https://github.com/jindrichmynarz/vvz-to-rdf"
   } ]
@@ -205,13 +205,13 @@
   "http://ontology.ethereal.cz/irao/hasTopic" : [ {
     "@value" : "cultural heritage"
   } ],
+  "http://ontology.ethereal.cz/irao/hasURL" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://link.springer.com/chapter/10.1007%2F978-3-030-30796-7_3"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "ArCo: the Italian Cultural Heritage Knowledge Graph"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
-    "@value" : "https://link.springer.com/chapter/10.1007%2F978-3-030-30796-7_3"
   } ]
 }, {
   "@id" : "file:/irao#b2a0c5eb",
@@ -221,7 +221,7 @@
   } ],
   "http://xmlns.com/foaf/0.1/name" : [ {
     "@language" : "en",
-    "@value" : "Jindrich Mynarz"
+    "@value" : "Jindřich Mynarz"
   } ]
 }, {
   "@id" : "file:/irao#ca0d6d57",
@@ -236,13 +236,13 @@
   "http://ontology.ethereal.cz/irao/hasTopic" : [ {
     "@value" : "public procurement"
   } ],
+  "http://ontology.ethereal.cz/irao/hasURL" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://vskp.vse.cz/71568_parovani-uchazecu-a-verejnych-zakazek-pomoci-propojenych-otevrenych-dat"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Matchmaking of bidders and public contracts using linked open data"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
-    "@value" : "https://vskp.vse.cz/71568_parovani-uchazecu-a-verejnych-zakazek-pomoci-propojenych-otevrenych-dat"
   } ]
 }, {
   "@id" : "file:/irao#ea848e30",
@@ -252,7 +252,7 @@
   } ],
   "http://xmlns.com/foaf/0.1/name" : [ {
     "@language" : "en",
-    "@value" : "Marek Dudas"
+    "@value" : "Marek Dudáš"
   } ]
 }, {
   "@id" : "file:/irao#f35c0633",
@@ -260,7 +260,7 @@
   "http://ontology.ethereal.cz/irao/hasRepositoryType" : [ {
     "@id" : "file:/irao/repositorytype#GitHub"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+  "http://ontology.ethereal.cz/irao/hasURL" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
     "@value" : "https://github.com/marek-dudas/PURO-Modeler"
   } ]
@@ -270,6 +270,9 @@
   "http://ontology.ethereal.cz/irao/hasAuthor" : [ {
     "@id" : "file:/irao#0962aa92"
   } ],
+  "http://ontology.ethereal.cz/irao/hasDevelopmentStatus" : [ {
+    "@id" : "file:/irao/developmentstatus#release"
+  } ],
   "http://ontology.ethereal.cz/irao/hasPublication" : [ {
     "@id" : "file:/irao#9a94279c"
   } ],
@@ -277,9 +280,6 @@
     "@id" : "https://cso.kmi.open.ac.uk/topics/linked_data"
   }, {
     "@id" : "https://cso.kmi.open.ac.uk/topics/semantic_web"
-  } ],
-  "http://ontology.ethereal.cz/irao/hasStatus" : [ {
-    "@id" : "file:/irao/developmentstatus#release"
   } ],
   "http://ontology.ethereal.cz/irao/isPublishedAt" : [ {
     "@id" : "file:/irao#38947a2e"
@@ -325,6 +325,9 @@
   "@id" : "http://ontology.ethereal.cz/irao/hasAuthor",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
+  "@id" : "http://ontology.ethereal.cz/irao/hasDevelopmentStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://ontology.ethereal.cz/irao/hasPublication",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -334,10 +337,10 @@
   "@id" : "http://ontology.ethereal.cz/irao/hasResearchArea",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "http://ontology.ethereal.cz/irao/hasStatus",
+  "@id" : "http://ontology.ethereal.cz/irao/hasTopic",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "http://ontology.ethereal.cz/irao/hasTopic",
+  "@id" : "http://ontology.ethereal.cz/irao/hasURL",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://ontology.ethereal.cz/irao/isPublishedAt",

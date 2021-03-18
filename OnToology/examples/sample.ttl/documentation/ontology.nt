@@ -14,6 +14,9 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # file:/irao/hasAuthor
 <file:/irao/hasAuthor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
+# file:/irao/hasDevelopmentStatus
+<file:/irao/hasDevelopmentStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
 # file:/irao/hasPublication
 <file:/irao/hasPublication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
@@ -23,11 +26,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # file:/irao/hasResearchArea
 <file:/irao/hasResearchArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
-# file:/irao/hasStatus
-<file:/irao/hasStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-# 
 # file:/irao/hasTopic
 <file:/irao/hasTopic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# file:/irao/hasURL
+<file:/irao/hasURL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # file:/irao/isPublishedAt
 <file:/irao/isPublishedAt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -84,7 +87,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <file:/irao#b2a0c5eb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <file:/irao#b2a0c5eb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:/irao/Researcher> .
 <file:/irao#b2a0c5eb> <file:/irao/hasAffiliation> <file:/irao#33bca0a2> .
-<file:/irao#b2a0c5eb> <http://xmlns.com/foaf/0.1/name> "Jindrich Mynarz"@en .
+<file:/irao#b2a0c5eb> <http://xmlns.com/foaf/0.1/name> "Jindřich Mynarz"@en .
 # 
 # file:/irao#ca0d6d57
 <file:/irao#ca0d6d57> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -96,29 +99,29 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <file:/irao#d28f9810> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:/irao/Publication> .
 <file:/irao#d28f9810> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:/irao/Thesis> .
 <file:/irao#d28f9810> <file:/irao/hasTopic> "public procurement" .
+<file:/irao#d28f9810> <file:/irao/hasURL> "https://vskp.vse.cz/71568_parovani-uchazecu-a-verejnych-zakazek-pomoci-propojenych-otevrenych-dat"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 <file:/irao#d28f9810> <http://www.w3.org/2000/01/rdf-schema#label> "Matchmaking of bidders and public contracts using linked open data"@en .
-<file:/irao#d28f9810> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://vskp.vse.cz/71568_parovani-uchazecu-a-verejnych-zakazek-pomoci-propojenych-otevrenych-dat"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 # 
 # file:/irao#ea848e30
 <file:/irao#ea848e30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <file:/irao#ea848e30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:/irao/Researcher> .
 <file:/irao#ea848e30> <file:/irao/hasAffiliation> <file:/irao#33bca0a2> .
-<file:/irao#ea848e30> <http://xmlns.com/foaf/0.1/name> "Marek Dudas"@en .
+<file:/irao#ea848e30> <http://xmlns.com/foaf/0.1/name> "Marek Dudáš"@en .
 # 
 # file:/irao#f35c0633
 <file:/irao#f35c0633> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <file:/irao#f35c0633> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:/irao/Repository> .
 <file:/irao#f35c0633> <file:/irao/hasRepositoryType> <file:/irao/repositorytype#GitHub> .
-<file:/irao#f35c0633> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://github.com/marek-dudas/PURO-Modeler"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<file:/irao#f35c0633> <file:/irao/hasURL> "https://github.com/marek-dudas/PURO-Modeler"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 # 
 # file:/irao#f46e52f4
 <file:/irao#f46e52f4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <file:/irao#f46e52f4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:/irao/Ontology> .
 <file:/irao#f46e52f4> <file:/irao/hasAuthor> <file:/irao#0962aa92> .
+<file:/irao#f46e52f4> <file:/irao/hasDevelopmentStatus> <file:/irao/developmentstatus#release> .
 <file:/irao#f46e52f4> <file:/irao/hasPublication> <file:/irao#9a94279c> .
 <file:/irao#f46e52f4> <file:/irao/hasResearchArea> <https://cso.kmi.open.ac.uk/topics/linked_data> .
 <file:/irao#f46e52f4> <file:/irao/hasResearchArea> <https://cso.kmi.open.ac.uk/topics/semantic_web> .
-<file:/irao#f46e52f4> <file:/irao/hasStatus> <file:/irao/developmentstatus#release> .
 <file:/irao#f46e52f4> <file:/irao/isPublishedAt> <file:/irao#38947a2e> .
 <file:/irao#f46e52f4> <http://www.w3.org/2000/01/rdf-schema#label> "ArCo Ontology"@en .
 # 
@@ -133,17 +136,17 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <file:/irao#1bc6c06f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:/irao/Publication> .
 <file:/irao#1bc6c06f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:/irao/Thesis> .
 <file:/irao#1bc6c06f> <file:/irao/hasTopic> "ontology visualization" .
+<file:/irao#1bc6c06f> <file:/irao/hasURL> "https://vskp.vse.cz/74478_podpora-vyvoje-ontologii-pomoci-grafickych-modelovacich-nastroju"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 <file:/irao#1bc6c06f> <http://www.w3.org/2000/01/rdf-schema#label> "Supporting ontology development with visual modeling tools"@en .
-<file:/irao#1bc6c06f> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://vskp.vse.cz/74478_podpora-vyvoje-ontologii-pomoci-grafickych-modelovacich-nastroju"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 # 
 # file:/irao#3230c840
 <file:/irao#3230c840> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <file:/irao#3230c840> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:/irao/Software> .
 <file:/irao#3230c840> <file:/irao/hasAuthor> <file:/irao#ea848e30> .
+<file:/irao#3230c840> <file:/irao/hasDevelopmentStatus> <file:/irao/developmentstatus#release> .
 <file:/irao#3230c840> <file:/irao/hasPublication> <file:/irao#1bc6c06f> .
 <file:/irao#3230c840> <file:/irao/hasResearchArea> <https://cso.kmi.open.ac.uk/topics/ontology_engineering> .
 <file:/irao#3230c840> <file:/irao/hasResearchArea> <https://cso.kmi.open.ac.uk/topics/semantic_web> .
-<file:/irao#3230c840> <file:/irao/hasStatus> <file:/irao/developmentstatus#release> .
 <file:/irao#3230c840> <file:/irao/isPublishedAt> <file:/irao#f35c0633> .
 <file:/irao#3230c840> <http://www.w3.org/2000/01/rdf-schema#label> "PURO Modeler"@en .
 # 
@@ -156,13 +159,13 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <file:/irao#38947a2e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <file:/irao#38947a2e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:/irao/Repository> .
 <file:/irao#38947a2e> <file:/irao/hasRepositoryType> <file:/irao/repositorytype#GitHub> .
-<file:/irao#38947a2e> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://github.com/ICCD-MiBACT/ArCo/tree/master/ArCo-release"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<file:/irao#38947a2e> <file:/irao/hasURL> "https://github.com/ICCD-MiBACT/ArCo/tree/master/ArCo-release"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 # 
 # file:/irao#4c2877ee
 <file:/irao#4c2877ee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <file:/irao#4c2877ee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:/irao/Repository> .
 <file:/irao#4c2877ee> <file:/irao/hasRepositoryType> <file:/irao/repositorytype#GitHub> .
-<file:/irao#4c2877ee> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://github.com/ICCD-MiBACT/ArCo/tree/master/ArCo-release"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<file:/irao#4c2877ee> <file:/irao/hasURL> "https://github.com/ICCD-MiBACT/ArCo/tree/master/ArCo-release"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 # 
 # file:/irao#52b761ad
 <file:/irao#52b761ad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -173,24 +176,24 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <file:/irao#6f33415e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <file:/irao#6f33415e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:/irao/Repository> .
 <file:/irao#6f33415e> <file:/irao/hasRepositoryType> <file:/irao/repositorytype#GitHub> .
-<file:/irao#6f33415e> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://github.com/RealEstateCore/rec"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<file:/irao#6f33415e> <file:/irao/hasURL> "https://github.com/RealEstateCore/rec"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 # 
 # file:/irao#695a74d6
 <file:/irao#695a74d6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <file:/irao#695a74d6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:/irao/Publication> .
 <file:/irao#695a74d6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:/irao/Thesis> .
 <file:/irao#695a74d6> <file:/irao/hasTopic> "real estate" .
+<file:/irao#695a74d6> <file:/irao/hasURL> "https://link.springer.com/chapter/10.1007%2F978-3-030-30796-7_9"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 <file:/irao#695a74d6> <http://www.w3.org/2000/01/rdf-schema#label> "The RealEstateCore Ontology"@en .
-<file:/irao#695a74d6> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://link.springer.com/chapter/10.1007%2F978-3-030-30796-7_9"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 # 
 # file:/irao#76a99da9
 <file:/irao#76a99da9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <file:/irao#76a99da9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:/irao/Software> .
 <file:/irao#76a99da9> <file:/irao/hasAuthor> <file:/irao#b2a0c5eb> .
+<file:/irao#76a99da9> <file:/irao/hasDevelopmentStatus> <file:/irao/developmentstatus#release> .
 <file:/irao#76a99da9> <file:/irao/hasPublication> <file:/irao#d28f9810> .
 <file:/irao#76a99da9> <file:/irao/hasResearchArea> <https://cso.kmi.open.ac.uk/topics/linked_data> .
 <file:/irao#76a99da9> <file:/irao/hasResearchArea> <https://cso.kmi.open.ac.uk/topics/semantic_web> .
-<file:/irao#76a99da9> <file:/irao/hasStatus> <file:/irao/developmentstatus#release> .
 <file:/irao#76a99da9> <file:/irao/isPublishedAt> <file:/irao#92b55a1a> .
 <file:/irao#76a99da9> <http://www.w3.org/2000/01/rdf-schema#label> "VVZ to RDF"@en .
 # 
@@ -204,10 +207,10 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <file:/irao#8d91adad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <file:/irao#8d91adad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:/irao/Dataset> .
 <file:/irao#8d91adad> <file:/irao/hasAuthor> <file:/irao#0962aa92> .
+<file:/irao#8d91adad> <file:/irao/hasDevelopmentStatus> <file:/irao/developmentstatus#release> .
 <file:/irao#8d91adad> <file:/irao/hasPublication> <file:/irao#9a94279c> .
 <file:/irao#8d91adad> <file:/irao/hasResearchArea> <https://cso.kmi.open.ac.uk/topics/linked_data> .
 <file:/irao#8d91adad> <file:/irao/hasResearchArea> <https://cso.kmi.open.ac.uk/topics/semantic_web> .
-<file:/irao#8d91adad> <file:/irao/hasStatus> <file:/irao/developmentstatus#release> .
 <file:/irao#8d91adad> <file:/irao/isPublishedAt> <file:/irao#4c2877ee> .
 <file:/irao#8d91adad> <http://www.w3.org/2000/01/rdf-schema#label> "ArCo Dataset"@en .
 # 
@@ -216,17 +219,17 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <file:/irao#9a94279c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:/irao/ConferencePaper> .
 <file:/irao#9a94279c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:/irao/Publication> .
 <file:/irao#9a94279c> <file:/irao/hasTopic> "cultural heritage" .
+<file:/irao#9a94279c> <file:/irao/hasURL> "https://link.springer.com/chapter/10.1007%2F978-3-030-30796-7_3"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 <file:/irao#9a94279c> <http://www.w3.org/2000/01/rdf-schema#label> "ArCo: the Italian Cultural Heritage Knowledge Graph"@en .
-<file:/irao#9a94279c> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://link.springer.com/chapter/10.1007%2F978-3-030-30796-7_3"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 # 
 # file:/irao#90ba34ff
 <file:/irao#90ba34ff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <file:/irao#90ba34ff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:/irao/Ontology> .
 <file:/irao#90ba34ff> <file:/irao/hasAuthor> <file:/irao#787367eb> .
+<file:/irao#90ba34ff> <file:/irao/hasDevelopmentStatus> <file:/irao/developmentstatus#release> .
 <file:/irao#90ba34ff> <file:/irao/hasPublication> <file:/irao#695a74d6> .
 <file:/irao#90ba34ff> <file:/irao/hasResearchArea> <https://cso.kmi.open.ac.uk/topics/ontology_engineering> .
 <file:/irao#90ba34ff> <file:/irao/hasResearchArea> <https://cso.kmi.open.ac.uk/topics/semantic_web> .
-<file:/irao#90ba34ff> <file:/irao/hasStatus> <file:/irao/developmentstatus#release> .
 <file:/irao#90ba34ff> <file:/irao/isPublishedAt> <file:/irao#6f33415e> .
 <file:/irao#90ba34ff> <http://www.w3.org/2000/01/rdf-schema#label> "RealEstateCore Ontology"@en .
 # 
@@ -234,6 +237,6 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <file:/irao#92b55a1a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <file:/irao#92b55a1a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:/irao/Repository> .
 <file:/irao#92b55a1a> <file:/irao/hasRepositoryType> <file:/irao/repositorytype#GitHub> .
-<file:/irao#92b55a1a> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://github.com/jindrichmynarz/vvz-to-rdf"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<file:/irao#92b55a1a> <file:/irao/hasURL> "https://github.com/jindrichmynarz/vvz-to-rdf"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 # 
 # Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

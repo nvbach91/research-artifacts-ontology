@@ -181,7 +181,7 @@
         <rdfs:domain rdf:resource="http://ontology.ethereal.cz/irao/ResearchArtifact"/>
         <rdfs:range rdf:resource="http://ontology.ethereal.cz/irao/DevelopmentStatus"/>
         <rdfs:isDefinedBy rdf:resource="http://ontology.ethereal.cz/irao"/>
-        <rdfs:label xml:lang="en">has status</rdfs:label>
+        <rdfs:label xml:lang="en">has development status</rdfs:label>
     </owl:ObjectProperty>
     
 
