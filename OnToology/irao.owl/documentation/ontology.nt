@@ -5,7 +5,7 @@
 <http://ontology.ethereal.cz/irao> <http://purl.org/dc/elements/1.1/contributor> "Vojtěch Svátek" .
 <http://ontology.ethereal.cz/irao> <http://purl.org/dc/elements/1.1/creator> "Nguyen Viet Bach" .
 <http://ontology.ethereal.cz/irao> <http://purl.org/dc/elements/1.1/description> "Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL."@en .
-<http://ontology.ethereal.cz/irao> <http://purl.org/dc/elements/1.1/subject> "Informatics, Research Artifacts, Ontology, Semantic SEO, RDFa, Linked Data, RDF, Semantic Web"@en .
+<http://ontology.ethereal.cz/irao> <http://purl.org/dc/elements/1.1/subject> "Informatics, Research Artifacts, Ontology, Semantic SEO, Linked Data, RDF, Semantic Web"@en .
 <http://ontology.ethereal.cz/irao> <http://purl.org/dc/elements/1.1/title> "Informatics Research Artifacts Ontology"@en .
 <http://ontology.ethereal.cz/irao> <http://purl.org/dc/terms/abstract> "Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL."@en .
 <http://ontology.ethereal.cz/irao> <http://purl.org/dc/terms/created> "2020-04-30"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -239,13 +239,13 @@ _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/19
 # http://ontology.ethereal.cz/irao/hasVersion
 <http://ontology.ethereal.cz/irao/hasVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://ontology.ethereal.cz/irao/hasVersion> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/hasVersion> .
+<http://purl.org/dc/terms/hasVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://ontology.ethereal.cz/irao/hasVersion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/ResearchArtifact> .
 <http://ontology.ethereal.cz/irao/hasVersion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://ontology.ethereal.cz/irao/hasVersion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/hasVersion> <http://www.w3.org/2000/01/rdf-schema#label> "has version"@en .
 # 
 # http://purl.org/dc/terms/hasVersion
-<http://purl.org/dc/terms/hasVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 # 
 # 
 # 
@@ -283,6 +283,12 @@ _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/19
 <http://ontology.ethereal.cz/irao/Benchmark> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.ethereal.cz/irao/InformaticsResearchArtifact> .
 <http://ontology.ethereal.cz/irao/Benchmark> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/Benchmark> <http://www.w3.org/2000/01/rdf-schema#label> "Benchmark"@en .
+# 
+# http://ontology.ethereal.cz/irao/ConferencePaper
+<http://ontology.ethereal.cz/irao/ConferencePaper> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.ethereal.cz/irao/ConferencePaper> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.ethereal.cz/irao/Publication> .
+<http://ontology.ethereal.cz/irao/ConferencePaper> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
+<http://ontology.ethereal.cz/irao/ConferencePaper> <http://www.w3.org/2000/01/rdf-schema#label> "Conference paper"@en .
 # 
 # http://ontology.ethereal.cz/irao/DataModel
 <http://ontology.ethereal.cz/irao/DataModel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -407,6 +413,12 @@ _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/19
 <http://ontology.ethereal.cz/irao/System> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://ontology.ethereal.cz/irao/System> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/System> <http://www.w3.org/2000/01/rdf-schema#label> "System"@en .
+# 
+# http://ontology.ethereal.cz/irao/Thesis
+<http://ontology.ethereal.cz/irao/Thesis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.ethereal.cz/irao/Thesis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.ethereal.cz/irao/Publication> .
+<http://ontology.ethereal.cz/irao/Thesis> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
+<http://ontology.ethereal.cz/irao/Thesis> <http://www.w3.org/2000/01/rdf-schema#label> "Thesis"@en .
 # 
 # http://ontology.ethereal.cz/irao/Vocabulary
 <http://ontology.ethereal.cz/irao/Vocabulary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .

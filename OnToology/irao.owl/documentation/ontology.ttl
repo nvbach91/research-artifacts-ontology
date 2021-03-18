@@ -13,7 +13,7 @@
                                     <http://purl.org/dc/elements/1.1/contributor> "Vojtěch Svátek" ;
                                     <http://purl.org/dc/elements/1.1/creator> "Nguyen Viet Bach" ;
                                     <http://purl.org/dc/elements/1.1/description> "Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL."@en ;
-                                    <http://purl.org/dc/elements/1.1/subject> "Informatics, Research Artifacts, Ontology, Semantic SEO, RDFa, Linked Data, RDF, Semantic Web"@en ;
+                                    <http://purl.org/dc/elements/1.1/subject> "Informatics, Research Artifacts, Ontology, Semantic SEO, Linked Data, RDF, Semantic Web"@en ;
                                     <http://purl.org/dc/elements/1.1/title> "Informatics Research Artifacts Ontology"@en ;
                                     <http://purl.org/dc/terms/abstract> "Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL."@en ;
                                     <http://purl.org/dc/terms/created> "2020-04-30"^^xsd:date ;
@@ -306,6 +306,13 @@
                                              rdfs:label "Benchmark"@en .
 
 
+###  http://ontology.ethereal.cz/irao/ConferencePaper
+<http://ontology.ethereal.cz/irao/ConferencePaper> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <http://ontology.ethereal.cz/irao/Publication> ;
+                                                   rdfs:isDefinedBy <http://ontology.ethereal.cz/irao> ;
+                                                   rdfs:label "Conference paper"@en .
+
+
 ###  http://ontology.ethereal.cz/irao/DataModel
 <http://ontology.ethereal.cz/irao/DataModel> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://ontology.ethereal.cz/irao/Model> ;
@@ -450,6 +457,13 @@
 <http://ontology.ethereal.cz/irao/System> rdf:type owl:Class ;
                                           rdfs:isDefinedBy <http://ontology.ethereal.cz/irao> ;
                                           rdfs:label "System"@en .
+
+
+###  http://ontology.ethereal.cz/irao/Thesis
+<http://ontology.ethereal.cz/irao/Thesis> rdf:type owl:Class ;
+                                          rdfs:subClassOf <http://ontology.ethereal.cz/irao/Publication> ;
+                                          rdfs:isDefinedBy <http://ontology.ethereal.cz/irao> ;
+                                          rdfs:label "Thesis"@en .
 
 
 ###  http://ontology.ethereal.cz/irao/Vocabulary
