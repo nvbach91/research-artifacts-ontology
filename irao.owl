@@ -1,13 +1,10 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://ontology.ethereal.cz/irao#"
      xml:base="http://ontology.ethereal.cz/irao"
-     xmlns:cc="http://web.resource.org/cc/"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
-     xmlns:eam="http://ontology.ethereal.cz/eam/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:wot="http://xmlns.com/wot/0.1/"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
@@ -35,7 +32,7 @@
         <vann:preferredNamespaceUri>http://ontology.ethereal.cz/irao/</vann:preferredNamespaceUri>
         <rdfs:comment xml:lang="en">Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL.</rdfs:comment>
         <rdfs:label xml:lang="en">Informatics Research Artifacts Ontology</rdfs:label>
-        <owl:versionInfo xml:lang="en">Version 1.1.0, Release 2021 March 1</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Version 1.1.1, Release 2021 March 18</owl:versionInfo>
     </owl:Ontology>
     
 

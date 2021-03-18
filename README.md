@@ -1,6 +1,6 @@
 # IRAO - Informatics Research Artifacts Ontology
 - Ontology for informatics research artifacts
-- http://ontology.ethereal.cz/irao/
+- IRI: http://ontology.ethereal.cz/irao
 
 ## Documentation
 - https://w3id.org/def/InformaticsResearchArtifactsOntology
