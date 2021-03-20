@@ -101,6 +101,28 @@
     
 
 
+    <!-- http://ontology.ethereal.cz/irao/hasDomain -->
+
+    <owl:ObjectProperty rdf:about="http://ontology.ethereal.cz/irao/hasDomain">
+        <rdfs:domain rdf:resource="http://ontology.ethereal.cz/irao/ResearchArtifact"/>
+        <rdfs:range rdf:resource="http://ontology.ethereal.cz/irao/ResearchDomain"/>
+        <rdfs:isDefinedBy rdf:resource="http://ontology.ethereal.cz/irao"/>
+        <rdfs:label xml:lang="en">has domain</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontology.ethereal.cz/irao/hasField -->
+
+    <owl:ObjectProperty rdf:about="http://ontology.ethereal.cz/irao/hasField">
+        <rdfs:domain rdf:resource="http://ontology.ethereal.cz/irao/ResearchArtifact"/>
+        <rdfs:range rdf:resource="http://ontology.ethereal.cz/irao/ResearchField"/>
+        <rdfs:isDefinedBy rdf:resource="http://ontology.ethereal.cz/irao"/>
+        <rdfs:label xml:lang="en">has field</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://ontology.ethereal.cz/irao/hasFramework -->
 
     <owl:ObjectProperty rdf:about="http://ontology.ethereal.cz/irao/hasFramework">
@@ -528,6 +550,24 @@
     <owl:Class rdf:about="http://ontology.ethereal.cz/irao/ResearchArtifact">
         <rdfs:isDefinedBy rdf:resource="http://ontology.ethereal.cz/irao"/>
         <rdfs:label xml:lang="en">Research Artifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.ethereal.cz/irao/ResearchDomain -->
+
+    <owl:Class rdf:about="http://ontology.ethereal.cz/irao/ResearchDomain">
+        <rdfs:isDefinedBy rdf:resource="http://ontology.ethereal.cz/irao"/>
+        <rdfs:label xml:lang="en">Research Domain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.ethereal.cz/irao/ResearchField -->
+
+    <owl:Class rdf:about="http://ontology.ethereal.cz/irao/ResearchField">
+        <rdfs:isDefinedBy rdf:resource="http://ontology.ethereal.cz/irao"/>
+        <rdfs:label xml:lang="en">Research Field</rdfs:label>
     </owl:Class>
     
 
