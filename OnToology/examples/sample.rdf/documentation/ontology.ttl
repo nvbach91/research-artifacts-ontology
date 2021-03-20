@@ -241,35 +241,35 @@
 ###  http://ontology.ethereal.cz/irao/repository#f35c0633
 <http://ontology.ethereal.cz/irao/repository#f35c0633> rdf:type owl:NamedIndividual ,
                                                                 <http://ontology.ethereal.cz/irao/Repository> ;
-                                                       <http://ontology.ethereal.cz/irao/hasRepositoryType> <http://ontology.ethereal.cz/irao/repositorytype#GitHub> ;
+                                                       <http://ontology.ethereal.cz/irao/hasRepositoryType> <http://ontology.ethereal.cz/irao/repositorytype#VersionControl> ;
                                                        <http://ontology.ethereal.cz/irao/hasURL> "https://github.com/marek-dudas/PURO-Modeler"^^xsd:anyURI .
 
 
 ###  http://ontology.ethereal.cz/irao/repository#38947a2e
 <http://ontology.ethereal.cz/irao/repository#38947a2e> rdf:type owl:NamedIndividual ,
                                                                 <http://ontology.ethereal.cz/irao/Repository> ;
-                                                       <http://ontology.ethereal.cz/irao/hasRepositoryType> <http://ontology.ethereal.cz/irao/repositorytype#GitHub> ;
+                                                       <http://ontology.ethereal.cz/irao/hasRepositoryType> <http://ontology.ethereal.cz/irao/repositorytype#VersionControl> ;
                                                        <http://ontology.ethereal.cz/irao/hasURL> "https://github.com/ICCD-MiBACT/ArCo/tree/master/ArCo-release"^^xsd:anyURI .
 
 
 ###  http://ontology.ethereal.cz/irao/repository#4c2877ee
 <http://ontology.ethereal.cz/irao/repository#4c2877ee> rdf:type owl:NamedIndividual ,
                                                                 <http://ontology.ethereal.cz/irao/Repository> ;
-                                                       <http://ontology.ethereal.cz/irao/hasRepositoryType> <http://ontology.ethereal.cz/irao/repositorytype#GitHub> ;
+                                                       <http://ontology.ethereal.cz/irao/hasRepositoryType> <http://ontology.ethereal.cz/irao/repositorytype#VersionControl> ;
                                                        <http://ontology.ethereal.cz/irao/hasURL> "https://github.com/ICCD-MiBACT/ArCo/tree/master/ArCo-release"^^xsd:anyURI .
 
 
 ###  http://ontology.ethereal.cz/irao/repository#6f33415e
 <http://ontology.ethereal.cz/irao/repository#6f33415e> rdf:type owl:NamedIndividual ,
                                                                 <http://ontology.ethereal.cz/irao/Repository> ;
-                                                       <http://ontology.ethereal.cz/irao/hasRepositoryType> <http://ontology.ethereal.cz/irao/repositorytype#GitHub> ;
+                                                       <http://ontology.ethereal.cz/irao/hasRepositoryType> <http://ontology.ethereal.cz/irao/repositorytype#VersionControl> ;
                                                        <http://ontology.ethereal.cz/irao/hasURL> "https://github.com/RealEstateCore/rec"^^xsd:anyURI .
 
 
 ###  http://ontology.ethereal.cz/irao/repository#92b55a1a
 <http://ontology.ethereal.cz/irao/repository#92b55a1a> rdf:type owl:NamedIndividual ,
                                                                 <http://ontology.ethereal.cz/irao/Repository> ;
-                                                       <http://ontology.ethereal.cz/irao/hasRepositoryType> <http://ontology.ethereal.cz/irao/repositorytype#GitHub> ;
+                                                       <http://ontology.ethereal.cz/irao/hasRepositoryType> <http://ontology.ethereal.cz/irao/repositorytype#VersionControl> ;
                                                        <http://ontology.ethereal.cz/irao/hasURL> "https://github.com/jindrichmynarz/vvz-to-rdf"^^xsd:anyURI .
 
 

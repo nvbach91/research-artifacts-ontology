@@ -392,7 +392,7 @@
 
     <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao/repository#f35c0633">
         <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Repository"/>
-        <irao:hasRepositoryType rdf:resource="http://ontology.ethereal.cz/irao/repositorytype#GitHub"/>
+        <irao:hasRepositoryType rdf:resource="http://ontology.ethereal.cz/irao/repositorytype#VersionControl"/>
         <irao:hasURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/marek-dudas/PURO-Modeler</irao:hasURL>
     </NamedIndividual>
     
@@ -403,7 +403,7 @@
 
     <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao/repository#38947a2e">
         <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Repository"/>
-        <irao:hasRepositoryType rdf:resource="http://ontology.ethereal.cz/irao/repositorytype#GitHub"/>
+        <irao:hasRepositoryType rdf:resource="http://ontology.ethereal.cz/irao/repositorytype#VersionControl"/>
         <irao:hasURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/ICCD-MiBACT/ArCo/tree/master/ArCo-release</irao:hasURL>
     </NamedIndividual>
     
@@ -414,7 +414,7 @@
 
     <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao/repository#4c2877ee">
         <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Repository"/>
-        <irao:hasRepositoryType rdf:resource="http://ontology.ethereal.cz/irao/repositorytype#GitHub"/>
+        <irao:hasRepositoryType rdf:resource="http://ontology.ethereal.cz/irao/repositorytype#VersionControl"/>
         <irao:hasURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/ICCD-MiBACT/ArCo/tree/master/ArCo-release</irao:hasURL>
     </NamedIndividual>
     
@@ -425,7 +425,7 @@
 
     <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao/repository#6f33415e">
         <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Repository"/>
-        <irao:hasRepositoryType rdf:resource="http://ontology.ethereal.cz/irao/repositorytype#GitHub"/>
+        <irao:hasRepositoryType rdf:resource="http://ontology.ethereal.cz/irao/repositorytype#VersionControl"/>
         <irao:hasURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/RealEstateCore/rec</irao:hasURL>
     </NamedIndividual>
     
@@ -436,7 +436,7 @@
 
     <NamedIndividual rdf:about="http://ontology.ethereal.cz/irao/repository#92b55a1a">
         <rdf:type rdf:resource="http://ontology.ethereal.cz/irao/Repository"/>
-        <irao:hasRepositoryType rdf:resource="http://ontology.ethereal.cz/irao/repositorytype#GitHub"/>
+        <irao:hasRepositoryType rdf:resource="http://ontology.ethereal.cz/irao/repositorytype#VersionControl"/>
         <irao:hasURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/jindrichmynarz/vvz-to-rdf</irao:hasURL>
     </NamedIndividual>
 </rdf:RDF>

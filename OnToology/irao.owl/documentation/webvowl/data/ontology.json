@@ -98,13 +98,16 @@
     "id" : "21",
     "type" : "owl:Class"
   }, {
-    "id" : "42",
+    "id" : "27",
     "type" : "owl:Class"
   }, {
     "id" : "43",
     "type" : "owl:Class"
   }, {
     "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
     "type" : "owl:Class"
   }, {
     "id" : "61",
@@ -116,7 +119,7 @@
     "id" : "72",
     "type" : "owl:Class"
   }, {
-    "id" : "27",
+    "id" : "26",
     "type" : "owl:Class"
   }, {
     "id" : "15",
@@ -137,16 +140,19 @@
     "id" : "66",
     "type" : "owl:Class"
   }, {
+    "id" : "100",
+    "type" : "owl:Class"
+  }, {
     "id" : "59",
     "type" : "owl:Class"
   }, {
-    "id" : "102",
+    "id" : "103",
     "type" : "owl:Class"
   }, {
-    "id" : "103",
+    "id" : "104",
     "type" : "owl:equivalentClass"
   }, {
-    "id" : "29",
+    "id" : "30",
     "type" : "owl:Class"
   }, {
     "id" : "68",
@@ -155,16 +161,16 @@
     "id" : "116",
     "type" : "owl:Class"
   }, {
-    "id" : "46",
+    "id" : "47",
     "type" : "owl:Class"
   }, {
-    "id" : "123",
-    "type" : "owl:Class"
-  }, {
-    "id" : "124",
+    "id" : "126",
     "type" : "owl:Class"
   }, {
     "id" : "127",
+    "type" : "owl:Class"
+  }, {
+    "id" : "132",
     "type" : "owl:Class"
   }, {
     "id" : "75",
@@ -173,7 +179,7 @@
     "id" : "1",
     "type" : "owl:Class"
   }, {
-    "id" : "101",
+    "id" : "102",
     "type" : "rdfs:Literal"
   }, {
     "id" : "6",
@@ -191,46 +197,46 @@
     "id" : "62",
     "type" : "owl:Class"
   }, {
-    "id" : "122",
+    "id" : "125",
     "type" : "owl:Class"
   }, {
-    "id" : "121",
+    "id" : "124",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "152",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "153",
+    "type" : "owl:Class"
+  }, {
+    "id" : "154",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "155",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "134",
     "type" : "rdfs:Literal"
   }, {
     "id" : "148",
     "type" : "owl:Class"
   }, {
-    "id" : "53",
+    "id" : "156",
     "type" : "rdfs:Literal"
-  }, {
-    "id" : "149",
-    "type" : "owl:Class"
-  }, {
-    "id" : "140",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "150",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "129",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "144",
-    "type" : "owl:Class"
-  }, {
-    "id" : "151",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "152",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "154",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "126",
-    "type" : "owl:Class"
   }, {
     "id" : "157",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "159",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "131",
+    "type" : "owl:Class"
+  }, {
+    "id" : "161",
     "type" : "rdfs:Literal"
   }, {
     "id" : "80",
@@ -239,31 +245,31 @@
     "id" : "56",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "162",
+    "id" : "166",
     "type" : "owl:equivalentClass"
   }, {
     "id" : "78",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "119",
+    "id" : "122",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "110",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "99",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "168",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "41",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "170",
+    "id" : "111",
     "type" : "rdfs:Literal"
   }, {
     "id" : "171",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "173",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "177",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "178",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "117",
@@ -272,35 +278,47 @@
     "id" : "12",
     "type" : "owl:equivalentClass"
   }, {
-    "id" : "176",
+    "id" : "183",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "30",
+    "id" : "31",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "106",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "180",
+    "id" : "129",
     "type" : "owl:Class"
   }, {
-    "id" : "108",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "183",
+    "id" : "186",
     "type" : "owl:Class"
   }, {
-    "id" : "187",
+    "id" : "191",
+    "type" : "owl:Class"
+  }, {
+    "id" : "175",
+    "type" : "owl:Class"
+  }, {
+    "id" : "109",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "119",
+    "type" : "owl:Class"
+  }, {
+    "id" : "195",
+    "type" : "owl:Class"
+  }, {
+    "id" : "74",
     "type" : "owl:Thing"
+  }, {
+    "id" : "33",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "107",
+    "type" : "rdfs:Literal"
   }, {
     "id" : "84",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "112",
-    "type" : "owl:Thing"
-  }, {
-    "id" : "188",
-    "type" : "owl:Thing"
+    "id" : "95",
+    "type" : "owl:Class"
   }, {
     "id" : "65",
     "type" : "rdfs:Literal"
@@ -308,79 +326,67 @@
     "id" : "58",
     "type" : "owl:Thing"
   }, {
-    "id" : "74",
-    "type" : "owl:Thing"
-  }, {
-    "id" : "32",
-    "type" : "owl:Thing"
-  }, {
-    "id" : "95",
+    "id" : "97",
     "type" : "owl:Class"
+  }, {
+    "id" : "200",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "146",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "99",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "163",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "151",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "204",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "182",
+    "type" : "rdfs:Literal"
   }, {
     "id" : "17",
     "type" : "owl:Thing"
   }, {
-    "id" : "55",
-    "type" : "owl:Thing"
+    "id" : "52",
+    "type" : "rdfs:Literal"
   }, {
-    "id" : "97",
+    "id" : "179",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "180",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "135",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "225",
     "type" : "owl:Class"
   }, {
-    "id" : "193",
-    "type" : "owl:Class"
-  }, {
-    "id" : "39",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "142",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "22",
-    "type" : "owl:Thing"
-  }, {
-    "id" : "159",
-    "type" : "owl:Thing"
-  }, {
-    "id" : "147",
-    "type" : "owl:Thing"
-  }, {
-    "id" : "197",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "175",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "139",
-    "type" : "owl:Thing"
-  }, {
-    "id" : "51",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "172",
-    "type" : "owl:equivalentClass"
-  }, {
-    "id" : "173",
-    "type" : "owl:equivalentClass"
-  }, {
-    "id" : "130",
-    "type" : "owl:equivalentClass"
-  }, {
-    "id" : "219",
+    "id" : "227",
     "type" : "owl:Class"
   }, {
     "id" : "96",
     "type" : "owl:Class"
   }, {
-    "id" : "202",
+    "id" : "207",
     "type" : "owl:Class"
   }, {
-    "id" : "178",
+    "id" : "185",
     "type" : "owl:unionOf"
   }, {
-    "id" : "136",
+    "id" : "142",
     "type" : "owl:unionOf"
   }, {
-    "id" : "49",
+    "id" : "50",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "115",
@@ -389,7 +395,7 @@
     "id" : "70",
     "type" : "owl:Class"
   }, {
-    "id" : "179",
+    "id" : "120",
     "type" : "owl:Class"
   }, {
     "id" : "13",
@@ -398,16 +404,16 @@
     "id" : "93",
     "type" : "owl:Class"
   }, {
-    "id" : "48",
+    "id" : "49",
     "type" : "owl:Class"
   }, {
-    "id" : "45",
+    "id" : "46",
     "type" : "owl:Class"
   }, {
-    "id" : "143",
+    "id" : "147",
     "type" : "owl:Class"
   }, {
-    "id" : "155",
+    "id" : "28",
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
@@ -476,8 +482,103 @@
       "IRI-based" : "OpenStandard",
       "en" : "Open Standard"
     },
+    "individuals" : [ {
+      "iri" : "http://ontology.ethereal.cz/irao/openstandard#RDFS",
+      "baseIri" : "http://ontology.ethereal.cz/irao/openstandard",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://ontology.ethereal.cz/irao",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "RDFS",
+        "en" : "RDFS"
+      }
+    }, {
+      "iri" : "http://ontology.ethereal.cz/irao/openstandard#SKOS",
+      "baseIri" : "http://ontology.ethereal.cz/irao/openstandard",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://ontology.ethereal.cz/irao",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "SKOS",
+        "en" : "SKOS"
+      }
+    }, {
+      "iri" : "http://ontology.ethereal.cz/irao/openstandard#SPARQL",
+      "baseIri" : "http://ontology.ethereal.cz/irao/openstandard",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://ontology.ethereal.cz/irao",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "SPARQL",
+        "en" : "SPARQL"
+      }
+    }, {
+      "iri" : "http://ontology.ethereal.cz/irao/openstandard#RDF",
+      "baseIri" : "http://ontology.ethereal.cz/irao/openstandard",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://ontology.ethereal.cz/irao",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "RDF",
+        "en" : "RDF"
+      }
+    }, {
+      "iri" : "http://ontology.ethereal.cz/irao/openstandard#XML",
+      "baseIri" : "http://ontology.ethereal.cz/irao/openstandard",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://ontology.ethereal.cz/irao",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "XML",
+        "en" : "XML"
+      }
+    } ],
     "attributes" : [ "external" ],
     "id" : "21"
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/ApplicationFramework",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ApplicationFramework",
+      "en" : "Application Framework"
+    },
+    "attributes" : [ "external" ],
+    "id" : "27",
+    "superClasses" : [ "28" ]
   }, {
     "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#List",
     "baseIri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns",
@@ -486,7 +587,7 @@
       "IRI-based" : "List"
     },
     "attributes" : [ "external" ],
-    "id" : "42"
+    "id" : "43"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/Project",
     "baseIri" : "http://xmlns.com/foaf/0.1",
@@ -513,7 +614,7 @@
       "undefined" : "A project (a collective endeavour of some kind)."
     },
     "attributes" : [ "external" ],
-    "id" : "43"
+    "id" : "44"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/Model",
     "baseIri" : "http://ontology.ethereal.cz/irao",
@@ -530,10 +631,10 @@
       "IRI-based" : "Model",
       "en" : "Model"
     },
-    "subClasses" : [ "46" ],
+    "subClasses" : [ "47" ],
     "attributes" : [ "external" ],
-    "id" : "44",
-    "superClasses" : [ "45" ]
+    "id" : "45",
+    "superClasses" : [ "46" ]
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/PersonalProfileDocument",
     "baseIri" : "http://xmlns.com/foaf/0.1",
@@ -575,7 +676,7 @@
     "subClasses" : [ "3", "62" ],
     "attributes" : [ "external" ],
     "id" : "4",
-    "superClasses" : [ "45" ]
+    "superClasses" : [ "46" ]
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/Affiliation",
     "baseIri" : "http://ontology.ethereal.cz/irao",
@@ -604,7 +705,7 @@
     },
     "subClasses" : [ "12" ],
     "attributes" : [ "external" ],
-    "id" : "27"
+    "id" : "26"
   }, {
     "iri" : "http://www.w3.org/2004/02/skos/core#Collection",
     "baseIri" : "http://www.w3.org/2004/02/skos/core",
@@ -688,6 +789,67 @@
       "IRI-based" : "Accessibility",
       "en" : "Accessibility"
     },
+    "individuals" : [ {
+      "iri" : "http://ontology.ethereal.cz/irao/accessibility#OpenData",
+      "baseIri" : "http://ontology.ethereal.cz/irao/accessibility",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://ontology.ethereal.cz/irao",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "OpenData",
+        "en" : "Open Data"
+      }
+    }, {
+      "iri" : "http://ontology.ethereal.cz/irao/accessibility#Download",
+      "baseIri" : "http://ontology.ethereal.cz/irao/accessibility",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://ontology.ethereal.cz/irao",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Download",
+        "en" : "Download"
+      }
+    }, {
+      "iri" : "http://ontology.ethereal.cz/irao/accessibility#OpenSource",
+      "baseIri" : "http://ontology.ethereal.cz/irao/accessibility",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://ontology.ethereal.cz/irao",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "OpenSource",
+        "en" : "Opensource"
+      }
+    }, {
+      "iri" : "http://ontology.ethereal.cz/irao/accessibility#API",
+      "baseIri" : "http://ontology.ethereal.cz/irao/accessibility",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://ontology.ethereal.cz/irao",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "API",
+        "en" : "API"
+      }
+    } ],
     "attributes" : [ "external" ],
     "id" : "91"
   }, {
@@ -729,6 +891,25 @@
     "id" : "66",
     "superClasses" : [ "6" ]
   }, {
+    "iri" : "http://ontology.ethereal.cz/irao/OntologyDesignPattern",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "OntologyDesignPattern",
+      "en" : "Ontology design pattern"
+    },
+    "attributes" : [ "external" ],
+    "id" : "100",
+    "superClasses" : [ "46" ]
+  }, {
     "iri" : "http://www.w3.org/2004/02/skos/core#ConceptScheme",
     "baseIri" : "http://www.w3.org/2004/02/skos/core",
     "instances" : 0,
@@ -745,16 +926,16 @@
         "value" : "A set of concepts, optionally including statements about semantic relationships between those concepts.",
         "type" : "label"
       } ],
-      "scopeNote" : [ {
-        "identifier" : "scopeNote",
-        "language" : "en",
-        "value" : "A concept scheme may be defined to include concepts from different sources.",
-        "type" : "label"
-      } ],
       "example" : [ {
         "identifier" : "example",
         "language" : "en",
         "value" : "Thesauri, classification schemes, subject heading lists, taxonomies, 'folksonomies', and other types of controlled vocabulary are all examples of concept schemes. Concept schemes are also embedded in glossaries and terminologies.",
+        "type" : "label"
+      } ],
+      "scopeNote" : [ {
+        "identifier" : "scopeNote",
+        "language" : "en",
+        "value" : "A concept scheme may be defined to include concepts from different sources.",
         "type" : "label"
       } ]
     },
@@ -781,8 +962,8 @@
       "en" : "Vocabulary"
     },
     "attributes" : [ "external" ],
-    "id" : "102",
-    "superClasses" : [ "45" ]
+    "id" : "103",
+    "superClasses" : [ "46" ]
   }, {
     "iri" : "http://purl.org/dc/terms/Agent",
     "equivalent" : [ "86" ],
@@ -791,8 +972,8 @@
     "label" : {
       "IRI-based" : "Agent"
     },
-    "attributes" : [ "equivalent", "external" ],
-    "id" : "103"
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "104"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/ResearchArtifact",
     "baseIri" : "http://ontology.ethereal.cz/irao",
@@ -809,9 +990,9 @@
       "IRI-based" : "ResearchArtifact",
       "en" : "Research Artifact"
     },
-    "subClasses" : [ "45" ],
+    "subClasses" : [ "46" ],
     "attributes" : [ "external" ],
-    "id" : "29"
+    "id" : "30"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/Benchmark",
     "baseIri" : "http://ontology.ethereal.cz/irao",
@@ -830,7 +1011,7 @@
     },
     "attributes" : [ "external" ],
     "id" : "68",
-    "superClasses" : [ "45" ]
+    "superClasses" : [ "46" ]
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/Service",
     "baseIri" : "http://ontology.ethereal.cz/irao",
@@ -867,10 +1048,10 @@
       "IRI-based" : "DataModel",
       "en" : "Data model"
     },
-    "subClasses" : [ "122" ],
+    "subClasses" : [ "125" ],
     "attributes" : [ "external" ],
-    "id" : "46",
-    "superClasses" : [ "44" ]
+    "id" : "47",
+    "superClasses" : [ "45" ]
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Class",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
@@ -879,7 +1060,7 @@
       "IRI-based" : "Class"
     },
     "attributes" : [ "external" ],
-    "id" : "123"
+    "id" : "126"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/DesignQuality",
     "baseIri" : "http://ontology.ethereal.cz/irao",
@@ -896,8 +1077,39 @@
       "IRI-based" : "DesignQuality",
       "en" : "Design quality"
     },
+    "individuals" : [ {
+      "iri" : "http://ontology.ethereal.cz/irao/designquality#FAIR",
+      "baseIri" : "http://ontology.ethereal.cz/irao/designquality",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://ontology.ethereal.cz/irao",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "FAIR",
+        "en" : "FAIR"
+      }
+    }, {
+      "iri" : "http://ontology.ethereal.cz/irao/designquality#Reuse",
+      "baseIri" : "http://ontology.ethereal.cz/irao/designquality",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://ontology.ethereal.cz/irao",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Reuse",
+        "en" : "Reuse"
+      }
+    } ],
     "attributes" : [ "external" ],
-    "id" : "124"
+    "id" : "127"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/Thesis",
     "baseIri" : "http://ontology.ethereal.cz/irao",
@@ -915,11 +1127,11 @@
       "en" : "Thesis"
     },
     "attributes" : [ "external" ],
-    "id" : "127",
-    "superClasses" : [ "48" ]
+    "id" : "132",
+    "superClasses" : [ "49" ]
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/Image",
-    "equivalent" : [ "130" ],
+    "equivalent" : [ "135" ],
     "baseIri" : "http://xmlns.com/foaf/0.1",
     "instances" : 0,
     "annotations" : {
@@ -943,7 +1155,7 @@
     "comment" : {
       "undefined" : "An image."
     },
-    "attributes" : [ "equivalent", "external" ],
+    "attributes" : [ "external", "equivalent" ],
     "id" : "75",
     "superClasses" : [ "13" ]
   }, {
@@ -965,11 +1177,11 @@
     "subClasses" : [ "116" ],
     "attributes" : [ "external" ],
     "id" : "1",
-    "superClasses" : [ "45" ]
+    "superClasses" : [ "46" ]
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "101",
+    "id" : "102",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -1002,7 +1214,7 @@
     "id" : "6"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/Agent",
-    "equivalent" : [ "103" ],
+    "equivalent" : [ "104" ],
     "baseIri" : "http://xmlns.com/foaf/0.1",
     "instances" : 0,
     "annotations" : {
@@ -1017,11 +1229,11 @@
       "IRI-based" : "Agent",
       "undefined" : "Agent"
     },
-    "subClasses" : [ "143", "144", "12" ],
+    "subClasses" : [ "147", "148", "12" ],
     "comment" : {
       "undefined" : "An agent (eg. person, group, software or physical artifact)."
     },
-    "attributes" : [ "equivalent", "external" ],
+    "attributes" : [ "external", "equivalent" ],
     "id" : "86"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/System",
@@ -1095,12 +1307,12 @@
       "en" : "Ontology"
     },
     "attributes" : [ "external" ],
-    "id" : "122",
-    "superClasses" : [ "46" ]
+    "id" : "125",
+    "superClasses" : [ "47" ]
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "121",
+    "id" : "124",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -1122,7 +1334,7 @@
       "en" : "Repository Type"
     },
     "individuals" : [ {
-      "iri" : "http://ontology.ethereal.cz/irao/repositorytype#GitHub",
+      "iri" : "http://ontology.ethereal.cz/irao/repositorytype#KnowledgeBase",
       "baseIri" : "http://ontology.ethereal.cz/irao/repositorytype",
       "annotations" : {
         "isDefinedBy" : [ {
@@ -1133,11 +1345,11 @@
         } ]
       },
       "labels" : {
-        "IRI-based" : "GitHub",
-        "en" : "GitHub"
+        "IRI-based" : "KnowledgeBase",
+        "en" : "Knowledge base"
       }
     }, {
-      "iri" : "http://ontology.ethereal.cz/irao/repositorytype#Zenodo",
+      "iri" : "http://ontology.ethereal.cz/irao/repositorytype#VersionControlHosting",
       "baseIri" : "http://ontology.ethereal.cz/irao/repositorytype",
       "annotations" : {
         "isDefinedBy" : [ {
@@ -1148,16 +1360,16 @@
         } ]
       },
       "labels" : {
-        "IRI-based" : "Zenodo",
-        "en" : "Zenodo"
+        "IRI-based" : "VersionControlHosting",
+        "en" : "Version control hosting"
       }
     } ],
     "attributes" : [ "external" ],
-    "id" : "148"
+    "id" : "152"
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "53",
+    "id" : "54",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -1179,12 +1391,12 @@
       "en" : "Workflow"
     },
     "attributes" : [ "external" ],
-    "id" : "149",
-    "superClasses" : [ "45" ]
+    "id" : "153",
+    "superClasses" : [ "46" ]
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "140",
+    "id" : "154",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -1192,7 +1404,7 @@
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "150",
+    "id" : "155",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -1200,7 +1412,7 @@
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "129",
+    "id" : "134",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -1231,12 +1443,12 @@
       "undefined" : "An organization."
     },
     "attributes" : [ "external" ],
-    "id" : "144",
+    "id" : "148",
     "superClasses" : [ "86" ]
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "151",
+    "id" : "156",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -1244,7 +1456,7 @@
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "152",
+    "id" : "157",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -1252,7 +1464,7 @@
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "154",
+    "id" : "159",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -1273,14 +1485,14 @@
       "IRI-based" : "Framework",
       "en" : "Framework"
     },
-    "subClasses" : [ "155" ],
+    "subClasses" : [ "28" ],
     "attributes" : [ "external" ],
-    "id" : "126",
-    "superClasses" : [ "45" ]
+    "id" : "131",
+    "superClasses" : [ "46" ]
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "157",
+    "id" : "161",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -1322,8 +1534,8 @@
     "label" : {
       "IRI-based" : "CreativeWork"
     },
-    "attributes" : [ "equivalent", "external" ],
-    "id" : "162"
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "166"
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
@@ -1335,7 +1547,7 @@
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "119",
+    "id" : "122",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -1343,7 +1555,7 @@
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "110",
+    "id" : "111",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -1351,7 +1563,7 @@
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "99",
+    "id" : "171",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -1359,7 +1571,7 @@
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "168",
+    "id" : "173",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -1367,7 +1579,7 @@
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "41",
+    "id" : "42",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -1375,7 +1587,7 @@
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "170",
+    "id" : "177",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -1383,7 +1595,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "171",
+    "id" : "178",
     "label" : {
       "IRI-based" : "anyURI"
     }
@@ -1408,7 +1620,7 @@
     "superClasses" : [ "116" ]
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/Person",
-    "equivalent" : [ "172", "173" ],
+    "equivalent" : [ "179", "180" ],
     "baseIri" : "http://xmlns.com/foaf/0.1",
     "instances" : 0,
     "annotations" : {
@@ -1433,13 +1645,13 @@
     "comment" : {
       "undefined" : "A person."
     },
-    "attributes" : [ "equivalent", "external" ],
+    "attributes" : [ "external", "equivalent" ],
     "id" : "12",
-    "superClasses" : [ "86", "27" ]
+    "superClasses" : [ "86", "26" ]
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "176",
+    "id" : "183",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -1447,29 +1659,34 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "30",
+    "id" : "31",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "106",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
-  }, {
     "instances" : 0,
-    "union" : [ "48", "29", "89" ],
+    "union" : [ "125", "100" ],
     "attributes" : [ "anonymous", "union" ],
-    "id" : "180"
+    "id" : "129"
   }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "108",
+    "iri" : "http://ontology.ethereal.cz/irao/Middleware",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
     "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
+      "IRI-based" : "Middleware",
+      "en" : "Middleware"
+    },
+    "attributes" : [ "external" ],
+    "id" : "186",
+    "superClasses" : [ "28" ]
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/Design",
     "baseIri" : "http://ontology.ethereal.cz/irao",
@@ -1487,50 +1704,30 @@
       "en" : "Design"
     },
     "attributes" : [ "external" ],
-    "id" : "183",
-    "superClasses" : [ "45" ]
+    "id" : "191",
+    "superClasses" : [ "46" ]
   }, {
-    "iri" : "http://www.w3.org/2002/07/owl#Thing",
-    "baseIri" : "http://owl2vowl.de",
-    "id" : "187",
-    "label" : {
-      "undefined" : "Thing"
-    }
+    "instances" : 0,
+    "union" : [ "1", "2" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "175"
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "84",
+    "id" : "109",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
     }
   }, {
-    "iri" : "http://www.w3.org/2002/07/owl#Thing",
-    "baseIri" : "http://owl2vowl.de",
-    "id" : "112",
-    "label" : {
-      "undefined" : "Thing"
-    }
+    "instances" : 0,
+    "union" : [ "4", "131" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "119"
   }, {
-    "iri" : "http://www.w3.org/2002/07/owl#Thing",
-    "baseIri" : "http://owl2vowl.de",
-    "id" : "188",
-    "label" : {
-      "undefined" : "Thing"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "65",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2002/07/owl#Thing",
-    "baseIri" : "http://owl2vowl.de",
-    "id" : "58",
-    "label" : {
-      "undefined" : "Thing"
-    }
+    "instances" : 0,
+    "union" : [ "49", "30", "89" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "195"
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#Thing",
     "baseIri" : "http://owl2vowl.de",
@@ -1541,9 +1738,23 @@
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#Thing",
     "baseIri" : "http://owl2vowl.de",
-    "id" : "32",
+    "id" : "33",
     "label" : {
       "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "107",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "84",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
     }
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/OnlineChatAccount",
@@ -1574,16 +1785,16 @@
     "id" : "95",
     "superClasses" : [ "87" ]
   }, {
-    "iri" : "http://www.w3.org/2002/07/owl#Thing",
-    "baseIri" : "http://owl2vowl.de",
-    "id" : "17",
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "65",
     "label" : {
-      "undefined" : "Thing"
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
     }
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#Thing",
     "baseIri" : "http://owl2vowl.de",
-    "id" : "55",
+    "id" : "58",
     "label" : {
       "undefined" : "Thing"
     }
@@ -1641,17 +1852,17 @@
       "undefined" : "A foaf:LabelProperty is any RDF property with texual values that serve as labels."
     },
     "attributes" : [ "external" ],
-    "id" : "193"
+    "id" : "200"
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "39",
+    "id" : "40",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "142",
+    "id" : "146",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -1659,51 +1870,51 @@
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#Thing",
     "baseIri" : "http://owl2vowl.de",
-    "id" : "22",
+    "id" : "99",
     "label" : {
       "undefined" : "Thing"
     }
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#Thing",
     "baseIri" : "http://owl2vowl.de",
-    "id" : "159",
+    "id" : "163",
     "label" : {
       "undefined" : "Thing"
     }
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#Thing",
     "baseIri" : "http://owl2vowl.de",
-    "id" : "147",
-    "label" : {
-      "undefined" : "Thing"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "197",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "175",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2002/07/owl#Thing",
-    "baseIri" : "http://owl2vowl.de",
-    "id" : "139",
+    "id" : "151",
     "label" : {
       "undefined" : "Thing"
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "51",
+    "id" : "204",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "182",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "17",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "52",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -1715,8 +1926,8 @@
     "label" : {
       "IRI-based" : "Person"
     },
-    "attributes" : [ "equivalent", "external" ],
-    "id" : "172"
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "179"
   }, {
     "iri" : "http://schema.org/Person",
     "baseIri" : "http://schema.org",
@@ -1724,8 +1935,8 @@
     "label" : {
       "IRI-based" : "Person"
     },
-    "attributes" : [ "equivalent", "external" ],
-    "id" : "173"
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "180"
   }, {
     "iri" : "http://schema.org/ImageObject",
     "equivalent" : [ "75" ],
@@ -1734,8 +1945,27 @@
     "label" : {
       "IRI-based" : "ImageObject"
     },
-    "attributes" : [ "equivalent", "external" ],
-    "id" : "130"
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "135"
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/WebFramework",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "WebFramework",
+      "en" : "Web Framework"
+    },
+    "attributes" : [ "external" ],
+    "id" : "225",
+    "superClasses" : [ "28" ]
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/ResearchField",
     "baseIri" : "http://ontology.ethereal.cz/irao",
@@ -1753,7 +1983,7 @@
       "en" : "Research Field"
     },
     "attributes" : [ "external" ],
-    "id" : "219"
+    "id" : "227"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/OnlineEcommerceAccount",
     "baseIri" : "http://xmlns.com/foaf/0.1",
@@ -1799,22 +2029,22 @@
       "en" : "Conference paper"
     },
     "attributes" : [ "external" ],
-    "id" : "202",
-    "superClasses" : [ "48" ]
+    "id" : "207",
+    "superClasses" : [ "49" ]
   }, {
     "instances" : 0,
-    "union" : [ "4", "126", "80" ],
+    "union" : [ "4", "131", "80" ],
     "attributes" : [ "anonymous", "union" ],
-    "id" : "178"
+    "id" : "185"
   }, {
     "instances" : 0,
     "union" : [ "15", "6" ],
     "attributes" : [ "anonymous", "union" ],
-    "id" : "136"
+    "id" : "142"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "49",
+    "id" : "50",
     "label" : {
       "IRI-based" : "string"
     }
@@ -1918,11 +2148,11 @@
       "en" : "Methodology"
     },
     "attributes" : [ "external" ],
-    "id" : "179",
-    "superClasses" : [ "45" ]
+    "id" : "120",
+    "superClasses" : [ "46" ]
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/Document",
-    "equivalent" : [ "162" ],
+    "equivalent" : [ "166" ],
     "baseIri" : "http://xmlns.com/foaf/0.1",
     "instances" : 0,
     "annotations" : {
@@ -1947,7 +2177,7 @@
     "comment" : {
       "undefined" : "A document."
     },
-    "attributes" : [ "equivalent", "external" ],
+    "attributes" : [ "external", "equivalent" ],
     "id" : "13"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/License",
@@ -1983,9 +2213,9 @@
       "IRI-based" : "Publication",
       "en" : "Publication"
     },
-    "subClasses" : [ "127", "202" ],
+    "subClasses" : [ "132", "207" ],
     "attributes" : [ "external" ],
-    "id" : "48"
+    "id" : "49"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/InformaticsResearchArtifact",
     "baseIri" : "http://ontology.ethereal.cz/irao",
@@ -2002,10 +2232,10 @@
       "IRI-based" : "InformaticsResearchArtifact",
       "en" : "Informatics Research Artifact"
     },
-    "subClasses" : [ "68", "4", "1", "149", "179", "44", "126", "183", "102" ],
+    "subClasses" : [ "68", "100", "4", "1", "153", "120", "45", "131", "191", "103" ],
     "attributes" : [ "external" ],
-    "id" : "45",
-    "superClasses" : [ "29" ]
+    "id" : "46",
+    "superClasses" : [ "30" ]
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/Group",
     "baseIri" : "http://xmlns.com/foaf/0.1",
@@ -2026,7 +2256,7 @@
       "undefined" : "A class of Agents."
     },
     "attributes" : [ "external" ],
-    "id" : "143",
+    "id" : "147",
     "superClasses" : [ "86" ]
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/SoftwareFramework",
@@ -2044,9 +2274,10 @@
       "IRI-based" : "SoftwareFramework",
       "en" : "Software Framework"
     },
+    "subClasses" : [ "27", "186", "225" ],
     "attributes" : [ "external" ],
-    "id" : "155",
-    "superClasses" : [ "126" ]
+    "id" : "28",
+    "superClasses" : [ "131" ]
   } ],
   "property" : [ {
     "id" : "0",
@@ -2064,31 +2295,31 @@
     "id" : "9",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "26",
+    "id" : "25",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "28",
+    "id" : "29",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "31",
+    "id" : "32",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "38",
+    "id" : "39",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "40",
+    "id" : "41",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "47",
+    "id" : "48",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "50",
+    "id" : "51",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "52",
+    "id" : "53",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "54",
+    "id" : "55",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "57",
@@ -2109,7 +2340,7 @@
     "id" : "69",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "34",
+    "id" : "35",
     "type" : "owl:objectProperty"
   }, {
     "id" : "73",
@@ -2130,7 +2361,7 @@
     "id" : "85",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "35",
+    "id" : "36",
     "type" : "owl:objectProperty"
   }, {
     "id" : "90",
@@ -2140,96 +2371,99 @@
     "type" : "owl:objectProperty"
   }, {
     "id" : "98",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "100",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "104",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "105",
+    "id" : "101",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "33",
+    "id" : "105",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "106",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "34",
     "type" : "owl:objectProperty"
   }, {
     "id" : "76",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "107",
+    "id" : "108",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "109",
+    "id" : "110",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "111",
+    "id" : "112",
     "type" : "owl:objectProperty"
   }, {
     "id" : "114",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "23",
+    "id" : "118",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "118",
+    "id" : "22",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "121",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "60",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "120",
+    "id" : "123",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "125",
+    "id" : "128",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "128",
+    "id" : "130",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "133",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "20",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "131",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "132",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "133",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "25",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "134",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "135",
+    "id" : "136",
     "type" : "owl:objectProperty"
   }, {
     "id" : "137",
     "type" : "owl:objectProperty"
   }, {
     "id" : "138",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "139",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "24",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "140",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "141",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "143",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "144",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "145",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "71",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "145",
+    "id" : "149",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "146",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "153",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "156",
+    "id" : "150",
     "type" : "owl:objectProperty"
   }, {
     "id" : "158",
@@ -2238,49 +2472,49 @@
     "id" : "160",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "161",
+    "id" : "162",
     "type" : "owl:objectProperty"
-  }, {
-    "id" : "163",
-    "type" : "owl:datatypeProperty"
   }, {
     "id" : "164",
     "type" : "owl:objectProperty"
   }, {
     "id" : "165",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "166",
     "type" : "owl:objectProperty"
   }, {
     "id" : "167",
     "type" : "owl:datatypeProperty"
   }, {
+    "id" : "168",
+    "type" : "owl:objectProperty"
+  }, {
     "id" : "169",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "174",
+    "id" : "170",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "177",
+    "id" : "172",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "174",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "82",
+    "id" : "176",
     "type" : "owl:objectProperty"
   }, {
     "id" : "181",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "182",
-    "type" : "owl:objectProperty"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "184",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "185",
-    "type" : "owl:objectProperty"
+    "id" : "187",
+    "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "186",
+    "id" : "188",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "82",
     "type" : "owl:objectProperty"
   }, {
     "id" : "189",
@@ -2289,53 +2523,44 @@
     "id" : "190",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "191",
-    "type" : "owl:objectProperty"
-  }, {
     "id" : "192",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "194",
-    "type" : "owl:datatypeProperty"
+    "id" : "193",
+    "type" : "owl:objectProperty"
   }, {
-    "id" : "195",
-    "type" : "owl:datatypeProperty"
+    "id" : "194",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "196",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "198",
-    "type" : "owl:datatypeProperty"
+    "id" : "197",
+    "type" : "owl:objectProperty"
   }, {
-    "id" : "37",
+    "id" : "198",
     "type" : "owl:objectProperty"
   }, {
     "id" : "199",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "200",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "201",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "202",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "203",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "204",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "205",
     "type" : "owl:datatypeProperty"
   }, {
+    "id" : "38",
+    "type" : "owl:objectProperty"
+  }, {
     "id" : "206",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "207",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "8",
-    "type" : "owl:objectProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "208",
     "type" : "rdfs:SubClassOf"
@@ -2347,16 +2572,19 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "211",
-    "type" : "owl:objectProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "212",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "213",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "214",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "8",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "215",
     "type" : "rdfs:SubClassOf"
@@ -2368,25 +2596,19 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "218",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "219",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "18",
-    "type" : "owl:objectProperty"
-  }, {
     "id" : "220",
-    "type" : "owl:objectProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "221",
-    "type" : "owl:objectProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "222",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "24",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "36",
-    "type" : "owl:objectProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "223",
     "type" : "rdfs:SubClassOf"
@@ -2394,25 +2616,25 @@
     "id" : "224",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "225",
-    "type" : "owl:datatypeProperty"
-  }, {
     "id" : "226",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "227",
+    "id" : "18",
     "type" : "owl:objectProperty"
   }, {
     "id" : "228",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "229",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "230",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:objectProperty"
   }, {
-    "id" : "10",
+    "id" : "23",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "37",
     "type" : "owl:objectProperty"
   }, {
     "id" : "231",
@@ -2422,55 +2644,52 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "233",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "234",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "235",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "236",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "237",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "238",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "239",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "240",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "241",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "242",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "243",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "244",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "245",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "246",
+    "id" : "234",
     "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "235",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "236",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "237",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "238",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "10",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "239",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "240",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "241",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "242",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "243",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "244",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "245",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "246",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "247",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "113",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "7",
-    "type" : "owl:objectProperty"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "248",
     "type" : "owl:objectProperty"
@@ -2479,7 +2698,7 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "250",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "251",
     "type" : "owl:objectProperty"
@@ -2491,6 +2710,42 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "254",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "255",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "256",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "257",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "113",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "7",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "258",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "259",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "260",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "261",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "262",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "263",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "264",
     "type" : "rdfs:SubClassOf"
   } ],
   "propertyAttribute" : [ {
@@ -2612,7 +2867,7 @@
   }, {
     "iri" : "http://www.w3.org/2004/02/skos/core#related",
     "baseIri" : "http://www.w3.org/2004/02/skos/core",
-    "range" : "22",
+    "range" : "17",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -2632,17 +2887,17 @@
       "en" : "has related"
     },
     "superproperty" : [ "5" ],
-    "domain" : "22",
-    "subproperty" : [ "23", "24", "25" ],
+    "domain" : "17",
+    "subproperty" : [ "22", "23", "24" ],
     "comment" : {
       "en" : "skos:related is disjoint with skos:broaderTransitive"
     },
-    "attributes" : [ "external", "object", "symmetric" ],
+    "attributes" : [ "symmetric", "external", "object" ],
     "id" : "9"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/based_near",
     "baseIri" : "http://xmlns.com/foaf/0.1",
-    "range" : "27",
+    "range" : "26",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -2661,16 +2916,16 @@
       "IRI-based" : "based_near",
       "undefined" : "based near"
     },
-    "domain" : "27",
+    "domain" : "26",
     "comment" : {
       "undefined" : "A location that something is based near, for some broadly human notion of near."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "26"
+    "id" : "25"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasVersion",
     "baseIri" : "http://ontology.ethereal.cz/irao",
-    "range" : "30",
+    "range" : "31",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -2683,12 +2938,12 @@
       "IRI-based" : "hasVersion",
       "en" : "has version"
     },
-    "domain" : "29",
-    "attributes" : [ "datatype", "external" ],
-    "id" : "28"
+    "domain" : "30",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "29"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/page",
-    "inverse" : "33",
+    "inverse" : "34",
     "baseIri" : "http://xmlns.com/foaf/0.1",
     "range" : "13",
     "annotations" : {
@@ -2709,17 +2964,17 @@
       "IRI-based" : "page",
       "undefined" : "page"
     },
-    "domain" : "32",
-    "subproperty" : [ "34", "35", "36", "37" ],
+    "domain" : "33",
+    "subproperty" : [ "35", "36", "37", "38" ],
     "comment" : {
       "undefined" : "A page or document about this thing."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "31"
+    "id" : "32"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/givenName",
     "baseIri" : "http://xmlns.com/foaf/0.1",
-    "range" : "39",
+    "range" : "40",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -2738,16 +2993,16 @@
       "IRI-based" : "givenName",
       "undefined" : "Given name"
     },
-    "domain" : "22",
+    "domain" : "17",
     "comment" : {
       "undefined" : "The given name of some person."
     },
-    "attributes" : [ "datatype", "external" ],
-    "id" : "38"
+    "attributes" : [ "external", "datatype" ],
+    "id" : "39"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/dnaChecksum",
     "baseIri" : "http://xmlns.com/foaf/0.1",
-    "range" : "41",
+    "range" : "42",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -2766,16 +3021,16 @@
       "IRI-based" : "dnaChecksum",
       "undefined" : "DNA checksum"
     },
-    "domain" : "22",
+    "domain" : "17",
     "comment" : {
       "undefined" : "A checksum for the DNA of some thing. Joke."
     },
-    "attributes" : [ "datatype", "external" ],
-    "id" : "40"
+    "attributes" : [ "external", "datatype" ],
+    "id" : "41"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasTopic",
     "baseIri" : "http://ontology.ethereal.cz/irao",
-    "range" : "49",
+    "range" : "50",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -2788,13 +3043,13 @@
       "IRI-based" : "hasTopic",
       "en" : "has topic"
     },
-    "domain" : "48",
-    "attributes" : [ "datatype", "external" ],
-    "id" : "47"
+    "domain" : "49",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "48"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/yahooChatID",
     "baseIri" : "http://xmlns.com/foaf/0.1",
-    "range" : "51",
+    "range" : "52",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -2813,16 +3068,16 @@
       "IRI-based" : "yahooChatID",
       "undefined" : "Yahoo chat ID"
     },
-    "domain" : "22",
+    "domain" : "17",
     "comment" : {
       "undefined" : "A Yahoo chat ID"
     },
-    "attributes" : [ "datatype", "external" ],
-    "id" : "50"
+    "attributes" : [ "external", "datatype" ],
+    "id" : "51"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/name",
     "baseIri" : "http://xmlns.com/foaf/0.1",
-    "range" : "53",
+    "range" : "54",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -2841,12 +3096,12 @@
       "IRI-based" : "name",
       "undefined" : "name"
     },
-    "domain" : "22",
+    "domain" : "17",
     "comment" : {
       "undefined" : "A name for some thing."
     },
-    "attributes" : [ "datatype", "external" ],
-    "id" : "52"
+    "attributes" : [ "external", "datatype" ],
+    "id" : "53"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/icqChatID",
     "baseIri" : "http://xmlns.com/foaf/0.1",
@@ -2869,12 +3124,12 @@
       "IRI-based" : "icqChatID",
       "undefined" : "ICQ chat ID"
     },
-    "domain" : "55",
+    "domain" : "17",
     "comment" : {
       "undefined" : "An ICQ chat ID"
     },
-    "attributes" : [ "datatype", "external" ],
-    "id" : "54"
+    "attributes" : [ "external", "datatype" ],
+    "id" : "55"
   }, {
     "iri" : "http://www.w3.org/2004/02/skos/core#inScheme",
     "baseIri" : "http://www.w3.org/2004/02/skos/core",
@@ -2959,7 +3214,7 @@
     "comment" : {
       "undefined" : "The given name of some person."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "64"
   }, {
     "iri" : "http://cso.kmi.open.ac.uk/schema/cso#superTopicOf",
@@ -2974,7 +3229,7 @@
     "comment" : {
       "undefined" : "We use this relation to indicate that a :Topic is a super-area of another one."
     },
-    "attributes" : [ "external", "transitive", "object" ],
+    "attributes" : [ "transitive", "external", "object" ],
     "id" : "19"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/producesDataset",
@@ -3011,7 +3266,7 @@
       "IRI-based" : "hasDevelopmentStatus",
       "en" : "has development status"
     },
-    "domain" : "29",
+    "domain" : "30",
     "attributes" : [ "external", "object" ],
     "id" : "69"
   }, {
@@ -3036,14 +3291,14 @@
       "IRI-based" : "isPrimaryTopicOf",
       "undefined" : "is primary topic of"
     },
-    "superproperty" : [ "31" ],
-    "domain" : "32",
-    "subproperty" : [ "71", "37" ],
+    "superproperty" : [ "32" ],
+    "domain" : "33",
+    "subproperty" : [ "71", "38" ],
     "comment" : {
       "undefined" : "A document that this thing is the primary topic of."
     },
-    "attributes" : [ "external", "inverse functional", "object" ],
-    "id" : "34"
+    "attributes" : [ "inverse functional", "external", "object" ],
+    "id" : "35"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/depiction",
     "baseIri" : "http://xmlns.com/foaf/0.1",
@@ -3099,7 +3354,7 @@
     "comment" : {
       "undefined" : "The family name of some person."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "77"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasProtocol",
@@ -3147,7 +3402,7 @@
     "comment" : {
       "en" : "skos:exactMatch is disjoint with each of the properties skos:broadMatch and skos:relatedMatch."
     },
-    "attributes" : [ "external", "transitive", "object", "symmetric" ],
+    "attributes" : [ "symmetric", "transitive", "external", "object" ],
     "id" : "81"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/title",
@@ -3175,7 +3430,7 @@
     "comment" : {
       "undefined" : "Title (Mr, Mrs, Ms, Dr. etc)"
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "83"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/account",
@@ -3227,13 +3482,13 @@
       "IRI-based" : "tipjar",
       "undefined" : "tipjar"
     },
-    "superproperty" : [ "31" ],
+    "superproperty" : [ "32" ],
     "domain" : "86",
     "comment" : {
       "undefined" : "A tipjar document for this agent, describing means for payment and reward."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "35"
+    "id" : "36"
   }, {
     "iri" : "http://www.w3.org/2004/02/skos/core#broadMatch",
     "inverse" : "20",
@@ -3302,16 +3557,16 @@
       "IRI-based" : "aimChatID",
       "undefined" : "AIM chat ID"
     },
-    "domain" : "17",
+    "domain" : "86",
     "comment" : {
       "undefined" : "An AIM chat ID"
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "inverse functional", "external", "object" ],
     "id" : "98"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/skypeID",
     "baseIri" : "http://xmlns.com/foaf/0.1",
-    "range" : "101",
+    "range" : "102",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -3334,12 +3589,12 @@
     "comment" : {
       "undefined" : "A Skype ID"
     },
-    "attributes" : [ "datatype", "external" ],
-    "id" : "100"
+    "attributes" : [ "external", "datatype" ],
+    "id" : "101"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/isDescribedBy",
     "baseIri" : "http://ontology.ethereal.cz/irao",
-    "range" : "46",
+    "range" : "47",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -3354,11 +3609,11 @@
     },
     "domain" : "4",
     "attributes" : [ "external", "object" ],
-    "id" : "104"
+    "id" : "105"
   }, {
     "iri" : "http://www.w3.org/2004/02/skos/core#notation",
     "baseIri" : "http://www.w3.org/2004/02/skos/core",
-    "range" : "106",
+    "range" : "107",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -3384,12 +3639,12 @@
       "en" : "notation"
     },
     "domain" : "17",
-    "attributes" : [ "datatype", "external" ],
-    "id" : "105"
+    "attributes" : [ "external", "datatype" ],
+    "id" : "106"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/topic",
     "baseIri" : "http://xmlns.com/foaf/0.1",
-    "range" : "32",
+    "range" : "33",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -3413,7 +3668,7 @@
       "undefined" : "A topic of some page or document."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "33"
+    "id" : "34"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/img",
     "baseIri" : "http://xmlns.com/foaf/0.1",
@@ -3446,7 +3701,7 @@
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/sha1",
     "baseIri" : "http://xmlns.com/foaf/0.1",
-    "range" : "108",
+    "range" : "109",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -3469,12 +3724,12 @@
     "comment" : {
       "undefined" : "A sha1sum hash, in hex."
     },
-    "attributes" : [ "datatype", "external" ],
-    "id" : "107"
+    "attributes" : [ "external", "datatype" ],
+    "id" : "108"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/firstName",
     "baseIri" : "http://xmlns.com/foaf/0.1",
-    "range" : "110",
+    "range" : "111",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -3497,13 +3752,13 @@
     "comment" : {
       "undefined" : "The first name of a person."
     },
-    "attributes" : [ "datatype", "external" ],
-    "id" : "109"
+    "attributes" : [ "external", "datatype" ],
+    "id" : "110"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/made",
     "inverse" : "113",
     "baseIri" : "http://xmlns.com/foaf/0.1",
-    "range" : "112",
+    "range" : "99",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -3527,7 +3782,7 @@
       "undefined" : "Something that was made by this agent."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "111"
+    "id" : "112"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasAffiliation",
     "baseIri" : "http://ontology.ethereal.cz/irao",
@@ -3547,6 +3802,25 @@
     "domain" : "115",
     "attributes" : [ "external", "object" ],
     "id" : "114"
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/usesMethodology",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "range" : "120",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "usesMethodology",
+      "en" : "uses methodology"
+    },
+    "domain" : "119",
+    "attributes" : [ "external", "object" ],
+    "id" : "118"
   }, {
     "iri" : "http://www.w3.org/2004/02/skos/core#relatedMatch",
     "baseIri" : "http://www.w3.org/2004/02/skos/core",
@@ -3571,12 +3845,12 @@
     },
     "superproperty" : [ "9", "10" ],
     "domain" : "17",
-    "attributes" : [ "external", "object", "symmetric" ],
-    "id" : "23"
+    "attributes" : [ "symmetric", "external", "object" ],
+    "id" : "22"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/familyName",
     "baseIri" : "http://xmlns.com/foaf/0.1",
-    "range" : "119",
+    "range" : "122",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -3599,8 +3873,8 @@
     "comment" : {
       "undefined" : "The family name of some person."
     },
-    "attributes" : [ "datatype", "external" ],
-    "id" : "118"
+    "attributes" : [ "external", "datatype" ],
+    "id" : "121"
   }, {
     "iri" : "http://www.w3.org/2004/02/skos/core#topConceptOf",
     "baseIri" : "http://www.w3.org/2004/02/skos/core",
@@ -3630,7 +3904,7 @@
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/plan",
     "baseIri" : "http://xmlns.com/foaf/0.1",
-    "range" : "121",
+    "range" : "124",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -3653,12 +3927,31 @@
     "comment" : {
       "undefined" : "A .plan comment, in the tradition of finger and '.plan' files."
     },
-    "attributes" : [ "datatype", "external" ],
-    "id" : "120"
+    "attributes" : [ "external", "datatype" ],
+    "id" : "123"
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/usesOntologyDesignPattern",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "range" : "100",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "usesOntologyDesignPattern",
+      "en" : "uses ontology design pattern"
+    },
+    "domain" : "129",
+    "attributes" : [ "external", "object" ],
+    "id" : "128"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasFramework",
     "baseIri" : "http://ontology.ethereal.cz/irao",
-    "range" : "126",
+    "range" : "131",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -3673,11 +3966,11 @@
     },
     "domain" : "1",
     "attributes" : [ "external", "object" ],
-    "id" : "125"
+    "id" : "130"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/myersBriggs",
     "baseIri" : "http://xmlns.com/foaf/0.1",
-    "range" : "129",
+    "range" : "134",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -3700,8 +3993,8 @@
     "comment" : {
       "undefined" : "A Myers Briggs (MBTI) personality classification."
     },
-    "attributes" : [ "datatype", "external" ],
-    "id" : "128"
+    "attributes" : [ "external", "datatype" ],
+    "id" : "133"
   }, {
     "iri" : "http://www.w3.org/2004/02/skos/core#narrowMatch",
     "baseIri" : "http://www.w3.org/2004/02/skos/core",
@@ -3744,13 +4037,32 @@
       "IRI-based" : "hasResearchArea",
       "en" : "has research area"
     },
-    "domain" : "29",
+    "domain" : "30",
     "attributes" : [ "external", "object" ],
-    "id" : "131"
+    "id" : "136"
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/refersToBenchmark",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "range" : "68",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "refersToBenchmark",
+      "en" : "refers to benchmark"
+    },
+    "domain" : "68",
+    "attributes" : [ "external", "object" ],
+    "id" : "137"
   }, {
     "iri" : "http://www.w3.org/2004/02/skos/core#memberList",
     "baseIri" : "http://www.w3.org/2004/02/skos/core",
-    "range" : "42",
+    "range" : "43",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -3773,8 +4085,8 @@
     "comment" : {
       "en" : "For any resource, every item in the list given as the value of the\n      skos:memberList property is also a value of the skos:member property."
     },
-    "attributes" : [ "external", "functional", "object" ],
-    "id" : "132"
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "138"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasOpenStandard",
     "baseIri" : "http://ontology.ethereal.cz/irao",
@@ -3791,9 +4103,9 @@
       "IRI-based" : "hasOpenStandard",
       "en" : "has open standard"
     },
-    "domain" : "29",
+    "domain" : "30",
     "attributes" : [ "external", "object" ],
-    "id" : "133"
+    "id" : "139"
   }, {
     "iri" : "http://cso.kmi.open.ac.uk/schema/cso#relatedEquivalent",
     "baseIri" : "http://cso.kmi.open.ac.uk/schema/cso",
@@ -3812,12 +4124,12 @@
     },
     "superproperty" : [ "9" ],
     "domain" : "66",
-    "subproperty" : [ "24" ],
+    "subproperty" : [ "23" ],
     "comment" : {
       "undefined" : "We use this relationship to identify that two potentially distinct research concepts are treated as equivalent in the context of the CSO."
     },
-    "attributes" : [ "external", "transitive", "object", "symmetric" ],
-    "id" : "25"
+    "attributes" : [ "symmetric", "transitive", "external", "object" ],
+    "id" : "24"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/publications",
     "baseIri" : "http://xmlns.com/foaf/0.1",
@@ -3845,11 +4157,11 @@
       "undefined" : "A link to the publications of this person."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "134"
+    "id" : "140"
   }, {
     "iri" : "http://www.w3.org/2004/02/skos/core#member",
     "baseIri" : "http://www.w3.org/2004/02/skos/core",
-    "range" : "136",
+    "range" : "142",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -3870,7 +4182,7 @@
     },
     "domain" : "15",
     "attributes" : [ "external", "object" ],
-    "id" : "135"
+    "id" : "141"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/interest",
     "baseIri" : "http://xmlns.com/foaf/0.1",
@@ -3898,11 +4210,11 @@
       "undefined" : "A page about a topic of interest to this person."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "137"
+    "id" : "143"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/mbox_sha1sum",
     "baseIri" : "http://xmlns.com/foaf/0.1",
-    "range" : "140",
+    "range" : "99",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -3921,16 +4233,16 @@
       "IRI-based" : "mbox_sha1sum",
       "undefined" : "sha1sum of a personal mailbox URI name"
     },
-    "domain" : "139",
+    "domain" : "86",
     "comment" : {
       "undefined" : "The sha1sum of the URI of an Internet mailbox associated with exactly one owner, the  first owner of the mailbox."
     },
-    "attributes" : [ "datatype", "external" ],
-    "id" : "138"
+    "attributes" : [ "inverse functional", "external", "object" ],
+    "id" : "144"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/nick",
     "baseIri" : "http://xmlns.com/foaf/0.1",
-    "range" : "142",
+    "range" : "146",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -3949,12 +4261,12 @@
       "IRI-based" : "nick",
       "undefined" : "nickname"
     },
-    "domain" : "22",
+    "domain" : "17",
     "comment" : {
       "undefined" : "A short informal nickname characterising an agent (includes login identifiers, IRC and other chat nicknames)."
     },
-    "attributes" : [ "datatype", "external" ],
-    "id" : "141"
+    "attributes" : [ "external", "datatype" ],
+    "id" : "145"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/openid",
     "baseIri" : "http://xmlns.com/foaf/0.1",
@@ -3977,12 +4289,12 @@
       "IRI-based" : "openid",
       "undefined" : "openid"
     },
-    "superproperty" : [ "34" ],
+    "superproperty" : [ "35" ],
     "domain" : "86",
     "comment" : {
       "undefined" : "An OpenID for an Agent."
     },
-    "attributes" : [ "external", "inverse functional", "object" ],
+    "attributes" : [ "inverse functional", "external", "object" ],
     "id" : "71"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/isPublishedAt",
@@ -4000,13 +4312,13 @@
       "IRI-based" : "isPublishedAt",
       "en" : "is published at"
     },
-    "domain" : "29",
+    "domain" : "30",
     "attributes" : [ "external", "object" ],
-    "id" : "145"
+    "id" : "149"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/pastProject",
     "baseIri" : "http://xmlns.com/foaf/0.1",
-    "range" : "147",
+    "range" : "151",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -4030,11 +4342,11 @@
       "undefined" : "A project this person has previously worked on."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "146"
+    "id" : "150"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/theme",
     "baseIri" : "http://xmlns.com/foaf/0.1",
-    "range" : "22",
+    "range" : "17",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -4053,12 +4365,12 @@
       "IRI-based" : "theme",
       "undefined" : "theme"
     },
-    "domain" : "22",
+    "domain" : "17",
     "comment" : {
       "undefined" : "A theme."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "153"
+    "id" : "158"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/knows",
     "baseIri" : "http://xmlns.com/foaf/0.1",
@@ -4086,11 +4398,11 @@
       "undefined" : "A person known by this person (indicating some level of reciprocated interaction between the parties)."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "156"
+    "id" : "160"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/focus",
     "baseIri" : "http://xmlns.com/foaf/0.1",
-    "range" : "159",
+    "range" : "163",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -4114,11 +4426,11 @@
       "undefined" : "The underlying or 'focal' entity associated with some SKOS-described concept."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "158"
+    "id" : "162"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/phone",
     "baseIri" : "http://xmlns.com/foaf/0.1",
-    "range" : "22",
+    "range" : "17",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -4137,12 +4449,12 @@
       "IRI-based" : "phone",
       "undefined" : "phone"
     },
-    "domain" : "22",
+    "domain" : "17",
     "comment" : {
       "undefined" : "A phone,  specified using fully qualified tel: URI scheme (refs: http://www.w3.org/Addressing/schemes.html#tel)."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "160"
+    "id" : "164"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/depicts",
     "inverse" : "73",
@@ -4171,11 +4483,11 @@
       "undefined" : "A thing depicted in this representation."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "161"
+    "id" : "165"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/geekcode",
     "baseIri" : "http://xmlns.com/foaf/0.1",
-    "range" : "154",
+    "range" : "159",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -4198,13 +4510,13 @@
     "comment" : {
       "undefined" : "A textual geekcode for this person, see http://www.geekcode.com/geek.html"
     },
-    "attributes" : [ "datatype", "external" ],
-    "id" : "163"
+    "attributes" : [ "external", "datatype" ],
+    "id" : "167"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/primaryTopic",
-    "inverse" : "34",
+    "inverse" : "35",
     "baseIri" : "http://xmlns.com/foaf/0.1",
-    "range" : "32",
+    "range" : "33",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -4227,36 +4539,8 @@
     "comment" : {
       "undefined" : "The primary topic of some page or document."
     },
-    "attributes" : [ "external", "functional", "object" ],
-    "id" : "164"
-  }, {
-    "iri" : "http://xmlns.com/foaf/0.1/gender",
-    "baseIri" : "http://xmlns.com/foaf/0.1",
-    "range" : "152",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://xmlns.com/foaf/0.1/",
-        "type" : "iri"
-      } ],
-      "term_status" : [ {
-        "identifier" : "term_status",
-        "language" : "undefined",
-        "value" : "testing",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "gender",
-      "undefined" : "gender"
-    },
-    "domain" : "86",
-    "comment" : {
-      "undefined" : "The gender of this Agent (typically but not necessarily 'male' or 'female')."
-    },
-    "attributes" : [ "datatype", "external", "functional" ],
-    "id" : "165"
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "168"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/schoolHomepage",
     "baseIri" : "http://xmlns.com/foaf/0.1",
@@ -4284,11 +4568,39 @@
       "undefined" : "A homepage of a school attended by the person."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "166"
+    "id" : "169"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/gender",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "157",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "gender",
+      "undefined" : "gender"
+    },
+    "domain" : "86",
+    "comment" : {
+      "undefined" : "The gender of this Agent (typically but not necessarily 'male' or 'female')."
+    },
+    "attributes" : [ "external", "datatype", "functional" ],
+    "id" : "170"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/lastName",
     "baseIri" : "http://xmlns.com/foaf/0.1",
-    "range" : "150",
+    "range" : "155",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -4311,12 +4623,31 @@
     "comment" : {
       "undefined" : "The last name of a person."
     },
-    "attributes" : [ "datatype", "external" ],
-    "id" : "167"
+    "attributes" : [ "external", "datatype" ],
+    "id" : "172"
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/usesFramework",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "range" : "131",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "usesFramework",
+      "en" : "uses framework"
+    },
+    "domain" : "175",
+    "attributes" : [ "external", "object" ],
+    "id" : "174"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasDesignQuality",
     "baseIri" : "http://ontology.ethereal.cz/irao",
-    "range" : "124",
+    "range" : "127",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -4329,13 +4660,13 @@
       "IRI-based" : "hasDesignQuality",
       "en" : "has design quality"
     },
-    "domain" : "29",
+    "domain" : "30",
     "attributes" : [ "external", "object" ],
-    "id" : "169"
+    "id" : "176"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/status",
     "baseIri" : "http://xmlns.com/foaf/0.1",
-    "range" : "175",
+    "range" : "182",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -4358,12 +4689,12 @@
     "comment" : {
       "undefined" : "A string expressing what the user is happy for the general public (normally) to know about their current activity."
     },
-    "attributes" : [ "datatype", "external" ],
-    "id" : "174"
+    "attributes" : [ "external", "datatype" ],
+    "id" : "181"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasMethodology",
     "baseIri" : "http://ontology.ethereal.cz/irao",
-    "range" : "179",
+    "range" : "120",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -4376,9 +4707,19 @@
       "IRI-based" : "hasMethodology",
       "en" : "has methodology"
     },
-    "domain" : "178",
+    "domain" : "185",
     "attributes" : [ "external", "object" ],
-    "id" : "177"
+    "id" : "184"
+  }, {
+    "range" : "4",
+    "domain" : "3",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "187"
+  }, {
+    "range" : "45",
+    "domain" : "47",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "188"
   }, {
     "iri" : "http://www.w3.org/2004/02/skos/core#closeMatch",
     "baseIri" : "http://www.w3.org/2004/02/skos/core",
@@ -4404,7 +4745,7 @@
     "superproperty" : [ "10" ],
     "domain" : "17",
     "subproperty" : [ "81" ],
-    "attributes" : [ "external", "object", "symmetric" ],
+    "attributes" : [ "symmetric", "external", "object" ],
     "id" : "82"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasDomain",
@@ -4422,13 +4763,13 @@
       "IRI-based" : "hasDomain",
       "en" : "has domain"
     },
-    "domain" : "29",
+    "domain" : "30",
     "attributes" : [ "external", "object" ],
-    "id" : "181"
+    "id" : "189"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/isMaintainedBy",
     "baseIri" : "http://ontology.ethereal.cz/irao",
-    "range" : "12",
+    "range" : "115",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -4441,13 +4782,13 @@
       "IRI-based" : "isMaintainedBy",
       "en" : "is maintained by"
     },
-    "domain" : "29",
+    "domain" : "30",
     "attributes" : [ "external", "object" ],
-    "id" : "182"
+    "id" : "190"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasRepositoryType",
     "baseIri" : "http://ontology.ethereal.cz/irao",
-    "range" : "148",
+    "range" : "152",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -4462,11 +4803,11 @@
     },
     "domain" : "89",
     "attributes" : [ "external", "object" ],
-    "id" : "184"
+    "id" : "192"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasPublication",
     "baseIri" : "http://ontology.ethereal.cz/irao",
-    "range" : "48",
+    "range" : "49",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -4479,9 +4820,9 @@
       "IRI-based" : "hasPublication",
       "en" : "has publication or is mentioned in publication"
     },
-    "domain" : "29",
+    "domain" : "30",
     "attributes" : [ "external", "object" ],
-    "id" : "185"
+    "id" : "193"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasAuthor",
     "baseIri" : "http://ontology.ethereal.cz/irao",
@@ -4498,9 +4839,37 @@
       "IRI-based" : "hasAuthor",
       "en" : "has author"
     },
-    "domain" : "29",
+    "domain" : "30",
     "attributes" : [ "external", "object" ],
-    "id" : "186"
+    "id" : "194"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/logo",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "17",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "logo",
+      "undefined" : "logo"
+    },
+    "domain" : "17",
+    "comment" : {
+      "undefined" : "A logo representing some thing."
+    },
+    "attributes" : [ "inverse functional", "external", "object" ],
+    "id" : "196"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/accountServiceHomepage",
     "baseIri" : "http://xmlns.com/foaf/0.1",
@@ -4528,35 +4897,7 @@
       "undefined" : "Indicates a homepage of the service provide for this online account."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "189"
-  }, {
-    "iri" : "http://xmlns.com/foaf/0.1/logo",
-    "baseIri" : "http://xmlns.com/foaf/0.1",
-    "range" : "17",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://xmlns.com/foaf/0.1/",
-        "type" : "iri"
-      } ],
-      "term_status" : [ {
-        "identifier" : "term_status",
-        "language" : "undefined",
-        "value" : "testing",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "logo",
-      "undefined" : "logo"
-    },
-    "domain" : "17",
-    "comment" : {
-      "undefined" : "A logo representing some thing."
-    },
-    "attributes" : [ "external", "inverse functional", "object" ],
-    "id" : "190"
+    "id" : "197"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/fundedBy",
     "baseIri" : "http://xmlns.com/foaf/0.1",
@@ -4584,7 +4925,7 @@
       "undefined" : "An organization funding a project or person."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "191"
+    "id" : "198"
   }, {
     "iri" : "http://cso.kmi.open.ac.uk/schema/cso#contributesTo",
     "baseIri" : "http://cso.kmi.open.ac.uk/schema/cso",
@@ -4598,11 +4939,11 @@
       "undefined" : "We use this relation to indicate that the research output of one topic contributes to another."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "192"
+    "id" : "199"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/accountName",
     "baseIri" : "http://xmlns.com/foaf/0.1",
-    "range" : "176",
+    "range" : "183",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -4625,12 +4966,12 @@
     "comment" : {
       "undefined" : "Indicates the name (identifier) associated with this online account."
     },
-    "attributes" : [ "datatype", "external" ],
-    "id" : "194"
+    "attributes" : [ "external", "datatype" ],
+    "id" : "201"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/jabberID",
     "baseIri" : "http://xmlns.com/foaf/0.1",
-    "range" : "157",
+    "range" : "99",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -4649,12 +4990,12 @@
       "IRI-based" : "jabberID",
       "undefined" : "jabber ID"
     },
-    "domain" : "17",
+    "domain" : "86",
     "comment" : {
       "undefined" : "A jabber ID for something."
     },
-    "attributes" : [ "datatype", "external" ],
-    "id" : "195"
+    "attributes" : [ "inverse functional", "external", "object" ],
+    "id" : "202"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasAccessibility",
     "baseIri" : "http://ontology.ethereal.cz/irao",
@@ -4671,13 +5012,13 @@
       "IRI-based" : "hasAccessibility",
       "en" : "has accessibility"
     },
-    "domain" : "29",
+    "domain" : "30",
     "attributes" : [ "external", "object" ],
-    "id" : "196"
+    "id" : "203"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/age",
     "baseIri" : "http://xmlns.com/foaf/0.1",
-    "range" : "168",
+    "range" : "173",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -4700,8 +5041,8 @@
     "comment" : {
       "undefined" : "The age in years of some agent."
     },
-    "attributes" : [ "datatype", "external", "functional" ],
-    "id" : "198"
+    "attributes" : [ "external", "datatype", "functional" ],
+    "id" : "205"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/homepage",
     "baseIri" : "http://xmlns.com/foaf/0.1",
@@ -4724,42 +5065,42 @@
       "IRI-based" : "homepage",
       "undefined" : "homepage"
     },
-    "superproperty" : [ "34", "31" ],
-    "domain" : "32",
+    "superproperty" : [ "35", "32" ],
+    "domain" : "33",
     "comment" : {
       "undefined" : "A homepage for some thing."
     },
-    "attributes" : [ "external", "inverse functional", "object" ],
-    "id" : "37"
+    "attributes" : [ "inverse functional", "external", "object" ],
+    "id" : "38"
+  }, {
+    "range" : "49",
+    "domain" : "207",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "206"
+  }, {
+    "range" : "49",
+    "domain" : "132",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "208"
+  }, {
+    "range" : "46",
+    "domain" : "100",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "209"
+  }, {
+    "range" : "46",
+    "domain" : "68",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "210"
   }, {
     "range" : "13",
     "domain" : "75",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "199"
-  }, {
-    "range" : "13",
-    "domain" : "61",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "200"
-  }, {
-    "range" : "48",
-    "domain" : "202",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "201"
-  }, {
-    "range" : "48",
-    "domain" : "127",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "203"
-  }, {
-    "range" : "12",
-    "domain" : "115",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "204"
+    "id" : "211"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/msnChatID",
     "baseIri" : "http://xmlns.com/foaf/0.1",
-    "range" : "151",
+    "range" : "156",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -4782,12 +5123,12 @@
     "comment" : {
       "undefined" : "An MSN chat ID"
     },
-    "attributes" : [ "datatype", "external" ],
-    "id" : "205"
+    "attributes" : [ "external", "datatype" ],
+    "id" : "212"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/topic_interest",
     "baseIri" : "http://xmlns.com/foaf/0.1",
-    "range" : "112",
+    "range" : "99",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -4811,18 +5152,18 @@
       "undefined" : "A thing of interest to this person."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "206"
+    "id" : "213"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/isUsedBy",
     "baseIri" : "http://ontology.ethereal.cz/irao",
-    "range" : "29",
+    "range" : "30",
     "label" : {
       "IRI-based" : "isUsedBy",
       "en" : "is used by"
     },
-    "domain" : "29",
+    "domain" : "30",
     "attributes" : [ "external", "object" ],
-    "id" : "207"
+    "id" : "214"
   }, {
     "iri" : "http://www.w3.org/2004/02/skos/core#broaderTransitive",
     "inverse" : "7",
@@ -4855,23 +5196,23 @@
     "superproperty" : [ "5" ],
     "domain" : "17",
     "subproperty" : [ "18" ],
-    "attributes" : [ "external", "transitive", "object" ],
+    "attributes" : [ "transitive", "external", "object" ],
     "id" : "8"
   }, {
-    "range" : "126",
-    "domain" : "155",
+    "range" : "13",
+    "domain" : "61",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "208"
+    "id" : "215"
+  }, {
+    "range" : "12",
+    "domain" : "115",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "216"
   }, {
     "range" : "86",
-    "domain" : "12",
+    "domain" : "148",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "209"
-  }, {
-    "range" : "6",
-    "domain" : "66",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "210"
+    "id" : "217"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/measuresSystem",
     "baseIri" : "http://ontology.ethereal.cz/irao",
@@ -4890,42 +5231,42 @@
     },
     "domain" : "68",
     "attributes" : [ "external", "object" ],
-    "id" : "211"
-  }, {
-    "range" : "1",
-    "domain" : "116",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "212"
+    "id" : "218"
   }, {
     "range" : "86",
-    "domain" : "144",
+    "domain" : "147",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "213"
+    "id" : "219"
+  }, {
+    "range" : "131",
+    "domain" : "28",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "220"
   }, {
     "range" : "86",
-    "domain" : "143",
+    "domain" : "12",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "214"
+    "id" : "221"
   }, {
-    "range" : "29",
-    "domain" : "45",
+    "range" : "47",
+    "domain" : "125",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "215"
-  }, {
-    "range" : "87",
-    "domain" : "97",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "216"
-  }, {
-    "range" : "46",
-    "domain" : "122",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "217"
+    "id" : "222"
   }, {
     "range" : "116",
     "domain" : "117",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "218"
+    "id" : "223"
+  }, {
+    "range" : "6",
+    "domain" : "66",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "224"
+  }, {
+    "range" : "1",
+    "domain" : "116",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "226"
   }, {
     "iri" : "http://www.w3.org/2004/02/skos/core#broader",
     "baseIri" : "http://www.w3.org/2004/02/skos/core",
@@ -4965,7 +5306,7 @@
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/currentProject",
     "baseIri" : "http://xmlns.com/foaf/0.1",
-    "range" : "147",
+    "range" : "151",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -4989,7 +5330,7 @@
       "undefined" : "A current project this person works on."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "220"
+    "id" : "228"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/holdsAccount",
     "baseIri" : "http://xmlns.com/foaf/0.1",
@@ -5017,7 +5358,7 @@
       "undefined" : "Indicates an account held by this agent."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "221"
+    "id" : "229"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/thumbnail",
     "baseIri" : "http://xmlns.com/foaf/0.1",
@@ -5045,7 +5386,7 @@
       "undefined" : "A derived thumbnail image."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "222"
+    "id" : "230"
   }, {
     "iri" : "http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent",
     "baseIri" : "http://cso.kmi.open.ac.uk/schema/cso",
@@ -5054,13 +5395,13 @@
       "IRI-based" : "preferentialEquivalent",
       "en" : "preferential equivalent"
     },
-    "superproperty" : [ "25", "9" ],
+    "superproperty" : [ "24", "9" ],
     "domain" : "66",
     "comment" : {
       "undefined" : "We use this relationship to declare that the subject topic need to use the label of the object topic for presentation purposes."
     },
-    "attributes" : [ "external", "functional", "object" ],
-    "id" : "24"
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "23"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/weblog",
     "baseIri" : "http://xmlns.com/foaf/0.1",
@@ -5083,27 +5424,27 @@
       "IRI-based" : "weblog",
       "undefined" : "weblog"
     },
-    "superproperty" : [ "31" ],
+    "superproperty" : [ "32" ],
     "domain" : "86",
     "comment" : {
       "undefined" : "A weblog of some thing (whether person, group, company etc.)."
     },
-    "attributes" : [ "external", "inverse functional", "object" ],
-    "id" : "36"
+    "attributes" : [ "inverse functional", "external", "object" ],
+    "id" : "37"
   }, {
     "range" : "87",
-    "domain" : "95",
+    "domain" : "97",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "223"
+    "id" : "231"
   }, {
-    "range" : "15",
-    "domain" : "14",
+    "range" : "87",
+    "domain" : "96",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "224"
+    "id" : "232"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/birthday",
     "baseIri" : "http://xmlns.com/foaf/0.1",
-    "range" : "170",
+    "range" : "177",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -5126,17 +5467,17 @@
     "comment" : {
       "undefined" : "The birthday of this Agent, represented in mm-dd string form, eg. '12-31'."
     },
-    "attributes" : [ "datatype", "external", "functional" ],
-    "id" : "225"
+    "attributes" : [ "external", "datatype", "functional" ],
+    "id" : "233"
   }, {
-    "range" : "87",
-    "domain" : "96",
+    "range" : "30",
+    "domain" : "46",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "226"
+    "id" : "234"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasField",
     "baseIri" : "http://ontology.ethereal.cz/irao",
-    "range" : "219",
+    "range" : "227",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -5149,13 +5490,13 @@
       "IRI-based" : "hasField",
       "en" : "has field"
     },
-    "domain" : "29",
+    "domain" : "30",
     "attributes" : [ "external", "object" ],
-    "id" : "227"
+    "id" : "235"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasURL",
     "baseIri" : "http://ontology.ethereal.cz/irao",
-    "range" : "171",
+    "range" : "178",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -5168,19 +5509,19 @@
       "IRI-based" : "hasURL",
       "en" : "has URL"
     },
-    "domain" : "180",
-    "attributes" : [ "datatype", "external" ],
-    "id" : "228"
+    "domain" : "195",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "236"
+  }, {
+    "range" : "26",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "237"
   }, {
     "range" : "4",
-    "domain" : "3",
+    "domain" : "62",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "229"
-  }, {
-    "range" : "44",
-    "domain" : "46",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "230"
+    "id" : "238"
   }, {
     "iri" : "http://www.w3.org/2004/02/skos/core#mappingRelation",
     "baseIri" : "http://www.w3.org/2004/02/skos/core",
@@ -5205,57 +5546,57 @@
     },
     "superproperty" : [ "5" ],
     "domain" : "17",
-    "subproperty" : [ "82", "23", "20", "90" ],
+    "subproperty" : [ "82", "22", "20", "90" ],
     "comment" : {
       "en" : "These concept mapping relations mirror semantic relations, and the data model defined below is similar (with the exception of skos:exactMatch) to the data model defined for semantic relations. A distinct vocabulary is provided for concept mapping relations, to provide a convenient way to differentiate links within a concept scheme from links between concept schemes. However, this pattern of usage is not a formal requirement of the SKOS data model, and relies on informal definitions of best practice."
     },
     "attributes" : [ "external", "object" ],
     "id" : "10"
   }, {
-    "range" : "27",
-    "domain" : "12",
+    "range" : "87",
+    "domain" : "95",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "231"
+    "id" : "239"
   }, {
-    "range" : "4",
-    "domain" : "62",
+    "range" : "15",
+    "domain" : "14",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "232"
+    "id" : "240"
   }, {
     "range" : "59",
     "domain" : "6",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "233"
+    "id" : "241"
   }, {
-    "range" : "144",
+    "range" : "148",
     "domain" : "13",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "234"
+    "id" : "242"
   }, {
-    "range" : "43",
+    "range" : "44",
     "domain" : "13",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "235"
+    "id" : "243"
   }, {
     "range" : "12",
-    "domain" : "144",
+    "domain" : "148",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "236"
+    "id" : "244"
   }, {
-    "range" : "43",
+    "range" : "44",
     "domain" : "12",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "237"
+    "id" : "245"
   }, {
     "range" : "6",
     "domain" : "15",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "238"
+    "id" : "246"
   }, {
     "range" : "59",
     "domain" : "15",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "239"
+    "id" : "247"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/member",
     "baseIri" : "http://xmlns.com/foaf/0.1",
@@ -5278,17 +5619,17 @@
       "IRI-based" : "member",
       "undefined" : "member"
     },
-    "domain" : "143",
+    "domain" : "147",
     "comment" : {
       "undefined" : "Indicates a member of a Group"
     },
     "attributes" : [ "external", "object" ],
-    "id" : "240"
+    "id" : "248"
   }, {
-    "range" : "45",
-    "domain" : "102",
+    "range" : "28",
+    "domain" : "27",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "241"
+    "id" : "249"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasLicense",
     "baseIri" : "http://ontology.ethereal.cz/irao",
@@ -5305,13 +5646,13 @@
       "IRI-based" : "hasLicense",
       "en" : "has license"
     },
-    "domain" : "29",
+    "domain" : "30",
     "attributes" : [ "external", "object" ],
-    "id" : "242"
+    "id" : "250"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/mbox",
     "baseIri" : "http://xmlns.com/foaf/0.1",
-    "range" : "112",
+    "range" : "99",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -5334,17 +5675,27 @@
     "comment" : {
       "undefined" : "A  personal mailbox, ie. an Internet mailbox associated with exactly one owner, the first owner of this mailbox. This is a 'static inverse functional property', in that  there is (across time and change) at most one individual that ever has any particular value for foaf:mbox."
     },
-    "attributes" : [ "external", "inverse functional", "object" ],
-    "id" : "243"
+    "attributes" : [ "inverse functional", "external", "object" ],
+    "id" : "251"
   }, {
-    "range" : "45",
-    "domain" : "183",
+    "range" : "46",
+    "domain" : "103",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "244"
+    "id" : "252"
+  }, {
+    "range" : "28",
+    "domain" : "225",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "253"
+  }, {
+    "range" : "28",
+    "domain" : "186",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "254"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/surname",
     "baseIri" : "http://xmlns.com/foaf/0.1",
-    "range" : "197",
+    "range" : "204",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -5367,18 +5718,18 @@
     "comment" : {
       "undefined" : "The surname of some person."
     },
-    "attributes" : [ "datatype", "external" ],
-    "id" : "245"
+    "attributes" : [ "external", "datatype" ],
+    "id" : "255"
   }, {
-    "range" : "45",
-    "domain" : "126",
+    "range" : "46",
+    "domain" : "191",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "246"
+    "id" : "256"
   }, {
-    "range" : "45",
-    "domain" : "44",
+    "range" : "46",
+    "domain" : "131",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "247"
+    "id" : "257"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/maker",
     "baseIri" : "http://xmlns.com/foaf/0.1",
@@ -5401,7 +5752,7 @@
       "IRI-based" : "maker",
       "undefined" : "maker"
     },
-    "domain" : "112",
+    "domain" : "99",
     "comment" : {
       "undefined" : "An agent that  made this thing."
     },
@@ -5438,7 +5789,7 @@
     "superproperty" : [ "5" ],
     "domain" : "17",
     "subproperty" : [ "16" ],
-    "attributes" : [ "external", "transitive", "object" ],
+    "attributes" : [ "transitive", "external", "object" ],
     "id" : "7"
   }, {
     "iri" : "http://cso.kmi.open.ac.uk/schema/cso#subTopicOf",
@@ -5453,18 +5804,18 @@
     "comment" : {
       "undefined" : "We use this relation to indicate that a :Topic is a sub-area of another one. This is the inverse of :superTopicOf"
     },
-    "attributes" : [ "external", "transitive", "object" ],
-    "id" : "248"
+    "attributes" : [ "transitive", "external", "object" ],
+    "id" : "258"
   }, {
-    "range" : "45",
-    "domain" : "179",
+    "range" : "46",
+    "domain" : "45",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "249"
+    "id" : "259"
   }, {
-    "range" : "45",
-    "domain" : "4",
+    "range" : "46",
+    "domain" : "1",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "250"
+    "id" : "260"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/workplaceHomepage",
     "baseIri" : "http://xmlns.com/foaf/0.1",
@@ -5492,21 +5843,21 @@
       "undefined" : "A workplace homepage of some person; the homepage of an organization they work for."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "251"
+    "id" : "261"
   }, {
-    "range" : "45",
-    "domain" : "68",
+    "range" : "46",
+    "domain" : "4",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "252"
+    "id" : "262"
   }, {
-    "range" : "45",
-    "domain" : "149",
+    "range" : "46",
+    "domain" : "120",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "253"
+    "id" : "263"
   }, {
-    "range" : "45",
-    "domain" : "1",
+    "range" : "46",
+    "domain" : "153",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "254"
+    "id" : "264"
   } ]
 }

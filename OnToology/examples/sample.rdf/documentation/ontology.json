@@ -296,7 +296,7 @@
   "@id" : "http://ontology.ethereal.cz/irao/repository#38947a2e",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/irao/Repository" ],
   "http://ontology.ethereal.cz/irao/hasRepositoryType" : [ {
-    "@id" : "http://ontology.ethereal.cz/irao/repositorytype#GitHub"
+    "@id" : "http://ontology.ethereal.cz/irao/repositorytype#VersionControl"
   } ],
   "http://ontology.ethereal.cz/irao/hasURL" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -306,7 +306,7 @@
   "@id" : "http://ontology.ethereal.cz/irao/repository#4c2877ee",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/irao/Repository" ],
   "http://ontology.ethereal.cz/irao/hasRepositoryType" : [ {
-    "@id" : "http://ontology.ethereal.cz/irao/repositorytype#GitHub"
+    "@id" : "http://ontology.ethereal.cz/irao/repositorytype#VersionControl"
   } ],
   "http://ontology.ethereal.cz/irao/hasURL" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -316,7 +316,7 @@
   "@id" : "http://ontology.ethereal.cz/irao/repository#6f33415e",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/irao/Repository" ],
   "http://ontology.ethereal.cz/irao/hasRepositoryType" : [ {
-    "@id" : "http://ontology.ethereal.cz/irao/repositorytype#GitHub"
+    "@id" : "http://ontology.ethereal.cz/irao/repositorytype#VersionControl"
   } ],
   "http://ontology.ethereal.cz/irao/hasURL" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -326,7 +326,7 @@
   "@id" : "http://ontology.ethereal.cz/irao/repository#92b55a1a",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/irao/Repository" ],
   "http://ontology.ethereal.cz/irao/hasRepositoryType" : [ {
-    "@id" : "http://ontology.ethereal.cz/irao/repositorytype#GitHub"
+    "@id" : "http://ontology.ethereal.cz/irao/repositorytype#VersionControl"
   } ],
   "http://ontology.ethereal.cz/irao/hasURL" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -336,7 +336,7 @@
   "@id" : "http://ontology.ethereal.cz/irao/repository#f35c0633",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/irao/Repository" ],
   "http://ontology.ethereal.cz/irao/hasRepositoryType" : [ {
-    "@id" : "http://ontology.ethereal.cz/irao/repositorytype#GitHub"
+    "@id" : "http://ontology.ethereal.cz/irao/repositorytype#VersionControl"
   } ],
   "http://ontology.ethereal.cz/irao/hasURL" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
