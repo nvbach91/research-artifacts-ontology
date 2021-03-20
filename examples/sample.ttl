@@ -1,126 +1,126 @@
-@prefix : <#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix irao: <http://ontology.ethereal.cz/irao/> .
-@prefix irao_publication: <http://ontology.ethereal.cz/irao/publication#> .
-@prefix irao_repository: <http://ontology.ethereal.cz/irao/repository#> .
-@prefix irao_author: <http://ontology.ethereal.cz/irao/author#> .
-@prefix irao_artifact: <http://ontology.ethereal.cz/irao/artifact#> .
-@prefix irao_affiliation: <http://ontology.ethereal.cz/irao/affiliation#> .
-@prefix irao_dev_status: <http://ontology.ethereal.cz/irao/developmentstatus#> .
-@prefix irao_repository_type: <http://ontology.ethereal.cz/irao/repositorytype#> .
-@prefix cso_topic: <https://cso.kmi.open.ac.uk/topics/> .
+@prefix : <#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix irao: <http://ontology.ethereal.cz/irao/>.
+@prefix irao_publication: <http://ontology.ethereal.cz/irao/publication#>.
+@prefix irao_repository: <http://ontology.ethereal.cz/irao/repository#>.
+@prefix irao_author: <http://ontology.ethereal.cz/irao/author#>.
+@prefix irao_artifact: <http://ontology.ethereal.cz/irao/artifact#>.
+@prefix irao_affiliation: <http://ontology.ethereal.cz/irao/affiliation#>.
+@prefix irao_dev_status: <http://ontology.ethereal.cz/irao/developmentstatus#>.
+@prefix irao_repository_type: <http://ontology.ethereal.cz/irao/repositorytype#>.
+@prefix cso_topic: <https://cso.kmi.open.ac.uk/topics/>.
 
 irao_affiliation:33bca0a2
-    a irao:Affiliation , owl:NamedIndividual ;
-    foaf:name "University of Economics, Prague"@en .
+    a irao:Affiliation, owl:NamedIndividual;
+    foaf:name "University of Economics, Prague"@en.
 irao_affiliation:52b761ad
-    a irao:Affiliation , owl:NamedIndividual ;
-    foaf:name "J\u00f6nk\u00f6ping University"@en .
+    a irao:Affiliation, owl:NamedIndividual;
+    foaf:name "J\u00f6nk\u00f6ping University"@en.
 irao_affiliation:ca0d6d57
-a irao:Affiliation , owl:NamedIndividual ; foaf:name "University of Bologna"@en .
+a irao:Affiliation, owl:NamedIndividual; foaf:name "University of Bologna"@en.
 irao_artifact:3230c840
-    a irao:Software , owl:NamedIndividual ;
-    irao:hasAuthor irao_author:ea848e30 ;
-    irao:hasDevelopmentStatus irao_dev_status:release ;
-    irao:hasPublication irao_publication:1bc6c06f ;
-    irao:hasResearchArea cso_topic:ontology_engineering , cso_topic:semantic_web ;
-    irao:isPublishedAt irao_repository:f35c0633 ;
-    rdfs:label "PURO Modeler"@en .
+    a irao:Software, owl:NamedIndividual;
+    irao:hasAuthor irao_author:ea848e30;
+    irao:hasDevelopmentStatus irao_dev_status:release;
+    irao:hasPublication irao_publication:1bc6c06f;
+    irao:hasResearchArea cso_topic:ontology_engineering, cso_topic:semantic_web;
+    irao:isPublishedAt irao_repository:f35c0633;
+    rdfs:label "PURO Modeler"@en.
 irao_artifact:76a99da9
-    a irao:Software , owl:NamedIndividual ;
-    irao:hasAuthor irao_author:b2a0c5eb ;
-    irao:hasDevelopmentStatus irao_dev_status:release ;
-    irao:hasPublication irao_publication:d28f9810 ;
-    irao:hasResearchArea cso_topic:linked_data , cso_topic:semantic_web ;
-    irao:isPublishedAt irao_repository:92b55a1a ;
-    rdfs:label "VVZ to RDF"@en .
+    a irao:Software, owl:NamedIndividual;
+    irao:hasAuthor irao_author:b2a0c5eb;
+    irao:hasDevelopmentStatus irao_dev_status:release;
+    irao:hasPublication irao_publication:d28f9810;
+    irao:hasResearchArea cso_topic:linked_data, cso_topic:semantic_web;
+    irao:isPublishedAt irao_repository:92b55a1a;
+    rdfs:label "VVZ to RDF"@en.
 irao_artifact:8d91adad
-    a irao:Dataset , owl:NamedIndividual ;
-    irao:hasAuthor irao_author:0962aa92 ;
-    irao:hasDevelopmentStatus irao_dev_status:release ;
-    irao:hasPublication irao_publication:9a94279c ;
-    irao:hasResearchArea cso_topic:linked_data , cso_topic:semantic_web ;
-    irao:isPublishedAt irao_repository:4c2877ee ;
-    rdfs:label "ArCo Dataset"@en .
+    a irao:Dataset, owl:NamedIndividual;
+    irao:hasAuthor irao_author:0962aa92;
+    irao:hasDevelopmentStatus irao_dev_status:release;
+    irao:hasPublication irao_publication:9a94279c;
+    irao:hasResearchArea cso_topic:linked_data, cso_topic:semantic_web;
+    irao:isPublishedAt irao_repository:4c2877ee;
+    rdfs:label "ArCo Dataset"@en.
 irao_artifact:90ba34ff
-    a irao:Ontology , owl:NamedIndividual ;
-    irao:hasAuthor irao_author:787367eb ;
-    irao:hasDevelopmentStatus irao_dev_status:release ;
-    irao:hasPublication irao_publication:695a74d6 ;
-    irao:hasResearchArea cso_topic:ontology_engineering , cso_topic:semantic_web ;
-    irao:isPublishedAt irao_repository:6f33415e ;
-    rdfs:label "RealEstateCore Ontology"@en .
+    a irao:Ontology, owl:NamedIndividual;
+    irao:hasAuthor irao_author:787367eb;
+    irao:hasDevelopmentStatus irao_dev_status:release;
+    irao:hasPublication irao_publication:695a74d6;
+    irao:hasResearchArea cso_topic:ontology_engineering, cso_topic:semantic_web;
+    irao:isPublishedAt irao_repository:6f33415e;
+    rdfs:label "RealEstateCore Ontology"@en.
 irao_artifact:f46e52f4
-    a irao:Ontology , owl:NamedIndividual ;
-    irao:hasAuthor irao_author:0962aa92 ;
-    irao:hasDevelopmentStatus irao_dev_status:release ;
-    irao:hasPublication irao_publication:9a94279c ;
-    irao:hasResearchArea cso_topic:linked_data , cso_topic:semantic_web ;
-    irao:isPublishedAt irao_repository:38947a2e ;
-    rdfs:label "ArCo Ontology"@en .
+    a irao:Ontology, owl:NamedIndividual;
+    irao:hasAuthor irao_author:0962aa92;
+    irao:hasDevelopmentStatus irao_dev_status:release;
+    irao:hasPublication irao_publication:9a94279c;
+    irao:hasResearchArea cso_topic:linked_data, cso_topic:semantic_web;
+    irao:isPublishedAt irao_repository:38947a2e;
+    rdfs:label "ArCo Ontology"@en.
 irao_author:0962aa92
-    a irao:Researcher , owl:NamedIndividual ;
-    irao:hasAffiliation irao_affiliation:ca0d6d57 ;
-    foaf:name "Valentina Anita Carriero"@en .
+    a irao:Researcher, owl:NamedIndividual;
+    irao:hasAffiliation irao_affiliation:ca0d6d57;
+    foaf:name "Valentina Anita Carriero"@en.
 irao_author:787367eb
-    a irao:Researcher , owl:NamedIndividual ;
-    irao:hasAffiliation irao_affiliation:52b761ad ;
-    foaf:name "Karl Hammar"@en .
+    a irao:Researcher, owl:NamedIndividual;
+    irao:hasAffiliation irao_affiliation:52b761ad;
+    foaf:name "Karl Hammar"@en.
 irao_author:b2a0c5eb
-    a irao:Researcher , owl:NamedIndividual ;
-    irao:hasAffiliation irao_affiliation:33bca0a2 ;
-    foaf:name "Jind\u0159ich Mynarz"@en .
+    a irao:Researcher, owl:NamedIndividual;
+    irao:hasAffiliation irao_affiliation:33bca0a2;
+    foaf:name "Jind\u0159ich Mynarz"@en.
 irao_author:ea848e30
-    a irao:Researcher , owl:NamedIndividual ;
-    irao:hasAffiliation irao_affiliation:33bca0a2 ;
-    foaf:name "Marek Dud\u00e1\u0161"@en .
+    a irao:Researcher, owl:NamedIndividual;
+    irao:hasAffiliation irao_affiliation:33bca0a2;
+    foaf:name "Marek Dud\u00e1\u0161"@en.
 irao_publication:1bc6c06f
-    a irao:Publication , irao:Thesis , owl:NamedIndividual ;
-    irao:hasTopic "ontology visualization" ;
+    a irao:Publication, irao:Thesis, owl:NamedIndividual;
+    irao:hasTopic "ontology visualization";
     irao:hasURL
-        "https://vskp.vse.cz/74478_podpora-vyvoje-ontologii-pomoci-grafickych-modelovacich-nastroju"^^xsd:anyURI ;
-    rdfs:label "Supporting ontology development with visual modeling tools"@en .
+        "https://vskp.vse.cz/74478_podpora-vyvoje-ontologii-pomoci-grafickych-modelovacich-nastroju"^^xsd:anyURI;
+    rdfs:label "Supporting ontology development with visual modeling tools"@en.
 irao_publication:695a74d6
-    a irao:Publication , irao:Thesis , owl:NamedIndividual ;
-    irao:hasTopic "real estate" ;
+    a irao:Publication, irao:Thesis, owl:NamedIndividual;
+    irao:hasTopic "real estate";
     irao:hasURL
-        "https://link.springer.com/chapter/10.1007%2F978-3-030-30796-7_9"^^xsd:anyURI ;
-    rdfs:label "The RealEstateCore Ontology"@en .
+        "https://link.springer.com/chapter/10.1007%2F978-3-030-30796-7_9"^^xsd:anyURI;
+    rdfs:label "The RealEstateCore Ontology"@en.
 irao_publication:9a94279c
-    a irao:ConferencePaper , irao:Publication , owl:NamedIndividual ;
-    irao:hasTopic "cultural heritage" ;
+    a irao:ConferencePaper, irao:Publication, owl:NamedIndividual;
+    irao:hasTopic "cultural heritage";
     irao:hasURL
-        "https://link.springer.com/chapter/10.1007%2F978-3-030-30796-7_3"^^xsd:anyURI ;
-    rdfs:label "ArCo: the Italian Cultural Heritage Knowledge Graph"@en .
+        "https://link.springer.com/chapter/10.1007%2F978-3-030-30796-7_3"^^xsd:anyURI;
+    rdfs:label "ArCo: the Italian Cultural Heritage Knowledge Graph"@en.
 irao_publication:d28f9810
-    a irao:Publication , irao:Thesis , owl:NamedIndividual ;
-    irao:hasTopic "public procurement" ;
+    a irao:Publication, irao:Thesis, owl:NamedIndividual;
+    irao:hasTopic "public procurement";
     irao:hasURL
-        "https://vskp.vse.cz/71568_parovani-uchazecu-a-verejnych-zakazek-pomoci-propojenych-otevrenych-dat"^^xsd:anyURI ;
+        "https://vskp.vse.cz/71568_parovani-uchazecu-a-verejnych-zakazek-pomoci-propojenych-otevrenych-dat"^^xsd:anyURI;
     rdfs:label
-    "Matchmaking of bidders and public contracts using linked open data"@en .
+    "Matchmaking of bidders and public contracts using linked open data"@en.
 irao_repository:38947a2e
-    a irao:Repository , owl:NamedIndividual ;
-    irao:hasRepositoryType irao_repository_type:GitHub ;
+    a irao:Repository, owl:NamedIndividual;
+    irao:hasRepositoryType irao_repository_type:VersionControl;
     irao:hasURL
-    "https://github.com/ICCD-MiBACT/ArCo/tree/master/ArCo-release"^^xsd:anyURI .
+    "https://github.com/ICCD-MiBACT/ArCo/tree/master/ArCo-release"^^xsd:anyURI.
 irao_repository:4c2877ee
-    a irao:Repository , owl:NamedIndividual ;
-    irao:hasRepositoryType irao_repository_type:GitHub ;
+    a irao:Repository, owl:NamedIndividual;
+    irao:hasRepositoryType irao_repository_type:VersionControl;
     irao:hasURL
-    "https://github.com/ICCD-MiBACT/ArCo/tree/master/ArCo-release"^^xsd:anyURI .
+    "https://github.com/ICCD-MiBACT/ArCo/tree/master/ArCo-release"^^xsd:anyURI.
 irao_repository:6f33415e
-    a irao:Repository , owl:NamedIndividual ;
-    irao:hasRepositoryType irao_repository_type:GitHub ;
-    irao:hasURL "https://github.com/RealEstateCore/rec"^^xsd:anyURI .
+    a irao:Repository, owl:NamedIndividual;
+    irao:hasRepositoryType irao_repository_type:VersionControl;
+    irao:hasURL "https://github.com/RealEstateCore/rec"^^xsd:anyURI.
 irao_repository:92b55a1a
-    a irao:Repository , owl:NamedIndividual ;
-    irao:hasRepositoryType irao_repository_type:GitHub ;
-    irao:hasURL "https://github.com/jindrichmynarz/vvz-to-rdf"^^xsd:anyURI .
+    a irao:Repository, owl:NamedIndividual;
+    irao:hasRepositoryType irao_repository_type:VersionControl;
+    irao:hasURL "https://github.com/jindrichmynarz/vvz-to-rdf"^^xsd:anyURI.
 irao_repository:f35c0633
-    a irao:Repository , owl:NamedIndividual ;
-    irao:hasRepositoryType irao_repository_type:GitHub ;
-    irao:hasURL "https://github.com/marek-dudas/PURO-Modeler"^^xsd:anyURI .
+    a irao:Repository, owl:NamedIndividual;
+    irao:hasRepositoryType irao_repository_type:VersionControl;
+    irao:hasURL "https://github.com/marek-dudas/PURO-Modeler"^^xsd:anyURI.
