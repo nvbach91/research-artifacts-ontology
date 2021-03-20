@@ -46,6 +46,12 @@ This section provides details for each class and property defined by Informatics
             title="http://ontology.ethereal.cz/irao/InformaticsResearchArtifact">Informatics Research Artifact</a>
       </li>
       <li>
+         <a href="#/License" title="http://ontology.ethereal.cz/irao/License">License</a>
+      </li>
+      <li>
+         <a href="#/LicenseType" title="http://ontology.ethereal.cz/irao/LicenseType">License type</a>
+      </li>
+      <li>
          <a href="#/Methodology" title="http://ontology.ethereal.cz/irao/Methodology">Methodology</a>
       </li>
       <li>
@@ -72,6 +78,12 @@ This section provides details for each class and property defined by Informatics
       <li>
          <a href="#/ResearchArtifact"
             title="http://ontology.ethereal.cz/irao/ResearchArtifact">Research Artifact</a>
+      </li>
+      <li>
+         <a href="#/ResearchDomain" title="http://ontology.ethereal.cz/irao/ResearchDomain">Research Domain</a>
+      </li>
+      <li>
+         <a href="#/ResearchField" title="http://ontology.ethereal.cz/irao/ResearchField">Research Field</a>
       </li>
       <li>
          <a href="#/Researcher" title="http://ontology.ethereal.cz/irao/Researcher">Researcher</a>
@@ -453,6 +465,53 @@ This section provides details for each class and property defined by Informatics
          </dd>
       </dl>
    </div>
+   <div class="entity" id="/License">
+      <h3>License<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://ontology.ethereal.cz/irao/License</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://ontology.ethereal.cz/irao">http://ontology.ethereal.cz/irao</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#/hasLicenseType" title="http://ontology.ethereal.cz/irao/hasLicenseType">has license type</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasLicense" title="http://ontology.ethereal.cz/irao/hasLicense">has license</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/LicenseType">
+      <h3>License type<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://ontology.ethereal.cz/irao/LicenseType</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://ontology.ethereal.cz/irao">http://ontology.ethereal.cz/irao</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasLicenseType" title="http://ontology.ethereal.cz/irao/hasLicenseType">has license type</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
    <div class="entity" id="/Methodology">
       <h3>Methodology<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
@@ -694,6 +753,8 @@ This section provides details for each class and property defined by Informatics
                title="http://ontology.ethereal.cz/irao/hasDesignQuality">has design quality</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#/hasDevelopmentStatus"
                title="http://ontology.ethereal.cz/irao/hasDevelopmentStatus">has development status</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasDomain" title="http://ontology.ethereal.cz/irao/hasDomain">has domain</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasField" title="http://ontology.ethereal.cz/irao/hasField">has field</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#/hasLicense" title="http://ontology.ethereal.cz/irao/hasLicense">has license</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#/hasOpenStandard" title="http://ontology.ethereal.cz/irao/hasOpenStandard">has open standard</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#/hasPublication" title="http://ontology.ethereal.cz/irao/hasPublication">has publication or is mentioned in publication</a>
@@ -701,6 +762,54 @@ This section provides details for each class and property defined by Informatics
             <sup class="type-op" title="object property">op</sup>, <a href="#/hasVersion" title="http://ontology.ethereal.cz/irao/hasVersion">has version</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#/isMaintainedBy" title="http://ontology.ethereal.cz/irao/isMaintainedBy">is maintained by</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#/isPublishedAt" title="http://ontology.ethereal.cz/irao/isPublishedAt">is published at</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/isUsedBy" title="http://ontology.ethereal.cz/irao/isUsedBy">is used by</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/isUsedBy" title="http://ontology.ethereal.cz/irao/isUsedBy">is used by</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/ResearchDomain">
+      <h3>Research Domain<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://ontology.ethereal.cz/irao/ResearchDomain</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://ontology.ethereal.cz/irao">http://ontology.ethereal.cz/irao</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasDomain" title="http://ontology.ethereal.cz/irao/hasDomain">has domain</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/ResearchField">
+      <h3>Research Field<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://ontology.ethereal.cz/irao/ResearchField</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://ontology.ethereal.cz/irao">http://ontology.ethereal.cz/irao</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasField" title="http://ontology.ethereal.cz/irao/hasField">has field</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
@@ -724,7 +833,6 @@ This section provides details for each class and property defined by Informatics
             <a href="http://xmlns.com/foaf/0.1/Person"
                target="_blank"
                title="http://xmlns.com/foaf/0.1/Person">person</a>
-            <sup class="type-c" title="class">c</sup>
          </dd>
          <dt>is in domain of</dt>
          <dd>
@@ -943,10 +1051,19 @@ This section provides details for each class and property defined by Informatics
             title="http://ontology.ethereal.cz/irao/hasDevelopmentStatus">has development status</a>
       </li>
       <li>
+         <a href="#/hasDomain" title="http://ontology.ethereal.cz/irao/hasDomain">has domain</a>
+      </li>
+      <li>
+         <a href="#/hasField" title="http://ontology.ethereal.cz/irao/hasField">has field</a>
+      </li>
+      <li>
          <a href="#/hasFramework" title="http://ontology.ethereal.cz/irao/hasFramework">has framework</a>
       </li>
       <li>
          <a href="#/hasLicense" title="http://ontology.ethereal.cz/irao/hasLicense">has license</a>
+      </li>
+      <li>
+         <a href="#/hasLicenseType" title="http://ontology.ethereal.cz/irao/hasLicenseType">has license type</a>
       </li>
       <li>
          <a href="#/hasMethodology" title="http://ontology.ethereal.cz/irao/hasMethodology">has methodology</a>
@@ -978,6 +1095,9 @@ This section provides details for each class and property defined by Informatics
       </li>
       <li>
          <a href="#/isPublishedAt" title="http://ontology.ethereal.cz/irao/isPublishedAt">is published at</a>
+      </li>
+      <li>
+         <a href="#/isUsedBy" title="http://ontology.ethereal.cz/irao/isUsedBy">is used by</a>
       </li>
       <li>
          <a href="#/measuresSystem" title="http://ontology.ethereal.cz/irao/measuresSystem">measures system</a>
@@ -1069,7 +1189,6 @@ This section provides details for each class and property defined by Informatics
                <a href="http://xmlns.com/foaf/0.1/Person"
                   target="_blank"
                   title="http://xmlns.com/foaf/0.1/Person">person</a>
-               <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
       </div>
@@ -1133,6 +1252,64 @@ This section provides details for each class and property defined by Informatics
          </dl>
       </div>
    </div>
+   <div class="entity" id="/hasDomain">
+      <h3>has domain<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://ontology.ethereal.cz/irao/hasDomain</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://ontology.ethereal.cz/irao">http://ontology.ethereal.cz/irao</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/ResearchArtifact"
+                  title="http://ontology.ethereal.cz/irao/ResearchArtifact">Research Artifact</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/ResearchDomain" title="http://ontology.ethereal.cz/irao/ResearchDomain">Research Domain</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasField">
+      <h3>has field<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://ontology.ethereal.cz/irao/hasField</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://ontology.ethereal.cz/irao">http://ontology.ethereal.cz/irao</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/ResearchArtifact"
+                  title="http://ontology.ethereal.cz/irao/ResearchArtifact">Research Artifact</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/ResearchField" title="http://ontology.ethereal.cz/irao/ResearchField">Research Field</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
    <div class="entity" id="/hasFramework">
       <h3>has framework<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
@@ -1176,17 +1353,43 @@ This section provides details for each class and property defined by Informatics
       </dl>
       <div class="description">
          <dl>
-            <dt>has super-properties</dt>
-            <dd>
-               <a href="http://purl.org/dc/terms/license"
-                  target="_blank"
-                  title="http://purl.org/dc/terms/license">license</a>
-               <sup class="type-op" title="object property">op</sup>
-            </dd>
             <dt>has domain</dt>
             <dd>
                <a href="#/ResearchArtifact"
                   title="http://ontology.ethereal.cz/irao/ResearchArtifact">Research Artifact</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/License" title="http://ontology.ethereal.cz/irao/License">License</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasLicenseType">
+      <h3>has license type<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://ontology.ethereal.cz/irao/hasLicenseType</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://ontology.ethereal.cz/irao">http://ontology.ethereal.cz/irao</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/License" title="http://ontology.ethereal.cz/irao/License">License</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/LicenseType" title="http://ontology.ethereal.cz/irao/LicenseType">License type</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
@@ -1424,7 +1627,6 @@ This section provides details for each class and property defined by Informatics
                <a href="http://xmlns.com/foaf/0.1/Person"
                   target="_blank"
                   title="http://xmlns.com/foaf/0.1/Person">person</a>
-               <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
       </div>
@@ -1481,6 +1683,30 @@ This section provides details for each class and property defined by Informatics
             <dt>has range</dt>
             <dd>
                <a href="#/Repository" title="http://ontology.ethereal.cz/irao/Repository">Repository</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/isUsedBy">
+      <h3>is used by<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://ontology.ethereal.cz/irao/isUsedBy</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/ResearchArtifact"
+                  title="http://ontology.ethereal.cz/irao/ResearchArtifact">Research Artifact</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/ResearchArtifact"
+                  title="http://ontology.ethereal.cz/irao/ResearchArtifact">Research Artifact</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
@@ -1637,13 +1863,6 @@ This section provides details for each class and property defined by Informatics
       </dl>
       <div class="description">
          <dl>
-            <dt>has super-properties</dt>
-            <dd>
-               <a href="http://purl.org/dc/terms/hasVersion"
-                  target="_blank"
-                  title="http://purl.org/dc/terms/hasVersion">has version</a>
-               <sup class="type-dp" title="data property">dp</sup>
-            </dd>
             <dt>has domain</dt>
             <dd>
                <a href="#/ResearchArtifact"
@@ -1673,11 +1892,6 @@ This section provides details for each class and property defined by Informatics
       <li>
          <a href="#/repositorytype#GitHub"
             title="http://ontology.ethereal.cz/irao/repositorytype#GitHub">GitHub</a>
-      </li>
-      <li>
-         <a href="#" title="http://ontology.ethereal.cz/irao">
-            <span>Informatics Research Artifacts Ontology</span>
-         </a>
       </li>
       <li>
          <a href="#/developmentstatus#release"
@@ -1750,26 +1964,6 @@ This section provides details for each class and property defined by Informatics
          <dd>
             <a href="#/RepositoryType" title="http://ontology.ethereal.cz/irao/RepositoryType">Repository Type</a>
             <sup class="type-c" title="class">c</sup>
-         </dd>
-      </dl>
-   </div>
-   <div class="entity" id="">
-      <h3>Informatics Research Artifacts Ontology<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://ontology.ethereal.cz/irao</p>
-      <dl class="description">
-         <dt>has facts</dt>
-         <dd>
-            <a href="http://purl.org/dc/terms/license"
-               target="_blank"
-               title="http://purl.org/dc/terms/license">license</a>
-            <sup class="type-op" title="object property">op</sup> 
-            <a href="https://creativecommons.org/licenses/by/3.0/"
-               target="_blank"
-               title="https://creativecommons.org/licenses/by/3.0/">https://creativecommons.org/licenses/by/3.0/</a>
          </dd>
       </dl>
    </div>
