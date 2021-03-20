@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <uri id="User Entered Import Resolution 1" name="http://purl.org/vocab/vann/" uri="vocabularies/vann.ttl"/>
+    <uri id="User Entered Import Resolution 2" name="http://purl.org/dc/terms" uri="vocabularies/dublin_core_terms.owl"/>
+    <uri id="User Entered Import Resolution 3" name="http://purl.org/dc/elements/1.1" uri="vocabularies/dublin_core_elements.owl"/>
+    <uri id="User Entered Import Resolution 4" name="http://xmlns.com/foaf/0.1/" uri="vocabularies/foaf.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1616253876935" name="http://ontology.ethereal.cz/irao" uri="irao.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1616256111048" name="http://ontology.ethereal.cz/irao" uri="irao.owl"/>
     </group>
 </catalog>
