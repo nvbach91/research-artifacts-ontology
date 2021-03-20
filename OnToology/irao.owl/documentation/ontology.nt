@@ -245,24 +245,45 @@ _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/19
 # 
 # http://ontology.ethereal.cz/irao/usesFramework
 <http://ontology.ethereal.cz/irao/usesFramework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontology.ethereal.cz/irao/usesFramework> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/Software> .
-<http://ontology.ethereal.cz/irao/usesFramework> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/System> .
+<http://ontology.ethereal.cz/irao/usesFramework> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid5 <http://www.w3.org/2002/07/owl#unionOf> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ontology.ethereal.cz/irao/Software> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ontology.ethereal.cz/irao/System> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <http://ontology.ethereal.cz/irao/usesFramework> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/Framework> .
 <http://ontology.ethereal.cz/irao/usesFramework> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/usesFramework> <http://www.w3.org/2000/01/rdf-schema#label> "uses framework"@en .
 # 
 # http://ontology.ethereal.cz/irao/usesMethodology
 <http://ontology.ethereal.cz/irao/usesMethodology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontology.ethereal.cz/irao/usesMethodology> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/Dataset> .
-<http://ontology.ethereal.cz/irao/usesMethodology> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/Framework> .
+<http://ontology.ethereal.cz/irao/usesMethodology> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid8 <http://www.w3.org/2002/07/owl#unionOf> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ontology.ethereal.cz/irao/Dataset> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ontology.ethereal.cz/irao/Framework> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <http://ontology.ethereal.cz/irao/usesMethodology> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/Methodology> .
 <http://ontology.ethereal.cz/irao/usesMethodology> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/usesMethodology> <http://www.w3.org/2000/01/rdf-schema#label> "uses methodology"@en .
 # 
 # http://ontology.ethereal.cz/irao/usesOntologyDesignPattern
 <http://ontology.ethereal.cz/irao/usesOntologyDesignPattern> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontology.ethereal.cz/irao/usesOntologyDesignPattern> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/Ontology> .
-<http://ontology.ethereal.cz/irao/usesOntologyDesignPattern> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/OntologyDesignPattern> .
+<http://ontology.ethereal.cz/irao/usesOntologyDesignPattern> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid11 <http://www.w3.org/2002/07/owl#unionOf> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ontology.ethereal.cz/irao/Ontology> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ontology.ethereal.cz/irao/OntologyDesignPattern> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <http://ontology.ethereal.cz/irao/usesOntologyDesignPattern> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/OntologyDesignPattern> .
 <http://ontology.ethereal.cz/irao/usesOntologyDesignPattern> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/usesOntologyDesignPattern> <http://www.w3.org/2000/01/rdf-schema#label> "uses ontology design pattern"@en .
@@ -285,9 +306,18 @@ _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/19
 # 
 # http://ontology.ethereal.cz/irao/hasURL
 <http://ontology.ethereal.cz/irao/hasURL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://ontology.ethereal.cz/irao/hasURL> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/Publication> .
-<http://ontology.ethereal.cz/irao/hasURL> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/Repository> .
-<http://ontology.ethereal.cz/irao/hasURL> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/ResearchArtifact> .
+<http://ontology.ethereal.cz/irao/hasURL> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid14 <http://www.w3.org/2002/07/owl#unionOf> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ontology.ethereal.cz/irao/Publication> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ontology.ethereal.cz/irao/Repository> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ontology.ethereal.cz/irao/ResearchArtifact> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <http://ontology.ethereal.cz/irao/hasURL> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
 <http://ontology.ethereal.cz/irao/hasURL> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/hasURL> <http://www.w3.org/2000/01/rdf-schema#label> "has URL"@en .

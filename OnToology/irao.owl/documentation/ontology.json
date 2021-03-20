@@ -11,6 +11,48 @@
     } ]
   } ]
 }, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://ontology.ethereal.cz/irao/Ontology"
+    }, {
+      "@id" : "http://ontology.ethereal.cz/irao/OntologyDesignPattern"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://ontology.ethereal.cz/irao/Publication"
+    }, {
+      "@id" : "http://ontology.ethereal.cz/irao/Repository"
+    }, {
+      "@id" : "http://ontology.ethereal.cz/irao/ResearchArtifact"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://ontology.ethereal.cz/irao/Software"
+    }, {
+      "@id" : "http://ontology.ethereal.cz/irao/System"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://ontology.ethereal.cz/irao/Dataset"
+    }, {
+      "@id" : "http://ontology.ethereal.cz/irao/Framework"
+    } ]
+  } ]
+}, {
   "@id" : "http://ontology.ethereal.cz/irao",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/elements/1.1/contributor" : [ {
@@ -913,11 +955,7 @@
   "@id" : "http://ontology.ethereal.cz/irao/hasURL",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://ontology.ethereal.cz/irao/Publication"
-  }, {
-    "@id" : "http://ontology.ethereal.cz/irao/Repository"
-  }, {
-    "@id" : "http://ontology.ethereal.cz/irao/ResearchArtifact"
+    "@id" : "_:genid14"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "http://ontology.ethereal.cz/irao"
@@ -1144,9 +1182,7 @@
   "@id" : "http://ontology.ethereal.cz/irao/usesFramework",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://ontology.ethereal.cz/irao/Software"
-  }, {
-    "@id" : "http://ontology.ethereal.cz/irao/System"
+    "@id" : "_:genid5"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "http://ontology.ethereal.cz/irao"
@@ -1162,9 +1198,7 @@
   "@id" : "http://ontology.ethereal.cz/irao/usesMethodology",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://ontology.ethereal.cz/irao/Dataset"
-  }, {
-    "@id" : "http://ontology.ethereal.cz/irao/Framework"
+    "@id" : "_:genid8"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "http://ontology.ethereal.cz/irao"
@@ -1180,9 +1214,7 @@
   "@id" : "http://ontology.ethereal.cz/irao/usesOntologyDesignPattern",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://ontology.ethereal.cz/irao/Ontology"
-  }, {
-    "@id" : "http://ontology.ethereal.cz/irao/OntologyDesignPattern"
+    "@id" : "_:genid11"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "http://ontology.ethereal.cz/irao"
