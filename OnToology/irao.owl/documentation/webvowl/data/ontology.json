@@ -55,16 +55,16 @@
         "value" : "Prague University of Business and Economics, Czech Republic. Faculty of Informatics and Statistics. Department of Knowledge and Information Engineering",
         "type" : "label"
       } ],
-      "abstract" : [ {
-        "identifier" : "abstract",
-        "language" : "en",
-        "value" : "Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL.",
-        "type" : "label"
-      } ],
       "preferredNamespaceUri" : [ {
         "identifier" : "preferredNamespaceUri",
         "language" : "undefined",
         "value" : "http://ontology.ethereal.cz/irao/",
+        "type" : "label"
+      } ],
+      "abstract" : [ {
+        "identifier" : "abstract",
+        "language" : "en",
+        "value" : "Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL.",
         "type" : "label"
       } ],
       "versionInfo" : [ {
@@ -143,19 +143,22 @@
     "id" : "4",
     "type" : "owl:Class"
   }, {
-    "id" : "85",
+    "id" : "86",
     "type" : "owl:Class"
   }, {
-    "id" : "91",
+    "id" : "93",
     "type" : "owl:Class"
   }, {
     "id" : "20",
     "type" : "owl:Class"
   }, {
+    "id" : "83",
+    "type" : "owl:Class"
+  }, {
     "id" : "17",
     "type" : "owl:Class"
   }, {
-    "id" : "95",
+    "id" : "97",
     "type" : "owl:Class"
   }, {
     "id" : "14",
@@ -164,7 +167,10 @@
     "id" : "78",
     "type" : "owl:Class"
   }, {
-    "id" : "101",
+    "id" : "107",
+    "type" : "owl:Class"
+  }, {
+    "id" : "103",
     "type" : "owl:Class"
   }, {
     "id" : "33",
@@ -176,19 +182,19 @@
     "id" : "40",
     "type" : "owl:Class"
   }, {
-    "id" : "75",
+    "id" : "73",
     "type" : "owl:unionOf"
   }, {
-    "id" : "112",
+    "id" : "116",
     "type" : "owl:unionOf"
   }, {
     "id" : "49",
     "type" : "owl:Class"
   }, {
-    "id" : "73",
+    "id" : "75",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "109",
+    "id" : "112",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "56",
@@ -197,7 +203,7 @@
     "id" : "24",
     "type" : "owl:Thing"
   }, {
-    "id" : "107",
+    "id" : "110",
     "type" : "rdfs:Literal"
   }, {
     "id" : "59",
@@ -206,10 +212,10 @@
     "id" : "22",
     "type" : "owl:Class"
   }, {
-    "id" : "87",
+    "id" : "68",
     "type" : "owl:Class"
   }, {
-    "id" : "68",
+    "id" : "89",
     "type" : "owl:Class"
   }, {
     "id" : "6",
@@ -609,7 +615,7 @@
       "en" : "Design"
     },
     "attributes" : [ "external" ],
-    "id" : "85",
+    "id" : "86",
     "superClasses" : [ "7" ]
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/Affiliation",
@@ -628,7 +634,7 @@
       "en" : "Affiliation"
     },
     "attributes" : [ "external" ],
-    "id" : "91"
+    "id" : "93"
   }, {
     "iri" : "http://www.w3.org/2004/02/skos/core#Collection",
     "baseIri" : "http://www.w3.org/2004/02/skos/core",
@@ -660,6 +666,24 @@
     "subClasses" : [ "19" ],
     "attributes" : [ "external" ],
     "id" : "20"
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/ResearchDomain",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ResearchDomain",
+      "en" : "Research Domain"
+    },
+    "attributes" : [ "external" ],
+    "id" : "83"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/Repository",
     "baseIri" : "http://ontology.ethereal.cz/irao",
@@ -695,7 +719,7 @@
       "en" : "Accessibility"
     },
     "attributes" : [ "external" ],
-    "id" : "95"
+    "id" : "97"
   }, {
     "iri" : "http://cso.kmi.open.ac.uk/schema/cso#Topic",
     "baseIri" : "http://cso.kmi.open.ac.uk/schema/cso",
@@ -723,16 +747,16 @@
         "value" : "A set of concepts, optionally including statements about semantic relationships between those concepts.",
         "type" : "label"
       } ],
-      "scopeNote" : [ {
-        "identifier" : "scopeNote",
-        "language" : "en",
-        "value" : "A concept scheme may be defined to include concepts from different sources.",
-        "type" : "label"
-      } ],
       "example" : [ {
         "identifier" : "example",
         "language" : "en",
         "value" : "Thesauri, classification schemes, subject heading lists, taxonomies, 'folksonomies', and other types of controlled vocabulary are all examples of concept schemes. Concept schemes are also embedded in glossaries and terminologies.",
+        "type" : "label"
+      } ],
+      "scopeNote" : [ {
+        "identifier" : "scopeNote",
+        "language" : "en",
+        "value" : "A concept scheme may be defined to include concepts from different sources.",
         "type" : "label"
       } ]
     },
@@ -742,6 +766,24 @@
     },
     "attributes" : [ "external" ],
     "id" : "78"
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/ResearchField",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ResearchField",
+      "en" : "Research Field"
+    },
+    "attributes" : [ "external" ],
+    "id" : "107"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/Vocabulary",
     "baseIri" : "http://ontology.ethereal.cz/irao",
@@ -759,7 +801,7 @@
       "en" : "Vocabulary"
     },
     "attributes" : [ "external" ],
-    "id" : "101",
+    "id" : "103",
     "superClasses" : [ "7" ]
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/ConferencePaper",
@@ -822,12 +864,12 @@
     "instances" : 0,
     "union" : [ "4", "43", "46" ],
     "attributes" : [ "anonymous", "union" ],
-    "id" : "75"
+    "id" : "73"
   }, {
     "instances" : 0,
     "union" : [ "20", "9" ],
     "attributes" : [ "anonymous", "union" ],
-    "id" : "112"
+    "id" : "116"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/Service",
     "baseIri" : "http://ontology.ethereal.cz/irao",
@@ -851,14 +893,14 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "73",
+    "id" : "75",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "109",
+    "id" : "112",
     "label" : {
       "IRI-based" : "anyURI"
     }
@@ -878,7 +920,7 @@
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "107",
+    "id" : "110",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -922,6 +964,24 @@
     "attributes" : [ "external" ],
     "id" : "22",
     "superClasses" : [ "66" ]
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/DesignQuality",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "DesignQuality",
+      "en" : "Design quality"
+    },
+    "attributes" : [ "external" ],
+    "id" : "68"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/DevelopmentStatus",
     "baseIri" : "http://ontology.ethereal.cz/irao",
@@ -985,25 +1045,7 @@
       }
     } ],
     "attributes" : [ "external" ],
-    "id" : "87"
-  }, {
-    "iri" : "http://ontology.ethereal.cz/irao/DesignQuality",
-    "baseIri" : "http://ontology.ethereal.cz/irao",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://ontology.ethereal.cz/irao",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "DesignQuality",
-      "en" : "Design quality"
-    },
-    "attributes" : [ "external" ],
-    "id" : "68"
+    "id" : "89"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/Methodology",
     "baseIri" : "http://ontology.ethereal.cz/irao",
@@ -1077,7 +1119,7 @@
       "IRI-based" : "InformaticsResearchArtifact",
       "en" : "Informatics Research Artifact"
     },
-    "subClasses" : [ "40", "4", "1", "29", "6", "66", "43", "85", "101" ],
+    "subClasses" : [ "40", "4", "1", "29", "6", "66", "43", "86", "103" ],
     "attributes" : [ "external" ],
     "id" : "7",
     "superClasses" : [ "16" ]
@@ -1198,10 +1240,10 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "72",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "74",
-    "type" : "owl:objectProperty"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "77",
     "type" : "owl:objectProperty"
@@ -1212,47 +1254,44 @@
     "id" : "82",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "26",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "83",
-    "type" : "owl:objectProperty"
-  }, {
     "id" : "84",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "86",
+    "id" : "26",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "85",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "87",
     "type" : "owl:objectProperty"
   }, {
     "id" : "88",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "89",
+    "id" : "90",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "90",
+    "id" : "91",
     "type" : "owl:objectProperty"
   }, {
     "id" : "92",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "81",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "93",
-    "type" : "owl:objectProperty"
-  }, {
     "id" : "94",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "96",
-    "type" : "owl:datatypeProperty"
+    "id" : "81",
+    "type" : "owl:objectProperty"
   }, {
-    "id" : "97",
-    "type" : "rdfs:SubClassOf"
+    "id" : "95",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "96",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "98",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "99",
     "type" : "rdfs:SubClassOf"
@@ -1260,49 +1299,58 @@
     "id" : "100",
     "type" : "rdfs:SubClassOf"
   }, {
+    "id" : "101",
+    "type" : "rdfs:SubClassOf"
+  }, {
     "id" : "102",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "103",
+    "id" : "104",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "105",
     "type" : "owl:objectProperty"
   }, {
     "id" : "11",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "104",
+    "id" : "106",
     "type" : "owl:objectProperty"
   }, {
     "id" : "25",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "105",
+    "id" : "108",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "106",
+    "id" : "109",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "53",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "108",
+    "id" : "111",
     "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "113",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "13",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "110",
+    "id" : "114",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "111",
+    "id" : "115",
     "type" : "owl:objectProperty"
   }, {
     "id" : "52",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "113",
+    "id" : "117",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "114",
+    "id" : "118",
     "type" : "owl:disjointWith"
   }, {
     "id" : "79",
@@ -1311,31 +1359,31 @@
     "id" : "51",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "115",
+    "id" : "119",
     "type" : "owl:objectProperty"
   }, {
     "id" : "27",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "116",
+    "id" : "120",
     "type" : "owl:objectProperty"
   }, {
     "id" : "10",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "117",
+    "id" : "121",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "118",
+    "id" : "122",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "119",
+    "id" : "123",
     "type" : "owl:objectProperty"
   }, {
     "id" : "54",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "120",
+    "id" : "124",
     "type" : "owl:objectProperty"
   } ],
   "propertyAttribute" : [ {
@@ -1355,7 +1403,7 @@
       "en" : "is part of system"
     },
     "domain" : "1",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "0"
   }, {
     "range" : "7",
@@ -1392,7 +1440,7 @@
     },
     "domain" : "9",
     "subproperty" : [ "10", "11", "12", "13" ],
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "8"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/isPublishedAt",
@@ -1411,7 +1459,7 @@
       "en" : "is published at"
     },
     "domain" : "16",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "15"
   }, {
     "iri" : "http://www.w3.org/2004/02/skos/core#narrower",
@@ -1448,7 +1496,7 @@
     "comment" : {
       "en" : "Narrower concepts are typically rendered as children in a concept hierarchy (tree)."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "23"
   }, {
     "range" : "7",
@@ -1509,7 +1557,7 @@
     },
     "domain" : "24",
     "subproperty" : [ "51" ],
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "50"
   }, {
     "iri" : "http://www.w3.org/2004/02/skos/core#related",
@@ -1539,7 +1587,7 @@
     "comment" : {
       "en" : "skos:related is disjoint with skos:broaderTransitive"
     },
-    "attributes" : [ "external", "object", "symmetric" ],
+    "attributes" : [ "object", "external", "symmetric" ],
     "id" : "12"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasVersion",
@@ -1558,7 +1606,7 @@
       "en" : "has version"
     },
     "domain" : "16",
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "55"
   }, {
     "range" : "4",
@@ -1602,32 +1650,13 @@
       "en" : "has design quality"
     },
     "domain" : "16",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "67"
   }, {
     "range" : "43",
     "domain" : "44",
     "attributes" : [ "anonymous", "object" ],
     "id" : "69"
-  }, {
-    "iri" : "http://ontology.ethereal.cz/irao/hasTopic",
-    "baseIri" : "http://ontology.ethereal.cz/irao",
-    "range" : "73",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://ontology.ethereal.cz/irao",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "hasTopic",
-      "en" : "has topic"
-    },
-    "domain" : "34",
-    "attributes" : [ "external", "datatype" ],
-    "id" : "72"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasMethodology",
     "baseIri" : "http://ontology.ethereal.cz/irao",
@@ -1644,8 +1673,27 @@
       "IRI-based" : "hasMethodology",
       "en" : "has methodology"
     },
-    "domain" : "75",
-    "attributes" : [ "external", "object" ],
+    "domain" : "73",
+    "attributes" : [ "object", "external" ],
+    "id" : "72"
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/hasTopic",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "range" : "75",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasTopic",
+      "en" : "has topic"
+    },
+    "domain" : "34",
+    "attributes" : [ "datatype", "external" ],
     "id" : "74"
   }, {
     "iri" : "http://www.w3.org/2004/02/skos/core#inScheme",
@@ -1677,7 +1725,7 @@
     },
     "domain" : "70",
     "subproperty" : [ "79" ],
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "77"
   }, {
     "iri" : "http://www.w3.org/2004/02/skos/core#closeMatch",
@@ -1704,8 +1752,27 @@
     "superproperty" : [ "13" ],
     "domain" : "24",
     "subproperty" : [ "81" ],
-    "attributes" : [ "external", "object", "symmetric" ],
+    "attributes" : [ "object", "external", "symmetric" ],
     "id" : "80"
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/hasDomain",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "range" : "83",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasDomain",
+      "en" : "has domain"
+    },
+    "domain" : "16",
+    "attributes" : [ "object", "external" ],
+    "id" : "82"
   }, {
     "iri" : "http://www.w3.org/2004/02/skos/core#hasTopConcept",
     "inverse" : "79",
@@ -1730,8 +1797,8 @@
       "en" : "has top concept"
     },
     "domain" : "78",
-    "attributes" : [ "external", "object" ],
-    "id" : "82"
+    "attributes" : [ "object", "external" ],
+    "id" : "84"
   }, {
     "iri" : "http://cso.kmi.open.ac.uk/schema/cso#superTopicOf",
     "baseIri" : "http://cso.kmi.open.ac.uk/schema/cso",
@@ -1745,7 +1812,7 @@
     "comment" : {
       "undefined" : "We use this relation to indicate that a :Topic is a super-area of another one."
     },
-    "attributes" : [ "external", "object", "transitive" ],
+    "attributes" : [ "object", "external", "transitive" ],
     "id" : "26"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/isMaintainedBy",
@@ -1764,8 +1831,8 @@
       "en" : "is maintained by"
     },
     "domain" : "16",
-    "attributes" : [ "external", "object" ],
-    "id" : "83"
+    "attributes" : [ "object", "external" ],
+    "id" : "85"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/producesDataset",
     "baseIri" : "http://ontology.ethereal.cz/irao",
@@ -1783,12 +1850,12 @@
       "en" : "produces dataset"
     },
     "domain" : "40",
-    "attributes" : [ "external", "object" ],
-    "id" : "84"
+    "attributes" : [ "object", "external" ],
+    "id" : "87"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasDevelopmentStatus",
     "baseIri" : "http://ontology.ethereal.cz/irao",
-    "range" : "87",
+    "range" : "89",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -1802,8 +1869,8 @@
       "en" : "has development status"
     },
     "domain" : "16",
-    "attributes" : [ "external", "object" ],
-    "id" : "86"
+    "attributes" : [ "object", "external" ],
+    "id" : "88"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasRepositoryType",
     "baseIri" : "http://ontology.ethereal.cz/irao",
@@ -1821,8 +1888,8 @@
       "en" : "has repository type"
     },
     "domain" : "17",
-    "attributes" : [ "external", "object" ],
-    "id" : "88"
+    "attributes" : [ "object", "external" ],
+    "id" : "90"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasPublication",
     "baseIri" : "http://ontology.ethereal.cz/irao",
@@ -1840,8 +1907,8 @@
       "en" : "has publication or is mentioned in publication"
     },
     "domain" : "16",
-    "attributes" : [ "external", "object" ],
-    "id" : "89"
+    "attributes" : [ "object", "external" ],
+    "id" : "91"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasAuthor",
     "baseIri" : "http://ontology.ethereal.cz/irao",
@@ -1859,8 +1926,8 @@
       "en" : "has author"
     },
     "domain" : "16",
-    "attributes" : [ "external", "object" ],
-    "id" : "90"
+    "attributes" : [ "object", "external" ],
+    "id" : "92"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasProtocol",
     "baseIri" : "http://ontology.ethereal.cz/irao",
@@ -1878,8 +1945,8 @@
       "en" : "has protocol"
     },
     "domain" : "40",
-    "attributes" : [ "external", "object" ],
-    "id" : "92"
+    "attributes" : [ "object", "external" ],
+    "id" : "94"
   }, {
     "iri" : "http://www.w3.org/2004/02/skos/core#exactMatch",
     "baseIri" : "http://www.w3.org/2004/02/skos/core",
@@ -1907,7 +1974,7 @@
     "comment" : {
       "en" : "skos:exactMatch is disjoint with each of the properties skos:broadMatch and skos:relatedMatch."
     },
-    "attributes" : [ "external", "object", "transitive", "symmetric" ],
+    "attributes" : [ "object", "external", "symmetric", "transitive" ],
     "id" : "81"
   }, {
     "iri" : "http://cso.kmi.open.ac.uk/schema/cso#contributesTo",
@@ -1921,12 +1988,12 @@
     "comment" : {
       "undefined" : "We use this relation to indicate that the research output of one topic contributes to another."
     },
-    "attributes" : [ "external", "object" ],
-    "id" : "93"
+    "attributes" : [ "object", "external" ],
+    "id" : "95"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasAccessibility",
     "baseIri" : "http://ontology.ethereal.cz/irao",
-    "range" : "95",
+    "range" : "97",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -1940,8 +2007,8 @@
       "en" : "has accessibility"
     },
     "domain" : "16",
-    "attributes" : [ "external", "object" ],
-    "id" : "94"
+    "attributes" : [ "object", "external" ],
+    "id" : "96"
   }, {
     "iri" : "http://purl.org/dc/terms/hasVersion",
     "baseIri" : "http://purl.org/dc/terms",
@@ -1950,33 +2017,33 @@
       "IRI-based" : "hasVersion"
     },
     "domain" : "24",
-    "attributes" : [ "external", "datatype" ],
-    "id" : "96"
+    "attributes" : [ "datatype", "external" ],
+    "id" : "98"
   }, {
     "range" : "1",
     "domain" : "49",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "97"
+    "id" : "99"
   }, {
     "range" : "7",
     "domain" : "43",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "98"
+    "id" : "100"
   }, {
     "range" : "7",
     "domain" : "66",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "99"
+    "id" : "101"
   }, {
     "range" : "7",
-    "domain" : "101",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "100"
-  }, {
-    "range" : "7",
-    "domain" : "85",
+    "domain" : "103",
     "attributes" : [ "anonymous", "object" ],
     "id" : "102"
+  }, {
+    "range" : "7",
+    "domain" : "86",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "104"
   }, {
     "iri" : "http://www.w3.org/2004/02/skos/core#broadMatch",
     "inverse" : "27",
@@ -2002,8 +2069,8 @@
     },
     "superproperty" : [ "25", "13" ],
     "domain" : "24",
-    "attributes" : [ "external", "object" ],
-    "id" : "103"
+    "attributes" : [ "object", "external" ],
+    "id" : "105"
   }, {
     "iri" : "http://www.w3.org/2004/02/skos/core#broaderTransitive",
     "inverse" : "10",
@@ -2036,7 +2103,7 @@
     "superproperty" : [ "8" ],
     "domain" : "24",
     "subproperty" : [ "25" ],
-    "attributes" : [ "external", "object", "transitive" ],
+    "attributes" : [ "object", "external", "transitive" ],
     "id" : "11"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/measuresSystem",
@@ -2055,8 +2122,8 @@
       "en" : "measures system"
     },
     "domain" : "40",
-    "attributes" : [ "external", "object" ],
-    "id" : "104"
+    "attributes" : [ "object", "external" ],
+    "id" : "106"
   }, {
     "iri" : "http://www.w3.org/2004/02/skos/core#broader",
     "baseIri" : "http://www.w3.org/2004/02/skos/core",
@@ -2087,11 +2154,11 @@
     },
     "superproperty" : [ "11" ],
     "domain" : "24",
-    "subproperty" : [ "103" ],
+    "subproperty" : [ "105" ],
     "comment" : {
       "en" : "Broader concepts are typically rendered as parents in a concept hierarchy (tree)."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "25"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/isDescribedBy",
@@ -2110,12 +2177,12 @@
       "en" : "is described by"
     },
     "domain" : "4",
-    "attributes" : [ "external", "object" ],
-    "id" : "105"
+    "attributes" : [ "object", "external" ],
+    "id" : "108"
   }, {
     "iri" : "http://www.w3.org/2004/02/skos/core#notation",
     "baseIri" : "http://www.w3.org/2004/02/skos/core",
-    "range" : "107",
+    "range" : "110",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -2141,8 +2208,8 @@
       "en" : "notation"
     },
     "domain" : "24",
-    "attributes" : [ "external", "datatype" ],
-    "id" : "106"
+    "attributes" : [ "datatype", "external" ],
+    "id" : "109"
   }, {
     "iri" : "http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent",
     "baseIri" : "http://cso.kmi.open.ac.uk/schema/cso",
@@ -2156,12 +2223,12 @@
     "comment" : {
       "undefined" : "We use this relationship to declare that the subject topic need to use the label of the object topic for presentation purposes."
     },
-    "attributes" : [ "external", "object", "functional" ],
+    "attributes" : [ "functional", "object", "external" ],
     "id" : "53"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasURL",
     "baseIri" : "http://ontology.ethereal.cz/irao",
-    "range" : "109",
+    "range" : "112",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -2175,8 +2242,27 @@
       "en" : "has URL"
     },
     "domain" : "63",
-    "attributes" : [ "external", "datatype" ],
-    "id" : "108"
+    "attributes" : [ "datatype", "external" ],
+    "id" : "111"
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/hasField",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "range" : "107",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasField",
+      "en" : "has field"
+    },
+    "domain" : "16",
+    "attributes" : [ "object", "external" ],
+    "id" : "113"
   }, {
     "iri" : "http://www.w3.org/2004/02/skos/core#mappingRelation",
     "baseIri" : "http://www.w3.org/2004/02/skos/core",
@@ -2201,21 +2287,21 @@
     },
     "superproperty" : [ "8" ],
     "domain" : "24",
-    "subproperty" : [ "80", "52", "27", "103" ],
+    "subproperty" : [ "80", "52", "27", "105" ],
     "comment" : {
       "en" : "These concept mapping relations mirror semantic relations, and the data model defined below is similar (with the exception of skos:exactMatch) to the data model defined for semantic relations. A distinct vocabulary is provided for concept mapping relations, to provide a convenient way to differentiate links within a concept scheme from links between concept schemes. However, this pattern of usage is not a formal requirement of the SKOS data model, and relies on informal definitions of best practice."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "13"
   }, {
     "range" : "78",
     "domain" : "9",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "110"
+    "id" : "114"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasAffiliation",
     "baseIri" : "http://ontology.ethereal.cz/irao",
-    "range" : "91",
+    "range" : "93",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -2229,8 +2315,8 @@
       "en" : "has affiliation"
     },
     "domain" : "59",
-    "attributes" : [ "external", "object" ],
-    "id" : "111"
+    "attributes" : [ "object", "external" ],
+    "id" : "115"
   }, {
     "iri" : "http://www.w3.org/2004/02/skos/core#relatedMatch",
     "baseIri" : "http://www.w3.org/2004/02/skos/core",
@@ -2255,18 +2341,18 @@
     },
     "superproperty" : [ "12", "13" ],
     "domain" : "24",
-    "attributes" : [ "external", "object", "symmetric" ],
+    "attributes" : [ "object", "external", "symmetric" ],
     "id" : "52"
   }, {
     "range" : "9",
     "domain" : "20",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "113"
+    "id" : "117"
   }, {
     "range" : "78",
     "domain" : "20",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "114"
+    "id" : "118"
   }, {
     "iri" : "http://www.w3.org/2004/02/skos/core#topConceptOf",
     "baseIri" : "http://www.w3.org/2004/02/skos/core",
@@ -2291,7 +2377,7 @@
     },
     "superproperty" : [ "77" ],
     "domain" : "9",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "79"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasLicense",
@@ -2311,7 +2397,7 @@
     },
     "superproperty" : [ "50" ],
     "domain" : "16",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "51"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasFramework",
@@ -2330,8 +2416,8 @@
       "en" : "has framework"
     },
     "domain" : "1",
-    "attributes" : [ "external", "object" ],
-    "id" : "115"
+    "attributes" : [ "object", "external" ],
+    "id" : "119"
   }, {
     "iri" : "http://www.w3.org/2004/02/skos/core#narrowMatch",
     "baseIri" : "http://www.w3.org/2004/02/skos/core",
@@ -2356,7 +2442,7 @@
     },
     "superproperty" : [ "23", "13" ],
     "domain" : "24",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "27"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasResearchArea",
@@ -2375,8 +2461,8 @@
       "en" : "has research area"
     },
     "domain" : "16",
-    "attributes" : [ "external", "object" ],
-    "id" : "116"
+    "attributes" : [ "object", "external" ],
+    "id" : "120"
   }, {
     "iri" : "http://www.w3.org/2004/02/skos/core#narrowerTransitive",
     "baseIri" : "http://www.w3.org/2004/02/skos/core",
@@ -2408,7 +2494,7 @@
     "superproperty" : [ "8" ],
     "domain" : "24",
     "subproperty" : [ "23" ],
-    "attributes" : [ "external", "object", "transitive" ],
+    "attributes" : [ "object", "external", "transitive" ],
     "id" : "10"
   }, {
     "iri" : "http://www.w3.org/2004/02/skos/core#memberList",
@@ -2436,8 +2522,8 @@
     "comment" : {
       "en" : "For any resource, every item in the list given as the value of the\n      skos:memberList property is also a value of the skos:member property."
     },
-    "attributes" : [ "external", "object", "functional" ],
-    "id" : "117"
+    "attributes" : [ "functional", "object", "external" ],
+    "id" : "121"
   }, {
     "iri" : "http://cso.kmi.open.ac.uk/schema/cso#subTopicOf",
     "inverse" : "26",
@@ -2451,8 +2537,8 @@
     "comment" : {
       "undefined" : "We use this relation to indicate that a :Topic is a sub-area of another one. This is the inverse of :superTopicOf"
     },
-    "attributes" : [ "external", "object", "transitive" ],
-    "id" : "118"
+    "attributes" : [ "object", "external", "transitive" ],
+    "id" : "122"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasOpenStandard",
     "baseIri" : "http://ontology.ethereal.cz/irao",
@@ -2470,8 +2556,8 @@
       "en" : "has open standard"
     },
     "domain" : "16",
-    "attributes" : [ "external", "object" ],
-    "id" : "119"
+    "attributes" : [ "object", "external" ],
+    "id" : "123"
   }, {
     "iri" : "http://cso.kmi.open.ac.uk/schema/cso#relatedEquivalent",
     "baseIri" : "http://cso.kmi.open.ac.uk/schema/cso",
@@ -2494,12 +2580,12 @@
     "comment" : {
       "undefined" : "We use this relationship to identify that two potentially distinct research concepts are treated as equivalent in the context of the CSO."
     },
-    "attributes" : [ "external", "object", "transitive", "symmetric" ],
+    "attributes" : [ "object", "external", "symmetric", "transitive" ],
     "id" : "54"
   }, {
     "iri" : "http://www.w3.org/2004/02/skos/core#member",
     "baseIri" : "http://www.w3.org/2004/02/skos/core",
-    "range" : "112",
+    "range" : "116",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -2519,7 +2605,7 @@
       "en" : "has member"
     },
     "domain" : "20",
-    "attributes" : [ "external", "object" ],
-    "id" : "120"
+    "attributes" : [ "object", "external" ],
+    "id" : "124"
   } ]
 }

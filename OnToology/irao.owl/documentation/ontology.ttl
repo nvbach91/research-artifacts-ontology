@@ -113,6 +113,22 @@
                                                         rdfs:label "has development status"@en .
 
 
+###  http://ontology.ethereal.cz/irao/hasDomain
+<http://ontology.ethereal.cz/irao/hasDomain> rdf:type owl:ObjectProperty ;
+                                             rdfs:domain <http://ontology.ethereal.cz/irao/ResearchArtifact> ;
+                                             rdfs:range <http://ontology.ethereal.cz/irao/ResearchDomain> ;
+                                             rdfs:isDefinedBy <http://ontology.ethereal.cz/irao> ;
+                                             rdfs:label "has domain"@en .
+
+
+###  http://ontology.ethereal.cz/irao/hasField
+<http://ontology.ethereal.cz/irao/hasField> rdf:type owl:ObjectProperty ;
+                                            rdfs:domain <http://ontology.ethereal.cz/irao/ResearchArtifact> ;
+                                            rdfs:range <http://ontology.ethereal.cz/irao/ResearchField> ;
+                                            rdfs:isDefinedBy <http://ontology.ethereal.cz/irao> ;
+                                            rdfs:label "has field"@en .
+
+
 ###  http://ontology.ethereal.cz/irao/hasFramework
 <http://ontology.ethereal.cz/irao/hasFramework> rdf:type owl:ObjectProperty ;
                                                 rdfs:domain <http://ontology.ethereal.cz/irao/Software> ;
@@ -416,6 +432,18 @@
 <http://ontology.ethereal.cz/irao/ResearchArtifact> rdf:type owl:Class ;
                                                     rdfs:isDefinedBy <http://ontology.ethereal.cz/irao> ;
                                                     rdfs:label "Research Artifact"@en .
+
+
+###  http://ontology.ethereal.cz/irao/ResearchDomain
+<http://ontology.ethereal.cz/irao/ResearchDomain> rdf:type owl:Class ;
+                                                  rdfs:isDefinedBy <http://ontology.ethereal.cz/irao> ;
+                                                  rdfs:label "Research Domain"@en .
+
+
+###  http://ontology.ethereal.cz/irao/ResearchField
+<http://ontology.ethereal.cz/irao/ResearchField> rdf:type owl:Class ;
+                                                 rdfs:isDefinedBy <http://ontology.ethereal.cz/irao> ;
+                                                 rdfs:label "Research Field"@en .
 
 
 ###  http://ontology.ethereal.cz/irao/Researcher

@@ -336,6 +336,26 @@
     "@value" : "Research Artifact"
   } ]
 }, {
+  "@id" : "http://ontology.ethereal.cz/irao/ResearchDomain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://ontology.ethereal.cz/irao"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Research Domain"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/irao/ResearchField",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://ontology.ethereal.cz/irao"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Research Field"
+  } ]
+}, {
   "@id" : "http://ontology.ethereal.cz/irao/Researcher",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
@@ -558,6 +578,38 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://ontology.ethereal.cz/irao/DevelopmentStatus"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/irao/hasDomain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/irao/ResearchArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://ontology.ethereal.cz/irao"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has domain"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ontology.ethereal.cz/irao/ResearchDomain"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/irao/hasField",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/irao/ResearchArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://ontology.ethereal.cz/irao"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has field"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ontology.ethereal.cz/irao/ResearchField"
   } ]
 }, {
   "@id" : "http://ontology.ethereal.cz/irao/hasFramework",

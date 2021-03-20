@@ -99,6 +99,20 @@
 <http://ontology.ethereal.cz/irao/hasDevelopmentStatus> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/hasDevelopmentStatus> <http://www.w3.org/2000/01/rdf-schema#label> "has development status"@en .
 # 
+# http://ontology.ethereal.cz/irao/hasDomain
+<http://ontology.ethereal.cz/irao/hasDomain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.ethereal.cz/irao/hasDomain> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/ResearchArtifact> .
+<http://ontology.ethereal.cz/irao/hasDomain> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/ResearchDomain> .
+<http://ontology.ethereal.cz/irao/hasDomain> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
+<http://ontology.ethereal.cz/irao/hasDomain> <http://www.w3.org/2000/01/rdf-schema#label> "has domain"@en .
+# 
+# http://ontology.ethereal.cz/irao/hasField
+<http://ontology.ethereal.cz/irao/hasField> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.ethereal.cz/irao/hasField> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/ResearchArtifact> .
+<http://ontology.ethereal.cz/irao/hasField> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/ResearchField> .
+<http://ontology.ethereal.cz/irao/hasField> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
+<http://ontology.ethereal.cz/irao/hasField> <http://www.w3.org/2000/01/rdf-schema#label> "has field"@en .
+# 
 # http://ontology.ethereal.cz/irao/hasFramework
 <http://ontology.ethereal.cz/irao/hasFramework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://ontology.ethereal.cz/irao/hasFramework> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/Software> .
@@ -378,6 +392,16 @@ _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/19
 <http://ontology.ethereal.cz/irao/ResearchArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://ontology.ethereal.cz/irao/ResearchArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/ResearchArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "Research Artifact"@en .
+# 
+# http://ontology.ethereal.cz/irao/ResearchDomain
+<http://ontology.ethereal.cz/irao/ResearchDomain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.ethereal.cz/irao/ResearchDomain> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
+<http://ontology.ethereal.cz/irao/ResearchDomain> <http://www.w3.org/2000/01/rdf-schema#label> "Research Domain"@en .
+# 
+# http://ontology.ethereal.cz/irao/ResearchField
+<http://ontology.ethereal.cz/irao/ResearchField> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.ethereal.cz/irao/ResearchField> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
+<http://ontology.ethereal.cz/irao/ResearchField> <http://www.w3.org/2000/01/rdf-schema#label> "Research Field"@en .
 # 
 # http://ontology.ethereal.cz/irao/Researcher
 <http://ontology.ethereal.cz/irao/Researcher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
