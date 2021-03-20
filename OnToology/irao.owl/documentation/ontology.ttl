@@ -271,8 +271,11 @@
 
 ###  http://ontology.ethereal.cz/irao/usesFramework
 <http://ontology.ethereal.cz/irao/usesFramework> rdf:type owl:ObjectProperty ;
-                                                 rdfs:domain <http://ontology.ethereal.cz/irao/Software> ,
-                                                             <http://ontology.ethereal.cz/irao/System> ;
+                                                 rdfs:domain [ rdf:type owl:Class ;
+                                                               owl:unionOf ( <http://ontology.ethereal.cz/irao/Software>
+                                                                             <http://ontology.ethereal.cz/irao/System>
+                                                                           )
+                                                             ] ;
                                                  rdfs:range <http://ontology.ethereal.cz/irao/Framework> ;
                                                  rdfs:isDefinedBy <http://ontology.ethereal.cz/irao> ;
                                                  rdfs:label "uses framework"@en .
@@ -280,8 +283,11 @@
 
 ###  http://ontology.ethereal.cz/irao/usesMethodology
 <http://ontology.ethereal.cz/irao/usesMethodology> rdf:type owl:ObjectProperty ;
-                                                   rdfs:domain <http://ontology.ethereal.cz/irao/Dataset> ,
-                                                               <http://ontology.ethereal.cz/irao/Framework> ;
+                                                   rdfs:domain [ rdf:type owl:Class ;
+                                                                 owl:unionOf ( <http://ontology.ethereal.cz/irao/Dataset>
+                                                                               <http://ontology.ethereal.cz/irao/Framework>
+                                                                             )
+                                                               ] ;
                                                    rdfs:range <http://ontology.ethereal.cz/irao/Methodology> ;
                                                    rdfs:isDefinedBy <http://ontology.ethereal.cz/irao> ;
                                                    rdfs:label "uses methodology"@en .
@@ -289,8 +295,11 @@
 
 ###  http://ontology.ethereal.cz/irao/usesOntologyDesignPattern
 <http://ontology.ethereal.cz/irao/usesOntologyDesignPattern> rdf:type owl:ObjectProperty ;
-                                                             rdfs:domain <http://ontology.ethereal.cz/irao/Ontology> ,
-                                                                         <http://ontology.ethereal.cz/irao/OntologyDesignPattern> ;
+                                                             rdfs:domain [ rdf:type owl:Class ;
+                                                                           owl:unionOf ( <http://ontology.ethereal.cz/irao/Ontology>
+                                                                                         <http://ontology.ethereal.cz/irao/OntologyDesignPattern>
+                                                                                       )
+                                                                         ] ;
                                                              rdfs:range <http://ontology.ethereal.cz/irao/OntologyDesignPattern> ;
                                                              rdfs:isDefinedBy <http://ontology.ethereal.cz/irao> ;
                                                              rdfs:label "uses ontology design pattern"@en .
@@ -310,9 +319,12 @@
 
 ###  http://ontology.ethereal.cz/irao/hasURL
 <http://ontology.ethereal.cz/irao/hasURL> rdf:type owl:DatatypeProperty ;
-                                          rdfs:domain <http://ontology.ethereal.cz/irao/Publication> ,
-                                                      <http://ontology.ethereal.cz/irao/Repository> ,
-                                                      <http://ontology.ethereal.cz/irao/ResearchArtifact> ;
+                                          rdfs:domain [ rdf:type owl:Class ;
+                                                        owl:unionOf ( <http://ontology.ethereal.cz/irao/Publication>
+                                                                      <http://ontology.ethereal.cz/irao/Repository>
+                                                                      <http://ontology.ethereal.cz/irao/ResearchArtifact>
+                                                                    )
+                                                      ] ;
                                           rdfs:range xsd:anyURI ;
                                           rdfs:isDefinedBy <http://ontology.ethereal.cz/irao> ;
                                           rdfs:label "has URL"@en .
