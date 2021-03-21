@@ -29,10 +29,8 @@ SELECT * WHERE {
     ?artifact irao:isPublishedAt ?repository .
     ?artifact irao:hasPublication ?publication .
     OPTIONAL {
-        ?artifact irao:hasMaintainer ?maintainer 
-        OPTIONAL {
-            ?maintainer irao:hasAffiliation ?affiliation .
-        }
+        ?artifact irao:hasMaintainer ?maintainer .
+        ?maintainer irao:hasAffiliation ?affiliation .
     }
     ?artifact irao:hasField ?researchField .
     ?artifact irao:hasTopic ?researchTopic .

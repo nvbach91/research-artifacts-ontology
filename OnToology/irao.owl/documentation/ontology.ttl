@@ -203,6 +203,15 @@
                                                   rdfs:label "has license type"@en .
 
 
+###  http://ontology.ethereal.cz/irao/hasMaintainer
+<http://ontology.ethereal.cz/irao/hasMaintainer> rdf:type owl:ObjectProperty ;
+                                                 rdfs:domain <http://ontology.ethereal.cz/irao/ResearchArtifact> ;
+                                                 rdfs:range <http://ontology.ethereal.cz/irao/Researcher> ;
+                                                 rdfs:comment "This property specifies the maintainer of a research artifact"@en ;
+                                                 rdfs:isDefinedBy <http://ontology.ethereal.cz/irao> ;
+                                                 rdfs:label "is maintained by"@en .
+
+
 ###  http://ontology.ethereal.cz/irao/hasMeasuringSystem
 <http://ontology.ethereal.cz/irao/hasMeasuringSystem> rdf:type owl:ObjectProperty ;
                                                       rdfs:domain <http://ontology.ethereal.cz/irao/Benchmark> ;
@@ -345,15 +354,6 @@
                                                 rdfs:comment "This property specifies that a research project is followed by another research project"@en ;
                                                 rdfs:isDefinedBy <http://ontology.ethereal.cz/irao> ;
                                                 rdfs:label "is followed by"@en .
-
-
-###  http://ontology.ethereal.cz/irao/isMaintainedBy
-<http://ontology.ethereal.cz/irao/isMaintainedBy> rdf:type owl:ObjectProperty ;
-                                                  rdfs:domain <http://ontology.ethereal.cz/irao/ResearchArtifact> ;
-                                                  rdfs:range <http://ontology.ethereal.cz/irao/Researcher> ;
-                                                  rdfs:comment "This property specifies the maintainer of a research artifact"@en ;
-                                                  rdfs:isDefinedBy <http://ontology.ethereal.cz/irao> ;
-                                                  rdfs:label "is maintained by"@en .
 
 
 ###  http://ontology.ethereal.cz/irao/isPartOfSystem

@@ -1113,6 +1113,26 @@
     "@id" : "http://ontology.ethereal.cz/irao/LicenseType"
   } ]
 }, {
+  "@id" : "http://ontology.ethereal.cz/irao/hasMaintainer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This property specifies the maintainer of a research artifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/irao/ResearchArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://ontology.ethereal.cz/irao"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is maintained by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ontology.ethereal.cz/irao/Researcher"
+  } ]
+}, {
   "@id" : "http://ontology.ethereal.cz/irao/hasMeasuringSystem",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -1451,26 +1471,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://ontology.ethereal.cz/irao/ResearchProject"
-  } ]
-}, {
-  "@id" : "http://ontology.ethereal.cz/irao/isMaintainedBy",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "This property specifies the maintainer of a research artifact"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://ontology.ethereal.cz/irao/ResearchArtifact"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://ontology.ethereal.cz/irao"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "is maintained by"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://ontology.ethereal.cz/irao/Researcher"
   } ]
 }, {
   "@id" : "http://ontology.ethereal.cz/irao/isPartOfSystem",
