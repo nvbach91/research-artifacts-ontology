@@ -97,6 +97,13 @@ This ontology has the following classes and properties.</span>
       <a href="#/ResearchField" title="http://ontology.ethereal.cz/irao/ResearchField">Research Field</a>
    </li>
    <li>
+      <a href="#/ResearchOutput" title="http://ontology.ethereal.cz/irao/ResearchOutput">Research output</a>
+   </li>
+   <li>
+      <a href="#/ResearchProject"
+         title="http://ontology.ethereal.cz/irao/ResearchProject">Research project</a>
+   </li>
+   <li>
       <a href="#/Researcher" title="http://ontology.ethereal.cz/irao/Researcher">Researcher</a>
    </li>
    <li>
@@ -140,6 +147,9 @@ This ontology has the following classes and properties.</span>
       <a href="#/hasAuthor" title="http://ontology.ethereal.cz/irao/hasAuthor">has author</a>
    </li>
    <li>
+      <a href="#/hasDesign" title="http://ontology.ethereal.cz/irao/hasDesign">has design</a>
+   </li>
+   <li>
       <a href="#/hasDesignQuality"
          title="http://ontology.ethereal.cz/irao/hasDesignQuality">has design quality</a>
    </li>
@@ -154,6 +164,10 @@ This ontology has the following classes and properties.</span>
       <a href="#/hasField" title="http://ontology.ethereal.cz/irao/hasField">has field</a>
    </li>
    <li>
+      <a href="#/hasFollowedProtocol"
+         title="http://ontology.ethereal.cz/irao/hasFollowedProtocol">has followed protocol</a>
+   </li>
+   <li>
       <a href="#/hasFramework" title="http://ontology.ethereal.cz/irao/hasFramework">has framework</a>
    </li>
    <li>
@@ -163,16 +177,25 @@ This ontology has the following classes and properties.</span>
       <a href="#/hasLicenseType" title="http://ontology.ethereal.cz/irao/hasLicenseType">has license type</a>
    </li>
    <li>
+      <a href="#/hasMeasuringSystem"
+         title="http://ontology.ethereal.cz/irao/hasMeasuringSystem">has measuring system</a>
+   </li>
+   <li>
       <a href="#/hasMethodology" title="http://ontology.ethereal.cz/irao/hasMethodology">has methodology</a>
    </li>
    <li>
       <a href="#/hasOpenStandard" title="http://ontology.ethereal.cz/irao/hasOpenStandard">has open standard</a>
    </li>
    <li>
-      <a href="#/hasProtocol" title="http://ontology.ethereal.cz/irao/hasProtocol">has protocol</a>
+      <a href="#/hasProducedDataset"
+         title="http://ontology.ethereal.cz/irao/hasProducedDataset">has produced dataset</a>
    </li>
    <li>
-      <a href="#/hasPublication" title="http://ontology.ethereal.cz/irao/hasPublication">has publication or is mentioned in publication</a>
+      <a href="#/hasPublication" title="http://ontology.ethereal.cz/irao/hasPublication">has publication</a>
+   </li>
+   <li>
+      <a href="#/hasReferedBenchmark"
+         title="http://ontology.ethereal.cz/irao/hasReferedBenchmark">has refered benchmark</a>
    </li>
    <li>
       <a href="#/hasRepositoryType"
@@ -182,7 +205,26 @@ This ontology has the following classes and properties.</span>
       <a href="#/hasResearchArea" title="http://ontology.ethereal.cz/irao/hasResearchArea">has research area</a>
    </li>
    <li>
+      <a href="#/hasResearchOutput"
+         title="http://ontology.ethereal.cz/irao/hasResearchOutput">has research output</a>
+   </li>
+   <li>
+      <a href="#/hasUsedFramework"
+         title="http://ontology.ethereal.cz/irao/hasUsedFramework">has used framework</a>
+   </li>
+   <li>
+      <a href="#/hasUsedMethodology"
+         title="http://ontology.ethereal.cz/irao/hasUsedMethodology">has used methodology</a>
+   </li>
+   <li>
+      <a href="#/hasUsedOntologyDesignPattern"
+         title="http://ontology.ethereal.cz/irao/hasUsedOntologyDesignPattern">has used ontology design pattern</a>
+   </li>
+   <li>
       <a href="#/isDescribedBy" title="http://ontology.ethereal.cz/irao/isDescribedBy">is described by</a>
+   </li>
+   <li>
+      <a href="#/isFollowedBy" title="http://ontology.ethereal.cz/irao/isFollowedBy">is followed by</a>
    </li>
    <li>
       <a href="#/isMaintainedBy" title="http://ontology.ethereal.cz/irao/isMaintainedBy">is maintained by</a>
@@ -195,26 +237,6 @@ This ontology has the following classes and properties.</span>
    </li>
    <li>
       <a href="#/isUsedBy" title="http://ontology.ethereal.cz/irao/isUsedBy">is used by</a>
-   </li>
-   <li>
-      <a href="#/measuresSystem" title="http://ontology.ethereal.cz/irao/measuresSystem">measures system</a>
-   </li>
-   <li>
-      <a href="#/producesDataset" title="http://ontology.ethereal.cz/irao/producesDataset">produces dataset</a>
-   </li>
-   <li>
-      <a href="#/refersToBenchmark"
-         title="http://ontology.ethereal.cz/irao/refersToBenchmark">refers to benchmark</a>
-   </li>
-   <li>
-      <a href="#/usesFramework" title="http://ontology.ethereal.cz/irao/usesFramework">uses framework</a>
-   </li>
-   <li>
-      <a href="#/usesMethodology" title="http://ontology.ethereal.cz/irao/usesMethodology">uses methodology</a>
-   </li>
-   <li>
-      <a href="#/usesOntologyDesignPattern"
-         title="http://ontology.ethereal.cz/irao/usesOntologyDesignPattern">uses ontology design pattern</a>
    </li>
 </ul><h4>Data Properties</h4><ul xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" class="hlist">
    <li>
@@ -246,6 +268,11 @@ This ontology has the following classes and properties.</span>
    <li>
       <a href="#/designquality#FAIR"
          title="http://ontology.ethereal.cz/irao/designquality#FAIR">FAIR</a>
+   </li>
+   <li>
+      <a href="#" title="http://ontology.ethereal.cz/irao">
+         <span>Informatics Research Artifacts Ontology</span>
+      </a>
    </li>
    <li>
       <a href="#/repositorytype#KnowledgeBase"

@@ -4,19 +4,22 @@
 <http://ontology.ethereal.cz/irao> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/terms> .
 <http://ontology.ethereal.cz/irao> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/elements/1.1> .
 <http://ontology.ethereal.cz/irao> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/vocab/vann/> .
+<http://ontology.ethereal.cz/irao> <http://www.w3.org/2002/07/owl#imports> <http://vivoweb.org/ontology/core> .
 <http://ontology.ethereal.cz/irao> <http://www.w3.org/2002/07/owl#imports> <http://xmlns.com/foaf/0.1/> .
 <http://ontology.ethereal.cz/irao> <http://purl.org/dc/elements/1.1/contributor> "Vojtěch Svátek" .
 <http://ontology.ethereal.cz/irao> <http://purl.org/dc/elements/1.1/creator> "Nguyen Viet Bach" .
+<http://ontology.ethereal.cz/irao> <http://purl.org/dc/elements/1.1/date> "2021-03-18"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://ontology.ethereal.cz/irao> <http://purl.org/dc/elements/1.1/description> "Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL."@en .
+<http://ontology.ethereal.cz/irao> <http://purl.org/dc/elements/1.1/publisher> "Prague University of Economics and Business, Czech Republic. Faculty of Informatics and Statistics. Department of Knowledge and Information Engineering" .
+<http://ontology.ethereal.cz/irao> <http://purl.org/dc/elements/1.1/rights> "Copyright © 2021 Prague University of Economics and Business" .
 <http://ontology.ethereal.cz/irao> <http://purl.org/dc/elements/1.1/subject> "Informatics, Research Artifacts, Ontology, Semantic SEO, Linked Data, RDF, Semantic Web"@en .
 <http://ontology.ethereal.cz/irao> <http://purl.org/dc/elements/1.1/title> "Informatics Research Artifacts Ontology"@en .
 <http://ontology.ethereal.cz/irao> <http://purl.org/dc/terms/abstract> "Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL."@en .
 <http://ontology.ethereal.cz/irao> <http://purl.org/dc/terms/created> "2021-03-18"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://ontology.ethereal.cz/irao> <http://purl.org/dc/terms/description> "Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL."@en .
 <http://ontology.ethereal.cz/irao> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/3.0/> .
-<http://ontology.ethereal.cz/irao> <http://purl.org/dc/terms/publisher> "Prague University of Business and Economics, Czech Republic. Faculty of Informatics and Statistics. Department of Knowledge and Information Engineering" .
+<http://ontology.ethereal.cz/irao> <http://purl.org/dc/terms/publisher> "Prague University of Economics and Business, Czech Republic. Faculty of Informatics and Statistics. Department of Knowledge and Information Engineering" .
 <http://ontology.ethereal.cz/irao> <http://purl.org/vocab/vann/preferredNamespacePrefix> "irao" .
-<http://ontology.ethereal.cz/irao> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://ontology.ethereal.cz/irao/" .
 <http://ontology.ethereal.cz/irao> <http://www.w3.org/2000/01/rdf-schema#comment> "Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL."@en .
 <http://ontology.ethereal.cz/irao> <http://www.w3.org/2000/01/rdf-schema#label> "Informatics Research Artifacts Ontology"@en .
 <http://ontology.ethereal.cz/irao> <http://www.w3.org/2002/07/owl#versionInfo> "Version 1.1.1, Release 2021 Mar 18"@en .
@@ -34,6 +37,12 @@
 # 
 # http://purl.org/dc/elements/1.1/creator
 <http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/publisher
+<http://purl.org/dc/elements/1.1/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/rights
+<http://purl.org/dc/elements/1.1/rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://purl.org/dc/elements/1.1/subject
 <http://purl.org/dc/elements/1.1/subject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -53,9 +62,6 @@
 # http://purl.org/vocab/vann/preferredNamespacePrefix
 <http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
-# http://purl.org/vocab/vann/preferredNamespaceUri
-<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-# 
 # 
 # 
 # #################################################################
@@ -69,6 +75,7 @@
 <http://ontology.ethereal.cz/irao/hasAccessibility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://ontology.ethereal.cz/irao/hasAccessibility> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/ResearchArtifact> .
 <http://ontology.ethereal.cz/irao/hasAccessibility> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/Accessibility> .
+<http://ontology.ethereal.cz/irao/hasAccessibility> <http://www.w3.org/2000/01/rdf-schema#comment> "This property specifies the accessibility of a research artifact"@en .
 <http://ontology.ethereal.cz/irao/hasAccessibility> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/hasAccessibility> <http://www.w3.org/2000/01/rdf-schema#label> "has accessibility"@en .
 # 
@@ -76,6 +83,7 @@
 <http://ontology.ethereal.cz/irao/hasAffiliation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://ontology.ethereal.cz/irao/hasAffiliation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/Researcher> .
 <http://ontology.ethereal.cz/irao/hasAffiliation> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/Affiliation> .
+<http://ontology.ethereal.cz/irao/hasAffiliation> <http://www.w3.org/2000/01/rdf-schema#comment> "This property specifies the affiliation of a researcher"@en .
 <http://ontology.ethereal.cz/irao/hasAffiliation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/hasAffiliation> <http://www.w3.org/2000/01/rdf-schema#label> "has affiliation"@en .
 # 
@@ -83,13 +91,23 @@
 <http://ontology.ethereal.cz/irao/hasAuthor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://ontology.ethereal.cz/irao/hasAuthor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/ResearchArtifact> .
 <http://ontology.ethereal.cz/irao/hasAuthor> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Person> .
+<http://ontology.ethereal.cz/irao/hasAuthor> <http://www.w3.org/2000/01/rdf-schema#comment> "This property specifies the author of a research artifact"@en .
 <http://ontology.ethereal.cz/irao/hasAuthor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/hasAuthor> <http://www.w3.org/2000/01/rdf-schema#label> "has author"@en .
 # 
+# http://ontology.ethereal.cz/irao/hasDesign
+<http://ontology.ethereal.cz/irao/hasDesign> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.ethereal.cz/irao/hasDesign> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/ResearchArtifact> .
+<http://ontology.ethereal.cz/irao/hasDesign> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/DesignQuality> .
+<http://ontology.ethereal.cz/irao/hasDesign> <http://www.w3.org/2000/01/rdf-schema#comment> "This property specifies the design of a research artifact"@en .
+<http://ontology.ethereal.cz/irao/hasDesign> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
+<http://ontology.ethereal.cz/irao/hasDesign> <http://www.w3.org/2000/01/rdf-schema#label> "has design"@en .
+# 
 # http://ontology.ethereal.cz/irao/hasDesignQuality
 <http://ontology.ethereal.cz/irao/hasDesignQuality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontology.ethereal.cz/irao/hasDesignQuality> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/ResearchArtifact> .
+<http://ontology.ethereal.cz/irao/hasDesignQuality> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/Design> .
 <http://ontology.ethereal.cz/irao/hasDesignQuality> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/DesignQuality> .
+<http://ontology.ethereal.cz/irao/hasDesignQuality> <http://www.w3.org/2000/01/rdf-schema#comment> "This property specifies the design quality of a design"@en .
 <http://ontology.ethereal.cz/irao/hasDesignQuality> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/hasDesignQuality> <http://www.w3.org/2000/01/rdf-schema#label> "has design quality"@en .
 # 
@@ -97,6 +115,7 @@
 <http://ontology.ethereal.cz/irao/hasDevelopmentStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://ontology.ethereal.cz/irao/hasDevelopmentStatus> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/ResearchArtifact> .
 <http://ontology.ethereal.cz/irao/hasDevelopmentStatus> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/DevelopmentStatus> .
+<http://ontology.ethereal.cz/irao/hasDevelopmentStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "This property specifies the development status of a research artifact"@en .
 <http://ontology.ethereal.cz/irao/hasDevelopmentStatus> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/hasDevelopmentStatus> <http://www.w3.org/2000/01/rdf-schema#label> "has development status"@en .
 # 
@@ -104,6 +123,7 @@
 <http://ontology.ethereal.cz/irao/hasDomain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://ontology.ethereal.cz/irao/hasDomain> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/ResearchArtifact> .
 <http://ontology.ethereal.cz/irao/hasDomain> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/ResearchDomain> .
+<http://ontology.ethereal.cz/irao/hasDomain> <http://www.w3.org/2000/01/rdf-schema#comment> "This property specifies the research domain of a research artifact"@en .
 <http://ontology.ethereal.cz/irao/hasDomain> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/hasDomain> <http://www.w3.org/2000/01/rdf-schema#label> "has domain"@en .
 # 
@@ -111,13 +131,23 @@
 <http://ontology.ethereal.cz/irao/hasField> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://ontology.ethereal.cz/irao/hasField> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/ResearchArtifact> .
 <http://ontology.ethereal.cz/irao/hasField> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/ResearchField> .
+<http://ontology.ethereal.cz/irao/hasField> <http://www.w3.org/2000/01/rdf-schema#comment> "This property specifies the research field of a research artifact"@en .
 <http://ontology.ethereal.cz/irao/hasField> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/hasField> <http://www.w3.org/2000/01/rdf-schema#label> "has field"@en .
+# 
+# http://ontology.ethereal.cz/irao/hasFollowedProtocol
+<http://ontology.ethereal.cz/irao/hasFollowedProtocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.ethereal.cz/irao/hasFollowedProtocol> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/Benchmark> .
+<http://ontology.ethereal.cz/irao/hasFollowedProtocol> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/Protocol> .
+<http://ontology.ethereal.cz/irao/hasFollowedProtocol> <http://www.w3.org/2000/01/rdf-schema#comment> "This property specifies the protocol that a benchmark follows"@en .
+<http://ontology.ethereal.cz/irao/hasFollowedProtocol> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
+<http://ontology.ethereal.cz/irao/hasFollowedProtocol> <http://www.w3.org/2000/01/rdf-schema#label> "has followed protocol"@en .
 # 
 # http://ontology.ethereal.cz/irao/hasFramework
 <http://ontology.ethereal.cz/irao/hasFramework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://ontology.ethereal.cz/irao/hasFramework> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/Software> .
 <http://ontology.ethereal.cz/irao/hasFramework> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/Framework> .
+<http://ontology.ethereal.cz/irao/hasFramework> <http://www.w3.org/2000/01/rdf-schema#comment> "This property specifies the framework used by a software"@en .
 <http://ontology.ethereal.cz/irao/hasFramework> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/hasFramework> <http://www.w3.org/2000/01/rdf-schema#label> "has framework"@en .
 # 
@@ -125,6 +155,7 @@
 <http://ontology.ethereal.cz/irao/hasLicense> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://ontology.ethereal.cz/irao/hasLicense> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/ResearchArtifact> .
 <http://ontology.ethereal.cz/irao/hasLicense> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/License> .
+<http://ontology.ethereal.cz/irao/hasLicense> <http://www.w3.org/2000/01/rdf-schema#comment> "This property specifies the license of a research artifact"@en .
 <http://ontology.ethereal.cz/irao/hasLicense> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/hasLicense> <http://www.w3.org/2000/01/rdf-schema#label> "has license"@en .
 # 
@@ -132,8 +163,17 @@
 <http://ontology.ethereal.cz/irao/hasLicenseType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://ontology.ethereal.cz/irao/hasLicenseType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/License> .
 <http://ontology.ethereal.cz/irao/hasLicenseType> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/LicenseType> .
+<http://ontology.ethereal.cz/irao/hasLicenseType> <http://www.w3.org/2000/01/rdf-schema#comment> "This property specifies the type of a license"@en .
 <http://ontology.ethereal.cz/irao/hasLicenseType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/hasLicenseType> <http://www.w3.org/2000/01/rdf-schema#label> "has license type"@en .
+# 
+# http://ontology.ethereal.cz/irao/hasMeasuringSystem
+<http://ontology.ethereal.cz/irao/hasMeasuringSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.ethereal.cz/irao/hasMeasuringSystem> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/Benchmark> .
+<http://ontology.ethereal.cz/irao/hasMeasuringSystem> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/System> .
+<http://ontology.ethereal.cz/irao/hasMeasuringSystem> <http://www.w3.org/2000/01/rdf-schema#comment> "This property specifies a system that measures a benchmark"@en .
+<http://ontology.ethereal.cz/irao/hasMeasuringSystem> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
+<http://ontology.ethereal.cz/irao/hasMeasuringSystem> <http://www.w3.org/2000/01/rdf-schema#label> "has measuring system"@en .
 # 
 # http://ontology.ethereal.cz/irao/hasMethodology
 <http://ontology.ethereal.cz/irao/hasMethodology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -150,6 +190,7 @@ _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ontology.ethereal.cz/irao/Protocol> .
 _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <http://ontology.ethereal.cz/irao/hasMethodology> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/Methodology> .
+<http://ontology.ethereal.cz/irao/hasMethodology> <http://www.w3.org/2000/01/rdf-schema#comment> "This property specifies the methodology used by a research artifact"@en .
 <http://ontology.ethereal.cz/irao/hasMethodology> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/hasMethodology> <http://www.w3.org/2000/01/rdf-schema#label> "has methodology"@en .
 # 
@@ -157,27 +198,39 @@ _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/19
 <http://ontology.ethereal.cz/irao/hasOpenStandard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://ontology.ethereal.cz/irao/hasOpenStandard> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/ResearchArtifact> .
 <http://ontology.ethereal.cz/irao/hasOpenStandard> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/OpenStandard> .
+<http://ontology.ethereal.cz/irao/hasOpenStandard> <http://www.w3.org/2000/01/rdf-schema#comment> "This property specifies the open standard used by a research artifact"@en .
 <http://ontology.ethereal.cz/irao/hasOpenStandard> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/hasOpenStandard> <http://www.w3.org/2000/01/rdf-schema#label> "has open standard"@en .
 # 
-# http://ontology.ethereal.cz/irao/hasProtocol
-<http://ontology.ethereal.cz/irao/hasProtocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontology.ethereal.cz/irao/hasProtocol> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/Benchmark> .
-<http://ontology.ethereal.cz/irao/hasProtocol> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/Protocol> .
-<http://ontology.ethereal.cz/irao/hasProtocol> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
-<http://ontology.ethereal.cz/irao/hasProtocol> <http://www.w3.org/2000/01/rdf-schema#label> "has protocol"@en .
+# http://ontology.ethereal.cz/irao/hasProducedDataset
+<http://ontology.ethereal.cz/irao/hasProducedDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.ethereal.cz/irao/hasProducedDataset> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/Benchmark> .
+<http://ontology.ethereal.cz/irao/hasProducedDataset> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/Dataset> .
+<http://ontology.ethereal.cz/irao/hasProducedDataset> <http://www.w3.org/2000/01/rdf-schema#comment> "This property specifies the dataset which us produced by a benchmark"@en .
+<http://ontology.ethereal.cz/irao/hasProducedDataset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
+<http://ontology.ethereal.cz/irao/hasProducedDataset> <http://www.w3.org/2000/01/rdf-schema#label> "has produced dataset"@en .
 # 
 # http://ontology.ethereal.cz/irao/hasPublication
 <http://ontology.ethereal.cz/irao/hasPublication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://ontology.ethereal.cz/irao/hasPublication> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/ResearchArtifact> .
 <http://ontology.ethereal.cz/irao/hasPublication> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/Publication> .
+<http://ontology.ethereal.cz/irao/hasPublication> <http://www.w3.org/2000/01/rdf-schema#comment> "This property specifies the publication of a research artifact"@en .
 <http://ontology.ethereal.cz/irao/hasPublication> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
-<http://ontology.ethereal.cz/irao/hasPublication> <http://www.w3.org/2000/01/rdf-schema#label> "has publication or is mentioned in publication"@en .
+<http://ontology.ethereal.cz/irao/hasPublication> <http://www.w3.org/2000/01/rdf-schema#label> "has publication"@en .
+# 
+# http://ontology.ethereal.cz/irao/hasReferedBenchmark
+<http://ontology.ethereal.cz/irao/hasReferedBenchmark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.ethereal.cz/irao/hasReferedBenchmark> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/Benchmark> .
+<http://ontology.ethereal.cz/irao/hasReferedBenchmark> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/Benchmark> .
+<http://ontology.ethereal.cz/irao/hasReferedBenchmark> <http://www.w3.org/2000/01/rdf-schema#comment> "This property specifies a benchmark refered by another benchmark"@en .
+<http://ontology.ethereal.cz/irao/hasReferedBenchmark> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
+<http://ontology.ethereal.cz/irao/hasReferedBenchmark> <http://www.w3.org/2000/01/rdf-schema#label> "has refered benchmark"@en .
 # 
 # http://ontology.ethereal.cz/irao/hasRepositoryType
 <http://ontology.ethereal.cz/irao/hasRepositoryType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://ontology.ethereal.cz/irao/hasRepositoryType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/Repository> .
 <http://ontology.ethereal.cz/irao/hasRepositoryType> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/RepositoryType> .
+<http://ontology.ethereal.cz/irao/hasRepositoryType> <http://www.w3.org/2000/01/rdf-schema#comment> "This property specifies the repository type of a research artifact repository"@en .
 <http://ontology.ethereal.cz/irao/hasRepositoryType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/hasRepositoryType> <http://www.w3.org/2000/01/rdf-schema#label> "has repository type"@en .
 # 
@@ -185,20 +238,90 @@ _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/19
 <http://ontology.ethereal.cz/irao/hasResearchArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://ontology.ethereal.cz/irao/hasResearchArea> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/ResearchArtifact> .
 <http://ontology.ethereal.cz/irao/hasResearchArea> <http://www.w3.org/2000/01/rdf-schema#range> <http://cso.kmi.open.ac.uk/schema/cso#Topic> .
+<http://ontology.ethereal.cz/irao/hasResearchArea> <http://www.w3.org/2000/01/rdf-schema#comment> "This property specifies the research area of a research artifact"@en .
 <http://ontology.ethereal.cz/irao/hasResearchArea> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/hasResearchArea> <http://www.w3.org/2000/01/rdf-schema#label> "has research area"@en .
+# 
+# http://ontology.ethereal.cz/irao/hasResearchOutput
+<http://ontology.ethereal.cz/irao/hasResearchOutput> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.ethereal.cz/irao/hasResearchOutput> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/ResearchProject> .
+<http://ontology.ethereal.cz/irao/hasResearchOutput> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/ResearchOutput> .
+<http://ontology.ethereal.cz/irao/hasResearchOutput> <http://www.w3.org/2000/01/rdf-schema#comment> "This property specifies the research output of a research project"@en .
+<http://ontology.ethereal.cz/irao/hasResearchOutput> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
+<http://ontology.ethereal.cz/irao/hasResearchOutput> <http://www.w3.org/2000/01/rdf-schema#label> "has research output"@en .
+# 
+# http://ontology.ethereal.cz/irao/hasUsedFramework
+<http://ontology.ethereal.cz/irao/hasUsedFramework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.ethereal.cz/irao/hasUsedFramework> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid5 <http://www.w3.org/2002/07/owl#unionOf> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ontology.ethereal.cz/irao/Framework> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ontology.ethereal.cz/irao/Software> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ontology.ethereal.cz/irao/System> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://ontology.ethereal.cz/irao/hasUsedFramework> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/Framework> .
+<http://ontology.ethereal.cz/irao/hasUsedFramework> <http://www.w3.org/2000/01/rdf-schema#comment> "This property specifies the framework used by a research artifact like software or system"@en .
+<http://ontology.ethereal.cz/irao/hasUsedFramework> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
+<http://ontology.ethereal.cz/irao/hasUsedFramework> <http://www.w3.org/2000/01/rdf-schema#label> "has used framework"@en .
+# 
+# http://ontology.ethereal.cz/irao/hasUsedMethodology
+<http://ontology.ethereal.cz/irao/hasUsedMethodology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.ethereal.cz/irao/hasUsedMethodology> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid9 <http://www.w3.org/2002/07/owl#unionOf> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ontology.ethereal.cz/irao/Dataset> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ontology.ethereal.cz/irao/Framework> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://ontology.ethereal.cz/irao/hasUsedMethodology> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/Methodology> .
+<http://ontology.ethereal.cz/irao/hasUsedMethodology> <http://www.w3.org/2000/01/rdf-schema#comment> "This property specifies the methodology used in a research artifact like framework or dataset"@en .
+<http://ontology.ethereal.cz/irao/hasUsedMethodology> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
+<http://ontology.ethereal.cz/irao/hasUsedMethodology> <http://www.w3.org/2000/01/rdf-schema#label> "has used methodology"@en .
+# 
+# http://ontology.ethereal.cz/irao/hasUsedOntologyDesignPattern
+<http://ontology.ethereal.cz/irao/hasUsedOntologyDesignPattern> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.ethereal.cz/irao/hasUsedOntologyDesignPattern> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid12 <http://www.w3.org/2002/07/owl#unionOf> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ontology.ethereal.cz/irao/Ontology> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ontology.ethereal.cz/irao/OntologyDesignPattern> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://ontology.ethereal.cz/irao/hasUsedOntologyDesignPattern> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/OntologyDesignPattern> .
+<http://ontology.ethereal.cz/irao/hasUsedOntologyDesignPattern> <http://www.w3.org/2000/01/rdf-schema#comment> "This property specifies the ontology design pattern of an ontology or another ontology design pattern"@en .
+<http://ontology.ethereal.cz/irao/hasUsedOntologyDesignPattern> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
+<http://ontology.ethereal.cz/irao/hasUsedOntologyDesignPattern> <http://www.w3.org/2000/01/rdf-schema#label> "has used ontology design pattern"@en .
 # 
 # http://ontology.ethereal.cz/irao/isDescribedBy
 <http://ontology.ethereal.cz/irao/isDescribedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://ontology.ethereal.cz/irao/isDescribedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/Dataset> .
 <http://ontology.ethereal.cz/irao/isDescribedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/DataModel> .
+<http://ontology.ethereal.cz/irao/isDescribedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "This property specifies the data model of a dataset"@en .
 <http://ontology.ethereal.cz/irao/isDescribedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/isDescribedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is described by"@en .
+# 
+# http://ontology.ethereal.cz/irao/isFollowedBy
+<http://ontology.ethereal.cz/irao/isFollowedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.ethereal.cz/irao/isFollowedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/ResearchProject> .
+<http://ontology.ethereal.cz/irao/isFollowedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/ResearchProject> .
+<http://ontology.ethereal.cz/irao/isFollowedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "This property specifies that a research project is followed by another research project"@en .
+<http://ontology.ethereal.cz/irao/isFollowedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
+<http://ontology.ethereal.cz/irao/isFollowedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is followed by"@en .
 # 
 # http://ontology.ethereal.cz/irao/isMaintainedBy
 <http://ontology.ethereal.cz/irao/isMaintainedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://ontology.ethereal.cz/irao/isMaintainedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/ResearchArtifact> .
 <http://ontology.ethereal.cz/irao/isMaintainedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/Researcher> .
+<http://ontology.ethereal.cz/irao/isMaintainedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "This property specifies the maintainer of a research artifact"@en .
 <http://ontology.ethereal.cz/irao/isMaintainedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/isMaintainedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is maintained by"@en .
 # 
@@ -206,6 +329,7 @@ _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/19
 <http://ontology.ethereal.cz/irao/isPartOfSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://ontology.ethereal.cz/irao/isPartOfSystem> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/Software> .
 <http://ontology.ethereal.cz/irao/isPartOfSystem> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/System> .
+<http://ontology.ethereal.cz/irao/isPartOfSystem> <http://www.w3.org/2000/01/rdf-schema#comment> "This property specifies the system which a software is part of"@en .
 <http://ontology.ethereal.cz/irao/isPartOfSystem> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/isPartOfSystem> <http://www.w3.org/2000/01/rdf-schema#label> "is part of system"@en .
 # 
@@ -213,6 +337,7 @@ _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/19
 <http://ontology.ethereal.cz/irao/isPublishedAt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://ontology.ethereal.cz/irao/isPublishedAt> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/ResearchArtifact> .
 <http://ontology.ethereal.cz/irao/isPublishedAt> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/Repository> .
+<http://ontology.ethereal.cz/irao/isPublishedAt> <http://www.w3.org/2000/01/rdf-schema#comment> "This property specifies the repository that a research artifact is published at"@en .
 <http://ontology.ethereal.cz/irao/isPublishedAt> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/isPublishedAt> <http://www.w3.org/2000/01/rdf-schema#label> "is published at"@en .
 # 
@@ -220,73 +345,9 @@ _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/19
 <http://ontology.ethereal.cz/irao/isUsedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://ontology.ethereal.cz/irao/isUsedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/ResearchArtifact> .
 <http://ontology.ethereal.cz/irao/isUsedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/ResearchArtifact> .
+<http://ontology.ethereal.cz/irao/isUsedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "This property specifies that a research artifact is used by another research artifact"@en .
+<http://ontology.ethereal.cz/irao/isUsedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/isUsedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is used by"@en .
-# 
-# http://ontology.ethereal.cz/irao/measuresSystem
-<http://ontology.ethereal.cz/irao/measuresSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontology.ethereal.cz/irao/measuresSystem> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/Benchmark> .
-<http://ontology.ethereal.cz/irao/measuresSystem> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/System> .
-<http://ontology.ethereal.cz/irao/measuresSystem> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
-<http://ontology.ethereal.cz/irao/measuresSystem> <http://www.w3.org/2000/01/rdf-schema#label> "measures system"@en .
-# 
-# http://ontology.ethereal.cz/irao/producesDataset
-<http://ontology.ethereal.cz/irao/producesDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontology.ethereal.cz/irao/producesDataset> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/Benchmark> .
-<http://ontology.ethereal.cz/irao/producesDataset> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/Dataset> .
-<http://ontology.ethereal.cz/irao/producesDataset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
-<http://ontology.ethereal.cz/irao/producesDataset> <http://www.w3.org/2000/01/rdf-schema#label> "produces dataset"@en .
-# 
-# http://ontology.ethereal.cz/irao/refersToBenchmark
-<http://ontology.ethereal.cz/irao/refersToBenchmark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontology.ethereal.cz/irao/refersToBenchmark> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/Benchmark> .
-<http://ontology.ethereal.cz/irao/refersToBenchmark> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/Benchmark> .
-<http://ontology.ethereal.cz/irao/refersToBenchmark> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
-<http://ontology.ethereal.cz/irao/refersToBenchmark> <http://www.w3.org/2000/01/rdf-schema#label> "refers to benchmark"@en .
-# 
-# http://ontology.ethereal.cz/irao/usesFramework
-<http://ontology.ethereal.cz/irao/usesFramework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontology.ethereal.cz/irao/usesFramework> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid5 .
-_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid5 <http://www.w3.org/2002/07/owl#unionOf> _:genid7 .
-_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ontology.ethereal.cz/irao/Software> .
-_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
-_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ontology.ethereal.cz/irao/System> .
-_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://ontology.ethereal.cz/irao/usesFramework> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/Framework> .
-<http://ontology.ethereal.cz/irao/usesFramework> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
-<http://ontology.ethereal.cz/irao/usesFramework> <http://www.w3.org/2000/01/rdf-schema#label> "uses framework"@en .
-# 
-# http://ontology.ethereal.cz/irao/usesMethodology
-<http://ontology.ethereal.cz/irao/usesMethodology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontology.ethereal.cz/irao/usesMethodology> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid8 .
-_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid8 <http://www.w3.org/2002/07/owl#unionOf> _:genid10 .
-_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ontology.ethereal.cz/irao/Dataset> .
-_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid9 .
-_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ontology.ethereal.cz/irao/Framework> .
-_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://ontology.ethereal.cz/irao/usesMethodology> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/Methodology> .
-<http://ontology.ethereal.cz/irao/usesMethodology> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
-<http://ontology.ethereal.cz/irao/usesMethodology> <http://www.w3.org/2000/01/rdf-schema#label> "uses methodology"@en .
-# 
-# http://ontology.ethereal.cz/irao/usesOntologyDesignPattern
-<http://ontology.ethereal.cz/irao/usesOntologyDesignPattern> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontology.ethereal.cz/irao/usesOntologyDesignPattern> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid11 .
-_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid11 <http://www.w3.org/2002/07/owl#unionOf> _:genid13 .
-_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ontology.ethereal.cz/irao/Ontology> .
-_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid12 .
-_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ontology.ethereal.cz/irao/OntologyDesignPattern> .
-_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://ontology.ethereal.cz/irao/usesOntologyDesignPattern> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/OntologyDesignPattern> .
-<http://ontology.ethereal.cz/irao/usesOntologyDesignPattern> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
-<http://ontology.ethereal.cz/irao/usesOntologyDesignPattern> <http://www.w3.org/2000/01/rdf-schema#label> "uses ontology design pattern"@en .
 # 
 # 
 # 
@@ -301,24 +362,26 @@ _:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://ontology.ethereal.cz/irao/hasTopic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://ontology.ethereal.cz/irao/hasTopic> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/Publication> .
 <http://ontology.ethereal.cz/irao/hasTopic> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://ontology.ethereal.cz/irao/hasTopic> <http://www.w3.org/2000/01/rdf-schema#comment> "This property specifies the topic of a publication"@en .
 <http://ontology.ethereal.cz/irao/hasTopic> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/hasTopic> <http://www.w3.org/2000/01/rdf-schema#label> "has topic"@en .
 # 
 # http://ontology.ethereal.cz/irao/hasURL
 <http://ontology.ethereal.cz/irao/hasURL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://ontology.ethereal.cz/irao/hasURL> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid14 .
-_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid14 <http://www.w3.org/2002/07/owl#unionOf> _:genid17 .
+<http://ontology.ethereal.cz/irao/hasURL> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid15 <http://www.w3.org/2002/07/owl#unionOf> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ontology.ethereal.cz/irao/Publication> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid17 .
 _:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ontology.ethereal.cz/irao/Publication> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ontology.ethereal.cz/irao/Repository> .
 _:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid16 .
 _:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ontology.ethereal.cz/irao/Repository> .
-_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid15 .
-_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ontology.ethereal.cz/irao/ResearchArtifact> .
-_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ontology.ethereal.cz/irao/ResearchArtifact> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <http://ontology.ethereal.cz/irao/hasURL> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://ontology.ethereal.cz/irao/hasURL> <http://www.w3.org/2000/01/rdf-schema#comment> "This property specifies the resource URL of a publication, repository or research artifact"@en .
 <http://ontology.ethereal.cz/irao/hasURL> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/hasURL> <http://www.w3.org/2000/01/rdf-schema#label> "has URL"@en .
 # 
@@ -326,6 +389,7 @@ _:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://ontology.ethereal.cz/irao/hasVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://ontology.ethereal.cz/irao/hasVersion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/ResearchArtifact> .
 <http://ontology.ethereal.cz/irao/hasVersion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://ontology.ethereal.cz/irao/hasVersion> <http://www.w3.org/2000/01/rdf-schema#comment> "This property specifies the version of a research artifact"@en .
 <http://ontology.ethereal.cz/irao/hasVersion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/hasVersion> <http://www.w3.org/2000/01/rdf-schema#label> "has version"@en .
 # 
@@ -341,220 +405,273 @@ _:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 # http://ontology.ethereal.cz/irao/API
 <http://ontology.ethereal.cz/irao/API> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://ontology.ethereal.cz/irao/API> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.ethereal.cz/irao/Service> .
+<http://ontology.ethereal.cz/irao/API> <http://www.w3.org/2000/01/rdf-schema#comment> "An API is a type of service-based research artifact"@en .
 <http://ontology.ethereal.cz/irao/API> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/API> <http://www.w3.org/2000/01/rdf-schema#label> "API"@en .
 # 
 # http://ontology.ethereal.cz/irao/Accessibility
 <http://ontology.ethereal.cz/irao/Accessibility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.ethereal.cz/irao/Accessibility> <http://www.w3.org/2000/01/rdf-schema#comment> "A research artifact can be made accessible via download or some kind of API, etc."@en .
 <http://ontology.ethereal.cz/irao/Accessibility> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/Accessibility> <http://www.w3.org/2000/01/rdf-schema#label> "Accessibility"@en .
 # 
 # http://ontology.ethereal.cz/irao/Affiliation
 <http://ontology.ethereal.cz/irao/Affiliation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.ethereal.cz/irao/Affiliation> <http://www.w3.org/2000/01/rdf-schema#comment> "An affiliation of the author, it maybe a company or an institution"@en .
 <http://ontology.ethereal.cz/irao/Affiliation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/Affiliation> <http://www.w3.org/2000/01/rdf-schema#label> "Affiliation"@en .
 # 
 # http://ontology.ethereal.cz/irao/AnnotatedDataset
 <http://ontology.ethereal.cz/irao/AnnotatedDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://ontology.ethereal.cz/irao/AnnotatedDataset> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.ethereal.cz/irao/Dataset> .
+<http://ontology.ethereal.cz/irao/AnnotatedDataset> <http://www.w3.org/2000/01/rdf-schema#comment> "A dataset which was processed for AI or machine learning"@en .
 <http://ontology.ethereal.cz/irao/AnnotatedDataset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/AnnotatedDataset> <http://www.w3.org/2000/01/rdf-schema#label> "Annotated Dataset"@en .
 # 
 # http://ontology.ethereal.cz/irao/ApplicationFramework
 <http://ontology.ethereal.cz/irao/ApplicationFramework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://ontology.ethereal.cz/irao/ApplicationFramework> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.ethereal.cz/irao/SoftwareFramework> .
+<http://ontology.ethereal.cz/irao/ApplicationFramework> <http://www.w3.org/2000/01/rdf-schema#comment> "A framework that is used by applications"@en .
 <http://ontology.ethereal.cz/irao/ApplicationFramework> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/ApplicationFramework> <http://www.w3.org/2000/01/rdf-schema#label> "Application Framework"@en .
 # 
 # http://ontology.ethereal.cz/irao/Benchmark
 <http://ontology.ethereal.cz/irao/Benchmark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://ontology.ethereal.cz/irao/Benchmark> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.ethereal.cz/irao/InformaticsResearchArtifact> .
+<http://ontology.ethereal.cz/irao/Benchmark> <http://www.w3.org/2000/01/rdf-schema#comment> "A benchmark is a type of comparison and measuring with metrics, producing datasets and algorithms for comprehensive and systematic evaluation of existing and future systems"@en .
 <http://ontology.ethereal.cz/irao/Benchmark> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/Benchmark> <http://www.w3.org/2000/01/rdf-schema#label> "Benchmark"@en .
 # 
 # http://ontology.ethereal.cz/irao/ConferencePaper
 <http://ontology.ethereal.cz/irao/ConferencePaper> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://ontology.ethereal.cz/irao/ConferencePaper> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.ethereal.cz/irao/Publication> .
+<http://ontology.ethereal.cz/irao/ConferencePaper> <http://www.w3.org/2000/01/rdf-schema#comment> "A paper or article published at a scientific conference"@en .
 <http://ontology.ethereal.cz/irao/ConferencePaper> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/ConferencePaper> <http://www.w3.org/2000/01/rdf-schema#label> "Conference paper"@en .
 # 
 # http://ontology.ethereal.cz/irao/DataModel
 <http://ontology.ethereal.cz/irao/DataModel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://ontology.ethereal.cz/irao/DataModel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.ethereal.cz/irao/Model> .
+<http://ontology.ethereal.cz/irao/DataModel> <http://www.w3.org/2000/01/rdf-schema#comment> "A data model such as schema and ontologies"@en .
 <http://ontology.ethereal.cz/irao/DataModel> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/DataModel> <http://www.w3.org/2000/01/rdf-schema#label> "Data model"@en .
 # 
 # http://ontology.ethereal.cz/irao/Dataset
 <http://ontology.ethereal.cz/irao/Dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://ontology.ethereal.cz/irao/Dataset> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.ethereal.cz/irao/InformaticsResearchArtifact> .
+<http://ontology.ethereal.cz/irao/Dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "A dataset containing the gathered or generated data about some topic"@en .
 <http://ontology.ethereal.cz/irao/Dataset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/Dataset> <http://www.w3.org/2000/01/rdf-schema#label> "Dataset"@en .
 # 
 # http://ontology.ethereal.cz/irao/Design
 <http://ontology.ethereal.cz/irao/Design> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://ontology.ethereal.cz/irao/Design> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.ethereal.cz/irao/InformaticsResearchArtifact> .
+<http://ontology.ethereal.cz/irao/Design> <http://www.w3.org/2000/01/rdf-schema#comment> "A plan or specification for the construction or production of a research artifact"@en .
 <http://ontology.ethereal.cz/irao/Design> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/Design> <http://www.w3.org/2000/01/rdf-schema#label> "Design"@en .
 # 
 # http://ontology.ethereal.cz/irao/DesignQuality
 <http://ontology.ethereal.cz/irao/DesignQuality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.ethereal.cz/irao/DesignQuality> <http://www.w3.org/2000/01/rdf-schema#comment> "A design quality involves the usage of recommended standards, protocols, frameworks, methodologies"@en .
 <http://ontology.ethereal.cz/irao/DesignQuality> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/DesignQuality> <http://www.w3.org/2000/01/rdf-schema#label> "Design quality"@en .
 # 
 # http://ontology.ethereal.cz/irao/DevelopmentStatus
 <http://ontology.ethereal.cz/irao/DevelopmentStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.ethereal.cz/irao/DevelopmentStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "The development status of a research artifact, informing about its maturity"@en .
 <http://ontology.ethereal.cz/irao/DevelopmentStatus> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/DevelopmentStatus> <http://www.w3.org/2000/01/rdf-schema#label> "Development status"@en .
 # 
 # http://ontology.ethereal.cz/irao/Framework
 <http://ontology.ethereal.cz/irao/Framework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://ontology.ethereal.cz/irao/Framework> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.ethereal.cz/irao/InformaticsResearchArtifact> .
+<http://ontology.ethereal.cz/irao/Framework> <http://www.w3.org/2000/01/rdf-schema#comment> "The framework is a type of an informatics research artifact"@en .
 <http://ontology.ethereal.cz/irao/Framework> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/Framework> <http://www.w3.org/2000/01/rdf-schema#label> "Framework"@en .
 # 
 # http://ontology.ethereal.cz/irao/InformaticsResearchArtifact
 <http://ontology.ethereal.cz/irao/InformaticsResearchArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://ontology.ethereal.cz/irao/InformaticsResearchArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.ethereal.cz/irao/ResearchArtifact> .
+<http://ontology.ethereal.cz/irao/InformaticsResearchArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "An informatics research artifact is a research artifact in the informatics field"@en .
 <http://ontology.ethereal.cz/irao/InformaticsResearchArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/InformaticsResearchArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "Informatics Research Artifact"@en .
 # 
 # http://ontology.ethereal.cz/irao/License
 <http://ontology.ethereal.cz/irao/License> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.ethereal.cz/irao/License> <http://www.w3.org/2000/01/rdf-schema#comment> "A license authorizes the use, performace, or release of a research artifact"@en .
 <http://ontology.ethereal.cz/irao/License> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/License> <http://www.w3.org/2000/01/rdf-schema#label> "License"@en .
 # 
 # http://ontology.ethereal.cz/irao/LicenseType
 <http://ontology.ethereal.cz/irao/LicenseType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.ethereal.cz/irao/LicenseType> <http://www.w3.org/2000/01/rdf-schema#comment> "The type of a license"@en .
 <http://ontology.ethereal.cz/irao/LicenseType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/LicenseType> <http://www.w3.org/2000/01/rdf-schema#label> "License type"@en .
 # 
 # http://ontology.ethereal.cz/irao/Methodology
 <http://ontology.ethereal.cz/irao/Methodology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://ontology.ethereal.cz/irao/Methodology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.ethereal.cz/irao/InformaticsResearchArtifact> .
+<http://ontology.ethereal.cz/irao/Methodology> <http://www.w3.org/2000/01/rdf-schema#comment> "Methodology is a type of research artifact"@en .
 <http://ontology.ethereal.cz/irao/Methodology> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/Methodology> <http://www.w3.org/2000/01/rdf-schema#label> "Methodology"@en .
 # 
 # http://ontology.ethereal.cz/irao/Middleware
 <http://ontology.ethereal.cz/irao/Middleware> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.ethereal.cz/irao/Middleware> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.ethereal.cz/irao/SoftwareFramework> .
+<http://ontology.ethereal.cz/irao/Middleware> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.ethereal.cz/irao/Software> .
+<http://ontology.ethereal.cz/irao/Middleware> <http://www.w3.org/2000/01/rdf-schema#comment> "A middleware is a type of software that is used to connect software components in to a system"@en .
 <http://ontology.ethereal.cz/irao/Middleware> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/Middleware> <http://www.w3.org/2000/01/rdf-schema#label> "Middleware"@en .
 # 
 # http://ontology.ethereal.cz/irao/Model
 <http://ontology.ethereal.cz/irao/Model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://ontology.ethereal.cz/irao/Model> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.ethereal.cz/irao/InformaticsResearchArtifact> .
+<http://ontology.ethereal.cz/irao/Model> <http://www.w3.org/2000/01/rdf-schema#comment> "A model is a type of research artifact that can be used to describe other artifacts such as a dataset or a software"@en .
 <http://ontology.ethereal.cz/irao/Model> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/Model> <http://www.w3.org/2000/01/rdf-schema#label> "Model"@en .
 # 
 # http://ontology.ethereal.cz/irao/Ontology
 <http://ontology.ethereal.cz/irao/Ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://ontology.ethereal.cz/irao/Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.ethereal.cz/irao/DataModel> .
+<http://ontology.ethereal.cz/irao/Ontology> <http://www.w3.org/2000/01/rdf-schema#comment> "An ontology is a type of data model used to describe linked datasets"@en .
 <http://ontology.ethereal.cz/irao/Ontology> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/Ontology> <http://www.w3.org/2000/01/rdf-schema#label> "Ontology"@en .
 # 
 # http://ontology.ethereal.cz/irao/OntologyDesignPattern
 <http://ontology.ethereal.cz/irao/OntologyDesignPattern> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://ontology.ethereal.cz/irao/OntologyDesignPattern> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.ethereal.cz/irao/InformaticsResearchArtifact> .
+<http://ontology.ethereal.cz/irao/OntologyDesignPattern> <http://www.w3.org/2000/01/rdf-schema#comment> "An ontology design pattern is a pattern used in designing ontologies"@en .
 <http://ontology.ethereal.cz/irao/OntologyDesignPattern> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/OntologyDesignPattern> <http://www.w3.org/2000/01/rdf-schema#label> "Ontology design pattern"@en .
 # 
 # http://ontology.ethereal.cz/irao/OpenStandard
 <http://ontology.ethereal.cz/irao/OpenStandard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.ethereal.cz/irao/OpenStandard> <http://www.w3.org/2000/01/rdf-schema#comment> "A open standard is a standard used to provide guidelines for the development and operations of artifacts and systems"@en .
 <http://ontology.ethereal.cz/irao/OpenStandard> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/OpenStandard> <http://www.w3.org/2000/01/rdf-schema#label> "Open Standard"@en .
 # 
 # http://ontology.ethereal.cz/irao/Protocol
 <http://ontology.ethereal.cz/irao/Protocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.ethereal.cz/irao/Protocol> <http://www.w3.org/2000/01/rdf-schema#comment> "Protocol"@en .
+<http://ontology.ethereal.cz/irao/Protocol> <http://www.w3.org/2000/01/rdf-schema#comment> "A protocol is used to provide guidelines to execute certain tasks"@en .
 <http://ontology.ethereal.cz/irao/Protocol> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/Protocol> <http://www.w3.org/2000/01/rdf-schema#label> "Protocol"@en .
 # 
 # http://ontology.ethereal.cz/irao/Publication
 <http://ontology.ethereal.cz/irao/Publication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.ethereal.cz/irao/Publication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.ethereal.cz/irao/ResearchOutput> .
+<http://ontology.ethereal.cz/irao/Publication> <http://www.w3.org/2000/01/rdf-schema#comment> "A publication makes content and research results available to the general public via publication venues such as journals, books, websites, etc."@en .
 <http://ontology.ethereal.cz/irao/Publication> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/Publication> <http://www.w3.org/2000/01/rdf-schema#label> "Publication"@en .
 # 
 # http://ontology.ethereal.cz/irao/Repository
 <http://ontology.ethereal.cz/irao/Repository> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.ethereal.cz/irao/Repository> <http://www.w3.org/2000/01/rdf-schema#comment> "A repository is an online storage for the deposit of research artifacts such as datasets and vocabularies"@en .
 <http://ontology.ethereal.cz/irao/Repository> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/Repository> <http://www.w3.org/2000/01/rdf-schema#label> "Repository"@en .
 # 
 # http://ontology.ethereal.cz/irao/RepositoryType
 <http://ontology.ethereal.cz/irao/RepositoryType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.ethereal.cz/irao/RepositoryType> <http://www.w3.org/2000/01/rdf-schema#comment> "A repository type can be a knowledge base, knowledge graph, version control hosting, etc."@en .
 <http://ontology.ethereal.cz/irao/RepositoryType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/RepositoryType> <http://www.w3.org/2000/01/rdf-schema#label> "Repository Type"@en .
 # 
 # http://ontology.ethereal.cz/irao/ResearchArtifact
 <http://ontology.ethereal.cz/irao/ResearchArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.ethereal.cz/irao/ResearchArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.ethereal.cz/irao/ResearchOutput> .
+<http://ontology.ethereal.cz/irao/ResearchArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A research artifact is a direct output or result of a research project"@en .
 <http://ontology.ethereal.cz/irao/ResearchArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/ResearchArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "Research Artifact"@en .
 # 
 # http://ontology.ethereal.cz/irao/ResearchDomain
 <http://ontology.ethereal.cz/irao/ResearchDomain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.ethereal.cz/irao/ResearchDomain> <http://www.w3.org/2000/01/rdf-schema#comment> "A research domain is the domain of interest of a research project"@en .
 <http://ontology.ethereal.cz/irao/ResearchDomain> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/ResearchDomain> <http://www.w3.org/2000/01/rdf-schema#label> "Research Domain"@en .
 # 
 # http://ontology.ethereal.cz/irao/ResearchField
 <http://ontology.ethereal.cz/irao/ResearchField> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.ethereal.cz/irao/ResearchField> <http://www.w3.org/2000/01/rdf-schema#comment> "A research field is the field of interest of a research project"@en .
 <http://ontology.ethereal.cz/irao/ResearchField> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/ResearchField> <http://www.w3.org/2000/01/rdf-schema#label> "Research Field"@en .
+# 
+# http://ontology.ethereal.cz/irao/ResearchOutput
+<http://ontology.ethereal.cz/irao/ResearchOutput> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.ethereal.cz/irao/ResearchOutput> <http://www.w3.org/2000/01/rdf-schema#comment> "A research output is the result of a research project"@en .
+<http://ontology.ethereal.cz/irao/ResearchOutput> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
+<http://ontology.ethereal.cz/irao/ResearchOutput> <http://www.w3.org/2000/01/rdf-schema#label> "Research output"@en .
+# 
+# http://ontology.ethereal.cz/irao/ResearchProject
+<http://ontology.ethereal.cz/irao/ResearchProject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.ethereal.cz/irao/ResearchProject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://vivoweb.org/ontology/core#Project> .
+<http://ontology.ethereal.cz/irao/ResearchProject> <http://www.w3.org/2000/01/rdf-schema#comment> "A research project is a project within the research domain with the endeavor of achieving scientific results"@en .
+<http://ontology.ethereal.cz/irao/ResearchProject> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
+<http://ontology.ethereal.cz/irao/ResearchProject> <http://www.w3.org/2000/01/rdf-schema#label> "Research project"@en .
 # 
 # http://ontology.ethereal.cz/irao/Researcher
 <http://ontology.ethereal.cz/irao/Researcher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://ontology.ethereal.cz/irao/Researcher> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Person> .
+<http://ontology.ethereal.cz/irao/Researcher> <http://www.w3.org/2000/01/rdf-schema#comment> "A researcher is a person doing research"@en .
 <http://ontology.ethereal.cz/irao/Researcher> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/Researcher> <http://www.w3.org/2000/01/rdf-schema#label> "Researcher"@en .
 # 
 # http://ontology.ethereal.cz/irao/Service
 <http://ontology.ethereal.cz/irao/Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://ontology.ethereal.cz/irao/Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.ethereal.cz/irao/Software> .
+<http://ontology.ethereal.cz/irao/Service> <http://www.w3.org/2000/01/rdf-schema#comment> "A service is a type of software that provides e.g. data or some type of functionalities"@en .
 <http://ontology.ethereal.cz/irao/Service> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/Service> <http://www.w3.org/2000/01/rdf-schema#label> "Service"@en .
 # 
 # http://ontology.ethereal.cz/irao/Software
 <http://ontology.ethereal.cz/irao/Software> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://ontology.ethereal.cz/irao/Software> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.ethereal.cz/irao/InformaticsResearchArtifact> .
+<http://ontology.ethereal.cz/irao/Software> <http://www.w3.org/2000/01/rdf-schema#comment> "A software is a type of informatics research artifact"@en .
 <http://ontology.ethereal.cz/irao/Software> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/Software> <http://www.w3.org/2000/01/rdf-schema#label> "Software"@en .
 # 
 # http://ontology.ethereal.cz/irao/SoftwareFramework
 <http://ontology.ethereal.cz/irao/SoftwareFramework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://ontology.ethereal.cz/irao/SoftwareFramework> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.ethereal.cz/irao/Framework> .
+<http://ontology.ethereal.cz/irao/SoftwareFramework> <http://www.w3.org/2000/01/rdf-schema#comment> "A software framework is a type of software that provides guidelines for the development of new softwares"@en .
 <http://ontology.ethereal.cz/irao/SoftwareFramework> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/SoftwareFramework> <http://www.w3.org/2000/01/rdf-schema#label> "Software Framework"@en .
 # 
 # http://ontology.ethereal.cz/irao/SyntheticDataset
 <http://ontology.ethereal.cz/irao/SyntheticDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://ontology.ethereal.cz/irao/SyntheticDataset> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.ethereal.cz/irao/Dataset> .
+<http://ontology.ethereal.cz/irao/SyntheticDataset> <http://www.w3.org/2000/01/rdf-schema#comment> "Synthetic datasets are generated through computer programs, instead of being composed through the documentation of real-world events"@en .
 <http://ontology.ethereal.cz/irao/SyntheticDataset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/SyntheticDataset> <http://www.w3.org/2000/01/rdf-schema#label> "Synthetic Dataset"@en .
 # 
 # http://ontology.ethereal.cz/irao/System
 <http://ontology.ethereal.cz/irao/System> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.ethereal.cz/irao/System> <http://www.w3.org/2000/01/rdf-schema#comment> "A system is a group of interacting or interrelated informatics components that form a unified whole"@en .
 <http://ontology.ethereal.cz/irao/System> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/System> <http://www.w3.org/2000/01/rdf-schema#label> "System"@en .
 # 
 # http://ontology.ethereal.cz/irao/Thesis
 <http://ontology.ethereal.cz/irao/Thesis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://ontology.ethereal.cz/irao/Thesis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.ethereal.cz/irao/Publication> .
+<http://ontology.ethereal.cz/irao/Thesis> <http://www.w3.org/2000/01/rdf-schema#comment> "A thesis as a type of scientific or academic publication or dissertation is a document submitted in support of candidature for an academic degree or professional qualification presenting the author's research and findings"@en .
 <http://ontology.ethereal.cz/irao/Thesis> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/Thesis> <http://www.w3.org/2000/01/rdf-schema#label> "Thesis"@en .
 # 
 # http://ontology.ethereal.cz/irao/Vocabulary
 <http://ontology.ethereal.cz/irao/Vocabulary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://ontology.ethereal.cz/irao/Vocabulary> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.ethereal.cz/irao/InformaticsResearchArtifact> .
+<http://ontology.ethereal.cz/irao/Vocabulary> <http://www.w3.org/2000/01/rdf-schema#comment> "A vocabulary is used to provide a range of commonly used terms and their definitions"@en .
 <http://ontology.ethereal.cz/irao/Vocabulary> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/Vocabulary> <http://www.w3.org/2000/01/rdf-schema#label> "Vocabulary"@en .
 # 
 # http://ontology.ethereal.cz/irao/WebFramework
 <http://ontology.ethereal.cz/irao/WebFramework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://ontology.ethereal.cz/irao/WebFramework> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.ethereal.cz/irao/SoftwareFramework> .
+<http://ontology.ethereal.cz/irao/WebFramework> <http://www.w3.org/2000/01/rdf-schema#comment> "A web framework is a type of software framework that is used to develop applications on the web"@en .
 <http://ontology.ethereal.cz/irao/WebFramework> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/WebFramework> <http://www.w3.org/2000/01/rdf-schema#label> "Web Framework"@en .
 # 
 # http://ontology.ethereal.cz/irao/Workflow
 <http://ontology.ethereal.cz/irao/Workflow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://ontology.ethereal.cz/irao/Workflow> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.ethereal.cz/irao/InformaticsResearchArtifact> .
+<http://ontology.ethereal.cz/irao/Workflow> <http://www.w3.org/2000/01/rdf-schema#comment> "A workflow is a sequence of interrelated, orchestrated and repeatable tasks"@en .
 <http://ontology.ethereal.cz/irao/Workflow> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/Workflow> <http://www.w3.org/2000/01/rdf-schema#label> "Workflow"@en .
 # 
@@ -566,6 +683,10 @@ _:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 # #
 # #################################################################
 # 
+# 
+# http://ontology.ethereal.cz/irao
+<http://ontology.ethereal.cz/irao> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ontology.ethereal.cz/irao> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://ontology.ethereal.cz/irao/" .
 # 
 # http://ontology.ethereal.cz/irao/accessibility#API
 <http://ontology.ethereal.cz/irao/accessibility#API> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
