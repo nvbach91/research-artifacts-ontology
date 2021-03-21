@@ -1213,11 +1213,11 @@
     "@id" : "http://ontology.ethereal.cz/irao/Publication"
   } ]
 }, {
-  "@id" : "http://ontology.ethereal.cz/irao/hasReferedBenchmark",
+  "@id" : "http://ontology.ethereal.cz/irao/hasReferredBenchmark",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "This property specifies a benchmark refered by another benchmark"
+    "@value" : "This property specifies a benchmark referred by another benchmark"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://ontology.ethereal.cz/irao/Benchmark"
@@ -1227,7 +1227,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "has refered benchmark"
+    "@value" : "has referred benchmark"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://ontology.ethereal.cz/irao/Benchmark"

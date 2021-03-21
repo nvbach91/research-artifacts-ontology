@@ -13,6 +13,10 @@
       "@id" : "http://ontology.ethereal.cz/irao/isMaintainedBy",
       "@type" : "@id"
     },
+    "hasReferredBenchmark" : {
+      "@id" : "http://ontology.ethereal.cz/irao/hasReferredBenchmark",
+      "@type" : "@id"
+    },
     "isUsedBy" : {
       "@id" : "http://ontology.ethereal.cz/irao/isUsedBy",
       "@type" : "@id"
@@ -221,10 +225,6 @@
     },
     "WebFramework" : {
       "@id" : "http://ontology.ethereal.cz/irao/WebFramework"
-    },
-    "hasReferedBenchmark" : {
-      "@id" : "http://ontology.ethereal.cz/irao/hasReferedBenchmark",
-      "@type" : "@id"
     },
     "DataModel" : {
       "@id" : "http://ontology.ethereal.cz/irao/DataModel"
