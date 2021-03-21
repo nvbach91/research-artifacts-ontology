@@ -229,13 +229,13 @@ _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/19
 <http://ontology.ethereal.cz/irao/hasPublication> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/hasPublication> <http://www.w3.org/2000/01/rdf-schema#label> "has publication"@en .
 # 
-# http://ontology.ethereal.cz/irao/hasReferedBenchmark
-<http://ontology.ethereal.cz/irao/hasReferedBenchmark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontology.ethereal.cz/irao/hasReferedBenchmark> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/Benchmark> .
-<http://ontology.ethereal.cz/irao/hasReferedBenchmark> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/Benchmark> .
-<http://ontology.ethereal.cz/irao/hasReferedBenchmark> <http://www.w3.org/2000/01/rdf-schema#comment> "This property specifies a benchmark refered by another benchmark"@en .
-<http://ontology.ethereal.cz/irao/hasReferedBenchmark> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
-<http://ontology.ethereal.cz/irao/hasReferedBenchmark> <http://www.w3.org/2000/01/rdf-schema#label> "has refered benchmark"@en .
+# http://ontology.ethereal.cz/irao/hasReferredBenchmark
+<http://ontology.ethereal.cz/irao/hasReferredBenchmark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.ethereal.cz/irao/hasReferredBenchmark> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/Benchmark> .
+<http://ontology.ethereal.cz/irao/hasReferredBenchmark> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/Benchmark> .
+<http://ontology.ethereal.cz/irao/hasReferredBenchmark> <http://www.w3.org/2000/01/rdf-schema#comment> "This property specifies a benchmark referred by another benchmark"@en .
+<http://ontology.ethereal.cz/irao/hasReferredBenchmark> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
+<http://ontology.ethereal.cz/irao/hasReferredBenchmark> <http://www.w3.org/2000/01/rdf-schema#label> "has referred benchmark"@en .
 # 
 # http://ontology.ethereal.cz/irao/hasRepositoryType
 <http://ontology.ethereal.cz/irao/hasRepositoryType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
