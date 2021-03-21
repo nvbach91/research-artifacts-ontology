@@ -2,31 +2,15 @@
 <rdf:RDF xmlns="http://ontology.ethereal.cz/irao#"
      xml:base="http://ontology.ethereal.cz/irao"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:wot="http://xmlns.com/wot/0.1/"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:vann="http://purl.org/vocab/vann/"
-     xmlns:skos1="http://www.w3.org/2008/05/skos#"
-     xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:vitro="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#"
-     xmlns:statistics="http://purl.org/net/OCRe/statistics.owl#"
-     xmlns:geopolitical="http://aims.fao.org/aos/geopolitical.owl#"
-     xmlns:study_protocol="http://purl.org/net/OCRe/study_protocol.owl#">
+     xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="http://ontology.ethereal.cz/irao">
         <owl:versionIRI rdf:resource="https://w3id.org/def/InformaticsResearchArtifactsOntology"/>
-        <owl:imports rdf:resource="http://cso.kmi.open.ac.uk/schema/cso#"/>
-        <owl:imports rdf:resource="http://purl.org/dc/terms"/>
-        <owl:imports rdf:resource="http://purl.org/dc/elements/1.1"/>
-        <owl:imports rdf:resource="http://purl.org/vocab/vann/"/>
-        <owl:imports rdf:resource="http://vivoweb.org/ontology/core"/>
-        <owl:imports rdf:resource="http://xmlns.com/foaf/0.1/"/>
         <dc:contributor>Vojtěch Svátek</dc:contributor>
         <dc:creator>Nguyen Viet Bach</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-18</dc:date>
@@ -41,6 +25,7 @@
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/3.0/"/>
         <terms:publisher>Prague University of Economics and Business, Czech Republic. Faculty of Informatics and Statistics. Department of Knowledge and Information Engineering</terms:publisher>
         <vann:preferredNamespacePrefix>irao</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri>http://ontology.ethereal.cz/irao/</vann:preferredNamespaceUri>
         <rdfs:comment xml:lang="en">Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL.</rdfs:comment>
         <rdfs:label xml:lang="en">Informatics Research Artifacts Ontology</rdfs:label>
         <owl:versionInfo xml:lang="en">Version 1.1.1, Release 2021 Mar 18</owl:versionInfo>
@@ -74,6 +59,20 @@
     
 
 
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
     <!-- http://purl.org/dc/elements/1.1/publisher -->
 
 
@@ -95,6 +94,13 @@
     
 
 
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
     <!-- http://purl.org/dc/terms/abstract -->
 
 
@@ -106,6 +112,13 @@
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
     
 
 
@@ -127,6 +140,13 @@
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
     
 
 
@@ -633,6 +653,13 @@
     
 
 
+    <!-- http://cso.kmi.open.ac.uk/schema/cso#Topic -->
+
+
+    <owl:Class rdf:about="http://cso.kmi.open.ac.uk/schema/cso#Topic"/>
+    
+
+
     <!-- http://ontology.ethereal.cz/irao/API -->
 
 
@@ -1111,6 +1138,20 @@
     
 
 
+    <!-- http://vivoweb.org/ontology/core#Project -->
+
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#Project"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Person -->
+
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Person"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -1120,15 +1161,6 @@
      -->
 
 
-    
-
-
-    <!-- http://ontology.ethereal.cz/irao -->
-
-
-    <owl:NamedIndividual rdf:about="http://ontology.ethereal.cz/irao">
-        <vann:preferredNamespaceUri>http://ontology.ethereal.cz/irao/</vann:preferredNamespaceUri>
-    </owl:NamedIndividual>
     
 
 
