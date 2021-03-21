@@ -178,6 +178,14 @@
 <http://ontology.ethereal.cz/irao/hasLicenseType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/hasLicenseType> <http://www.w3.org/2000/01/rdf-schema#label> "has license type"@en .
 # 
+# http://ontology.ethereal.cz/irao/hasMaintainer
+<http://ontology.ethereal.cz/irao/hasMaintainer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.ethereal.cz/irao/hasMaintainer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/ResearchArtifact> .
+<http://ontology.ethereal.cz/irao/hasMaintainer> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/Researcher> .
+<http://ontology.ethereal.cz/irao/hasMaintainer> <http://www.w3.org/2000/01/rdf-schema#comment> "This property specifies the maintainer of a research artifact"@en .
+<http://ontology.ethereal.cz/irao/hasMaintainer> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
+<http://ontology.ethereal.cz/irao/hasMaintainer> <http://www.w3.org/2000/01/rdf-schema#label> "is maintained by"@en .
+# 
 # http://ontology.ethereal.cz/irao/hasMeasuringSystem
 <http://ontology.ethereal.cz/irao/hasMeasuringSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://ontology.ethereal.cz/irao/hasMeasuringSystem> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/Benchmark> .
@@ -328,14 +336,6 @@ _:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://ontology.ethereal.cz/irao/isFollowedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "This property specifies that a research project is followed by another research project"@en .
 <http://ontology.ethereal.cz/irao/isFollowedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
 <http://ontology.ethereal.cz/irao/isFollowedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is followed by"@en .
-# 
-# http://ontology.ethereal.cz/irao/isMaintainedBy
-<http://ontology.ethereal.cz/irao/isMaintainedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontology.ethereal.cz/irao/isMaintainedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.ethereal.cz/irao/ResearchArtifact> .
-<http://ontology.ethereal.cz/irao/isMaintainedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.ethereal.cz/irao/Researcher> .
-<http://ontology.ethereal.cz/irao/isMaintainedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "This property specifies the maintainer of a research artifact"@en .
-<http://ontology.ethereal.cz/irao/isMaintainedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.ethereal.cz/irao> .
-<http://ontology.ethereal.cz/irao/isMaintainedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is maintained by"@en .
 # 
 # http://ontology.ethereal.cz/irao/isPartOfSystem
 <http://ontology.ethereal.cz/irao/isPartOfSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .

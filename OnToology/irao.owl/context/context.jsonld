@@ -9,10 +9,6 @@
     "abstract" : {
       "@id" : "http://purl.org/dc/terms/abstract"
     },
-    "isMaintainedBy" : {
-      "@id" : "http://ontology.ethereal.cz/irao/isMaintainedBy",
-      "@type" : "@id"
-    },
     "hasReferredBenchmark" : {
       "@id" : "http://ontology.ethereal.cz/irao/hasReferredBenchmark",
       "@type" : "@id"
@@ -141,6 +137,10 @@
     },
     "hasUsedFramework" : {
       "@id" : "http://ontology.ethereal.cz/irao/hasUsedFramework",
+      "@type" : "@id"
+    },
+    "hasMaintainer" : {
+      "@id" : "http://ontology.ethereal.cz/irao/hasMaintainer",
       "@type" : "@id"
     },
     "Benchmark" : {

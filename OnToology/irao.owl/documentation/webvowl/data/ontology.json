@@ -160,10 +160,10 @@
     "id" : "27",
     "type" : "owl:Class"
   }, {
-    "id" : "80",
+    "id" : "79",
     "type" : "owl:Class"
   }, {
-    "id" : "82",
+    "id" : "81",
     "type" : "owl:Class"
   }, {
     "id" : "70",
@@ -181,7 +181,7 @@
     "id" : "71",
     "type" : "owl:Class"
   }, {
-    "id" : "86",
+    "id" : "88",
     "type" : "owl:Class"
   }, {
     "id" : "35",
@@ -205,7 +205,7 @@
     "id" : "101",
     "type" : "owl:unionOf"
   }, {
-    "id" : "74",
+    "id" : "73",
     "type" : "owl:unionOf"
   }, {
     "id" : "64",
@@ -214,10 +214,10 @@
     "id" : "6",
     "type" : "owl:Class"
   }, {
-    "id" : "98",
+    "id" : "99",
     "type" : "owl:unionOf"
   }, {
-    "id" : "99",
+    "id" : "100",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "43",
@@ -238,7 +238,7 @@
     "id" : "56",
     "type" : "owl:Class"
   }, {
-    "id" : "76",
+    "id" : "75",
     "type" : "owl:Class"
   }, {
     "id" : "24",
@@ -771,7 +771,7 @@
       "en" : "An affiliation of the author, it maybe a company or an institution"
     },
     "attributes" : [ "external" ],
-    "id" : "80"
+    "id" : "79"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/ResearchOutput",
     "baseIri" : "http://ontology.ethereal.cz/irao",
@@ -793,7 +793,7 @@
       "en" : "A research output is the result of a research project"
     },
     "attributes" : [ "external" ],
-    "id" : "82"
+    "id" : "81"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/ResearchDomain",
     "baseIri" : "http://ontology.ethereal.cz/irao",
@@ -957,7 +957,7 @@
       "en" : "A web framework is a type of software framework that is used to develop applications on the web"
     },
     "attributes" : [ "external" ],
-    "id" : "86",
+    "id" : "88",
     "superClasses" : [ "36" ]
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/OntologyDesignPattern",
@@ -1068,7 +1068,7 @@
     },
     "attributes" : [ "external" ],
     "id" : "8",
-    "superClasses" : [ "82" ]
+    "superClasses" : [ "81" ]
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/Benchmark",
     "baseIri" : "http://ontology.ethereal.cz/irao",
@@ -1100,7 +1100,7 @@
     "instances" : 0,
     "union" : [ "12", "35" ],
     "attributes" : [ "anonymous", "union" ],
-    "id" : "74"
+    "id" : "73"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
@@ -1135,11 +1135,11 @@
     "instances" : 0,
     "union" : [ "46", "8", "9" ],
     "attributes" : [ "anonymous", "union" ],
-    "id" : "98"
+    "id" : "99"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "99",
+    "id" : "100",
     "label" : {
       "IRI-based" : "anyURI"
     }
@@ -1323,7 +1323,7 @@
       "en" : "The development status of a research artifact, informing about its maturity"
     },
     "attributes" : [ "external" ],
-    "id" : "76"
+    "id" : "75"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/Methodology",
     "baseIri" : "http://ontology.ethereal.cz/irao",
@@ -1411,7 +1411,7 @@
     },
     "attributes" : [ "external" ],
     "id" : "46",
-    "superClasses" : [ "82" ]
+    "superClasses" : [ "81" ]
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/InformaticsResearchArtifact",
     "baseIri" : "http://ontology.ethereal.cz/irao",
@@ -1474,7 +1474,7 @@
       "IRI-based" : "SoftwareFramework",
       "en" : "Software Framework"
     },
-    "subClasses" : [ "41", "86" ],
+    "subClasses" : [ "41", "88" ],
     "comment" : {
       "en" : "A software framework is a type of software that provides guidelines for the development of new softwares"
     },
@@ -1582,10 +1582,10 @@
     "id" : "72",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "73",
+    "id" : "74",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "75",
+    "id" : "76",
     "type" : "owl:objectProperty"
   }, {
     "id" : "77",
@@ -1594,10 +1594,10 @@
     "id" : "78",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "79",
+    "id" : "80",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "81",
+    "id" : "82",
     "type" : "owl:objectProperty"
   }, {
     "id" : "83",
@@ -1606,10 +1606,10 @@
     "id" : "85",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "87",
+    "id" : "86",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "88",
+    "id" : "87",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "89",
@@ -1628,10 +1628,10 @@
     "type" : "owl:objectProperty"
   }, {
     "id" : "97",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "100",
     "type" : "owl:objectProperty"
+  }, {
+    "id" : "98",
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "102",
     "type" : "owl:objectProperty"
@@ -1683,12 +1683,12 @@
     "comment" : {
       "en" : "This property specifies the system which a software is part of"
     },
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "0"
   }, {
     "range" : "1",
     "domain" : "6",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "5"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/isPublishedAt",
@@ -1710,37 +1710,37 @@
     "comment" : {
       "en" : "This property specifies the repository that a research artifact is published at"
     },
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "7"
   }, {
     "range" : "1",
     "domain" : "15",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "14"
   }, {
     "range" : "19",
     "domain" : "18",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "17"
   }, {
     "range" : "19",
     "domain" : "22",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "21"
   }, {
     "range" : "19",
     "domain" : "24",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "23"
   }, {
     "range" : "19",
     "domain" : "27",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "26"
   }, {
     "range" : "19",
     "domain" : "29",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "28"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasFollowedProtocol",
@@ -1762,27 +1762,27 @@
     "comment" : {
       "en" : "This property specifies the protocol that a benchmark follows"
     },
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "30"
   }, {
     "range" : "19",
     "domain" : "4",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "33"
   }, {
     "range" : "19",
     "domain" : "35",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "34"
   }, {
     "range" : "19",
     "domain" : "20",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "37"
   }, {
     "range" : "19",
     "domain" : "1",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "38"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/isFollowedBy",
@@ -1804,7 +1804,7 @@
     "comment" : {
       "en" : "This property specifies that a research project is followed by another research project"
     },
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "39"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasVersion",
@@ -1826,12 +1826,12 @@
     "comment" : {
       "en" : "This property specifies the version of a research artifact"
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "42"
   }, {
     "range" : "46",
     "domain" : "45",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "44"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasUsedFramework",
@@ -1853,32 +1853,32 @@
     "comment" : {
       "en" : "This property specifies the framework used by a research artifact like software or system"
     },
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "47"
   }, {
     "range" : "46",
     "domain" : "50",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "49"
   }, {
     "range" : "19",
     "domain" : "31",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "51"
   }, {
     "range" : "4",
     "domain" : "10",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "52"
   }, {
     "range" : "4",
     "domain" : "3",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "53"
   }, {
     "range" : "13",
     "domain" : "12",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "54"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasDesignQuality",
@@ -1900,22 +1900,22 @@
     "comment" : {
       "en" : "This property specifies the design quality of a design"
     },
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "55"
   }, {
     "range" : "6",
     "domain" : "58",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "57"
   }, {
     "range" : "22",
     "domain" : "13",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "59"
   }, {
     "range" : "8",
     "domain" : "19",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "62"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasTopic",
@@ -1937,7 +1937,7 @@
     "comment" : {
       "en" : "This property specifies the topic of a publication"
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "63"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasMethodology",
@@ -1959,12 +1959,12 @@
     "comment" : {
       "en" : "This property specifies the methodology used by a research artifact"
     },
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "65"
   }, {
     "range" : "60",
     "domain" : "61",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "67"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasReferredBenchmark",
@@ -1986,7 +1986,7 @@
     "comment" : {
       "en" : "This property specifies a benchmark referred by another benchmark"
     },
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "68"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasDomain",
@@ -2008,30 +2008,8 @@
     "comment" : {
       "en" : "This property specifies the research domain of a research artifact"
     },
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "69"
-  }, {
-    "iri" : "http://ontology.ethereal.cz/irao/isMaintainedBy",
-    "baseIri" : "http://ontology.ethereal.cz/irao",
-    "range" : "61",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://ontology.ethereal.cz/irao",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "isMaintainedBy",
-      "en" : "is maintained by"
-    },
-    "domain" : "8",
-    "comment" : {
-      "en" : "This property specifies the maintainer of a research artifact"
-    },
-    "attributes" : [ "object", "external" ],
-    "id" : "72"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasUsedOntologyDesignPattern",
     "baseIri" : "http://ontology.ethereal.cz/irao",
@@ -2048,16 +2026,16 @@
       "IRI-based" : "hasUsedOntologyDesignPattern",
       "en" : "has used ontology design pattern"
     },
-    "domain" : "74",
+    "domain" : "73",
     "comment" : {
       "en" : "This property specifies the ontology design pattern of an ontology or another ontology design pattern"
     },
-    "attributes" : [ "object", "external" ],
-    "id" : "73"
+    "attributes" : [ "external", "object" ],
+    "id" : "72"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasDevelopmentStatus",
     "baseIri" : "http://ontology.ethereal.cz/irao",
-    "range" : "76",
+    "range" : "75",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -2074,8 +2052,8 @@
     "comment" : {
       "en" : "This property specifies the development status of a research artifact"
     },
-    "attributes" : [ "object", "external" ],
-    "id" : "75"
+    "attributes" : [ "external", "object" ],
+    "id" : "74"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasRepositoryType",
     "baseIri" : "http://ontology.ethereal.cz/irao",
@@ -2096,8 +2074,8 @@
     "comment" : {
       "en" : "This property specifies the repository type of a research artifact repository"
     },
-    "attributes" : [ "object", "external" ],
-    "id" : "77"
+    "attributes" : [ "external", "object" ],
+    "id" : "76"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasPublication",
     "baseIri" : "http://ontology.ethereal.cz/irao",
@@ -2118,8 +2096,8 @@
     "comment" : {
       "en" : "This property specifies the publication of a research artifact"
     },
-    "attributes" : [ "object", "external" ],
-    "id" : "78"
+    "attributes" : [ "external", "object" ],
+    "id" : "77"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasAuthor",
     "baseIri" : "http://ontology.ethereal.cz/irao",
@@ -2140,12 +2118,12 @@
     "comment" : {
       "en" : "This property specifies the author of a research artifact"
     },
-    "attributes" : [ "object", "external" ],
-    "id" : "79"
+    "attributes" : [ "external", "object" ],
+    "id" : "78"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasResearchOutput",
     "baseIri" : "http://ontology.ethereal.cz/irao",
-    "range" : "82",
+    "range" : "81",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -2162,8 +2140,30 @@
     "comment" : {
       "en" : "This property specifies the research output of a research project"
     },
-    "attributes" : [ "object", "external" ],
-    "id" : "81"
+    "attributes" : [ "external", "object" ],
+    "id" : "80"
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/hasMaintainer",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "range" : "61",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasMaintainer",
+      "en" : "is maintained by"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "This property specifies the maintainer of a research artifact"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "82"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasAccessibility",
     "baseIri" : "http://ontology.ethereal.cz/irao",
@@ -2184,27 +2184,27 @@
     "comment" : {
       "en" : "This property specifies the accessibility of a research artifact"
     },
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "83"
   }, {
-    "range" : "36",
-    "domain" : "86",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "81",
+    "domain" : "8",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "85"
+  }, {
+    "range" : "81",
+    "domain" : "46",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "86"
+  }, {
+    "range" : "36",
+    "domain" : "88",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "87"
   }, {
     "range" : "36",
     "domain" : "41",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "87"
-  }, {
-    "range" : "82",
-    "domain" : "8",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "88"
-  }, {
-    "range" : "82",
-    "domain" : "46",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "89"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasLicenseType",
@@ -2226,7 +2226,7 @@
     "comment" : {
       "en" : "This property specifies the type of a license"
     },
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "90"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/isUsedBy",
@@ -2248,7 +2248,7 @@
     "comment" : {
       "en" : "This property specifies that a research artifact is used by another research artifact"
     },
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "92"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasMeasuringSystem",
@@ -2270,7 +2270,7 @@
     "comment" : {
       "en" : "This property specifies a system that measures a benchmark"
     },
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "95"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/isDescribedBy",
@@ -2292,30 +2292,8 @@
     "comment" : {
       "en" : "This property specifies the data model of a dataset"
     },
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "96"
-  }, {
-    "iri" : "http://ontology.ethereal.cz/irao/hasURL",
-    "baseIri" : "http://ontology.ethereal.cz/irao",
-    "range" : "99",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://ontology.ethereal.cz/irao",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "hasURL",
-      "en" : "has URL"
-    },
-    "domain" : "98",
-    "comment" : {
-      "en" : "This property specifies the resource URL of a publication, repository or research artifact"
-    },
-    "attributes" : [ "datatype", "external" ],
-    "id" : "97"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasField",
     "baseIri" : "http://ontology.ethereal.cz/irao",
@@ -2336,12 +2314,12 @@
     "comment" : {
       "en" : "This property specifies the research field of a research artifact"
     },
-    "attributes" : [ "object", "external" ],
-    "id" : "100"
+    "attributes" : [ "external", "object" ],
+    "id" : "97"
   }, {
-    "iri" : "http://ontology.ethereal.cz/irao/hasAffiliation",
+    "iri" : "http://ontology.ethereal.cz/irao/hasURL",
     "baseIri" : "http://ontology.ethereal.cz/irao",
-    "range" : "80",
+    "range" : "100",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -2351,15 +2329,15 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "hasAffiliation",
-      "en" : "has affiliation"
+      "IRI-based" : "hasURL",
+      "en" : "has URL"
     },
-    "domain" : "61",
+    "domain" : "99",
     "comment" : {
-      "en" : "This property specifies the affiliation of a researcher"
+      "en" : "This property specifies the resource URL of a publication, repository or research artifact"
     },
-    "attributes" : [ "object", "external" ],
-    "id" : "102"
+    "attributes" : [ "external", "datatype" ],
+    "id" : "98"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasDesign",
     "baseIri" : "http://ontology.ethereal.cz/irao",
@@ -2380,7 +2358,29 @@
     "comment" : {
       "en" : "This property specifies the design of a research artifact"
     },
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "102"
+  }, {
+    "iri" : "http://ontology.ethereal.cz/irao/hasAffiliation",
+    "baseIri" : "http://ontology.ethereal.cz/irao",
+    "range" : "79",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontology.ethereal.cz/irao",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasAffiliation",
+      "en" : "has affiliation"
+    },
+    "domain" : "61",
+    "comment" : {
+      "en" : "This property specifies the affiliation of a researcher"
+    },
+    "attributes" : [ "external", "object" ],
     "id" : "103"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasProducedDataset",
@@ -2402,17 +2402,17 @@
     "comment" : {
       "en" : "This property specifies the dataset which us produced by a benchmark"
     },
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "104"
   }, {
     "range" : "29",
     "domain" : "36",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "105"
   }, {
     "range" : "71",
     "domain" : "40",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "106"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasLicense",
@@ -2434,7 +2434,7 @@
     "comment" : {
       "en" : "This property specifies the license of a research artifact"
     },
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "107"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasFramework",
@@ -2456,7 +2456,7 @@
     "comment" : {
       "en" : "This property specifies the framework used by a software"
     },
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "108"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasResearchArea",
@@ -2478,7 +2478,7 @@
     "comment" : {
       "en" : "This property specifies the research area of a research artifact"
     },
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "109"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasUsedMethodology",
@@ -2500,7 +2500,7 @@
     "comment" : {
       "en" : "This property specifies the methodology used in a research artifact like framework or dataset"
     },
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "110"
   }, {
     "iri" : "http://ontology.ethereal.cz/irao/hasOpenStandard",
@@ -2522,7 +2522,7 @@
     "comment" : {
       "en" : "This property specifies the open standard used by a research artifact"
     },
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "111"
   } ]
 }
