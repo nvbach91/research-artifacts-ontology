@@ -24,12 +24,12 @@
      xmlns:study_protocol="http://purl.org/net/OCRe/study_protocol.owl#">
     <owl:Ontology rdf:about="http://ontology.ethereal.cz/irao">
         <owl:versionIRI rdf:resource="https://w3id.org/def/InformaticsResearchArtifactsOntology"/>
-        <!-- owl:imports rdf:resource="http://cso.kmi.open.ac.uk/schema/cso#"/ -->
-        <!-- owl:imports rdf:resource="http://purl.org/dc/terms"/ -->
-        <!-- owl:imports rdf:resource="http://purl.org/dc/elements/1.1"/ -->
-        <!-- owl:imports rdf:resource="http://purl.org/vocab/vann/"/ -->
-        <!-- owl:imports rdf:resource="http://vivoweb.org/ontology/core"/ -->
-        <!-- owl:imports rdf:resource="http://xmlns.com/foaf/0.1/"/ -->
+        <owl:imports rdf:resource="http://cso.kmi.open.ac.uk/schema/cso#"/>
+        <owl:imports rdf:resource="http://purl.org/dc/terms"/>
+        <owl:imports rdf:resource="http://purl.org/dc/elements/1.1"/>
+        <owl:imports rdf:resource="http://purl.org/vocab/vann/"/>
+        <owl:imports rdf:resource="http://vivoweb.org/ontology/core"/>
+        <owl:imports rdf:resource="http://xmlns.com/foaf/0.1/"/>
         <dc:contributor>Vojtěch Svátek</dc:contributor>
         <dc:creator>Nguyen Viet Bach</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-18</dc:date>
