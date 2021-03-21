@@ -97,6 +97,13 @@ This section provides details for each class and property defined by Informatics
          <a href="#/ResearchField" title="http://ontology.ethereal.cz/irao/ResearchField">Research Field</a>
       </li>
       <li>
+         <a href="#/ResearchOutput" title="http://ontology.ethereal.cz/irao/ResearchOutput">Research output</a>
+      </li>
+      <li>
+         <a href="#/ResearchProject"
+            title="http://ontology.ethereal.cz/irao/ResearchProject">Research project</a>
+      </li>
+      <li>
          <a href="#/Researcher" title="http://ontology.ethereal.cz/irao/Researcher">Researcher</a>
       </li>
       <li>
@@ -136,6 +143,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/Accessibility</p>
+      <div class="comment">
+         <span class="markdown">A research artifact can be made accessible via download or some kind of API, etc.</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -170,6 +180,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/Affiliation</p>
+      <div class="comment">
+         <span class="markdown">An affiliation of the author, it maybe a company or an institution</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -191,6 +204,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/AnnotatedDataset</p>
+      <div class="comment">
+         <span class="markdown">A dataset which was processed for AI or machine learning</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -212,6 +228,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/API</p>
+      <div class="comment">
+         <span class="markdown">An API is a type of service-based research artifact</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -233,6 +252,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/ApplicationFramework</p>
+      <div class="comment">
+         <span class="markdown">A framework that is used by applications</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -255,6 +277,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/Benchmark</p>
+      <div class="comment">
+         <span class="markdown">A benchmark is a type of comparison and measuring with metrics, producing datasets and algorithms for comprehensive and systematic evaluation of existing and future systems</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -270,17 +295,20 @@ This section provides details for each class and property defined by Informatics
          </dd>
          <dt>is in domain of</dt>
          <dd>
-            <a href="#/hasProtocol" title="http://ontology.ethereal.cz/irao/hasProtocol">has protocol</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#/measuresSystem" title="http://ontology.ethereal.cz/irao/measuresSystem">measures system</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#/producesDataset" title="http://ontology.ethereal.cz/irao/producesDataset">produces dataset</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#/refersToBenchmark"
-               title="http://ontology.ethereal.cz/irao/refersToBenchmark">refers to benchmark</a>
+            <a href="#/hasFollowedProtocol"
+               title="http://ontology.ethereal.cz/irao/hasFollowedProtocol">has followed protocol</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasMeasuringSystem"
+               title="http://ontology.ethereal.cz/irao/hasMeasuringSystem">has measuring system</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasProducedDataset"
+               title="http://ontology.ethereal.cz/irao/hasProducedDataset">has produced dataset</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasReferedBenchmark"
+               title="http://ontology.ethereal.cz/irao/hasReferedBenchmark">has refered benchmark</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
          <dt>is in range of</dt>
          <dd>
-            <a href="#/refersToBenchmark"
-               title="http://ontology.ethereal.cz/irao/refersToBenchmark">refers to benchmark</a>
+            <a href="#/hasReferedBenchmark"
+               title="http://ontology.ethereal.cz/irao/hasReferedBenchmark">has refered benchmark</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
@@ -292,6 +320,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/ConferencePaper</p>
+      <div class="comment">
+         <span class="markdown">A paper or article published at a scientific conference</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -313,6 +344,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/DataModel</p>
+      <div class="comment">
+         <span class="markdown">A data model such as schema and ontologies</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -344,6 +378,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/Dataset</p>
+      <div class="comment">
+         <span class="markdown">A dataset containing the gathered or generated data about some topic</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -372,7 +409,8 @@ This section provides details for each class and property defined by Informatics
          </dd>
          <dt>is in range of</dt>
          <dd>
-            <a href="#/producesDataset" title="http://ontology.ethereal.cz/irao/producesDataset">produces dataset</a>
+            <a href="#/hasProducedDataset"
+               title="http://ontology.ethereal.cz/irao/hasProducedDataset">has produced dataset</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
@@ -384,6 +422,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/Design</p>
+      <div class="comment">
+         <span class="markdown">A plan or specification for the construction or production of a research artifact</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -397,6 +438,12 @@ This section provides details for each class and property defined by Informatics
                title="http://ontology.ethereal.cz/irao/InformaticsResearchArtifact">Informatics Research Artifact</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#/hasDesignQuality"
+               title="http://ontology.ethereal.cz/irao/hasDesignQuality">has design quality</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
       </dl>
    </div>
    <div class="entity" id="/DesignQuality">
@@ -406,6 +453,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/DesignQuality</p>
+      <div class="comment">
+         <span class="markdown">A design quality involves the usage of recommended standards, protocols, frameworks, methodologies</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -415,7 +465,8 @@ This section provides details for each class and property defined by Informatics
       <dl class="description">
          <dt>is in range of</dt>
          <dd>
-            <a href="#/hasDesignQuality"
+            <a href="#/hasDesign" title="http://ontology.ethereal.cz/irao/hasDesign">has design</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasDesignQuality"
                title="http://ontology.ethereal.cz/irao/hasDesignQuality">has design quality</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
@@ -436,6 +487,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/DevelopmentStatus</p>
+      <div class="comment">
+         <span class="markdown">The development status of a research artifact, informing about its maturity</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -468,6 +522,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/Framework</p>
+      <div class="comment">
+         <span class="markdown">The framework is a type of an informatics research artifact</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -490,7 +547,8 @@ This section provides details for each class and property defined by Informatics
          <dt>is in range of</dt>
          <dd>
             <a href="#/hasFramework" title="http://ontology.ethereal.cz/irao/hasFramework">has framework</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#/usesFramework" title="http://ontology.ethereal.cz/irao/usesFramework">uses framework</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasUsedFramework"
+               title="http://ontology.ethereal.cz/irao/hasUsedFramework">has used framework</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
@@ -502,6 +560,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/InformaticsResearchArtifact</p>
+      <div class="comment">
+         <span class="markdown">An informatics research artifact is a research artifact in the informatics field</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -539,6 +600,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/License</p>
+      <div class="comment">
+         <span class="markdown">A license authorizes the use, performace, or release of a research artifact</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -565,6 +629,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/LicenseType</p>
+      <div class="comment">
+         <span class="markdown">The type of a license</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -586,6 +653,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/Methodology</p>
+      <div class="comment">
+         <span class="markdown">Methodology is a type of research artifact</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -602,7 +672,8 @@ This section provides details for each class and property defined by Informatics
          <dt>is in range of</dt>
          <dd>
             <a href="#/hasMethodology" title="http://ontology.ethereal.cz/irao/hasMethodology">has methodology</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#/usesMethodology" title="http://ontology.ethereal.cz/irao/usesMethodology">uses methodology</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasUsedMethodology"
+               title="http://ontology.ethereal.cz/irao/hasUsedMethodology">has used methodology</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
@@ -614,6 +685,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/Middleware</p>
+      <div class="comment">
+         <span class="markdown">A middleware is a type of software that is used to connect software components in to a system</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -623,8 +697,7 @@ This section provides details for each class and property defined by Informatics
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
-            <a href="#/SoftwareFramework"
-               title="http://ontology.ethereal.cz/irao/SoftwareFramework">Software Framework</a>
+            <a href="#/Software" title="http://ontology.ethereal.cz/irao/Software">Software</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
@@ -636,6 +709,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/Model</p>
+      <div class="comment">
+         <span class="markdown">A model is a type of research artifact that can be used to describe other artifacts such as a dataset or a software</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -663,6 +739,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/Ontology</p>
+      <div class="comment">
+         <span class="markdown">An ontology is a type of data model used to describe linked datasets</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -684,6 +763,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/OntologyDesignPattern</p>
+      <div class="comment">
+         <span class="markdown">An ontology design pattern is a pattern used in designing ontologies</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -699,8 +781,8 @@ This section provides details for each class and property defined by Informatics
          </dd>
          <dt>is in range of</dt>
          <dd>
-            <a href="#/usesOntologyDesignPattern"
-               title="http://ontology.ethereal.cz/irao/usesOntologyDesignPattern">uses ontology design pattern</a>
+            <a href="#/hasUsedOntologyDesignPattern"
+               title="http://ontology.ethereal.cz/irao/hasUsedOntologyDesignPattern">has used ontology design pattern</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
@@ -712,6 +794,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/OpenStandard</p>
+      <div class="comment">
+         <span class="markdown">A open standard is a standard used to provide guidelines for the development and operations of artifacts and systems</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -748,7 +833,7 @@ This section provides details for each class and property defined by Informatics
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/Protocol</p>
       <div class="comment">
-         <span class="markdown">Protocol</span>
+         <span class="markdown">A protocol is used to provide guidelines to execute certain tasks</span>
       </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
@@ -759,7 +844,8 @@ This section provides details for each class and property defined by Informatics
       <dl class="description">
          <dt>is in range of</dt>
          <dd>
-            <a href="#/hasProtocol" title="http://ontology.ethereal.cz/irao/hasProtocol">has protocol</a>
+            <a href="#/hasFollowedProtocol"
+               title="http://ontology.ethereal.cz/irao/hasFollowedProtocol">has followed protocol</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
@@ -771,6 +857,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/Publication</p>
+      <div class="comment">
+         <span class="markdown">A publication makes content and research results available to the general public via publication venues such as journals, books, websites, etc.</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -778,6 +867,11 @@ This section provides details for each class and property defined by Informatics
          </dd>
       </dl>
       <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#/ResearchOutput" title="http://ontology.ethereal.cz/irao/ResearchOutput">Research output</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
          <dt>has sub-classes</dt>
          <dd>
             <a href="#/ConferencePaper" title="http://ontology.ethereal.cz/irao/ConferencePaper">Conference paper</a>
@@ -791,7 +885,7 @@ This section provides details for each class and property defined by Informatics
          </dd>
          <dt>is in range of</dt>
          <dd>
-            <a href="#/hasPublication" title="http://ontology.ethereal.cz/irao/hasPublication">has publication or is mentioned in publication</a>
+            <a href="#/hasPublication" title="http://ontology.ethereal.cz/irao/hasPublication">has publication</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
@@ -803,6 +897,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/Repository</p>
+      <div class="comment">
+         <span class="markdown">A repository is an online storage for the deposit of research artifacts such as datasets and vocabularies</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -830,6 +927,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/RepositoryType</p>
+      <div class="comment">
+         <span class="markdown">A repository type can be a knowledge base, knowledge graph, version control hosting, etc.</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -860,6 +960,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/ResearchArtifact</p>
+      <div class="comment">
+         <span class="markdown">A research artifact is a direct output or result of a research project</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -867,6 +970,11 @@ This section provides details for each class and property defined by Informatics
          </dd>
       </dl>
       <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#/ResearchOutput" title="http://ontology.ethereal.cz/irao/ResearchOutput">Research output</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
          <dt>has sub-classes</dt>
          <dd>
             <a href="#/InformaticsResearchArtifact"
@@ -878,15 +986,14 @@ This section provides details for each class and property defined by Informatics
             <a href="#/hasAccessibility"
                title="http://ontology.ethereal.cz/irao/hasAccessibility">has accessibility</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#/hasAuthor" title="http://ontology.ethereal.cz/irao/hasAuthor">has author</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#/hasDesignQuality"
-               title="http://ontology.ethereal.cz/irao/hasDesignQuality">has design quality</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasDesign" title="http://ontology.ethereal.cz/irao/hasDesign">has design</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#/hasDevelopmentStatus"
                title="http://ontology.ethereal.cz/irao/hasDevelopmentStatus">has development status</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#/hasDomain" title="http://ontology.ethereal.cz/irao/hasDomain">has domain</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#/hasField" title="http://ontology.ethereal.cz/irao/hasField">has field</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#/hasLicense" title="http://ontology.ethereal.cz/irao/hasLicense">has license</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#/hasOpenStandard" title="http://ontology.ethereal.cz/irao/hasOpenStandard">has open standard</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#/hasPublication" title="http://ontology.ethereal.cz/irao/hasPublication">has publication or is mentioned in publication</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasPublication" title="http://ontology.ethereal.cz/irao/hasPublication">has publication</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#/hasResearchArea" title="http://ontology.ethereal.cz/irao/hasResearchArea">has research area</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#/hasVersion" title="http://ontology.ethereal.cz/irao/hasVersion">has version</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#/isMaintainedBy" title="http://ontology.ethereal.cz/irao/isMaintainedBy">is maintained by</a>
@@ -908,6 +1015,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/ResearchDomain</p>
+      <div class="comment">
+         <span class="markdown">A research domain is the domain of interest of a research project</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -929,6 +1039,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/ResearchField</p>
+      <div class="comment">
+         <span class="markdown">A research field is the field of interest of a research project</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -943,6 +1056,75 @@ This section provides details for each class and property defined by Informatics
          </dd>
       </dl>
    </div>
+   <div class="entity" id="/ResearchOutput">
+      <h3>Research output<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://ontology.ethereal.cz/irao/ResearchOutput</p>
+      <div class="comment">
+         <span class="markdown">A research output is the result of a research project</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://ontology.ethereal.cz/irao">http://ontology.ethereal.cz/irao</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#/Publication" title="http://ontology.ethereal.cz/irao/Publication">Publication</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#/ResearchArtifact"
+               title="http://ontology.ethereal.cz/irao/ResearchArtifact">Research Artifact</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasResearchOutput"
+               title="http://ontology.ethereal.cz/irao/hasResearchOutput">has research output</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/ResearchProject">
+      <h3>Research project<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://ontology.ethereal.cz/irao/ResearchProject</p>
+      <div class="comment">
+         <span class="markdown">A research project is a project within the research domain with the endeavor of achieving scientific results</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://ontology.ethereal.cz/irao">http://ontology.ethereal.cz/irao</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="http://vivoweb.org/ontology/core#Project"
+               target="_blank"
+               title="http://vivoweb.org/ontology/core#Project">project</a>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#/hasResearchOutput"
+               title="http://ontology.ethereal.cz/irao/hasResearchOutput">has research output</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/isFollowedBy" title="http://ontology.ethereal.cz/irao/isFollowedBy">is followed by</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/isFollowedBy" title="http://ontology.ethereal.cz/irao/isFollowedBy">is followed by</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
    <div class="entity" id="/Researcher">
       <h3>Researcher<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
@@ -950,6 +1132,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/Researcher</p>
+      <div class="comment">
+         <span class="markdown">A researcher is a person doing research</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -982,6 +1167,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/Service</p>
+      <div class="comment">
+         <span class="markdown">A service is a type of software that provides e.g. data or some type of functionalities</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -1008,6 +1196,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/Software</p>
+      <div class="comment">
+         <span class="markdown">A software is a type of informatics research artifact</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -1023,7 +1214,8 @@ This section provides details for each class and property defined by Informatics
          </dd>
          <dt>has sub-classes</dt>
          <dd>
-            <a href="#/Service" title="http://ontology.ethereal.cz/irao/Service">Service</a>
+            <a href="#/Middleware" title="http://ontology.ethereal.cz/irao/Middleware">Middleware</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#/Service" title="http://ontology.ethereal.cz/irao/Service">Service</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
          <dt>is in domain of</dt>
@@ -1041,6 +1233,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/SoftwareFramework</p>
+      <div class="comment">
+         <span class="markdown">A software framework is a type of software that provides guidelines for the development of new softwares</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -1057,7 +1252,6 @@ This section provides details for each class and property defined by Informatics
          <dd>
             <a href="#/ApplicationFramework"
                title="http://ontology.ethereal.cz/irao/ApplicationFramework">Application Framework</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#/Middleware" title="http://ontology.ethereal.cz/irao/Middleware">Middleware</a>
             <sup class="type-c" title="class">c</sup>, <a href="#/WebFramework" title="http://ontology.ethereal.cz/irao/WebFramework">Web Framework</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
@@ -1070,6 +1264,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/SyntheticDataset</p>
+      <div class="comment">
+         <span class="markdown">Synthetic datasets are generated through computer programs, instead of being composed through the documentation of real-world events</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -1091,6 +1288,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/System</p>
+      <div class="comment">
+         <span class="markdown">A system is a group of interacting or interrelated informatics components that form a unified whole</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -1100,8 +1300,9 @@ This section provides details for each class and property defined by Informatics
       <dl class="description">
          <dt>is in range of</dt>
          <dd>
-            <a href="#/isPartOfSystem" title="http://ontology.ethereal.cz/irao/isPartOfSystem">is part of system</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#/measuresSystem" title="http://ontology.ethereal.cz/irao/measuresSystem">measures system</a>
+            <a href="#/hasMeasuringSystem"
+               title="http://ontology.ethereal.cz/irao/hasMeasuringSystem">has measuring system</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/isPartOfSystem" title="http://ontology.ethereal.cz/irao/isPartOfSystem">is part of system</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
@@ -1113,6 +1314,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/Thesis</p>
+      <div class="comment">
+         <span class="markdown">A thesis as a type of scientific or academic publication or dissertation is a document submitted in support of candidature for an academic degree or professional qualification presenting the author's research and findings</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -1134,6 +1338,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/Vocabulary</p>
+      <div class="comment">
+         <span class="markdown">A vocabulary is used to provide a range of commonly used terms and their definitions</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -1156,6 +1363,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/WebFramework</p>
+      <div class="comment">
+         <span class="markdown">A web framework is a type of software framework that is used to develop applications on the web</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -1178,6 +1388,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/Workflow</p>
+      <div class="comment">
+         <span class="markdown">A workflow is a sequence of interrelated, orchestrated and repeatable tasks</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -1207,6 +1420,9 @@ This section provides details for each class and property defined by Informatics
          <a href="#/hasAuthor" title="http://ontology.ethereal.cz/irao/hasAuthor">has author</a>
       </li>
       <li>
+         <a href="#/hasDesign" title="http://ontology.ethereal.cz/irao/hasDesign">has design</a>
+      </li>
+      <li>
          <a href="#/hasDesignQuality"
             title="http://ontology.ethereal.cz/irao/hasDesignQuality">has design quality</a>
       </li>
@@ -1221,6 +1437,10 @@ This section provides details for each class and property defined by Informatics
          <a href="#/hasField" title="http://ontology.ethereal.cz/irao/hasField">has field</a>
       </li>
       <li>
+         <a href="#/hasFollowedProtocol"
+            title="http://ontology.ethereal.cz/irao/hasFollowedProtocol">has followed protocol</a>
+      </li>
+      <li>
          <a href="#/hasFramework" title="http://ontology.ethereal.cz/irao/hasFramework">has framework</a>
       </li>
       <li>
@@ -1230,16 +1450,25 @@ This section provides details for each class and property defined by Informatics
          <a href="#/hasLicenseType" title="http://ontology.ethereal.cz/irao/hasLicenseType">has license type</a>
       </li>
       <li>
+         <a href="#/hasMeasuringSystem"
+            title="http://ontology.ethereal.cz/irao/hasMeasuringSystem">has measuring system</a>
+      </li>
+      <li>
          <a href="#/hasMethodology" title="http://ontology.ethereal.cz/irao/hasMethodology">has methodology</a>
       </li>
       <li>
          <a href="#/hasOpenStandard" title="http://ontology.ethereal.cz/irao/hasOpenStandard">has open standard</a>
       </li>
       <li>
-         <a href="#/hasProtocol" title="http://ontology.ethereal.cz/irao/hasProtocol">has protocol</a>
+         <a href="#/hasProducedDataset"
+            title="http://ontology.ethereal.cz/irao/hasProducedDataset">has produced dataset</a>
       </li>
       <li>
-         <a href="#/hasPublication" title="http://ontology.ethereal.cz/irao/hasPublication">has publication or is mentioned in publication</a>
+         <a href="#/hasPublication" title="http://ontology.ethereal.cz/irao/hasPublication">has publication</a>
+      </li>
+      <li>
+         <a href="#/hasReferedBenchmark"
+            title="http://ontology.ethereal.cz/irao/hasReferedBenchmark">has refered benchmark</a>
       </li>
       <li>
          <a href="#/hasRepositoryType"
@@ -1249,7 +1478,26 @@ This section provides details for each class and property defined by Informatics
          <a href="#/hasResearchArea" title="http://ontology.ethereal.cz/irao/hasResearchArea">has research area</a>
       </li>
       <li>
+         <a href="#/hasResearchOutput"
+            title="http://ontology.ethereal.cz/irao/hasResearchOutput">has research output</a>
+      </li>
+      <li>
+         <a href="#/hasUsedFramework"
+            title="http://ontology.ethereal.cz/irao/hasUsedFramework">has used framework</a>
+      </li>
+      <li>
+         <a href="#/hasUsedMethodology"
+            title="http://ontology.ethereal.cz/irao/hasUsedMethodology">has used methodology</a>
+      </li>
+      <li>
+         <a href="#/hasUsedOntologyDesignPattern"
+            title="http://ontology.ethereal.cz/irao/hasUsedOntologyDesignPattern">has used ontology design pattern</a>
+      </li>
+      <li>
          <a href="#/isDescribedBy" title="http://ontology.ethereal.cz/irao/isDescribedBy">is described by</a>
+      </li>
+      <li>
+         <a href="#/isFollowedBy" title="http://ontology.ethereal.cz/irao/isFollowedBy">is followed by</a>
       </li>
       <li>
          <a href="#/isMaintainedBy" title="http://ontology.ethereal.cz/irao/isMaintainedBy">is maintained by</a>
@@ -1263,26 +1511,6 @@ This section provides details for each class and property defined by Informatics
       <li>
          <a href="#/isUsedBy" title="http://ontology.ethereal.cz/irao/isUsedBy">is used by</a>
       </li>
-      <li>
-         <a href="#/measuresSystem" title="http://ontology.ethereal.cz/irao/measuresSystem">measures system</a>
-      </li>
-      <li>
-         <a href="#/producesDataset" title="http://ontology.ethereal.cz/irao/producesDataset">produces dataset</a>
-      </li>
-      <li>
-         <a href="#/refersToBenchmark"
-            title="http://ontology.ethereal.cz/irao/refersToBenchmark">refers to benchmark</a>
-      </li>
-      <li>
-         <a href="#/usesFramework" title="http://ontology.ethereal.cz/irao/usesFramework">uses framework</a>
-      </li>
-      <li>
-         <a href="#/usesMethodology" title="http://ontology.ethereal.cz/irao/usesMethodology">uses methodology</a>
-      </li>
-      <li>
-         <a href="#/usesOntologyDesignPattern"
-            title="http://ontology.ethereal.cz/irao/usesOntologyDesignPattern">uses ontology design pattern</a>
-      </li>
    </ul>
    <div class="entity" id="/hasAccessibility">
       <h3>has accessibility<sup class="type-op" title="object property">op</sup>
@@ -1291,6 +1519,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/hasAccessibility</p>
+      <div class="comment">
+         <span class="markdown">This property specifies the accessibility of a research artifact</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -1320,6 +1551,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/hasAffiliation</p>
+      <div class="comment">
+         <span class="markdown">This property specifies the affiliation of a researcher</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -1348,6 +1582,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/hasAuthor</p>
+      <div class="comment">
+         <span class="markdown">This property specifies the author of a research artifact</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -1371,13 +1608,16 @@ This section provides details for each class and property defined by Informatics
          </dl>
       </div>
    </div>
-   <div class="entity" id="/hasDesignQuality">
-      <h3>has design quality<sup class="type-op" title="object property">op</sup>
+   <div class="entity" id="/hasDesign">
+      <h3>has design<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://ontology.ethereal.cz/irao/hasDesignQuality</p>
+         <strong>IRI:</strong> http://ontology.ethereal.cz/irao/hasDesign</p>
+      <div class="comment">
+         <span class="markdown">This property specifies the design of a research artifact</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -1400,6 +1640,37 @@ This section provides details for each class and property defined by Informatics
          </dl>
       </div>
    </div>
+   <div class="entity" id="/hasDesignQuality">
+      <h3>has design quality<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://ontology.ethereal.cz/irao/hasDesignQuality</p>
+      <div class="comment">
+         <span class="markdown">This property specifies the design quality of a design</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://ontology.ethereal.cz/irao">http://ontology.ethereal.cz/irao</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Design" title="http://ontology.ethereal.cz/irao/Design">Design</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/DesignQuality" title="http://ontology.ethereal.cz/irao/DesignQuality">Design quality</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
    <div class="entity" id="/hasDevelopmentStatus">
       <h3>has development status<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
@@ -1407,6 +1678,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/hasDevelopmentStatus</p>
+      <div class="comment">
+         <span class="markdown">This property specifies the development status of a research artifact</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -1437,6 +1711,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/hasDomain</p>
+      <div class="comment">
+         <span class="markdown">This property specifies the research domain of a research artifact</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -1466,6 +1743,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/hasField</p>
+      <div class="comment">
+         <span class="markdown">This property specifies the research field of a research artifact</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -1488,6 +1768,37 @@ This section provides details for each class and property defined by Informatics
          </dl>
       </div>
    </div>
+   <div class="entity" id="/hasFollowedProtocol">
+      <h3>has followed protocol<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://ontology.ethereal.cz/irao/hasFollowedProtocol</p>
+      <div class="comment">
+         <span class="markdown">This property specifies the protocol that a benchmark follows</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://ontology.ethereal.cz/irao">http://ontology.ethereal.cz/irao</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Benchmark" title="http://ontology.ethereal.cz/irao/Benchmark">Benchmark</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/Protocol" title="http://ontology.ethereal.cz/irao/Protocol">Protocol</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
    <div class="entity" id="/hasFramework">
       <h3>has framework<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
@@ -1495,6 +1806,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/hasFramework</p>
+      <div class="comment">
+         <span class="markdown">This property specifies the framework used by a software</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -1523,6 +1837,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/hasLicense</p>
+      <div class="comment">
+         <span class="markdown">This property specifies the license of a research artifact</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -1552,6 +1869,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/hasLicenseType</p>
+      <div class="comment">
+         <span class="markdown">This property specifies the type of a license</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -1573,6 +1893,37 @@ This section provides details for each class and property defined by Informatics
          </dl>
       </div>
    </div>
+   <div class="entity" id="/hasMeasuringSystem">
+      <h3>has measuring system<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://ontology.ethereal.cz/irao/hasMeasuringSystem</p>
+      <div class="comment">
+         <span class="markdown">This property specifies a system that measures a benchmark</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://ontology.ethereal.cz/irao">http://ontology.ethereal.cz/irao</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Benchmark" title="http://ontology.ethereal.cz/irao/Benchmark">Benchmark</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/System" title="http://ontology.ethereal.cz/irao/System">System</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
    <div class="entity" id="/hasMethodology">
       <h3>has methodology<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
@@ -1580,6 +1931,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/hasMethodology</p>
+      <div class="comment">
+         <span class="markdown">This property specifies the methodology used by a research artifact</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -1614,6 +1968,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/hasOpenStandard</p>
+      <div class="comment">
+         <span class="markdown">This property specifies the open standard used by a research artifact</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -1636,13 +1993,16 @@ This section provides details for each class and property defined by Informatics
          </dl>
       </div>
    </div>
-   <div class="entity" id="/hasProtocol">
-      <h3>has protocol<sup class="type-op" title="object property">op</sup>
+   <div class="entity" id="/hasProducedDataset">
+      <h3>has produced dataset<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://ontology.ethereal.cz/irao/hasProtocol</p>
+         <strong>IRI:</strong> http://ontology.ethereal.cz/irao/hasProducedDataset</p>
+      <div class="comment">
+         <span class="markdown">This property specifies the dataset which us produced by a benchmark</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -1658,19 +2018,22 @@ This section provides details for each class and property defined by Informatics
             </dd>
             <dt>has range</dt>
             <dd>
-               <a href="#/Protocol" title="http://ontology.ethereal.cz/irao/Protocol">Protocol</a>
+               <a href="#/Dataset" title="http://ontology.ethereal.cz/irao/Dataset">Dataset</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
       </div>
    </div>
    <div class="entity" id="/hasPublication">
-      <h3>has publication or is mentioned in publication<sup class="type-op" title="object property">op</sup>
+      <h3>has publication<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
          </span>
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/hasPublication</p>
+      <div class="comment">
+         <span class="markdown">This property specifies the publication of a research artifact</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -1693,6 +2056,37 @@ This section provides details for each class and property defined by Informatics
          </dl>
       </div>
    </div>
+   <div class="entity" id="/hasReferedBenchmark">
+      <h3>has refered benchmark<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://ontology.ethereal.cz/irao/hasReferedBenchmark</p>
+      <div class="comment">
+         <span class="markdown">This property specifies a benchmark refered by another benchmark</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://ontology.ethereal.cz/irao">http://ontology.ethereal.cz/irao</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Benchmark" title="http://ontology.ethereal.cz/irao/Benchmark">Benchmark</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/Benchmark" title="http://ontology.ethereal.cz/irao/Benchmark">Benchmark</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
    <div class="entity" id="/hasRepositoryType">
       <h3>has repository type<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
@@ -1700,6 +2094,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/hasRepositoryType</p>
+      <div class="comment">
+         <span class="markdown">This property specifies the repository type of a research artifact repository</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -1728,6 +2125,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/hasResearchArea</p>
+      <div class="comment">
+         <span class="markdown">This property specifies the research area of a research artifact</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -1751,6 +2151,145 @@ This section provides details for each class and property defined by Informatics
          </dl>
       </div>
    </div>
+   <div class="entity" id="/hasResearchOutput">
+      <h3>has research output<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://ontology.ethereal.cz/irao/hasResearchOutput</p>
+      <div class="comment">
+         <span class="markdown">This property specifies the research output of a research project</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://ontology.ethereal.cz/irao">http://ontology.ethereal.cz/irao</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/ResearchProject"
+                  title="http://ontology.ethereal.cz/irao/ResearchProject">Research project</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/ResearchOutput" title="http://ontology.ethereal.cz/irao/ResearchOutput">Research output</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasUsedFramework">
+      <h3>has used framework<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://ontology.ethereal.cz/irao/hasUsedFramework</p>
+      <div class="comment">
+         <span class="markdown">This property specifies the framework used by a research artifact like software or system</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://ontology.ethereal.cz/irao">http://ontology.ethereal.cz/irao</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Framework" title="http://ontology.ethereal.cz/irao/Framework">Framework</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#/Software" title="http://ontology.ethereal.cz/irao/Software">Software</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#/System" title="http://ontology.ethereal.cz/irao/System">System</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/Framework" title="http://ontology.ethereal.cz/irao/Framework">Framework</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasUsedMethodology">
+      <h3>has used methodology<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://ontology.ethereal.cz/irao/hasUsedMethodology</p>
+      <div class="comment">
+         <span class="markdown">This property specifies the methodology used in a research artifact like framework or dataset</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://ontology.ethereal.cz/irao">http://ontology.ethereal.cz/irao</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Dataset" title="http://ontology.ethereal.cz/irao/Dataset">Dataset</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#/Framework" title="http://ontology.ethereal.cz/irao/Framework">Framework</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/Methodology" title="http://ontology.ethereal.cz/irao/Methodology">Methodology</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasUsedOntologyDesignPattern">
+      <h3>has used ontology design pattern<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://ontology.ethereal.cz/irao/hasUsedOntologyDesignPattern</p>
+      <div class="comment">
+         <span class="markdown">This property specifies the ontology design pattern of an ontology or another ontology design pattern</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://ontology.ethereal.cz/irao">http://ontology.ethereal.cz/irao</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Ontology" title="http://ontology.ethereal.cz/irao/Ontology">Ontology</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#/OntologyDesignPattern"
+                  title="http://ontology.ethereal.cz/irao/OntologyDesignPattern">Ontology design pattern</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/OntologyDesignPattern"
+                  title="http://ontology.ethereal.cz/irao/OntologyDesignPattern">Ontology design pattern</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
    <div class="entity" id="/isDescribedBy">
       <h3>is described by<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
@@ -1758,6 +2297,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/isDescribedBy</p>
+      <div class="comment">
+         <span class="markdown">This property specifies the data model of a dataset</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -1779,6 +2321,39 @@ This section provides details for each class and property defined by Informatics
          </dl>
       </div>
    </div>
+   <div class="entity" id="/isFollowedBy">
+      <h3>is followed by<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://ontology.ethereal.cz/irao/isFollowedBy</p>
+      <div class="comment">
+         <span class="markdown">This property specifies that a research project is followed by another research project</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://ontology.ethereal.cz/irao">http://ontology.ethereal.cz/irao</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/ResearchProject"
+                  title="http://ontology.ethereal.cz/irao/ResearchProject">Research project</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/ResearchProject"
+                  title="http://ontology.ethereal.cz/irao/ResearchProject">Research project</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
    <div class="entity" id="/isMaintainedBy">
       <h3>is maintained by<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
@@ -1786,6 +2361,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/isMaintainedBy</p>
+      <div class="comment">
+         <span class="markdown">This property specifies the maintainer of a research artifact</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -1815,6 +2393,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/isPartOfSystem</p>
+      <div class="comment">
+         <span class="markdown">This property specifies the system which a software is part of</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -1843,6 +2424,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/isPublishedAt</p>
+      <div class="comment">
+         <span class="markdown">This property specifies the repository that a research artifact is published at</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -1872,6 +2456,15 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/isUsedBy</p>
+      <div class="comment">
+         <span class="markdown">This property specifies that a research artifact is used by another research artifact</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://ontology.ethereal.cz/irao">http://ontology.ethereal.cz/irao</a>
+         </dd>
+      </dl>
       <div class="description">
          <dl>
             <dt>has domain</dt>
@@ -1884,185 +2477,6 @@ This section provides details for each class and property defined by Informatics
             <dd>
                <a href="#/ResearchArtifact"
                   title="http://ontology.ethereal.cz/irao/ResearchArtifact">Research Artifact</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-         </dl>
-      </div>
-   </div>
-   <div class="entity" id="/measuresSystem">
-      <h3>measures system<sup class="type-op" title="object property">op</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://ontology.ethereal.cz/irao/measuresSystem</p>
-      <dl class="definedBy">
-         <dt>Is defined by</dt>
-         <dd>
-            <a href="http://ontology.ethereal.cz/irao">http://ontology.ethereal.cz/irao</a>
-         </dd>
-      </dl>
-      <div class="description">
-         <dl>
-            <dt>has domain</dt>
-            <dd>
-               <a href="#/Benchmark" title="http://ontology.ethereal.cz/irao/Benchmark">Benchmark</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>has range</dt>
-            <dd>
-               <a href="#/System" title="http://ontology.ethereal.cz/irao/System">System</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-         </dl>
-      </div>
-   </div>
-   <div class="entity" id="/producesDataset">
-      <h3>produces dataset<sup class="type-op" title="object property">op</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://ontology.ethereal.cz/irao/producesDataset</p>
-      <dl class="definedBy">
-         <dt>Is defined by</dt>
-         <dd>
-            <a href="http://ontology.ethereal.cz/irao">http://ontology.ethereal.cz/irao</a>
-         </dd>
-      </dl>
-      <div class="description">
-         <dl>
-            <dt>has domain</dt>
-            <dd>
-               <a href="#/Benchmark" title="http://ontology.ethereal.cz/irao/Benchmark">Benchmark</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>has range</dt>
-            <dd>
-               <a href="#/Dataset" title="http://ontology.ethereal.cz/irao/Dataset">Dataset</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-         </dl>
-      </div>
-   </div>
-   <div class="entity" id="/refersToBenchmark">
-      <h3>refers to benchmark<sup class="type-op" title="object property">op</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://ontology.ethereal.cz/irao/refersToBenchmark</p>
-      <dl class="definedBy">
-         <dt>Is defined by</dt>
-         <dd>
-            <a href="http://ontology.ethereal.cz/irao">http://ontology.ethereal.cz/irao</a>
-         </dd>
-      </dl>
-      <div class="description">
-         <dl>
-            <dt>has domain</dt>
-            <dd>
-               <a href="#/Benchmark" title="http://ontology.ethereal.cz/irao/Benchmark">Benchmark</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>has range</dt>
-            <dd>
-               <a href="#/Benchmark" title="http://ontology.ethereal.cz/irao/Benchmark">Benchmark</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-         </dl>
-      </div>
-   </div>
-   <div class="entity" id="/usesFramework">
-      <h3>uses framework<sup class="type-op" title="object property">op</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://ontology.ethereal.cz/irao/usesFramework</p>
-      <dl class="definedBy">
-         <dt>Is defined by</dt>
-         <dd>
-            <a href="http://ontology.ethereal.cz/irao">http://ontology.ethereal.cz/irao</a>
-         </dd>
-      </dl>
-      <div class="description">
-         <dl>
-            <dt>has domain</dt>
-            <dd>
-               <a href="#/Software" title="http://ontology.ethereal.cz/irao/Software">Software</a>
-               <sup class="type-c" title="class">c</sup> 
-               <span class="logic">or</span> 
-               <a href="#/System" title="http://ontology.ethereal.cz/irao/System">System</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>has range</dt>
-            <dd>
-               <a href="#/Framework" title="http://ontology.ethereal.cz/irao/Framework">Framework</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-         </dl>
-      </div>
-   </div>
-   <div class="entity" id="/usesMethodology">
-      <h3>uses methodology<sup class="type-op" title="object property">op</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://ontology.ethereal.cz/irao/usesMethodology</p>
-      <dl class="definedBy">
-         <dt>Is defined by</dt>
-         <dd>
-            <a href="http://ontology.ethereal.cz/irao">http://ontology.ethereal.cz/irao</a>
-         </dd>
-      </dl>
-      <div class="description">
-         <dl>
-            <dt>has domain</dt>
-            <dd>
-               <a href="#/Dataset" title="http://ontology.ethereal.cz/irao/Dataset">Dataset</a>
-               <sup class="type-c" title="class">c</sup> 
-               <span class="logic">or</span> 
-               <a href="#/Framework" title="http://ontology.ethereal.cz/irao/Framework">Framework</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>has range</dt>
-            <dd>
-               <a href="#/Methodology" title="http://ontology.ethereal.cz/irao/Methodology">Methodology</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-         </dl>
-      </div>
-   </div>
-   <div class="entity" id="/usesOntologyDesignPattern">
-      <h3>uses ontology design pattern<sup class="type-op" title="object property">op</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://ontology.ethereal.cz/irao/usesOntologyDesignPattern</p>
-      <dl class="definedBy">
-         <dt>Is defined by</dt>
-         <dd>
-            <a href="http://ontology.ethereal.cz/irao">http://ontology.ethereal.cz/irao</a>
-         </dd>
-      </dl>
-      <div class="description">
-         <dl>
-            <dt>has domain</dt>
-            <dd>
-               <a href="#/Ontology" title="http://ontology.ethereal.cz/irao/Ontology">Ontology</a>
-               <sup class="type-c" title="class">c</sup> 
-               <span class="logic">or</span> 
-               <a href="#/OntologyDesignPattern"
-                  title="http://ontology.ethereal.cz/irao/OntologyDesignPattern">Ontology design pattern</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>has range</dt>
-            <dd>
-               <a href="#/OntologyDesignPattern"
-                  title="http://ontology.ethereal.cz/irao/OntologyDesignPattern">Ontology design pattern</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
@@ -2088,6 +2502,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/hasTopic</p>
+      <div class="comment">
+         <span class="markdown">This property specifies the topic of a publication</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -2117,6 +2534,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/hasURL</p>
+      <div class="comment">
+         <span class="markdown">This property specifies the resource URL of a publication, repository or research artifact</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -2153,6 +2573,9 @@ This section provides details for each class and property defined by Informatics
       </h3>
       <p>
          <strong>IRI:</strong> http://ontology.ethereal.cz/irao/hasVersion</p>
+      <div class="comment">
+         <span class="markdown">This property specifies the version of a research artifact</span>
+      </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
@@ -2198,6 +2621,11 @@ This section provides details for each class and property defined by Informatics
       <li>
          <a href="#/designquality#FAIR"
             title="http://ontology.ethereal.cz/irao/designquality#FAIR">FAIR</a>
+      </li>
+      <li>
+         <a href="#" title="http://ontology.ethereal.cz/irao">
+            <span>Informatics Research Artifacts Ontology</span>
+         </a>
       </li>
       <li>
          <a href="#/repositorytype#KnowledgeBase"
@@ -2350,6 +2778,14 @@ This section provides details for each class and property defined by Informatics
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
+   </div>
+   <div class="entity" id="">
+      <h3>Informatics Research Artifacts Ontology<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://ontology.ethereal.cz/irao</p>
    </div>
    <div class="entity" id="/repositorytype#KnowledgeBase">
       <h3>Knowledge base<sup class="type-ni" title="named individual">ni</sup>
