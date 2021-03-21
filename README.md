@@ -15,37 +15,122 @@
 
 ## Usage
 ```sparql
-#get several information related to a research artifact
+# get several information related to a research artifact
+# CQ1, CQ2, CQ3, CQ6, CQ9, CQ11,
 PREFIX irao: <http://ontology.ethereal.cz/irao/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT * WHERE {
     ?artifact a irao:ResearchArtifact .
     ?artifact rdfs:label ?artifactName .
+    ?artifact rdfs:comment ?artifactDescription .
     ?artifact irao:hasAuthor ?author .
+    ?author irao:hasAffiliation ?affiliation .
+    ?artifact irao:isPublishedAt ?repository .
+    ?artifact irao:hasPublication ?publication .
     OPTIONAL {
-        ?author irao:hasAffiliation ?affiliation .
+        ?artifact irao:hasMaintainer ?maintainer 
+        OPTIONAL {
+            ?maintainer irao:hasAffiliation ?affiliation .
+        }
     }
-    OPTIONAL {
-        ?artifact irao:isPublishedAt ?repository .
-    }
-    OPTIONAL {
-        ?artifact irao:hasPublication ?publication .
-    }
+    ?artifact irao:hasField ?researchField .
+    ?artifact irao:hasTopic ?researchTopic .
+    ?artifact irao:hasResearchArea ?researchArea .
 }
 ```
 
 ```sparql
-#get the type of a informatics research artifact
+# get the type of an informatics research artifact
+# CQ10
 PREFIX irao: <http://ontology.ethereal.cz/irao/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT * WHERE {
-    ?artifactType rdfs:subClassOf irao:InformaticsResearchArtifact .
+    ?artifactType rdfs:subClassOf* irao:InformaticsResearchArtifact .
     ?artifact a ?artifactType .
 }
 ```
 
+```sparql
+# get the maturity stage of an informatics research artifact
+# CQ5
+PREFIX irao: <http://ontology.ethereal.cz/irao/>
+
+SELECT * WHERE {
+    ?artifact a irao:InformaticsResearchArtifact .
+    ?artifact irao:hasDevelopmentStatus ?developmentStatus .
+}
+```
+
+```sparql
+# get information about the publishing of an informatics research artifact and the its accessibility
+# CQ6, CQ7, CQ12, CQ14
+PREFIX irao: <http://ontology.ethereal.cz/irao/>
+
+SELECT * WHERE {
+    ?artifact a irao:InformaticsResearchArtifact .
+    ?artifact irao:isPublishedAt ?publishedAt .
+    ?artifact irao:hasLicense ?license .
+    ?artifact irao:hasAccessibility ?accessibility .
+}
+```
+
+```sparql
+# get information about the technologies used in an informatics research artifact
+# CQ4
+PREFIX irao: <http://ontology.ethereal.cz/irao/>
+
+SELECT * WHERE {
+    ?artifact a irao:InformaticsResearchArtifact .
+    ?artifact irao:hasOpenStandard ?openStandard .
+    ?artifact irao:hasUsedFramework ?usedFramework .
+}
+```
+
+```sparql
+# get information about the usage of research artifacts by other artifacts in other projects
+# CQ8, CQ15
+PREFIX irao: <http://ontology.ethereal.cz/irao/>
+
+SELECT * WHERE {
+    ?artifact1 a irao:InformaticsResearchArtifact .
+    ?artifact2 a irao:InformaticsResearchArtifact .
+    ?artifact1 irao:isUsedBy ?artifact2 .
+    ?researchProject1 irao:hasResearchOutput ?artifact1 .
+    ?researchProject2 irao:hasResearchOutput ?artifact2 .
+    ?researchproject1 irao:isFollowedBy ?researchProject2 .
+}
+```
+
+```sparql
+# get information about the design of an informatics research artifact
+# CQ13
+PREFIX irao: <http://ontology.ethereal.cz/irao/>
+
+SELECT * WHERE {
+    ?artifact a irao:InformaticsResearchArtifact .
+    ?artifact irao:hasDesign ?design .
+    ?design irao:hasDesignQuality ?designQuality .
+}
+```
+
+```sparql
+# get information about the relationship between informatics research artifacts
+# CQ16
+PREFIX irao: <http://ontology.ethereal.cz/irao/>
+
+SELECT * WHERE {
+    ?artifact1 a irao:InformaticsResearchArtifact .
+    ?artifact2 a irao:InformaticsResearchArtifact .
+    OPTIONAL {
+        ?artifact1 ?relationship ?artifact2 .
+    }
+    OPTIONAL {
+        ?artifact2 ?relationship ?artifact1 .
+    }
+}
+```
 ## Sample dataset
 - https://github.com/nvbach91/informatics-research-artifacts-ontology/tree/master/examples
 

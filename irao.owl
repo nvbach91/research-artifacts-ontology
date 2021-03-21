@@ -405,9 +405,9 @@
     
 
 
-    <!-- http://ontology.ethereal.cz/irao/isMaintainedBy -->
+    <!-- http://ontology.ethereal.cz/irao/hasMaintainer -->
 
-    <owl:ObjectProperty rdf:about="http://ontology.ethereal.cz/irao/isMaintainedBy">
+    <owl:ObjectProperty rdf:about="http://ontology.ethereal.cz/irao/hasMaintainer">
         <rdfs:domain rdf:resource="http://ontology.ethereal.cz/irao/ResearchArtifact"/>
         <rdfs:range rdf:resource="http://ontology.ethereal.cz/irao/Researcher"/>
         <rdfs:comment xml:lang="en">This property specifies the maintainer of a research artifact</rdfs:comment>
