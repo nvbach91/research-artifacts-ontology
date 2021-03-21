@@ -275,14 +275,14 @@
     
 
 
-    <!-- http://ontology.ethereal.cz/irao/hasReferedBenchmark -->
+    <!-- http://ontology.ethereal.cz/irao/hasReferredBenchmark -->
 
-    <owl:ObjectProperty rdf:about="http://ontology.ethereal.cz/irao/hasReferedBenchmark">
+    <owl:ObjectProperty rdf:about="http://ontology.ethereal.cz/irao/hasReferredBenchmark">
         <rdfs:domain rdf:resource="http://ontology.ethereal.cz/irao/Benchmark"/>
         <rdfs:range rdf:resource="http://ontology.ethereal.cz/irao/Benchmark"/>
-        <rdfs:comment xml:lang="en">This property specifies a benchmark refered by another benchmark</rdfs:comment>
+        <rdfs:comment xml:lang="en">This property specifies a benchmark referred by another benchmark</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://ontology.ethereal.cz/irao"/>
-        <rdfs:label xml:lang="en">has refered benchmark</rdfs:label>
+        <rdfs:label xml:lang="en">has referred benchmark</rdfs:label>
     </owl:ObjectProperty>
     
 
