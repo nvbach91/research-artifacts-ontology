@@ -4,7 +4,8 @@
     <uri id="User Entered Import Resolution 2" name="http://purl.org/dc/terms" uri="vocabularies/dublin_core_terms.owl"/>
     <uri id="User Entered Import Resolution 3" name="http://purl.org/dc/elements/1.1" uri="vocabularies/dublin_core_elements.owl"/>
     <uri id="User Entered Import Resolution 4" name="http://xmlns.com/foaf/0.1/" uri="vocabularies/foaf.owl"/>
+    <uri id="User Entered Import Resolution 5" name="http://vivoweb.org/ontology/core" uri="vocabularies/vivo.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1616259476751" name="http://ontology.ethereal.cz/irao" uri="irao.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1616338954852" name="http://ontology.ethereal.cz/irao" uri="irao.owl"/>
     </group>
 </catalog>
