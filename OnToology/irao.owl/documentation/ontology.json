@@ -55,16 +55,22 @@
     } ]
   } ]
 }, {
+  "@id" : "http://creativecommons.org/ns#license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://cso.kmi.open.ac.uk/schema/cso#Topic",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
   "@id" : "http://ontology.ethereal.cz/irao",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocommons/voaf#Vocabulary" ],
+  "http://creativecommons.org/ns#license" : [ {
+    "@id" : "http://creativecommons.org/licenses/by/3.0/"
+  } ],
   "http://purl.org/dc/elements/1.1/contributor" : [ {
-    "@value" : "Vojtěch Svátek"
+    "@id" : "https://nb.vse.cz/~svatek/"
   } ],
   "http://purl.org/dc/elements/1.1/creator" : [ {
-    "@value" : "Nguyen Viet Bach"
+    "@id" : "https://www.linkedin.com/in/nvbach91/"
   } ],
   "http://purl.org/dc/elements/1.1/date" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#date",
@@ -72,10 +78,18 @@
   } ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
-    "@value" : "Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL."
+    "@value" : "Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL."
+  } ],
+  "http://purl.org/dc/elements/1.1/issued" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-03-18"
+  } ],
+  "http://purl.org/dc/elements/1.1/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-03-18"
   } ],
   "http://purl.org/dc/elements/1.1/publisher" : [ {
-    "@value" : "Prague University of Economics and Business, Czech Republic. Faculty of Informatics and Statistics. Department of Knowledge and Information Engineering"
+    "@id" : "https://cs.dbpedia.org/page/Vysok%C3%A1_%C5%A1kola_ekonomick%C3%A1_v_Praze"
   } ],
   "http://purl.org/dc/elements/1.1/rights" : [ {
     "@value" : "Copyright © 2021 Prague University of Economics and Business"
@@ -90,7 +104,7 @@
   } ],
   "http://purl.org/dc/terms/abstract" : [ {
     "@language" : "en",
-    "@value" : "Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL."
+    "@value" : "Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL."
   } ],
   "http://purl.org/dc/terms/created" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#date",
@@ -98,13 +112,13 @@
   } ],
   "http://purl.org/dc/terms/description" : [ {
     "@language" : "en",
-    "@value" : "Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL."
+    "@value" : "Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL."
   } ],
   "http://purl.org/dc/terms/license" : [ {
     "@id" : "https://creativecommons.org/licenses/by/3.0/"
   } ],
   "http://purl.org/dc/terms/publisher" : [ {
-    "@value" : "Prague University of Economics and Business, Czech Republic. Faculty of Informatics and Statistics. Department of Knowledge and Information Engineering"
+    "@value" : "Prague University of Economics and Business, Czech Republic. Faculty of Informatics and Statistics. Department of Information and Knowledge Engineering"
   } ],
   "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
     "@value" : "irao"
@@ -114,7 +128,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL."
+    "@value" : "Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -125,7 +139,7 @@
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@language" : "en",
-    "@value" : "Version 1.1.1, Release 2021 Mar 18"
+    "@value" : "1.1.1"
   } ]
 }, {
   "@id" : "http://ontology.ethereal.cz/irao/API",
@@ -1615,6 +1629,12 @@
   "@id" : "http://purl.org/dc/elements/1.1/description",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
+  "@id" : "http://purl.org/dc/elements/1.1/issued",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/modified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://purl.org/dc/elements/1.1/publisher",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -1648,9 +1668,24 @@
   "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
+  "@id" : "http://purl.org/vocommons/voaf#Vocabulary",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
   "@id" : "http://vivoweb.org/ontology/core#Project",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Organization",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
   "@id" : "http://xmlns.com/foaf/0.1/Person",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://cs.dbpedia.org/page/Vysok%C3%A1_%C5%A1kola_ekonomick%C3%A1_v_Praze",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://xmlns.com/foaf/0.1/Organization" ]
+}, {
+  "@id" : "https://nb.vse.cz/~svatek/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://xmlns.com/foaf/0.1/Person" ]
+}, {
+  "@id" : "https://www.linkedin.com/in/nvbach91/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://xmlns.com/foaf/0.1/Person" ]
 } ]

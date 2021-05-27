@@ -8,28 +8,35 @@
 
 <http://ontology.ethereal.cz/irao> rdf:type owl:Ontology ;
                                     owl:versionIRI <https://w3id.org/def/InformaticsResearchArtifactsOntology> ;
-                                    <http://purl.org/dc/elements/1.1/contributor> "Vojtěch Svátek" ;
-                                    <http://purl.org/dc/elements/1.1/creator> "Nguyen Viet Bach" ;
+                                    <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/3.0/> ;
+                                    <http://purl.org/dc/elements/1.1/contributor> <https://nb.vse.cz/~svatek/> ;
+                                    <http://purl.org/dc/elements/1.1/creator> <https://www.linkedin.com/in/nvbach91/> ;
                                     <http://purl.org/dc/elements/1.1/date> "2021-03-18"^^xsd:date ;
-                                    <http://purl.org/dc/elements/1.1/description> "Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL."@en ;
-                                    <http://purl.org/dc/elements/1.1/publisher> "Prague University of Economics and Business, Czech Republic. Faculty of Informatics and Statistics. Department of Knowledge and Information Engineering" ;
+                                    <http://purl.org/dc/elements/1.1/description> "Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL."@en ;
+                                    <http://purl.org/dc/elements/1.1/issued> "2021-03-18"^^xsd:date ;
+                                    <http://purl.org/dc/elements/1.1/modified> "2021-03-18"^^xsd:date ;
+                                    <http://purl.org/dc/elements/1.1/publisher> <https://cs.dbpedia.org/page/Vysok%C3%A1_%C5%A1kola_ekonomick%C3%A1_v_Praze> ;
                                     <http://purl.org/dc/elements/1.1/rights> "Copyright © 2021 Prague University of Economics and Business" ;
                                     <http://purl.org/dc/elements/1.1/subject> "Informatics, Research Artifacts, Ontology, Semantic SEO, Linked Data, RDF, Semantic Web"@en ;
                                     <http://purl.org/dc/elements/1.1/title> "Informatics Research Artifacts Ontology"@en ;
-                                    <http://purl.org/dc/terms/abstract> "Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL."@en ;
+                                    <http://purl.org/dc/terms/abstract> "Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL."@en ;
                                     <http://purl.org/dc/terms/created> "2021-03-18"^^xsd:date ;
-                                    <http://purl.org/dc/terms/description> "Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL."@en ;
+                                    <http://purl.org/dc/terms/description> "Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL."@en ;
                                     <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/3.0/> ;
-                                    <http://purl.org/dc/terms/publisher> "Prague University of Economics and Business, Czech Republic. Faculty of Informatics and Statistics. Department of Knowledge and Information Engineering" ;
+                                    <http://purl.org/dc/terms/publisher> "Prague University of Economics and Business, Czech Republic. Faculty of Informatics and Statistics. Department of Information and Knowledge Engineering" ;
                                     <http://purl.org/vocab/vann/preferredNamespacePrefix> "irao" ;
                                     <http://purl.org/vocab/vann/preferredNamespaceUri> "http://ontology.ethereal.cz/irao/" ;
-                                    rdfs:comment "Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL."@en ;
+                                    rdfs:comment "Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL."@en ;
                                     rdfs:label "Informatics Research Artifacts Ontology"@en ;
-                                    owl:versionInfo "Version 1.1.1, Release 2021 Mar 18"@en .
+                                    owl:versionInfo "1.1.1"@en .
 
 #################################################################
 #    Annotation properties
 #################################################################
+
+###  http://creativecommons.org/ns#license
+<http://creativecommons.org/ns#license> rdf:type owl:AnnotationProperty .
+
 
 ###  http://purl.org/dc/elements/1.1/contributor
 <http://purl.org/dc/elements/1.1/contributor> rdf:type owl:AnnotationProperty .
@@ -45,6 +52,14 @@
 
 ###  http://purl.org/dc/elements/1.1/description
 <http://purl.org/dc/elements/1.1/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/issued
+<http://purl.org/dc/elements/1.1/issued> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/modified
+<http://purl.org/dc/elements/1.1/modified> rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/elements/1.1/publisher
@@ -741,8 +756,16 @@
                                             rdfs:label "Workflow"@en .
 
 
+###  http://purl.org/vocommons/voaf#Vocabulary
+<http://purl.org/vocommons/voaf#Vocabulary> rdf:type owl:Class .
+
+
 ###  http://vivoweb.org/ontology/core#Project
 <http://vivoweb.org/ontology/core#Project> rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/Organization
+<http://xmlns.com/foaf/0.1/Organization> rdf:type owl:Class .
 
 
 ###  http://xmlns.com/foaf/0.1/Person
@@ -752,6 +775,11 @@
 #################################################################
 #    Individuals
 #################################################################
+
+###  http://ontology.ethereal.cz/irao
+<http://ontology.ethereal.cz/irao> rdf:type owl:NamedIndividual ,
+                                            <http://purl.org/vocommons/voaf#Vocabulary> .
+
 
 ###  http://ontology.ethereal.cz/irao/accessibility#API
 <http://ontology.ethereal.cz/irao/accessibility#API> rdf:type owl:NamedIndividual ,
@@ -863,6 +891,21 @@
                                                                                  <http://ontology.ethereal.cz/irao/RepositoryType> ;
                                                                         rdfs:isDefinedBy <http://ontology.ethereal.cz/irao> ;
                                                                         rdfs:label "Version control hosting"@en .
+
+
+###  https://cs.dbpedia.org/page/Vysok%C3%A1_%C5%A1kola_ekonomick%C3%A1_v_Praze
+<https://cs.dbpedia.org/page/Vysok%C3%A1_%C5%A1kola_ekonomick%C3%A1_v_Praze> rdf:type owl:NamedIndividual ,
+                                                                                      <http://xmlns.com/foaf/0.1/Organization> .
+
+
+###  https://nb.vse.cz/~svatek/
+<https://nb.vse.cz/~svatek/> rdf:type owl:NamedIndividual ,
+                                      <http://xmlns.com/foaf/0.1/Person> .
+
+
+###  https://www.linkedin.com/in/nvbach91/
+<https://www.linkedin.com/in/nvbach91/> rdf:type owl:NamedIndividual ,
+                                                 <http://xmlns.com/foaf/0.1/Person> .
 
 
 ###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/
