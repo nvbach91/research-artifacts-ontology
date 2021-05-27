@@ -57,6 +57,12 @@
     "DesignQuality" : {
       "@id" : "http://ontology.ethereal.cz/irao/DesignQuality"
     },
+    "Organization" : {
+      "@id" : "http://xmlns.com/foaf/0.1/Organization"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/elements/1.1/issued"
+    },
     "hasMeasuringSystem" : {
       "@id" : "http://ontology.ethereal.cz/irao/hasMeasuringSystem",
       "@type" : "@id"
@@ -228,6 +234,9 @@
     },
     "DataModel" : {
       "@id" : "http://ontology.ethereal.cz/irao/DataModel"
+    },
+    "modified" : {
+      "@id" : "http://purl.org/dc/elements/1.1/modified"
     },
     "Thesis" : {
       "@id" : "http://ontology.ethereal.cz/irao/Thesis"
