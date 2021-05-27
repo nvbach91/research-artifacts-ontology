@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://ontology.ethereal.cz/irao#"
      xml:base="http://ontology.ethereal.cz/irao"
-     xmlns:cc="http://web.resource.org/cc/"
+     xmlns:cc="http://creativecommons.org/ns#"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
@@ -30,24 +30,35 @@
         <!-- owl:imports rdf:resource="http://purl.org/vocab/vann/"/ -->
         <!-- owl:imports rdf:resource="http://vivoweb.org/ontology/core"/ -->
         <!-- owl:imports rdf:resource="http://xmlns.com/foaf/0.1/"/ -->
-        <dc:contributor>Vojtěch Svátek</dc:contributor>
-        <dc:creator>Nguyen Viet Bach</dc:creator>
+        <!-- owl:imports rdf:resource="http://purl.org/vocommons/voaf"/ -->
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
+        <dc:contributor>
+            <foaf:Person rdf:about="https://nb.vse.cz/~svatek/"/>
+        </dc:contributor>
+        <dc:creator>
+            <foaf:Person rdf:about="https://www.linkedin.com/in/nvbach91/"/>
+        </dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-18</dc:date>
-        <dc:description xml:lang="en">Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL.</dc:description>
-        <dc:publisher>Prague University of Economics and Business, Czech Republic. Faculty of Informatics and Statistics. Department of Knowledge and Information Engineering</dc:publisher>
+        <dc:description xml:lang="en">Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL.</dc:description>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-18</dc:issued>
+        <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-18</dc:modified>
+        <dc:publisher>
+            <foaf:Organization rdf:about="https://cs.dbpedia.org/page/Vysok%C3%A1_%C5%A1kola_ekonomick%C3%A1_v_Praze"/> 
+        </dc:publisher>
         <dc:rights>Copyright © 2021 Prague University of Economics and Business</dc:rights>
         <dc:subject xml:lang="en">Informatics, Research Artifacts, Ontology, Semantic SEO, Linked Data, RDF, Semantic Web</dc:subject>
         <dc:title xml:lang="en">Informatics Research Artifacts Ontology</dc:title>
-        <dcterms:abstract xml:lang="en">Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL.</dcterms:abstract>
+        <dcterms:abstract xml:lang="en">Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL.</dcterms:abstract>
         <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-18</dcterms:created>
-        <dcterms:description xml:lang="en">Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL.</dcterms:description>
+        <dcterms:description xml:lang="en">Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL.</dcterms:description>
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/3.0/"/>
-        <dcterms:publisher>Prague University of Economics and Business, Czech Republic. Faculty of Informatics and Statistics. Department of Knowledge and Information Engineering</dcterms:publisher>
+        <dcterms:publisher>Prague University of Economics and Business, Czech Republic. Faculty of Informatics and Statistics. Department of Information and Knowledge Engineering</dcterms:publisher>
         <vann:preferredNamespacePrefix>irao</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri>http://ontology.ethereal.cz/irao/</vann:preferredNamespaceUri>
-        <rdfs:comment xml:lang="en">Abstract: Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL.</rdfs:comment>
+        <rdf:type rdf:resource="http://purl.org/vocommons/voaf#Vocabulary"/>
+        <rdfs:comment xml:lang="en">Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL.</rdfs:comment>
         <rdfs:label xml:lang="en">Informatics Research Artifacts Ontology</rdfs:label>
-        <owl:versionInfo xml:lang="en">Version 1.1.1, Release 2021 Mar 18</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.1.1</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -203,6 +214,18 @@
         <rdfs:comment xml:lang="en">This property specifies the type of a license</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://ontology.ethereal.cz/irao"/>
         <rdfs:label xml:lang="en">has license type</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontology.ethereal.cz/irao/hasMaintainer -->
+
+    <owl:ObjectProperty rdf:about="http://ontology.ethereal.cz/irao/hasMaintainer">
+        <rdfs:domain rdf:resource="http://ontology.ethereal.cz/irao/ResearchArtifact"/>
+        <rdfs:range rdf:resource="http://ontology.ethereal.cz/irao/Researcher"/>
+        <rdfs:comment xml:lang="en">This property specifies the maintainer of a research artifact</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://ontology.ethereal.cz/irao"/>
+        <rdfs:label xml:lang="en">is maintained by</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -401,18 +424,6 @@
         <rdfs:comment xml:lang="en">This property specifies that a research project is followed by another research project</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://ontology.ethereal.cz/irao"/>
         <rdfs:label xml:lang="en">is followed by</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://ontology.ethereal.cz/irao/hasMaintainer -->
-
-    <owl:ObjectProperty rdf:about="http://ontology.ethereal.cz/irao/hasMaintainer">
-        <rdfs:domain rdf:resource="http://ontology.ethereal.cz/irao/ResearchArtifact"/>
-        <rdfs:range rdf:resource="http://ontology.ethereal.cz/irao/Researcher"/>
-        <rdfs:comment xml:lang="en">This property specifies the maintainer of a research artifact</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://ontology.ethereal.cz/irao"/>
-        <rdfs:label xml:lang="en">is maintained by</rdfs:label>
     </owl:ObjectProperty>
     
 
