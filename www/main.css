@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, sans-serif !important;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.authors {
+    display: flex;
+    align-items: center;
+}
+.orcid {
+    margin-left: 5px;
+}
+.diagram {
+    width: 100%;
+}
+.link-icon {
+    width: 30px
+}
+
+.vse-logo {
+    width: 150px;
+}
+.orcid {
+    width: 20px;
+}
+
+main, .info-content, footer {
+    max-width: 1366px;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+}
+.info-content {
+    align-items: center;
+}
+.column:first-child {
+    width: 50%;
+}
+.column:last-child {
+    width: 50%;
+}
+.card {
+    padding: 5px;
+    margin-bottom: 20px;
+}
+h3 {
+    padding: 10px;
+}
+.info {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 5px;
+}
+.info a {
+    font-size: 16px;
+}
+.info-icon {
+    width: 100px;
+    height: 100px;
+}
+.links {
+    display: flex;
+    flex-wrap: wrap;
+}
+.link-container {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.link-icon {
+    margin-right: 10px;
+}
+
+footer {
+    display: flex;
+    font-size: 14px;
+}
+.footer-col {
+    padding: 10px;
+    flex-grow: 1;
+}
+.footer-col:last-child {
+    min-width: 200px;
+}
+.footer-contact {
+    display: flex;
+    align-items: center;
+}
+.mail-icon {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.visualization {
+    border: none;
+    width: 100%;
+    height: 840px;
+}
+
+.btn-primary {
+    background-color: rgb(60, 85, 167) !important;
+    border-color: rgb(69, 99, 197) !important;
+    transition: background-color .5s ease !important;
+}
+.btn-primary:hover {
+    background-color: rgb(77, 106, 201) !important;
+    border-color: rgb(78, 112, 223) !important;
+}
+.emphasize {
+    text-decoration: underline;
+}
+@media print {
+    main {
+        display: block !important;
+    }
+    .column {
+        width: 100% !important;
+    }
+    .container {
+        max-width: none !important;
+    }
+    .visualization {
+        display: none;
+    }
+}

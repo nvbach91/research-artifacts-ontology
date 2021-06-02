@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informatics Reearch Artifacts Ontology</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="heading">
+                <h1>Ontology for Informatics Research Artifacts (IRAO)</h1>
+                <p class="authors">
+                    Viet Bach Nguyen <a class="link-primary" href="https://orcid.org/0000-0003-2709-3297"><img
+                            class="orcid" alt="orcid" src="orcid.svg"></a>,
+                    Vojtěch Svátek <a class="link-primary" href="https://orcid.org/0000-0002-2256-2982"><img
+                            class="orcid" alt="orcid" src="orcid.svg"></a>
+                    &nbsp;|&nbsp;<a class="link-secondary" href="https://fis.vse.cz/english/">PRAGUE UNIVERSITY OF
+                        ECONOMICS AND BUSINESS</a></p>
+            </div>
+            <img class="vse-logo" alt="vse-logo" src="vse-logo.svg">
+        </header>
+
+        <div class="info">
+            <div class="info-content">
+                <img class="info-icon" alt="info-icon" src="info-icon.svg">
+                <div class="links">
+                    <div class="link-container">
+                        <img class="link-icon" alt="link-icon" src="rdf.svg">
+                        <a class="btn btn-primary" target="_blank"
+                            href="http://ontology.ethereal.cz/irao">http://ontology.ethereal.cz/irao</a>
+                    </div>
+
+                    <div class="link-container">
+                        <img class="link-icon" alt="link-icon" src="git.svg">
+                        <a class="btn btn-primary" target="_blank"
+                            href="https://github.com/nvbach91/informatics-research-artifacts-ontology">https://github.com/nvbach91/informatics-research-artifacts-ontology</a>
+                    </div>
+                    <div class="link-container">
+                        <img class="link-icon" alt="link-icon" src="document.png">
+                        <a class="btn btn-primary" target="_blank"
+                            href="https://w3id.org/def/InformaticsResearchArtifactsOntology">https://w3id.org/def/InformaticsResearchArtifactsOntology</a>
+                    </div>
+                    <div class="link-container">
+                        <img class="link-icon" alt="link-icon" src="lov.png">
+                        <a class="btn btn-primary" target="_blank"
+                            href="https://lov.linkeddata.es/dataset/lov/vocabs/irao">https://lov.linkeddata.es/dataset/lov/vocabs/irao
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <main class="row">
+            <div class="column col-md-6 col-md-offset-2">
+                <div class="card">
+                    <div class="card-body">
+                        <h3>Background</h3>
+                        <p>Informatics and computer science researchers usually contribute to scientific knowledge by
+                            delivering and tangible outputs, namely <strong>research artifacts</strong>. Typical
+                            examples of
+                            informatics research artifacts are <span class="emphasize">software prototypes</span>, <span
+                                class="emphasize">datasets</span>, <span class="emphasize">ontologies</span>, <span
+                                class="emphasize">methodologies</span>,
+                            <span class="emphasize">frameworks</span>. Computer science conferences such as ISWC, ESWC,
+                            and others have started to use
+                            resource tracks to allow for resource papers that describe these artifacts. By our recent
+                            survey
+                            <a href="#references">[2]</a>, no ontology has paid particular attention to this topic. The
+                            goal is to create a new
+                            ontology to fill this gap.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h3>Structure of IRAO ontology</h3>
+                        <img src="diagram.svg" alt="diagram" class="diagram">
+                    </div>
+                </div>
+            </div>
+            <div class="column col-md-4 col-md-offset-2">
+                <div class="card">
+                    <div class="card-body">
+                        <h3>Motivation</h3>
+                        <ul>
+                            <li>The occurrence of different kinds of artifacts in research publications can be traced
+                                over
+                                time for subdisciplines or venues, thus providing a broad picture of trends in
+                                informatics
+                                research.</li>
+                            <li>Networks of complementary or competitive artifacts (such as software tools being
+                                developed
+                                using a given methodology and applied on specific datasets backed on ontologies) can be
+                                connected, allowing researchers to rapidly navigate from one to another and finding a
+                                reuse
+                                target (and even associated publications) more easily.</li>
+                            <li>Industrial companies can retrieve artifacts that they might consider transforming into
+                                deployed products.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h3>Design & features</h3>
+                        <p>Conforming to the NeOn ontology engineering methodology, we list out a set of
+                            <strong>competency
+                                questions</strong> as part of our <strong>requirement specification</strong> document
+                            (ORSD) <a href="#references">[3]</a> to elicit relevant
+                            concepts. Both the CQs and the ORSD can be found in our GitHub repository. The features of
+                            IRAO
+                            ontology are:
+                        </p>
+                        <ul>
+                            <li>basic information about research artifacts, required for representing the artifact data
+                                gathered from repositories of theses, publications, software data repositories – incl.
+                                authorship, publication date, research field, topic, identifiers, etc.,</li>
+                            <li>types of research artifacts in terms of what they are useful for and how to use them,
+                            </li>
+                            <li>their development status, e.g., alpha, beta, release, or numbered version,</li>
+                            <li>their quality attributes, such as accessibility, use of an open standard, accessibility,
+                                or
+                                design principles,</li>
+                            <li>relationships between different types of artifacts, e.g., a dataset is described by a
+                                data
+                                model, a software uses a framework, etc.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h3>Description</h3>
+                        <p>IRAO consists of four parts that model the mentioned features.</p>
+                        <ul>
+                            <li>The artifact classification part lists out possible types (subclasses) of artifacts,
+                                e.g., <strong>Dataset</strong>, <strong>Framework</strong>, <strong>Vocabulary</strong>,
+                                and <strong>Methodology</strong>.</li>
+                            <li>The meta information part includes relationships such as <strong>hasAuthor</strong>,
+                                <strong>hasPublication</strong>, having the range of <strong>Researcher</strong>,
+                                <strong>Publication</strong>, respectively.
+                            </li>
+                            <li>The property
+                                <strong>hasDevelopmentStatus</strong> points to information about the maturity of the
+                                artifact.
+                                Properties
+                                <strong>hasAccessibility</strong>, <strong>hasDesignQuality</strong>, are used to
+                                provide the artifact with classifying
+                                tags.
+                            </li>
+                            <li>The last part of our ontology deals with the relationships between different types of
+                                artifacts
+                                to describe situations such as when a research project can produce.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <h3>Implementation</h3>
+                        <p>Informatics Research Artifact Ontology (IRAO) was implemented in OWL using the Protégé
+                            editor. We
+                            also used OnToology <a href="#references">[1]</a> to automatically build the ontology using
+                            recommended metadata
+                            properties for self-documentation. IRAO is listed in the Linked Open Vocabularies portal
+                            (LOV).
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div class="card">
+            <div class="card-body">
+                <h3>Examples</h3>
+                <p>Source data, transformation script and output:
+                    <a class="link-primary"
+                        href="https://github.com/nvbach91/informatics-research-artifacts-ontology/blob/master/examples"
+                        target="_blank">https://github.com/nvbach91/informatics-research-artifacts-ontology/blob/master/examples</a>
+                </p>
+                <script src="https://gist.github.com/nvbach91/e7b5a345edc1b40ac848fabbc141c4ca.js"></script>
+            </div>
+        </div>
+        <section>
+            <h3>Visualization</h3>
+            <iframe class="visualization"
+                src="https://nvbach91.github.io/informatics-research-artifacts-ontology/OnToology/irao.owl/documentation/webvowl/index.html"></iframe>
+        </section>
+        <hr>
+        <div class="footer-container">
+            <h3>References</h3>
+            <footer id="references">
+                <div class="footer-col">[1] Alobaid, A., Garijo, D., Poveda-Villalón, M., Santana-Pérez, I.,
+                    Fernández-Izquierdo, A., Corcho, Ó.: Automating ontology engineering support activities with
+                    OnToology.
+                    J. Web Semant. 57 (2019). https://doi.org/10.1016/j.websem.2018.09.003
+                </div>
+                <div class="footer-col">[2] Nguyen, V.B., Svátek, V., Rabby, G., Corcho, Ó.: Ontologies Supporting
+                    Research-Related Information Foraging Using Knowledge Graphs: Literature Survey and Holistic Model
+                    Mapping. In: EKAW 2020. LNCS, vol. 12387, pp. 88–103. Springer (2020).
+                    https://doi.org/10.1007/978-3-030-61244-3_6
+                </div>
+                <div class="footer-col">[3] Suárez-Figueroa, M.C., Gómez-Pérez, A.: Ontology Requirements Specification.
+                    In:
+                    Suárez-Figueroa, M.C., Gómez-Pérez, A., Motta, E., Gangemi, A. (eds.) Ontology Engineering in a
+                    Networked World, pp. 93–106. Springer (2012). https://doi.org/10.1007/978-3-642-24794-1_5
+                </div>
+                <div class="footer-col">
+                    <h3>Contact</h3>
+                    <div class="footer-contact">
+                        <img src="mail.svg" alt="mail-icon" class="mail-icon">
+                        <a class="link-primary" href="mailto:nvbach91@outlook.com">nvbach91@outlook.com</a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
