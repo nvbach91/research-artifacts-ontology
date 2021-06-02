@@ -64,6 +64,16 @@ h3 {
 }
 .info a {
     font-size: 16px;
+    padding-right: 20px;
+}
+.info a:after {
+    content: '';
+    position: absolute;
+    margin-left: 5px;
+    background-repeat: no-repeat;
+    background-image: url('new-tab.svg');
+    width: 10px;
+    height: 10px;
 }
 .info-icon {
     width: 100px;
