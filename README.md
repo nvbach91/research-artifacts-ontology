@@ -1,5 +1,6 @@
 # IRAO - Informatics Research Artifacts Ontology
 - Ontology for informatics research artifacts
+- Publication: https://link.springer.com/chapter/10.1007/978-3-030-80418-3_23
 - IRI: http://ontology.ethereal.cz/irao
 
 ## Documentation
